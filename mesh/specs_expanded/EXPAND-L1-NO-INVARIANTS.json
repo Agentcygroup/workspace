@@ -1,0 +1,29 @@
+{
+  "kind_id": "EXPAND-L1-NO-INVARIANTS",
+  "level": "REGISTRY",
+  "name": "EXPAND-L1-NO-INVARIANTS",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rest",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  }
+}

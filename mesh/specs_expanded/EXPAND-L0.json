@@ -1,0 +1,34 @@
+{
+  "kind_id": "EXPAND-L0",
+  "level": "REGISTRY",
+  "name": "L0_FULL",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rest",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "latency",
+      "predicate": "p99<200ms"
+    }
+  ],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  }
+}

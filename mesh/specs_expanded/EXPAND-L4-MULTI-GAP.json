@@ -1,0 +1,51 @@
+{
+  "kind_id": "EXPAND-L4-MULTI-GAP",
+  "level": "REGISTRY",
+  "name": "EXPAND-L4-MULTI-GAP",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rest",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "latency",
+      "predicate": "p99<200ms"
+    }
+  ],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  },
+  "gaps": [
+    {
+      "name": "ownership",
+      "question": "who owns content?",
+      "resolved": false
+    },
+    {
+      "name": "schema",
+      "question": "what is the schema?",
+      "resolved": false
+    },
+    {
+      "name": "tenancy",
+      "question": "per-tenant cluster?",
+      "resolved": false
+    }
+  ]
+}

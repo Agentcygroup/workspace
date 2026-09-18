@@ -1,0 +1,26 @@
+{
+  "kind_id": "EXPAND-L1-NO-INTERFACES",
+  "level": "REGISTRY",
+  "name": "EXPAND-L1-NO-INTERFACES",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [],
+  "invariants": [
+    {
+      "name": "latency",
+      "predicate": "p99<200ms"
+    }
+  ],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  }
+}

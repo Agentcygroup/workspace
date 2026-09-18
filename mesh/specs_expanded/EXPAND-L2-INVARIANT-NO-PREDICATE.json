@@ -1,0 +1,34 @@
+{
+  "kind_id": "EXPAND-L2-INVARIANT-NO-PREDICATE",
+  "level": "REGISTRY",
+  "name": "EXPAND-L2-INVARIANT-NO-PREDICATE",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rest",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "latency",
+      "predicate": ""
+    }
+  ],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  }
+}

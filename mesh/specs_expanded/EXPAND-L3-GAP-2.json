@@ -1,0 +1,41 @@
+{
+  "kind_id": "EXPAND-L3-GAP-2",
+  "level": "REGISTRY",
+  "name": "EXPAND-L3-GAP-2",
+  "status": "specified",
+  "components": [
+    {
+      "name": "api",
+      "responsibility": "serve requests"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rest",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "latency",
+      "predicate": "p99<200ms"
+    }
+  ],
+  "lifecycle": {
+    "create": "apply",
+    "update": "rolling",
+    "migrate": "auto",
+    "delete": "cascade",
+    "rollback": "previous"
+  },
+  "gaps": [
+    {
+      "name": "tenancy",
+      "question": "per-tenant cluster?",
+      "resolved": false
+    }
+  ]
+}
