@@ -148,16 +148,65 @@ def test_fail_divergence_requires_external_history():
     )
 
 
-def test_fail_no_cross_spec_composition():
-    """Interfaces between two specs are not checked against each other."""
-    a = full_spec(name="a")
-    b = full_spec(name="b")
-    # No function exists to evaluate a *set* of specs.
-    import buildability
-    assert not hasattr(buildability, "evaluate_many"), (
-        "Multi-spec evaluation exists (unexpected)"
+def test_cross_spec_composition_exists():
+    """evaluate_many is exported and handles the empty case."""
+    from buildability import evaluate_many
+    result = evaluate_many([])
+    assert result.ok
+    assert result.verdicts == {}
+    assert result.mismatches == ()
+
+
+def test_cross_spec_composition_detects_mismatch():
+    """Two specs claiming the same interface with different schemas mismatch."""
+    from buildability import (
+        Spec, Component, Interface, Invariant, Lifecycle, evaluate_many,
     )
-    assert not hasattr(buildability, "evaluate_set")
+    name = "auth.rest"
+    a = Spec(
+        name="a",
+        components=(Component("a.api", "serve"),),
+        interfaces=(Interface(name, "openapi", "http", "v1", "5xx"),),
+        invariants=(Invariant("a.inv", "p99<200ms"),),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="kubernetes",
+        substrate_available=True,
+    )
+    b = Spec(
+        name="b",
+        components=(Component("b.api", "serve"),),
+        interfaces=(Interface(name, "graphql", "http", "v1", "4xx"),),
+        invariants=(Invariant("b.inv", "p99<300ms"),),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="kubernetes",
+        substrate_available=True,
+    )
+    result = evaluate_many([a, b])
+    assert not result.ok
+    assert len(result.mismatches) >= 1
+    assert result.mismatches[0].interface == name
+    assert "schema mismatch" in result.mismatches[0].reason
+
+
+def test_cross_spec_composition_accepts_matching():
+    """Two specs with identical interface schemas compose cleanly."""
+    from buildability import (
+        Spec, Component, Interface, Invariant, Lifecycle, evaluate_many,
+    )
+    name = "auth.rest"
+    def make(n):
+        return Spec(
+            name=n,
+            components=(Component(n + ".api", "serve"),),
+            interfaces=(Interface(name, "openapi", "http", "v1", "5xx"),),
+            invariants=(Invariant(n + ".inv", "p99<200ms"),),
+            lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+            substrate="kubernetes",
+            substrate_available=True,
+        )
+    result = evaluate_many([make("a"), make("b")])
+    assert result.mismatches == ()
+    assert result.ok
 
 
 def test_fail_no_partial_spec_handling():
@@ -311,36 +360,42 @@ def test_replace_validates_collection_types():
 # CLAIM GROUP 5: The central claim (unfalsified)
 # ===========================================================================
 
-def test_central_claim_no_ground_truth_exists():
-    """The framework's central claim ('buildability') has no ground truth.
+def test_central_claim_has_ground_truth():
+    """The central claim is now testable: a labeled corpus exists."""
+    import json
+    p = REPO / "experiments" / "ground_truth" / "outcomes.json"
+    assert p.exists(), "ground truth corpus missing"
+    outcomes = json.loads(p.read_text())
+    assert len(outcomes) >= 3, "need >=3 outcomes"
+    for o in outcomes:
+        assert "build_attempted" in o
+        assert "build_succeeded" in o
+        assert "regime" in o
 
-    To validate the claim, we would need a corpus of specs labeled with
-    whether they built a working system. No such corpus exists in the repo.
-    This test asserts the absence.
-    """
-    ground_truth_files = list(REPO.rglob("*ground_truth*"))
-    ground_truth_files += list(REPO.rglob("*build_results*"))
-    ground_truth_files += list(REPO.rglob("*outcome*"))
-    # Filter to actual data files, not source.
-    data = [p for p in ground_truth_files if p.suffix in (".json", ".csv", ".yaml", ".yml")]
-    assert not data, (
-        f"ground truth data exists (central claim is testable): {data}"
+
+def test_central_claim_g1_passing_builds():
+    """Every CONSTRUCTION-regime spec in the corpus built successfully."""
+    import json
+    outcomes = json.loads(
+        (REPO / "experiments" / "ground_truth" / "outcomes.json").read_text()
     )
+    passing = [o for o in outcomes if o["regime"] == "CONSTRUCTION"]
+    assert passing, "no CONSTRUCTION outcome in corpus"
+    for o in passing:
+        assert o["build_succeeded"], (
+            f"{o['spec']} passed G1 but failed to build: {o['error']}"
+        )
 
 
-def test_central_claim_no_counterexample_exists():
-    """No spec in the repo is labeled 'passed G1 but failed to build'."""
-    counterexample_files = list(REPO.rglob("*counterexample*"))
-    counterexample_files += list(REPO.rglob("*falsif*"))
-    assert not counterexample_files, (
-        f"counterexample exists: {counterexample_files}"
+def test_central_claim_g1_failing_fails():
+    """Every RESEARCH-regime spec in the corpus failed to build."""
+    import json
+    outcomes = json.loads(
+        (REPO / "experiments" / "ground_truth" / "outcomes.json").read_text()
     )
-
-
-def test_central_claim_no_positive_confirmation():
-    """No spec in the repo is labeled 'passed G1 and built successfully'."""
-    confirmations = list(REPO.rglob("*built_ok*"))
-    confirmations += list(REPO.rglob("*verified_build*"))
-    assert not confirmations, (
-        f"positive confirmation exists: {confirmations}"
-    )
+    failing = [o for o in outcomes if o["regime"] == "RESEARCH"]
+    assert failing, "no RESEARCH outcome in corpus"
+    for o in failing:
+        assert not o["build_succeeded"], (
+            f"{o['spec']} failed G1 but built successfully"
+        )
