@@ -6,19 +6,24 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SKIP = {"tests", "src", "docs", "scripts", "specs", "__pycache__", "symbols"}
 
 
 def main() -> int:
     claims = defaultdict(list)
     for pkg in (ROOT / "packages").iterdir():
+        if not pkg.is_dir():
+            continue
         src = pkg / "src"
         if src.is_dir():
             for mod in src.iterdir():
-                if (mod.is_dir() and mod.name not in skip
+                if (mod.is_dir()
+                        and mod.name not in SKIP
                         and (mod / "__init__.py").exists()):
                     claims[mod.name].append(mod)
         for mod in pkg.iterdir():
-            if (mod.is_dir() and mod.name not in skip
+            if (mod.is_dir()
+                    and mod.name not in SKIP
                     and (mod / "__init__.py").exists()):
                 claims[mod.name].append(mod)
 

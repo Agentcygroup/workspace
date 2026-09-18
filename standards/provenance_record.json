@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "cd79a01f91294fdf2159d62ea727a40cc1178f05",
-  "commit_count": 58,
+  "head": "9abc076a0edc87a058e44bb3901630253bd1088e",
+  "commit_count": 59,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:9abc076a0edc",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:39:28 -0400",
+      "used": "repo",
+      "generated": "commit:9abc076a0edc",
+      "label": "fix: export distance/selection/diagnose/gap_history; namespace_check skips tests dir"
+    },
     {
       "id": "commit:cd79a01f9129",
       "type": "prov:Activity",
