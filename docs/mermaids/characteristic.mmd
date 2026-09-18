@@ -1,0 +1,74 @@
+graph TD
+  artifact_INDEX[["INDEX"]]
+  artifact_ai_rmf_profile[["ai_rmf_profile"]]
+  artifact_configuration_management[["configuration_management"]]
+  artifact_gate_conformance[["gate_conformance"]]
+  artifact_provenance_record[["provenance_record"]]
+  artifact_quality_model[["quality_model"]]
+  artifact_requirements_specification[["requirements_specification"]]
+  artifact_security_controls[["security_controls"]]
+  artifact_sqa_plan[["sqa_plan"]]
+  artifact_test_documentation[["test_documentation"]]
+  artifact_traceability_matrix[["traceability_matrix"]]
+  characteristic_compatibility("compatibility")
+  characteristic_functional_suitability("functional_suitability")
+  characteristic_maintainability("maintainability")
+  characteristic_reliability("reliability")
+  characteristic_security("security")
+  decision_quality_model>"quality_model"]
+  standards_artifact_ai_rmf_profile["ai_rmf_profile"]
+  standards_artifact_configuration_management["configuration_management"]
+  standards_artifact_gate_conformance["gate_conformance"]
+  standards_artifact_provenance_record["provenance_record"]
+  standards_artifact_quality_model["quality_model"]
+  standards_artifact_requirements_specification["requirements_specification"]
+  standards_artifact_security_controls["security_controls"]
+  standards_artifact_sqa_plan["sqa_plan"]
+  standards_artifact_test_documentation["test_documentation"]
+  standards_artifact_traceability_matrix["traceability_matrix"]
+  threshold_compatibility["compatibility"]
+  threshold_functional_suitability["functional_suitability"]
+  threshold_maintainability["maintainability"]
+  threshold_reliability["reliability"]
+  threshold_security["security"]
+  artifact_INDEX -->|generated| artifact_requirements_specification
+  artifact_INDEX -->|generated| artifact_traceability_matrix
+  artifact_INDEX -->|generated| artifact_test_documentation
+  artifact_INDEX -->|generated| artifact_provenance_record
+  artifact_INDEX -->|generated| artifact_configuration_management
+  artifact_INDEX -->|generated| artifact_gate_conformance
+  artifact_INDEX -->|generated| artifact_security_controls
+  artifact_INDEX -->|generated| artifact_ai_rmf_profile
+  artifact_INDEX -->|generated| artifact_sqa_plan
+  artifact_INDEX -->|generated| artifact_quality_model
+  artifact_quality_model -->|declares| characteristic_functional_suitability
+  characteristic_functional_suitability -->|bounded_by| threshold_functional_suitability
+  artifact_quality_model -->|declares| characteristic_reliability
+  characteristic_reliability -->|bounded_by| threshold_reliability
+  artifact_quality_model -->|declares| characteristic_maintainability
+  characteristic_maintainability -->|bounded_by| threshold_maintainability
+  artifact_quality_model -->|declares| characteristic_security
+  characteristic_security -->|bounded_by| threshold_security
+  artifact_quality_model -->|declares| characteristic_compatibility
+  characteristic_compatibility -->|bounded_by| threshold_compatibility
+  decision_quality_model ==>|unlocks| artifact_quality_model
+  artifact_INDEX -->|lists| standards_artifact_ai_rmf_profile
+  standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
+  artifact_INDEX -->|lists| standards_artifact_configuration_management
+  standards_artifact_configuration_management -->|materializes| artifact_configuration_management
+  artifact_INDEX -->|lists| standards_artifact_gate_conformance
+  standards_artifact_gate_conformance -->|materializes| artifact_gate_conformance
+  artifact_INDEX -->|lists| standards_artifact_provenance_record
+  standards_artifact_provenance_record -->|materializes| artifact_provenance_record
+  artifact_INDEX -->|lists| standards_artifact_quality_model
+  standards_artifact_quality_model -->|materializes| artifact_quality_model
+  artifact_INDEX -->|lists| standards_artifact_requirements_specification
+  standards_artifact_requirements_specification -->|materializes| artifact_requirements_specification
+  artifact_INDEX -->|lists| standards_artifact_security_controls
+  standards_artifact_security_controls -->|materializes| artifact_security_controls
+  artifact_INDEX -->|lists| standards_artifact_sqa_plan
+  standards_artifact_sqa_plan -->|materializes| artifact_sqa_plan
+  artifact_INDEX -->|lists| standards_artifact_test_documentation
+  standards_artifact_test_documentation -->|materializes| artifact_test_documentation
+  artifact_INDEX -->|lists| standards_artifact_traceability_matrix
+  standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix

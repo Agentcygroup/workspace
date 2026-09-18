@@ -1,0 +1,848 @@
+graph TD
+  adversary_spec author who declares duplicate responsibilities without noticing[/"spec author who declares duplicate responsibilities without noticing"/]
+  adversary_spec author who omits interfaces by accident[/"spec author who omits interfaces by accident"/]
+  artifact_INDEX[["INDEX"]]
+  artifact_ai_rmf_profile[["ai_rmf_profile"]]
+  artifact_configuration_management[["configuration_management"]]
+  artifact_gate_conformance[["gate_conformance"]]
+  artifact_provenance_record[["provenance_record"]]
+  artifact_quality_model[["quality_model"]]
+  artifact_requirements_specification[["requirements_specification"]]
+  artifact_security_controls[["security_controls"]]
+  artifact_sqa_plan[["sqa_plan"]]
+  artifact_test_documentation[["test_documentation"]]
+  artifact_traceability_matrix[["traceability_matrix"]]
+  cadence_every commit["every commit"]
+  characteristic_compatibility("compatibility")
+  characteristic_functional_suitability("functional_suitability")
+  characteristic_maintainability("maintainability")
+  characteristic_reliability("reliability")
+  characteristic_security("security")
+  commit_0258cef40cd9>"0258cef40cd9"]
+  commit_07a1de6c9a71>"07a1de6c9a71"]
+  commit_0c51328b0d6f>"0c51328b0d6f"]
+  commit_0d349cafcec7>"0d349cafcec7"]
+  commit_1438bb25ef4f>"1438bb25ef4f"]
+  commit_14a0515ad06a>"14a0515ad06a"]
+  commit_2aee866b47f4>"2aee866b47f4"]
+  commit_2e109df113b3>"2e109df113b3"]
+  commit_2edf5141a29e>"2edf5141a29e"]
+  commit_30b81352e2fe>"30b81352e2fe"]
+  commit_33f842b6a444>"33f842b6a444"]
+  commit_3bce2ac388b2>"3bce2ac388b2"]
+  commit_3c2f9b038961>"3c2f9b038961"]
+  commit_47018fe8dcfa>"47018fe8dcfa"]
+  commit_4ed7b880bbd8>"4ed7b880bbd8"]
+  commit_58665971091e>"58665971091e"]
+  commit_5a71453404fb>"5a71453404fb"]
+  commit_5c648051cd3a>"5c648051cd3a"]
+  commit_5c72631368c7>"5c72631368c7"]
+  commit_5cdc31680cac>"5cdc31680cac"]
+  commit_615fcf167b38>"615fcf167b38"]
+  commit_6367a9a831e3>"6367a9a831e3"]
+  commit_68f8a3c4fd76>"68f8a3c4fd76"]
+  commit_6dbedd68a048>"6dbedd68a048"]
+  commit_728f1fd8149c>"728f1fd8149c"]
+  commit_8337159f78c3>"8337159f78c3"]
+  commit_8aa3d666b586>"8aa3d666b586"]
+  commit_90253809b4ad>"90253809b4ad"]
+  commit_904ae43c71d1>"904ae43c71d1"]
+  commit_b09f04dfb52e>"b09f04dfb52e"]
+  commit_b3e17fd63bdc>"b3e17fd63bdc"]
+  commit_bb18b63785e4>"bb18b63785e4"]
+  commit_bb4834da10df>"bb4834da10df"]
+  commit_bc2c0a55eca7>"bc2c0a55eca7"]
+  commit_bf6694cb9d5c>"bf6694cb9d5c"]
+  commit_cb2ae80a455c>"cb2ae80a455c"]
+  commit_ce03b07b9c0d>"ce03b07b9c0d"]
+  commit_ce39955beae2>"ce39955beae2"]
+  commit_commit_0258cef40cd9>"commit:0258cef40cd9"]
+  commit_commit_14a0515ad06a>"commit:14a0515ad06a"]
+  commit_commit_2e109df113b3>"commit:2e109df113b3"]
+  commit_commit_47018fe8dcfa>"commit:47018fe8dcfa"]
+  commit_commit_58665971091e>"commit:58665971091e"]
+  commit_commit_5cdc31680cac>"commit:5cdc31680cac"]
+  commit_commit_68f8a3c4fd76>"commit:68f8a3c4fd76"]
+  commit_commit_6dbedd68a048>"commit:6dbedd68a048"]
+  commit_commit_904ae43c71d1>"commit:904ae43c71d1"]
+  commit_commit_bb4834da10df>"commit:bb4834da10df"]
+  commit_d06b5eb5a71a>"d06b5eb5a71a"]
+  commit_d8368518eeae>"d8368518eeae"]
+  commit_da383ef9e7f6>"da383ef9e7f6"]
+  commit_db1ae8452071>"db1ae8452071"]
+  commit_e68c4a7585d7>"e68c4a7585d7"]
+  commit_e9944f7032b0>"e9944f7032b0"]
+  commit_edbfbe4c1ac2>"edbfbe4c1ac2"]
+  commit_f587d1348979>"f587d1348979"]
+  commit_f9ab55760db5>"f9ab55760db5"]
+  control_audit_log["audit_log"]
+  control_input_validation["input_validation"]
+  control_integrity["integrity"]
+  counterexample_spec_COUNTEREXAMPLE_DUPLICATE_OWNER["COUNTEREXAMPLE-DUPLICATE-OWNER"]
+  decision_ai_rmf>"ai_rmf"]
+  decision_quality_model>"quality_model"]
+  decision_security>"security"]
+  decision_sqa>"sqa"]
+  decision_file_ai_rmf["ai_rmf"]
+  decision_file_quality_model["quality_model"]
+  decision_file_security["security"]
+  decision_file_sqa["sqa"]
+  expanded_spec_EXPAND_L0["EXPAND-L0"]
+  expanded_spec_EXPAND_L1_NO_COMPONENTS["EXPAND-L1-NO-COMPONENTS"]
+  expanded_spec_EXPAND_L1_NO_INTERFACES["EXPAND-L1-NO-INTERFACES"]
+  expanded_spec_EXPAND_L1_NO_INVARIANTS["EXPAND-L1-NO-INVARIANTS"]
+  expanded_spec_EXPAND_L1_NO_LIFECYCLE["EXPAND-L1-NO-LIFECYCLE"]
+  expanded_spec_EXPAND_L1_NO_SUBSTRATE["EXPAND-L1-NO-SUBSTRATE"]
+  expanded_spec_EXPAND_L2_EMPTY_COMPONENT_RESP["EXPAND-L2-EMPTY-COMPONENT-RESP"]
+  expanded_spec_EXPAND_L2_INTERFACE_NO_SCHEMA["EXPAND-L2-INTERFACE-NO-SCHEMA"]
+  expanded_spec_EXPAND_L2_INVARIANT_NO_PREDICATE["EXPAND-L2-INVARIANT-NO-PREDICATE"]
+  expanded_spec_EXPAND_L2_LIFECYCLE_NO_ROLLBACK["EXPAND-L2-LIFECYCLE-NO-ROLLBACK"]
+  expanded_spec_EXPAND_L3_GAP_0["EXPAND-L3-GAP-0"]
+  expanded_spec_EXPAND_L3_GAP_1["EXPAND-L3-GAP-1"]
+  expanded_spec_EXPAND_L3_GAP_2["EXPAND-L3-GAP-2"]
+  expanded_spec_EXPAND_L4_MULTI_GAP["EXPAND-L4-MULTI-GAP"]
+  expanded_spec__convergent_history["_convergent_history"]
+  expanded_spec__divergent_history["_divergent_history"]
+  factory_report_mesh["mesh"]
+  framework_ISO 27002 8_15("ISO 27002 8.15")
+  framework_ISO 27002 8_24("ISO 27002 8.24")
+  framework_ISO 27002 8_28("ISO 27002 8.28")
+  framework_NIST SP 800_53 AU("NIST SP 800-53 AU")
+  framework_NIST SP 800_53 SI("NIST SP 800-53 SI")
+  framework_NIST SP 800_53 SI_7("NIST SP 800-53 SI-7")
+  gate_G0{{"G0"}}
+  gate_G1{{"G1"}}
+  gate_G1_5{{"G1_5"}}
+  gate_G2{{"G2"}}
+  gate_G3{{"G3"}}
+  gate_G4{{"G4"}}
+  gate_G5{{"G5"}}
+  model_boolean["boolean"]
+  model_category["category"]
+  model_cellular["cellular"]
+  model_combinatory["combinatory"]
+  model_general["general"]
+  model_gerhardt["gerhardt"]
+  model_interaction["interaction"]
+  model_lambda_["lambda_"]
+  model_pi["pi"]
+  model_quantum["quantum"]
+  model_turing["turing"]
+  requirement_REQ_G0(("REQ-G0"))
+  requirement_REQ_G1(("REQ-G1"))
+  requirement_REQ_G1_5(("REQ-G1_5"))
+  requirement_REQ_G2(("REQ-G2"))
+  requirement_REQ_G3(("REQ-G3"))
+  requirement_REQ_G4(("REQ-G4"))
+  requirement_REQ_G5(("REQ-G5"))
+  role_maintainer("maintainer")
+  role_release_authority("release_authority")
+  role_reviewer("reviewer")
+  standards_artifact_ai_rmf_profile["ai_rmf_profile"]
+  standards_artifact_configuration_management["configuration_management"]
+  standards_artifact_gate_conformance["gate_conformance"]
+  standards_artifact_provenance_record["provenance_record"]
+  standards_artifact_quality_model["quality_model"]
+  standards_artifact_requirements_specification["requirements_specification"]
+  standards_artifact_security_controls["security_controls"]
+  standards_artifact_sqa_plan["sqa_plan"]
+  standards_artifact_test_documentation["test_documentation"]
+  standards_artifact_traceability_matrix["traceability_matrix"]
+  test_test_accept["test_accept"]
+  test_test_accept_twice_fails["test_accept_twice_fails"]
+  test_test_add["test_add"]
+  test_test_add_and_fuse["test_add_and_fuse"]
+  test_test_add_and_get["test_add_and_get"]
+  test_test_add_entity_agent_activity["test_add_entity_agent_activity"]
+  test_test_add_record["test_add_record"]
+  test_test_agent_capable_lists["test_agent_capable_lists"]
+  test_test_airgapped_check["test_airgapped_check"]
+  test_test_all_42_categories["test_all_42_categories"]
+  test_test_all_hands_kinds_nonempty["test_all_hands_kinds_nonempty"]
+  test_test_allow_rule["test_allow_rule"]
+  test_test_analyze_schema["test_analyze_schema"]
+  test_test_app_types_count["test_app_types_count"]
+  test_test_append_event["test_append_event"]
+  test_test_arches_closed["test_arches_closed"]
+  test_test_archetypes_nonempty["test_archetypes_nonempty"]
+  test_test_articles_named["test_articles_named"]
+  test_test_artifact_kinds_count["test_artifact_kinds_count"]
+  test_test_asm_directives_count["test_asm_directives_count"]
+  test_test_assertions_closed_set["test_assertions_closed_set"]
+  test_test_assess_bad_verdict["test_assess_bad_verdict"]
+  test_test_assess_pass["test_assess_pass"]
+  test_test_assess_requires_evidence["test_assess_requires_evidence"]
+  test_test_assess_requires_name["test_assess_requires_name"]
+  test_test_atom_ids_unique["test_atom_ids_unique"]
+  test_test_atom_shape["test_atom_shape"]
+  test_test_atoms_by_kind["test_atoms_by_kind"]
+  test_test_atoms_by_verb["test_atoms_by_verb"]
+  test_test_atoms_count["test_atoms_count"]
+  test_test_audit_report["test_audit_report"]
+  test_test_axioms_satisfied_on_good_envelope["test_axioms_satisfied_on_good_envelope"]
+  test_test_axpy["test_axpy"]
+  test_test_bad_effect["test_bad_effect"]
+  test_test_bad_modality["test_bad_modality"]
+  test_test_bad_mode["test_bad_mode"]
+  test_test_bad_weight["test_bad_weight"]
+  test_test_binds_chain["test_binds_chain"]
+  test_test_biology_adapter["test_biology_adapter"]
+  test_test_bits_validation["test_bits_validation"]
+  test_test_budget_consumed_full["test_budget_consumed_full"]
+  test_test_budget_consumed_zero["test_budget_consumed_zero"]
+  test_test_build_all["test_build_all"]
+  test_test_build_statement["test_build_statement"]
+  test_test_burn_rate_positive["test_burn_rate_positive"]
+  test_test_by_category["test_by_category"]
+  test_test_call_ret["test_call_ret"]
+  test_test_canonical_and_fingerprint_stable["test_canonical_and_fingerprint_stable"]
+  test_test_canonical_deterministic["test_canonical_deterministic"]
+  test_test_canonical_json_sorted["test_canonical_json_sorted"]
+  test_test_capacity_must_be_positive["test_capacity_must_be_positive"]
+  test_test_capstone_record_bad_plane["test_capstone_record_bad_plane"]
+  test_test_capstone_record_valid["test_capstone_record_valid"]
+  test_test_central_claim_g1_failing_fails["test_central_claim_g1_failing_fails"]
+  test_test_central_claim_g1_passing_builds["test_central_claim_g1_passing_builds"]
+  test_test_central_claim_has_counterexample["test_central_claim_has_counterexample"]
+  test_test_central_claim_has_ground_truth["test_central_claim_has_ground_truth"]
+  test_test_chain_append_and_verify["test_chain_append_and_verify"]
+  test_test_chain_empty["test_chain_empty"]
+  test_test_chain_save_load["test_chain_save_load"]
+  test_test_chain_starts_empty["test_chain_starts_empty"]
+  test_test_chain_tamper_detected["test_chain_tamper_detected"]
+  test_test_citable_and_emergent_coexist["test_citable_and_emergent_coexist"]
+  test_test_citation_construct["test_citation_construct"]
+  test_test_claim_1_real["test_claim_1_real"]
+  test_test_claim_2_not_agi["test_claim_2_not_agi"]
+  test_test_claim_3_no_agi_benchmark["test_claim_3_no_agi_benchmark"]
+  test_test_claim_bad_id["test_claim_bad_id"]
+  test_test_claim_closure_terminates_on_pathological_perturbation["test_claim_closure_terminates_on_pathological_perturbation"]
+  test_test_claim_g1_and_g2_are_implemented["test_claim_g1_and_g2_are_implemented"]
+  test_test_claim_g3_g4_g5_are_stubs_not_generators["test_claim_g3_g4_g5_are_stubs_not_generators"]
+  test_test_claim_no_builder_exists["test_claim_no_builder_exists"]
+  test_test_claim_validate["test_claim_validate"]
+  test_test_class_bad_name["test_class_bad_name"]
+  test_test_classes_nonempty["test_classes_nonempty"]
+  test_test_classify_host_shape["test_classify_host_shape"]
+  test_test_clip_bad_bound["test_clip_bad_bound"]
+  test_test_clip_enforces_bound["test_clip_enforces_bound"]
+  test_test_clip_within_bound["test_clip_within_bound"]
+  test_test_closure_does_not_mutate_input["test_closure_does_not_mutate_input"]
+  test_test_comment_skipped["test_comment_skipped"]
+  test_test_compare_to_leaderboard["test_compare_to_leaderboard"]
+  test_test_compose_all["test_compose_all"]
+  test_test_compose_matrices["test_compose_matrices"]
+  test_test_compose_subset["test_compose_subset"]
+  test_test_condition_error_denies["test_condition_error_denies"]
+  test_test_conformance_report["test_conformance_report"]
+  test_test_construct["test_construct"]
+  test_test_coverage_sums_to_42["test_coverage_sums_to_42"]
+  test_test_cross_spec_composition_accepts_matching["test_cross_spec_composition_accepts_matching"]
+  test_test_cross_spec_composition_detects_mismatch["test_cross_spec_composition_detects_mismatch"]
+  test_test_cross_spec_composition_exists["test_cross_spec_composition_exists"]
+  test_test_cycle_detected["test_cycle_detected"]
+  test_test_declared_but_unavailable_substrate_is_engineering["test_declared_but_unavailable_substrate_is_engineering"]
+  test_test_deduplicate["test_deduplicate"]
+  test_test_default_deny["test_default_deny"]
+  test_test_detect_arch["test_detect_arch"]
+  test_test_detect_os["test_detect_os"]
+  test_test_diamond["test_diamond"]
+  test_test_disciplines["test_disciplines"]
+  test_test_dispute_initial_state["test_dispute_initial_state"]
+  test_test_does_not_dominate["test_does_not_dominate"]
+  test_test_dominates_reflexive["test_dominates_reflexive"]
+  test_test_dominates_transitive["test_dominates_transitive"]
+  test_test_dot["test_dot"]
+  test_test_dot_mismatch["test_dot_mismatch"]
+  test_test_dp_mean_deterministic_with_rng["test_dp_mean_deterministic_with_rng"]
+  test_test_drift_detected["test_drift_detected"]
+  test_test_duplicate_tenant["test_duplicate_tenant"]
+  test_test_effect_runs["test_effect_runs"]
+  test_test_eight_axioms["test_eight_axioms"]
+  test_test_empty["test_empty"]
+  test_test_empty_column_detected["test_empty_column_detected"]
+  test_test_empty_report["test_empty_report"]
+  test_test_envelope_verify_ok["test_envelope_verify_ok"]
+  test_test_evaluate["test_evaluate"]
+  test_test_evaluate_adjudication["test_evaluate_adjudication"]
+  test_test_evaluate_buildable["test_evaluate_buildable"]
+  test_test_evaluate_construction["test_evaluate_construction"]
+  test_test_evaluate_divergent["test_evaluate_divergent"]
+  test_test_evaluate_engineering["test_evaluate_engineering"]
+  test_test_evaluate_records_audit["test_evaluate_records_audit"]
+  test_test_evaluate_research["test_evaluate_research"]
+  test_test_evaluate_unknown_tenant["test_evaluate_unknown_tenant"]
+  test_test_evaluate_verification["test_evaluate_verification"]
+  test_test_every_allocation_legal["test_every_allocation_legal"]
+  test_test_every_term_has_primitive["test_every_term_has_primitive"]
+  test_test_evidence_ref["test_evidence_ref"]
+  test_test_evidence_scoped["test_evidence_scoped"]
+  test_test_evidence_validate["test_evidence_validate"]
+  test_test_expanded_corpus_regimes_are_pinned["test_expanded_corpus_regimes_are_pinned"]
+  test_test_extensions_os["test_extensions_os"]
+  test_test_factory_refuses_incomplete_specs["test_factory_refuses_incomplete_specs"]
+  test_test_fail_divergence_requires_external_history["test_fail_divergence_requires_external_history"]
+  test_test_fail_mesh_specs_remain_research["test_fail_mesh_specs_remain_research"]
+  test_test_fail_no_determinism_test_for_classifier["test_fail_no_determinism_test_for_classifier"]
+  test_test_fail_no_distance_metric_between_specs["test_fail_no_distance_metric_between_specs"]
+  test_test_fail_no_partial_spec_handling["test_fail_no_partial_spec_handling"]
+  test_test_fail_substrate_availability_not_probed["test_fail_substrate_availability_not_probed"]
+  test_test_families["test_families"]
+  test_test_federated_empty["test_federated_empty"]
+  test_test_federated_round["test_federated_round"]
+  test_test_fifteen_invariants["test_fifteen_invariants"]
+  test_test_file_construction["test_file_construction"]
+  test_test_fingerprint_stable["test_fingerprint_stable"]
+  test_test_fixed_point["test_fixed_point"]
+  test_test_flow_actors_present["test_flow_actors_present"]
+  test_test_flow_four_steps["test_flow_four_steps"]
+  test_test_flow_provenance_chain["test_flow_provenance_chain"]
+  test_test_flow_verify_clean["test_flow_verify_clean"]
+  test_test_framework_kinds_count["test_framework_kinds_count"]
+  test_test_freeze_snapshot_stable["test_freeze_snapshot_stable"]
+  test_test_full["test_full"]
+  test_test_full_chain["test_full_chain"]
+  test_test_fuse_convenience["test_fuse_convenience"]
+  test_test_g0_convergent_passes["test_g0_convergent_passes"]
+  test_test_g0_divergent_fails["test_g0_divergent_fails"]
+  test_test_g0_no_history_passes["test_g0_no_history_passes"]
+  test_test_g1_5_clean_spec_passes["test_g1_5_clean_spec_passes"]
+  test_test_g1_5_duplicate_responsibility_detected["test_g1_5_duplicate_responsibility_detected"]
+  test_test_g1_complete["test_g1_complete"]
+  test_test_g1_missing_component["test_g1_missing_component"]
+  test_test_g1_open_gap_blocks["test_g1_open_gap_blocks"]
+  test_test_g2_flag_ignored_when_probe_succeeds["test_g2_flag_ignored_when_probe_succeeds"]
+  test_test_g2_missing_substrate["test_g2_missing_substrate"]
+  test_test_g3_no_solver["test_g3_no_solver"]
+  test_test_g3_solver_returns_candidate["test_g3_solver_returns_candidate"]
+  test_test_g4_falsifiable_prover["test_g4_falsifiable_prover"]
+  test_test_g4_no_prover["test_g4_no_prover"]
+  test_test_g4_unfalsifiable_prover_rejected["test_g4_unfalsifiable_prover_rejected"]
+  test_test_g5_no_resolver["test_g5_no_resolver"]
+  test_test_g5_self_tie_ok["test_g5_self_tie_ok"]
+  test_test_gap_blocks_scoped["test_gap_blocks_scoped"]
+  test_test_gap_is_frozen["test_gap_is_frozen"]
+  test_test_gap_names["test_gap_names"]
+  test_test_gap_register_nonempty["test_gap_register_nonempty"]
+  test_test_gate_result_is_frozen["test_gate_result_is_frozen"]
+  test_test_gates_count["test_gates_count"]
+  test_test_generate_sbom_returns_dict["test_generate_sbom_returns_dict"]
+  test_test_get["test_get"]
+  test_test_get_atom["test_get_atom"]
+  test_test_get_term["test_get_term"]
+  test_test_governance_kinds_count["test_governance_kinds_count"]
+  test_test_guard_accepts_honest_text["test_guard_accepts_honest_text"]
+  test_test_guard_allows["test_guard_allows"]
+  test_test_guard_blocks["test_guard_blocks"]
+  test_test_guard_rejects_agi_claim["test_guard_rejects_agi_claim"]
+  test_test_hand_bad_level["test_hand_bad_level"]
+  test_test_hand_upgrade["test_hand_upgrade"]
+  test_test_handler_error["test_handler_error"]
+  test_test_hands_nonempty["test_hands_nonempty"]
+  test_test_harness_report_carries_refusal["test_harness_report_carries_refusal"]
+  test_test_harness_report_forbidden_token_would_raise["test_harness_report_forbidden_token_would_raise"]
+  test_test_harness_runs_on_small_set["test_harness_runs_on_small_set"]
+  test_test_hash_bytes_stable["test_hash_bytes_stable"]
+  test_test_hash_file["test_hash_file"]
+  test_test_hash_known_value["test_hash_known_value"]
+  test_test_hash_stable["test_hash_stable"]
+  test_test_hat_can["test_hat_can"]
+  test_test_hats_nonempty["test_hats_nonempty"]
+  test_test_heal_after_failure["test_heal_after_failure"]
+  test_test_heal_exhausts_attempts["test_heal_exhausts_attempts"]
+  test_test_history["test_history"]
+  test_test_history_length["test_history_length"]
+  test_test_history_records["test_history_records"]
+  test_test_hll_constructs_count["test_hll_constructs_count"]
+  test_test_human_required_lists["test_human_required_lists"]
+  test_test_idempotent_builder["test_idempotent_builder"]
+  test_test_illegal_transition["test_illegal_transition"]
+  test_test_implementation_status["test_implementation_status"]
+  test_test_initial["test_initial"]
+  test_test_initial_state["test_initial_state"]
+  test_test_institute_bad_archetype["test_institute_bad_archetype"]
+  test_test_institute_bad_jurisdiction["test_institute_bad_jurisdiction"]
+  test_test_institute_valid["test_institute_valid"]
+  test_test_intent_ratio_is_wired["test_intent_ratio_is_wired"]
+  test_test_interop_overlap_rejected["test_interop_overlap_rejected"]
+  test_test_interoperable_check["test_interoperable_check"]
+  test_test_invariants_closed["test_invariants_closed"]
+  test_test_is_class["test_is_class"]
+  test_test_is_full_and_empty["test_is_full_and_empty"]
+  test_test_is_hand["test_is_hand"]
+  test_test_is_hat["test_is_hat"]
+  test_test_is_lens["test_is_lens"]
+  test_test_is_pattern["test_is_pattern"]
+  test_test_isa_opcodes_count["test_isa_opcodes_count"]
+  test_test_je_taken["test_je_taken"]
+  test_test_jmp["test_jmp"]
+  test_test_jurisdictions["test_jurisdictions"]
+  test_test_keys_and_size["test_keys_and_size"]
+  test_test_kinds_closed["test_kinds_closed"]
+  test_test_leaderboard_nonempty["test_leaderboard_nonempty"]
+  test_test_ledger_kinds_count["test_ledger_kinds_count"]
+  test_test_legal_is_human_only["test_legal_is_human_only"]
+  test_test_legal_transition["test_legal_transition"]
+  test_test_lens_ask["test_lens_ask"]
+  test_test_lens_default_question["test_lens_default_question"]
+  test_test_lens_questions_security["test_lens_questions_security"]
+  test_test_lenses_nonempty["test_lenses_nonempty"]
+  test_test_levels_closed["test_levels_closed"]
+  test_test_lex_error["test_lex_error"]
+  test_test_lineage["test_lineage"]
+  test_test_linear["test_linear"]
+  test_test_link_unknown_refs["test_link_unknown_refs"]
+  test_test_link_validate["test_link_validate"]
+  test_test_load_store_roundtrip["test_load_store_roundtrip"]
+  test_test_map_biology_to_medicine["test_map_biology_to_medicine"]
+  test_test_map_physics_to_biology["test_map_physics_to_biology"]
+  test_test_map_wrong_domain_raises["test_map_wrong_domain_raises"]
+  test_test_mappings_four["test_mappings_four"]
+  test_test_matmul["test_matmul"]
+  test_test_matmul_shape_mismatch["test_matmul_shape_mismatch"]
+  test_test_matrix_six_rows["test_matrix_six_rows"]
+  test_test_matrix_validates["test_matrix_validates"]
+  test_test_memory_bounds["test_memory_bounds"]
+  test_test_merge["test_merge"]
+  test_test_meta_kinds_count["test_meta_kinds_count"]
+  test_test_modes_closed["test_modes_closed"]
+  test_test_no_args["test_no_args"]
+  test_test_no_conformance["test_no_conformance"]
+  test_test_no_cycle["test_no_cycle"]
+  test_test_no_signer["test_no_signer"]
+  test_test_no_substrate_is_research_not_engineering["test_no_substrate_is_research_not_engineering"]
+  test_test_non_implication_carried["test_non_implication_carried"]
+  test_test_nop_hlt["test_nop_hlt"]
+  test_test_not_found["test_not_found"]
+  test_test_opcodes_present["test_opcodes_present"]
+  test_test_operator_align["test_operator_align"]
+  test_test_operator_merge_split["test_operator_merge_split"]
+  test_test_operator_project["test_operator_project"]
+  test_test_operators_id_and_neg["test_operators_id_and_neg"]
+  test_test_out_of_order_raises["test_out_of_order_raises"]
+  test_test_parse["test_parse"]
+  test_test_parse_missing_brace["test_parse_missing_brace"]
+  test_test_parse_program["test_parse_program"]
+  test_test_paths_os["test_paths_os"]
+  test_test_patterns_nonempty["test_patterns_nonempty"]
+  test_test_permit_allowlist["test_permit_allowlist"]
+  test_test_permit_blocked["test_permit_blocked"]
+  test_test_permit_default["test_permit_default"]
+  test_test_physics_adapter["test_physics_adapter"]
+  test_test_planes["test_planes"]
+  test_test_post_body["test_post_body"]
+  test_test_postorder["test_postorder"]
+  test_test_preorder_order["test_preorder_order"]
+  test_test_priority["test_priority"]
+  test_test_properties_closed["test_properties_closed"]
+  test_test_provenance_chain["test_provenance_chain"]
+  test_test_provenance_validate["test_provenance_validate"]
+  test_test_push_pop["test_push_pop"]
+  test_test_quantization_error["test_quantization_error"]
+  test_test_ratio["test_ratio"]
+  test_test_refusals["test_refusals"]
+  test_test_register["test_register"]
+  test_test_register_and_encode["test_register_and_encode"]
+  test_test_register_tenant["test_register_tenant"]
+  test_test_registry_add_and_count["test_registry_add_and_count"]
+  test_test_registry_kinds_count["test_registry_kinds_count"]
+  test_test_reject["test_reject"]
+  test_test_relu["test_relu"]
+  test_test_remove["test_remove"]
+  test_test_replace_validates_collection_types["test_replace_validates_collection_types"]
+  test_test_residency_blocks_personal["test_residency_blocks_personal"]
+  test_test_revoke["test_revoke"]
+  test_test_role_closed["test_role_closed"]
+  test_test_root_invariant_enforced["test_root_invariant_enforced"]
+  test_test_roundtrip["test_roundtrip"]
+  test_test_route_allow["test_route_allow"]
+  test_test_route_blocked["test_route_blocked"]
+  test_test_run_once_failure["test_run_once_failure"]
+  test_test_run_once_success["test_run_once_success"]
+  test_test_run_writes["test_run_writes"]
+  test_test_sandbox_allows_known_operator["test_sandbox_allows_known_operator"]
+  test_test_sandbox_rejects_oversized_payload["test_sandbox_rejects_oversized_payload"]
+  test_test_sandbox_rejects_unknown_operator["test_sandbox_rejects_unknown_operator"]
+  test_test_save_load["test_save_load"]
+  test_test_sbom_cyclonedx_shape["test_sbom_cyclonedx_shape"]
+  test_test_scalar_bounds["test_scalar_bounds"]
+  test_test_scalar_roundtrip["test_scalar_roundtrip"]
+  test_test_scan_forbidden["test_scan_forbidden"]
+  test_test_schema_bad_type["test_schema_bad_type"]
+  test_test_schema_enum["test_schema_enum"]
+  test_test_schema_for_level["test_schema_for_level"]
+  test_test_schema_missing["test_schema_missing"]
+  test_test_schema_not_dict["test_schema_not_dict"]
+  test_test_schema_ok["test_schema_ok"]
+  test_test_scope_variants_15x26["test_scope_variants_15x26"]
+  test_test_semantic_incompleteness_is_detected["test_semantic_incompleteness_is_detected"]
+  test_test_set_returns_new["test_set_returns_new"]
+  test_test_sha256_stable["test_sha256_stable"]
+  test_test_shell_os["test_shell_os"]
+  test_test_sigmoid["test_sigmoid"]
+  test_test_sign["test_sign"]
+  test_test_simple_transition["test_simple_transition"]
+  test_test_single_node["test_single_node"]
+  test_test_sixteen_levels["test_sixteen_levels"]
+  test_test_sli_empty["test_sli_empty"]
+  test_test_sli_ratio["test_sli_ratio"]
+  test_test_slo_bad_target["test_slo_bad_target"]
+  test_test_snapshot_lists_sources["test_snapshot_lists_sources"]
+  test_test_softmax_sums_to_one["test_softmax_sums_to_one"]
+  test_test_software_is_agent_executed["test_software_is_agent_executed"]
+  test_test_source_add_publication["test_source_add_publication"]
+  test_test_source_hash_stable["test_source_hash_stable"]
+  test_test_sources["test_sources"]
+  test_test_sovereign_check["test_sovereign_check"]
+  test_test_spec_is_frozen["test_spec_is_frozen"]
+  test_test_statement_hash_stable["test_statement_hash_stable"]
+  test_test_step_limit["test_step_limit"]
+  test_test_sub_flags["test_sub_flags"]
+  test_test_subject_digest["test_subject_digest"]
+  test_test_syscall_count["test_syscall_count"]
+  test_test_syscalls_present["test_syscalls_present"]
+  test_test_tamper_detected["test_tamper_detected"]
+  test_test_targets_closed["test_targets_closed"]
+  test_test_ten_articles["test_ten_articles"]
+  test_test_ten_moats["test_ten_moats"]
+  test_test_ten_operators["test_ten_operators"]
+  test_test_tensor_empty["test_tensor_empty"]
+  test_test_tensor_roundtrip["test_tensor_roundtrip"]
+  test_test_terms_by_atom["test_terms_by_atom"]
+  test_test_terms_by_source["test_terms_by_source"]
+  test_test_terms_nonempty["test_terms_nonempty"]
+  test_test_to_dict["test_to_dict"]
+  test_test_to_dict_shape["test_to_dict_shape"]
+  test_test_tokenize_basic["test_tokenize_basic"]
+  test_test_toolchain_linux_windows["test_toolchain_linux_windows"]
+  test_test_two_level["test_two_level"]
+  test_test_unknown_agent["test_unknown_agent"]
+  test_test_unknown_event["test_unknown_event"]
+  test_test_unknown_gate_raises["test_unknown_gate_raises"]
+  test_test_unknown_op["test_unknown_op"]
+  test_test_unknown_opcode["test_unknown_opcode"]
+  test_test_unknown_state["test_unknown_state"]
+  test_test_unknown_used["test_unknown_used"]
+  test_test_unregistered_kind["test_unregistered_kind"]
+  test_test_unscoped_always_undefined["test_unscoped_always_undefined"]
+  test_test_valid_handoff["test_valid_handoff"]
+  test_test_validate_all_clean["test_validate_all_clean"]
+  test_test_validate_bad_hand_kind["test_validate_bad_hand_kind"]
+  test_test_validate_bad_state["test_validate_bad_state"]
+  test_test_validate_clean["test_validate_clean"]
+  test_test_validate_duplicate_governor["test_validate_duplicate_governor"]
+  test_test_validate_instance_bad_kind["test_validate_instance_bad_kind"]
+  test_test_validate_instance_ok["test_validate_instance_ok"]
+  test_test_validate_instance_unscoped["test_validate_instance_unscoped"]
+  test_test_validate_minimal_ok["test_validate_minimal_ok"]
+  test_test_validate_missing_field["test_validate_missing_field"]
+  test_test_verbs_closed["test_verbs_closed"]
+  test_test_verdict_has_value_eq["test_verdict_has_value_eq"]
+  test_test_verdict_is_frozen["test_verdict_is_frozen"]
+  test_test_verdict_to_dict_is_json_serializable["test_verdict_to_dict_is_json_serializable"]
+  test_test_verify_clean["test_verify_clean"]
+  test_test_verify_rejects_bad_confidence["test_verify_rejects_bad_confidence"]
+  test_test_verify_requires_name["test_verify_requires_name"]
+  test_test_verify_sets_fields["test_verify_sets_fields"]
+  test_test_version["test_version"]
+  test_test_version_mismatch["test_version_mismatch"]
+  threshold_compatibility["compatibility"]
+  threshold_functional_suitability["functional_suitability"]
+  threshold_maintainability["maintainability"]
+  threshold_reliability["reliability"]
+  threshold_security["security"]
+  uci_spec_UCI_AB_TESTING["UCI-AB-TESTING"]
+  uci_spec_UCI_AI_RECS["UCI-AI-RECS"]
+  uci_spec_UCI_API_MGMT["UCI-API-MGMT"]
+  uci_spec_UCI_ARCHIVE["UCI-ARCHIVE"]
+  uci_spec_UCI_ARVR_CM["UCI-ARVR-CM"]
+  uci_spec_UCI_BI["UCI-BI"]
+  uci_spec_UCI_CCMS["UCI-CCMS"]
+  uci_spec_UCI_CDN["UCI-CDN"]
+  uci_spec_UCI_CDP["UCI-CDP"]
+  uci_spec_UCI_CICD["UCI-CICD"]
+  uci_spec_UCI_CMP["UCI-CMP"]
+  uci_spec_UCI_CMS["UCI-CMS"]
+  uci_spec_UCI_COMPLIANCE["UCI-COMPLIANCE"]
+  uci_spec_UCI_CXM["UCI-CXM"]
+  uci_spec_UCI_DAM["UCI-DAM"]
+  uci_spec_UCI_DATA_LAKE["UCI-DATA-LAKE"]
+  uci_spec_UCI_DMP["UCI-DMP"]
+  uci_spec_UCI_DRM["UCI-DRM"]
+  uci_spec_UCI_DSP["UCI-DSP"]
+  uci_spec_UCI_DXP["UCI-DXP"]
+  uci_spec_UCI_ESP["UCI-ESP"]
+  uci_spec_UCI_FEEDBACK["UCI-FEEDBACK"]
+  uci_spec_UCI_GAMIFICATION["UCI-GAMIFICATION"]
+  uci_spec_UCI_HEADLESS_CMS["UCI-HEADLESS-CMS"]
+  uci_spec_UCI_HLS["UCI-HLS"]
+  uci_spec_UCI_KMS["UCI-KMS"]
+  uci_spec_UCI_KNOWLEDGE_GRAPH["UCI-KNOWLEDGE-GRAPH"]
+  uci_spec_UCI_MAP["UCI-MAP"]
+  uci_spec_UCI_MCM["UCI-MCM"]
+  uci_spec_UCI_MODERATION["UCI-MODERATION"]
+  uci_spec_UCI_MRM["UCI-MRM"]
+  uci_spec_UCI_NFT["UCI-NFT"]
+  uci_spec_UCI_PERMISSIONS["UCI-PERMISSIONS"]
+  uci_spec_UCI_PMS["UCI-PMS"]
+  uci_spec_UCI_PRIVACY["UCI-PRIVACY"]
+  uci_spec_UCI_RPA["UCI-RPA"]
+  uci_spec_UCI_SMMS["UCI-SMMS"]
+  uci_spec_UCI_TMS["UCI-TMS"]
+  uci_spec_UCI_VOICE_CM["UCI-VOICE-CM"]
+  uci_spec_UCI_WCM["UCI-WCM"]
+  artifact_INDEX -->|generated| artifact_requirements_specification
+  artifact_INDEX -->|generated| artifact_traceability_matrix
+  artifact_INDEX -->|generated| artifact_test_documentation
+  artifact_INDEX -->|generated| artifact_provenance_record
+  artifact_INDEX -->|generated| artifact_configuration_management
+  artifact_INDEX -->|generated| artifact_gate_conformance
+  artifact_INDEX -->|generated| artifact_security_controls
+  artifact_INDEX -->|generated| artifact_ai_rmf_profile
+  artifact_INDEX -->|generated| artifact_sqa_plan
+  artifact_INDEX -->|generated| artifact_quality_model
+  requirement_REQ_G0 ==>|covers| gate_G0
+  artifact_requirements_specification -->|contains| requirement_REQ_G0
+  test_test_g0_no_history_passes -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_no_history_passes
+  test_test_g0_divergent_fails -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_divergent_fails
+  test_test_g0_convergent_passes -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_convergent_passes
+  requirement_REQ_G1 ==>|covers| gate_G1
+  artifact_requirements_specification -->|contains| requirement_REQ_G1
+  test_test_g1_complete -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_complete
+  test_test_g1_missing_component -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_missing_component
+  test_test_g1_open_gap_blocks -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_open_gap_blocks
+  test_test_claim_g1_and_g2_are_implemented -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_claim_g1_and_g2_are_implemented
+  test_test_central_claim_g1_passing_builds -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_central_claim_g1_passing_builds
+  test_test_central_claim_g1_failing_fails -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_central_claim_g1_failing_fails
+  requirement_REQ_G1_5 ==>|covers| gate_G1_5
+  artifact_requirements_specification -->|contains| requirement_REQ_G1_5
+  test_test_g1_5_duplicate_responsibility_detected -->|verifies| requirement_REQ_G1_5
+  artifact_traceability_matrix -->|contains| test_test_g1_5_duplicate_responsibility_detected
+  test_test_g1_5_clean_spec_passes -->|verifies| requirement_REQ_G1_5
+  artifact_traceability_matrix -->|contains| test_test_g1_5_clean_spec_passes
+  requirement_REQ_G2 ==>|covers| gate_G2
+  artifact_requirements_specification -->|contains| requirement_REQ_G2
+  test_test_g2_missing_substrate -->|verifies| requirement_REQ_G2
+  artifact_traceability_matrix -->|contains| test_test_g2_missing_substrate
+  test_test_g2_flag_ignored_when_probe_succeeds -->|verifies| requirement_REQ_G2
+  artifact_traceability_matrix -->|contains| test_test_g2_flag_ignored_when_probe_succeeds
+  requirement_REQ_G3 ==>|covers| gate_G3
+  artifact_requirements_specification -->|contains| requirement_REQ_G3
+  test_test_g3_no_solver -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_g3_no_solver
+  test_test_g3_solver_returns_candidate -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_g3_solver_returns_candidate
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_claim_g3_g4_g5_are_stubs_not_generators
+  requirement_REQ_G4 ==>|covers| gate_G4
+  artifact_requirements_specification -->|contains| requirement_REQ_G4
+  test_test_g4_no_prover -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_no_prover
+  test_test_g4_falsifiable_prover -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_falsifiable_prover
+  test_test_g4_unfalsifiable_prover_rejected -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_unfalsifiable_prover_rejected
+  requirement_REQ_G5 ==>|covers| gate_G5
+  artifact_requirements_specification -->|contains| requirement_REQ_G5
+  test_test_g5_no_resolver -->|verifies| requirement_REQ_G5
+  artifact_traceability_matrix -->|contains| test_test_g5_no_resolver
+  test_test_g5_self_tie_ok -->|verifies| requirement_REQ_G5
+  artifact_traceability_matrix -->|contains| test_test_g5_self_tie_ok
+  test_test_g1_complete -->|traces_to| requirement_REQ_G1
+  test_test_g1_missing_component -->|traces_to| requirement_REQ_G1
+  test_test_g1_open_gap_blocks -->|traces_to| requirement_REQ_G1
+  test_test_g2_missing_substrate -->|traces_to| requirement_REQ_G2
+  test_test_g2_flag_ignored_when_probe_succeeds -->|traces_to| requirement_REQ_G2
+  test_test_g3_no_solver -->|traces_to| requirement_REQ_G3
+  test_test_g3_solver_returns_candidate -->|traces_to| requirement_REQ_G3
+  test_test_g4_no_prover -->|traces_to| requirement_REQ_G4
+  test_test_g4_falsifiable_prover -->|traces_to| requirement_REQ_G4
+  test_test_g4_unfalsifiable_prover_rejected -->|traces_to| requirement_REQ_G4
+  test_test_g5_no_resolver -->|traces_to| requirement_REQ_G5
+  test_test_g5_self_tie_ok -->|traces_to| requirement_REQ_G5
+  test_test_g0_no_history_passes -->|traces_to| requirement_REQ_G0
+  test_test_g0_divergent_fails -->|traces_to| requirement_REQ_G0
+  test_test_g0_convergent_passes -->|traces_to| requirement_REQ_G0
+  test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
+  test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
+  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G2
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
+  test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
+  gate_G0 -->|tested_by| test_test_g0_no_history_passes
+  gate_G0 -->|tested_by| test_test_g0_divergent_fails
+  gate_G0 -->|tested_by| test_test_g0_convergent_passes
+  gate_G1 -->|tested_by| test_test_g1_complete
+  gate_G1 -->|tested_by| test_test_g1_missing_component
+  gate_G1 -->|tested_by| test_test_g1_open_gap_blocks
+  gate_G1 -->|tested_by| test_test_claim_g1_and_g2_are_implemented
+  gate_G1 -->|tested_by| test_test_central_claim_g1_passing_builds
+  gate_G1 -->|tested_by| test_test_central_claim_g1_failing_fails
+  gate_G1_5 -->|tested_by| test_test_g1_5_duplicate_responsibility_detected
+  gate_G1_5 -->|tested_by| test_test_g1_5_clean_spec_passes
+  gate_G2 -->|tested_by| test_test_g2_missing_substrate
+  gate_G2 -->|tested_by| test_test_g2_flag_ignored_when_probe_succeeds
+  gate_G3 -->|tested_by| test_test_g3_no_solver
+  gate_G3 -->|tested_by| test_test_g3_solver_returns_candidate
+  gate_G3 -->|tested_by| test_test_claim_g3_g4_g5_are_stubs_not_generators
+  gate_G4 -->|tested_by| test_test_g4_no_prover
+  gate_G4 -->|tested_by| test_test_g4_falsifiable_prover
+  gate_G4 -->|tested_by| test_test_g4_unfalsifiable_prover_rejected
+  gate_G5 -->|tested_by| test_test_g5_no_resolver
+  gate_G5 -->|tested_by| test_test_g5_self_tie_ok
+  artifact_security_controls -->|contains| control_input_validation
+  control_input_validation ==>|maps_to| framework_NIST SP 800_53 SI
+  control_input_validation ==>|maps_to| framework_ISO 27002 8_28
+  artifact_security_controls -->|contains| control_integrity
+  control_integrity ==>|maps_to| framework_NIST SP 800_53 SI_7
+  control_integrity ==>|maps_to| framework_ISO 27002 8_24
+  artifact_security_controls -->|contains| control_audit_log
+  control_audit_log ==>|maps_to| framework_NIST SP 800_53 AU
+  control_audit_log ==>|maps_to| framework_ISO 27002 8_15
+  artifact_security_controls -.->|considers| adversary_spec author who omits interfaces by accident
+  artifact_security_controls -.->|considers| adversary_spec author who declares duplicate responsibilities without noticing
+  artifact_quality_model -->|declares| characteristic_functional_suitability
+  characteristic_functional_suitability -->|bounded_by| threshold_functional_suitability
+  artifact_quality_model -->|declares| characteristic_reliability
+  characteristic_reliability -->|bounded_by| threshold_reliability
+  artifact_quality_model -->|declares| characteristic_maintainability
+  characteristic_maintainability -->|bounded_by| threshold_maintainability
+  artifact_quality_model -->|declares| characteristic_security
+  characteristic_security -->|bounded_by| threshold_security
+  artifact_quality_model -->|declares| characteristic_compatibility
+  characteristic_compatibility -->|bounded_by| threshold_compatibility
+  artifact_sqa_plan -->|assigns| role_maintainer
+  artifact_sqa_plan -->|assigns| role_reviewer
+  artifact_sqa_plan -->|assigns| role_release_authority
+  artifact_sqa_plan -->|declares| cadence_every commit
+  artifact_ai_rmf_profile -->|declares| decision_ai_rmf
+  decision_ai_rmf ==>|unlocks| artifact_ai_rmf_profile
+  decision_quality_model ==>|unlocks| artifact_quality_model
+  decision_security ==>|unlocks| artifact_security_controls
+  decision_sqa ==>|unlocks| artifact_sqa_plan
+  commit_commit_68f8a3c4fd76 -.->|recorded_in| artifact_provenance_record
+  commit_commit_0258cef40cd9 -.->|recorded_in| artifact_provenance_record
+  commit_commit_14a0515ad06a -.->|recorded_in| artifact_provenance_record
+  commit_commit_6dbedd68a048 -.->|recorded_in| artifact_provenance_record
+  commit_commit_904ae43c71d1 -.->|recorded_in| artifact_provenance_record
+  commit_commit_47018fe8dcfa -.->|recorded_in| artifact_provenance_record
+  commit_commit_bb4834da10df -.->|recorded_in| artifact_provenance_record
+  commit_commit_58665971091e -.->|recorded_in| artifact_provenance_record
+  commit_commit_2e109df113b3 -.->|recorded_in| artifact_provenance_record
+  commit_commit_5cdc31680cac -.->|recorded_in| artifact_provenance_record
+  artifact_INDEX -->|lists| standards_artifact_ai_rmf_profile
+  standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
+  artifact_INDEX -->|lists| standards_artifact_configuration_management
+  standards_artifact_configuration_management -->|materializes| artifact_configuration_management
+  artifact_INDEX -->|lists| standards_artifact_gate_conformance
+  standards_artifact_gate_conformance -->|materializes| artifact_gate_conformance
+  artifact_INDEX -->|lists| standards_artifact_provenance_record
+  standards_artifact_provenance_record -->|materializes| artifact_provenance_record
+  artifact_INDEX -->|lists| standards_artifact_quality_model
+  standards_artifact_quality_model -->|materializes| artifact_quality_model
+  artifact_INDEX -->|lists| standards_artifact_requirements_specification
+  standards_artifact_requirements_specification -->|materializes| artifact_requirements_specification
+  artifact_INDEX -->|lists| standards_artifact_security_controls
+  standards_artifact_security_controls -->|materializes| artifact_security_controls
+  artifact_INDEX -->|lists| standards_artifact_sqa_plan
+  standards_artifact_sqa_plan -->|materializes| artifact_sqa_plan
+  artifact_INDEX -->|lists| standards_artifact_test_documentation
+  standards_artifact_test_documentation -->|materializes| artifact_test_documentation
+  artifact_INDEX -->|lists| standards_artifact_traceability_matrix
+  standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  uci_spec_UCI_AB_TESTING -->|binds| model_boolean
+  uci_spec_UCI_AI_RECS -->|binds| model_boolean
+  uci_spec_UCI_API_MGMT -->|binds| model_boolean
+  uci_spec_UCI_ARCHIVE -->|binds| model_boolean
+  uci_spec_UCI_ARVR_CM -->|binds| model_boolean
+  uci_spec_UCI_BI -->|binds| model_boolean
+  uci_spec_UCI_CCMS -->|binds| model_boolean
+  uci_spec_UCI_CDN -->|binds| model_boolean
+  uci_spec_UCI_CDP -->|binds| model_boolean
+  uci_spec_UCI_CICD -->|binds| model_boolean
+  uci_spec_UCI_CMP -->|binds| model_boolean
+  uci_spec_UCI_CMS -->|binds| model_boolean
+  uci_spec_UCI_COMPLIANCE -->|binds| model_boolean
+  uci_spec_UCI_CXM -->|binds| model_boolean
+  uci_spec_UCI_DAM -->|binds| model_boolean
+  uci_spec_UCI_DATA_LAKE -->|binds| model_boolean
+  uci_spec_UCI_DMP -->|binds| model_boolean
+  uci_spec_UCI_DRM -->|binds| model_boolean
+  uci_spec_UCI_DSP -->|binds| model_boolean
+  uci_spec_UCI_DXP -->|binds| model_boolean
+  uci_spec_UCI_ESP -->|binds| model_boolean
+  uci_spec_UCI_FEEDBACK -->|binds| model_boolean
+  uci_spec_UCI_GAMIFICATION -->|binds| model_boolean
+  uci_spec_UCI_HEADLESS_CMS -->|binds| model_boolean
+  uci_spec_UCI_HLS -->|binds| model_boolean
+  uci_spec_UCI_KMS -->|binds| model_boolean
+  uci_spec_UCI_KNOWLEDGE_GRAPH -->|binds| model_boolean
+  uci_spec_UCI_MAP -->|binds| model_boolean
+  uci_spec_UCI_MCM -->|binds| model_boolean
+  uci_spec_UCI_MODERATION -->|binds| model_boolean
+  uci_spec_UCI_MRM -->|binds| model_boolean
+  uci_spec_UCI_NFT -->|binds| model_boolean
+  uci_spec_UCI_PERMISSIONS -->|binds| model_boolean
+  uci_spec_UCI_PMS -->|binds| model_boolean
+  uci_spec_UCI_PRIVACY -->|binds| model_boolean
+  uci_spec_UCI_RPA -->|binds| model_boolean
+  uci_spec_UCI_SMMS -->|binds| model_boolean
+  uci_spec_UCI_TMS -->|binds| model_boolean
+  uci_spec_UCI_VOICE_CM -->|binds| model_boolean
+  uci_spec_UCI_WCM -->|binds| model_boolean
+  commit_b09f04dfb52e -.->|recorded_in| artifact_provenance_record
+  commit_07a1de6c9a71 -.->|recorded_in| artifact_provenance_record
+  commit_5c72631368c7 -.->|recorded_in| artifact_provenance_record
+  commit_728f1fd8149c -.->|recorded_in| artifact_provenance_record
+  commit_4ed7b880bbd8 -.->|recorded_in| artifact_provenance_record
+  commit_3bce2ac388b2 -.->|recorded_in| artifact_provenance_record
+  commit_0c51328b0d6f -.->|recorded_in| artifact_provenance_record
+  commit_f587d1348979 -.->|recorded_in| artifact_provenance_record
+  commit_da383ef9e7f6 -.->|recorded_in| artifact_provenance_record
+  commit_8337159f78c3 -.->|recorded_in| artifact_provenance_record
+  commit_bf6694cb9d5c -.->|recorded_in| artifact_provenance_record
+  commit_5a71453404fb -.->|recorded_in| artifact_provenance_record
+  commit_0d349cafcec7 -.->|recorded_in| artifact_provenance_record
+  commit_8aa3d666b586 -.->|recorded_in| artifact_provenance_record
+  commit_db1ae8452071 -.->|recorded_in| artifact_provenance_record
+  commit_ce39955beae2 -.->|recorded_in| artifact_provenance_record
+  commit_ce03b07b9c0d -.->|recorded_in| artifact_provenance_record
+  commit_f9ab55760db5 -.->|recorded_in| artifact_provenance_record
+  commit_2edf5141a29e -.->|recorded_in| artifact_provenance_record
+  commit_b3e17fd63bdc -.->|recorded_in| artifact_provenance_record
+  commit_cb2ae80a455c -.->|recorded_in| artifact_provenance_record
+  commit_90253809b4ad -.->|recorded_in| artifact_provenance_record
+  commit_33f842b6a444 -.->|recorded_in| artifact_provenance_record
+  commit_d8368518eeae -.->|recorded_in| artifact_provenance_record
+  commit_615fcf167b38 -.->|recorded_in| artifact_provenance_record
+  commit_e9944f7032b0 -.->|recorded_in| artifact_provenance_record
+  commit_e68c4a7585d7 -.->|recorded_in| artifact_provenance_record
+  commit_2aee866b47f4 -.->|recorded_in| artifact_provenance_record
+  commit_6367a9a831e3 -.->|recorded_in| artifact_provenance_record
+  commit_30b81352e2fe -.->|recorded_in| artifact_provenance_record
+  commit_bc2c0a55eca7 -.->|recorded_in| artifact_provenance_record
+  commit_5c648051cd3a -.->|recorded_in| artifact_provenance_record
+  commit_1438bb25ef4f -.->|recorded_in| artifact_provenance_record
+  commit_bb18b63785e4 -.->|recorded_in| artifact_provenance_record
+  commit_d06b5eb5a71a -.->|recorded_in| artifact_provenance_record
+  commit_edbfbe4c1ac2 -.->|recorded_in| artifact_provenance_record
+  commit_3c2f9b038961 -.->|recorded_in| artifact_provenance_record
+  commit_68f8a3c4fd76 -.->|recorded_in| artifact_provenance_record
+  commit_0258cef40cd9 -.->|recorded_in| artifact_provenance_record
+  commit_14a0515ad06a -.->|recorded_in| artifact_provenance_record
+  commit_6dbedd68a048 -.->|recorded_in| artifact_provenance_record
+  commit_904ae43c71d1 -.->|recorded_in| artifact_provenance_record
+  commit_47018fe8dcfa -.->|recorded_in| artifact_provenance_record
+  commit_bb4834da10df -.->|recorded_in| artifact_provenance_record
+  commit_58665971091e -.->|recorded_in| artifact_provenance_record
+  commit_2e109df113b3 -.->|recorded_in| artifact_provenance_record
+  commit_5cdc31680cac -.->|recorded_in| artifact_provenance_record

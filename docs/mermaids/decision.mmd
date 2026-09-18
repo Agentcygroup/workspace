@@ -1,0 +1,115 @@
+graph TD
+  adversary_spec author who declares duplicate responsibilities without noticing[/"spec author who declares duplicate responsibilities without noticing"/]
+  adversary_spec author who omits interfaces by accident[/"spec author who omits interfaces by accident"/]
+  artifact_INDEX[["INDEX"]]
+  artifact_ai_rmf_profile[["ai_rmf_profile"]]
+  artifact_configuration_management[["configuration_management"]]
+  artifact_gate_conformance[["gate_conformance"]]
+  artifact_provenance_record[["provenance_record"]]
+  artifact_quality_model[["quality_model"]]
+  artifact_requirements_specification[["requirements_specification"]]
+  artifact_security_controls[["security_controls"]]
+  artifact_sqa_plan[["sqa_plan"]]
+  artifact_test_documentation[["test_documentation"]]
+  artifact_traceability_matrix[["traceability_matrix"]]
+  cadence_every commit["every commit"]
+  characteristic_compatibility("compatibility")
+  characteristic_functional_suitability("functional_suitability")
+  characteristic_maintainability("maintainability")
+  characteristic_reliability("reliability")
+  characteristic_security("security")
+  control_audit_log["audit_log"]
+  control_input_validation["input_validation"]
+  control_integrity["integrity"]
+  decision_ai_rmf>"ai_rmf"]
+  decision_quality_model>"quality_model"]
+  decision_security>"security"]
+  decision_sqa>"sqa"]
+  decision_file_ai_rmf["ai_rmf"]
+  decision_file_quality_model["quality_model"]
+  decision_file_security["security"]
+  decision_file_sqa["sqa"]
+  framework_ISO 27002 8_15("ISO 27002 8.15")
+  framework_ISO 27002 8_24("ISO 27002 8.24")
+  framework_ISO 27002 8_28("ISO 27002 8.28")
+  framework_NIST SP 800_53 AU("NIST SP 800-53 AU")
+  framework_NIST SP 800_53 SI("NIST SP 800-53 SI")
+  framework_NIST SP 800_53 SI_7("NIST SP 800-53 SI-7")
+  role_maintainer("maintainer")
+  role_release_authority("release_authority")
+  role_reviewer("reviewer")
+  standards_artifact_ai_rmf_profile["ai_rmf_profile"]
+  standards_artifact_configuration_management["configuration_management"]
+  standards_artifact_gate_conformance["gate_conformance"]
+  standards_artifact_provenance_record["provenance_record"]
+  standards_artifact_quality_model["quality_model"]
+  standards_artifact_requirements_specification["requirements_specification"]
+  standards_artifact_security_controls["security_controls"]
+  standards_artifact_sqa_plan["sqa_plan"]
+  standards_artifact_test_documentation["test_documentation"]
+  standards_artifact_traceability_matrix["traceability_matrix"]
+  threshold_compatibility["compatibility"]
+  threshold_functional_suitability["functional_suitability"]
+  threshold_maintainability["maintainability"]
+  threshold_reliability["reliability"]
+  threshold_security["security"]
+  artifact_INDEX -->|generated| artifact_requirements_specification
+  artifact_INDEX -->|generated| artifact_traceability_matrix
+  artifact_INDEX -->|generated| artifact_test_documentation
+  artifact_INDEX -->|generated| artifact_provenance_record
+  artifact_INDEX -->|generated| artifact_configuration_management
+  artifact_INDEX -->|generated| artifact_gate_conformance
+  artifact_INDEX -->|generated| artifact_security_controls
+  artifact_INDEX -->|generated| artifact_ai_rmf_profile
+  artifact_INDEX -->|generated| artifact_sqa_plan
+  artifact_INDEX -->|generated| artifact_quality_model
+  artifact_security_controls -->|contains| control_input_validation
+  control_input_validation ==>|maps_to| framework_NIST SP 800_53 SI
+  control_input_validation ==>|maps_to| framework_ISO 27002 8_28
+  artifact_security_controls -->|contains| control_integrity
+  control_integrity ==>|maps_to| framework_NIST SP 800_53 SI_7
+  control_integrity ==>|maps_to| framework_ISO 27002 8_24
+  artifact_security_controls -->|contains| control_audit_log
+  control_audit_log ==>|maps_to| framework_NIST SP 800_53 AU
+  control_audit_log ==>|maps_to| framework_ISO 27002 8_15
+  artifact_security_controls -.->|considers| adversary_spec author who omits interfaces by accident
+  artifact_security_controls -.->|considers| adversary_spec author who declares duplicate responsibilities without noticing
+  artifact_quality_model -->|declares| characteristic_functional_suitability
+  characteristic_functional_suitability -->|bounded_by| threshold_functional_suitability
+  artifact_quality_model -->|declares| characteristic_reliability
+  characteristic_reliability -->|bounded_by| threshold_reliability
+  artifact_quality_model -->|declares| characteristic_maintainability
+  characteristic_maintainability -->|bounded_by| threshold_maintainability
+  artifact_quality_model -->|declares| characteristic_security
+  characteristic_security -->|bounded_by| threshold_security
+  artifact_quality_model -->|declares| characteristic_compatibility
+  characteristic_compatibility -->|bounded_by| threshold_compatibility
+  artifact_sqa_plan -->|assigns| role_maintainer
+  artifact_sqa_plan -->|assigns| role_reviewer
+  artifact_sqa_plan -->|assigns| role_release_authority
+  artifact_sqa_plan -->|declares| cadence_every commit
+  artifact_ai_rmf_profile -->|declares| decision_ai_rmf
+  decision_ai_rmf ==>|unlocks| artifact_ai_rmf_profile
+  decision_quality_model ==>|unlocks| artifact_quality_model
+  decision_security ==>|unlocks| artifact_security_controls
+  decision_sqa ==>|unlocks| artifact_sqa_plan
+  artifact_INDEX -->|lists| standards_artifact_ai_rmf_profile
+  standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
+  artifact_INDEX -->|lists| standards_artifact_configuration_management
+  standards_artifact_configuration_management -->|materializes| artifact_configuration_management
+  artifact_INDEX -->|lists| standards_artifact_gate_conformance
+  standards_artifact_gate_conformance -->|materializes| artifact_gate_conformance
+  artifact_INDEX -->|lists| standards_artifact_provenance_record
+  standards_artifact_provenance_record -->|materializes| artifact_provenance_record
+  artifact_INDEX -->|lists| standards_artifact_quality_model
+  standards_artifact_quality_model -->|materializes| artifact_quality_model
+  artifact_INDEX -->|lists| standards_artifact_requirements_specification
+  standards_artifact_requirements_specification -->|materializes| artifact_requirements_specification
+  artifact_INDEX -->|lists| standards_artifact_security_controls
+  standards_artifact_security_controls -->|materializes| artifact_security_controls
+  artifact_INDEX -->|lists| standards_artifact_sqa_plan
+  standards_artifact_sqa_plan -->|materializes| artifact_sqa_plan
+  artifact_INDEX -->|lists| standards_artifact_test_documentation
+  standards_artifact_test_documentation -->|materializes| artifact_test_documentation
+  artifact_INDEX -->|lists| standards_artifact_traceability_matrix
+  standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix

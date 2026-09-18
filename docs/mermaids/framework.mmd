@@ -1,0 +1,32 @@
+graph TD
+  adversary_spec author who declares duplicate responsibilities without noticing[/"spec author who declares duplicate responsibilities without noticing"/]
+  adversary_spec author who omits interfaces by accident[/"spec author who omits interfaces by accident"/]
+  artifact_INDEX[["INDEX"]]
+  artifact_security_controls[["security_controls"]]
+  control_audit_log["audit_log"]
+  control_input_validation["input_validation"]
+  control_integrity["integrity"]
+  decision_security>"security"]
+  framework_ISO 27002 8_15("ISO 27002 8.15")
+  framework_ISO 27002 8_24("ISO 27002 8.24")
+  framework_ISO 27002 8_28("ISO 27002 8.28")
+  framework_NIST SP 800_53 AU("NIST SP 800-53 AU")
+  framework_NIST SP 800_53 SI("NIST SP 800-53 SI")
+  framework_NIST SP 800_53 SI_7("NIST SP 800-53 SI-7")
+  standards_artifact_security_controls["security_controls"]
+  test_test_framework_kinds_count["test_framework_kinds_count"]
+  artifact_INDEX -->|generated| artifact_security_controls
+  artifact_security_controls -->|contains| control_input_validation
+  control_input_validation ==>|maps_to| framework_NIST SP 800_53 SI
+  control_input_validation ==>|maps_to| framework_ISO 27002 8_28
+  artifact_security_controls -->|contains| control_integrity
+  control_integrity ==>|maps_to| framework_NIST SP 800_53 SI_7
+  control_integrity ==>|maps_to| framework_ISO 27002 8_24
+  artifact_security_controls -->|contains| control_audit_log
+  control_audit_log ==>|maps_to| framework_NIST SP 800_53 AU
+  control_audit_log ==>|maps_to| framework_ISO 27002 8_15
+  artifact_security_controls -.->|considers| adversary_spec author who omits interfaces by accident
+  artifact_security_controls -.->|considers| adversary_spec author who declares duplicate responsibilities without noticing
+  decision_security ==>|unlocks| artifact_security_controls
+  artifact_INDEX -->|lists| standards_artifact_security_controls
+  standards_artifact_security_controls -->|materializes| artifact_security_controls

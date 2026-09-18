@@ -8,6 +8,7 @@ import ast
 import json
 from pathlib import Path
 from .schema import Graph, Node, Edge
+from .seed_extras import extend as _extend_extra
 
 
 def _nid(kind: str, name: str) -> str:
@@ -146,4 +147,5 @@ def seed_all(root: Path) -> Graph:
         g.add_node(Node(cid, "commit", act["id"], {"label": act["label"]}))
         g.add_edge(Edge(cid, "artifact:provenance_record", "recorded_in"))
 
+    g = _extend_extra(g, root)
     return g
