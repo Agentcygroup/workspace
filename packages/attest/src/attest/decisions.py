@@ -90,3 +90,30 @@ def load_decisions(root: Path) -> dict[str, Decision]:
         declared = (not missing) and raw.get("status") == "accepted"
         out[fname] = Decision(fname, p, raw, declared, missing)
     return out
+
+
+def is_effective(name: str, decisions: dict) -> bool:
+    """A decision is effective if no *effective* decision revokes it.
+
+    Revocation chains resolve transitively. A revocation that is itself
+    revoked does not revoke.
+    """
+    # Build reverse index: who revokes whom.
+    revoked_by: dict[str, list[str]] = {}
+    for d in decisions.values():
+        target = getattr(d, "revokes", None)
+        if target:
+            revoked_by.setdefault(target, []).append(d.name)
+
+    seen = set()
+    stack = [name]
+    while stack:
+        current = stack.pop()
+        if current in seen:
+            continue
+        seen.add(current)
+        for revoker in revoked_by.get(current, []):
+            if is_effective(revoker, decisions):
+                return False
+            stack.append(revoker)
+    return True

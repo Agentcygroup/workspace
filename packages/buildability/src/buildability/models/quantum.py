@@ -26,3 +26,11 @@ def resolver(a, b):
     if ea == eb:
         return None
     return -1 if ea < eb else 1
+
+
+def witness() -> dict:
+    """A correctness witness: what this model claims and how it is verified."""
+    return {
+        "claim": "quantum model solves by symbolic state evolution",
+        "verified_by": "packages/buildability/tests/test_model_correctness.py::test_quantum_model_solves",
+    }

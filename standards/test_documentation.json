@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 419,
+  "count": 422,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1317,6 +1317,15 @@
       "type": "unit"
     },
     {
+      "test_id": "packages/buildability/tests/test_prover_falsifiable.py::test_prover_can_fail",
+      "location": {
+        "file": "packages/buildability/tests/test_prover_falsifiable.py",
+        "line": 22
+      },
+      "purpose": "The boolean model's prover must return False for a false candidate.",
+      "type": "unit"
+    },
+    {
       "test_id": "packages/buildability/tests/test_claims.py::test_claim_g1_and_g2_are_implemented",
       "location": {
         "file": "packages/buildability/tests/test_claims.py",
@@ -1789,6 +1798,24 @@
       "location": {
         "file": "packages/autonomy/tests/test_production_path.py",
         "line": 77
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/autonomy/tests/test_coordinate.py::test_both_allowed_commits",
+      "location": {
+        "file": "packages/autonomy/tests/test_coordinate.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/autonomy/tests/test_coordinate.py::test_one_refused_aborts",
+      "location": {
+        "file": "packages/autonomy/tests/test_coordinate.py",
+        "line": 22
       },
       "purpose": "(no docstring)",
       "type": "unit"
