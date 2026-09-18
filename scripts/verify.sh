@@ -11,6 +11,23 @@ set -u
 
 cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
+
+# Activate the venv if present so `python` resolves correctly.
+if [ -f ".venv/bin/activate" ]; then
+  # shellcheck disable=SC1091
+  . .venv/bin/activate
+fi
+
+# Fall back to python3 if `python` is not on PATH.
+if ! command -v python >/dev/null 2>&1; then
+  if command -v python3 >/dev/null 2>&1; then
+    python() { python3 "$@"; }
+    export -f python 2>/dev/null || true
+  else
+    echo "verify.sh: no python or python3 on PATH"
+    exit 127
+  fi
+fi
 QUICK=0
 for arg in "$@"; do
   [ "$arg" = "--quick" ] && QUICK=1
@@ -110,7 +127,10 @@ run_stage "attest exports complete" \
 
 # --- stage 9: mermaids are current -----------------------------------------
 run_stage "mermaids render" \
-  python packages/seeds/render.py --all >/dev/null
+  python packages/seeds/render.py --all
+
+run_stage "autonomy contract enforced" \
+  python -m pytest packages/autonomy/tests -q >/dev/null
 
 echo
 echo "==============================================================="

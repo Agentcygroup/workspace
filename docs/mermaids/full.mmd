@@ -46,6 +46,7 @@ graph TD
   commit_728f1fd8149c>"728f1fd8149c"]
   commit_8337159f78c3>"8337159f78c3"]
   commit_8aa3d666b586>"8aa3d666b586"]
+  commit_8cea31b214c9>"8cea31b214c9"]
   commit_90253809b4ad>"90253809b4ad"]
   commit_904ae43c71d1>"904ae43c71d1"]
   commit_9e797794d973>"9e797794d973"]
@@ -683,7 +684,7 @@ graph TD
   test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
   test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
   test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G1
-  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G5
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
   test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
   test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
   gate_G0 -->|tested_by| test_test_g0_no_history_passes
@@ -809,6 +810,7 @@ graph TD
   uci_spec_UCI_TMS -->|binds| model_boolean
   uci_spec_UCI_VOICE_CM -->|binds| model_boolean
   uci_spec_UCI_WCM -->|binds| model_boolean
+  commit_8cea31b214c9 -.->|recorded_in| artifact_provenance_record
   commit_9e797794d973 -.->|recorded_in| artifact_provenance_record
   commit_f0aacd0abac8 -.->|recorded_in| artifact_provenance_record
   commit_e5bff7d6b869 -.->|recorded_in| artifact_provenance_record

@@ -1,0 +1,107 @@
+# Autonomy Contract
+# Delegates specific action classes at specific scopes and levels.
+# Read by packages/autonomy/src/autonomy/evaluator.py.
+#
+# Any action not listed is DENIED by default.
+# Any action listed requires every condition under `requires` to hold.
+#
+# Levels:
+#   low    - detect, propose, request approval
+#   medium - execute parameterized runbooks with checkpoint
+#   high   - execute without per-step human approval, audited
+
+version: 1
+default_decision: deny
+
+kill_switches:
+  ops.hold_all:      { active: false, description: "freeze all ops actions" }
+  ops.kill_high:     { active: false, description: "revoke high-level ops autonomy" }
+  infra.hold_all:    { active: false, description: "freeze all infra actions" }
+  org.hold_all:      { active: true,  description: "org actions never autonomous" }
+
+scopes:
+
+  ops:
+    audit_sources: [prometheus, alertmanager, kubernetes_audit]
+    levels:
+      low:
+        authorized:
+          - detect
+          - propose
+          - request_approval
+        kill_switches: [ops.hold_all]
+      medium:
+        authorized:
+          - runbook_execute
+          - rollback
+        requires:
+          - confidence >= 0.90
+          - blast_radius <= 3
+          - reversibility in [seconds, minutes]
+        kill_switches: [ops.hold_all]
+      high:
+        authorized:
+          - auto_scale
+          - auto_reroute
+          - auto_rollback
+        requires:
+          - confidence >= 0.99
+          - blast_radius <= 1
+          - reversibility == seconds
+          - audit_enabled == true
+        kill_switches: [ops.hold_all, ops.kill_high]
+
+  org:
+    audit_sources: [decisions_log, policy_change_log]
+    levels:
+      low:
+        authorized:
+          - report
+          - propose_policy_change
+        kill_switches: [org.hold_all]
+      medium:
+        authorized: []
+        reason: "no autonomous org decisions permitted"
+      high:
+        authorized: []
+        reason: "no autonomous org decisions permitted"
+
+  infra:
+    audit_sources: [kubernetes_audit, falco, network_policy_log]
+    levels:
+      low:
+        authorized:
+          - scan
+          - report
+          - propose_change
+        kill_switches: [infra.hold_all]
+      medium:
+        authorized:
+          - apply_network_policy
+          - rotate_secret
+        requires:
+          - confidence >= 0.95
+          - blast_radius <= 10
+          - reversibility in [seconds, minutes]
+        kill_switches: [infra.hold_all]
+      high:
+        authorized: []
+        reason: "requires blast-radius measurement not yet implemented"
+
+# Blast-radius ceilings per action class. A measurer must return a number
+# that does not exceed the ceiling for the level.
+blast_radius:
+  detect: 0
+  propose: 0
+  request_approval: 0
+  runbook_execute: 3
+  rollback: 3
+  auto_scale: 1
+  auto_reroute: 1
+  auto_rollback: 1
+  report: 0
+  propose_policy_change: 0
+  scan: 0
+  propose_change: 0
+  apply_network_policy: 10
+  rotate_secret: 5

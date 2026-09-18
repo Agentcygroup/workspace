@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentcy-autonomy"
+version = "0.1.0"
+description = "Declarative autonomy contract with runtime enforcement"
+requires-python = ">=3.10"
+dependencies = ["pyyaml"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
