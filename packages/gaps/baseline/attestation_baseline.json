@@ -1,10 +1,9 @@
 {
-  "saved_at": "2026-09-18T23:39:47.394125+00:00",
+  "saved_at": "2026-09-18T23:40:21.034150+00:00",
   "total": 465,
-  "attested": 462,
-  "unattested": 3,
+  "attested": 463,
+  "unattested": 2,
   "unattested_ids": [
-    "mesh:report:counts",
     "test:test_ames_prover_rejects_non_ames",
     "test:test_ames_registered"
   ]

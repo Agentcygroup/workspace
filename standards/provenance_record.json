@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "9abc076a0edc87a058e44bb3901630253bd1088e",
-  "commit_count": 59,
+  "head": "4cfb009799e37b33b1a1852b6f43f79af1ace60d",
+  "commit_count": 60,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:4cfb009799e3",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:40:12 -0400",
+      "used": "repo",
+      "generated": "commit:4cfb009799e3",
+      "label": "fix: gap_history definitions, namespace_check SKIP module-level"
+    },
     {
       "id": "commit:9abc076a0edc",
       "type": "prov:Activity",
