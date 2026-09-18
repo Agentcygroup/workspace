@@ -20,6 +20,7 @@ from .gates import (
 )
 from .procedure import evaluate, build, Verdict, Regime
 from .compose import evaluate_many, CompositionResult, InterfaceMismatch
+from .models import MODEL_REGISTRY
 from .loader import spec_from_dict, spec_from_file
 from .fixedpoint import is_fixed_point, closure
 from .intent import IntentRatio
@@ -31,6 +32,7 @@ __all__ = [
     "g3_solver", "g4_prover", "g5_resolver",
     "evaluate", "build", "Verdict", "Regime",
     "evaluate_many", "CompositionResult", "InterfaceMismatch",
+    "MODEL_REGISTRY",
     "is_fixed_point", "closure",
     "IntentRatio",
 ]
