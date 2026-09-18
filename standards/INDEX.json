@@ -5,13 +5,10 @@
     "test_documentation",
     "provenance_record",
     "configuration_management",
-    "gate_conformance"
+    "gate_conformance",
+    "security_controls"
   ],
   "omitted_or_error": [
-    {
-      "artifact": "security_controls",
-      "reason": "declared_by is 'unset'; threat_model.assets empty; threat_model.adversaries empty; threat_model.worst_outcomes empty"
-    },
     {
       "artifact": "ai_rmf_profile",
       "reason": "declared_by is 'unset'; is_ai_system_eu_ai_act absent; risk_tier absent"

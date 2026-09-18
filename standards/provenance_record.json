@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "4ed7b880bbd8dda2c9036f8714bfe91a51c08cd4",
-  "commit_count": 43,
+  "head": "728f1fd8149ceb6977dade072bdd412669f73acc",
+  "commit_count": 44,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:728f1fd8149c",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:30:38 -0400",
+      "used": "repo",
+      "generated": "commit:728f1fd8149c",
+      "label": "feat(attest): decision files unlock standards artifacts; refuse with reasons"
+    },
     {
       "id": "commit:4ed7b880bbd8",
       "type": "prov:Activity",

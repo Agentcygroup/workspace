@@ -1,11 +1,25 @@
 {
-  "declared_by": "unset",
-  "declared_at": "unset",
-  "status": "pending",
+  "declared_by": "metadusa",
+  "declared_at": "2026-09-18",
+  "status": "accepted",
   "threat_model": {
-    "assets": [],
-    "adversaries": [],
-    "worst_outcomes": []
+    "assets": [
+      "spec files in mesh/specs/",
+      "generated code in mesh/emitted/",
+      "gate definitions in packages/buildability/"
+    ],
+    "adversaries": [
+      "spec author who omits interfaces by accident",
+      "spec author who declares duplicate responsibilities without noticing"
+    ],
+    "worst_outcomes": [
+      "a spec with no interfaces passes G1 and code is emitted",
+      "two components claim identical responsibility and the system is ambiguous by construction"
+    ]
   },
-  "controls_applied": []
+  "controls_applied": [
+    "input_validation",
+    "integrity",
+    "audit_log"
+  ]
 }

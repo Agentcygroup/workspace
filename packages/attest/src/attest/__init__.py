@@ -8,10 +8,12 @@ not produced and the reason is recorded.
 from .generate import generate_all, ARTIFACTS
 from .decisions import load_decisions, Decision
 from .declared import generate_declared, DECLARED_GENERATORS
+from .interview import interview_interactive, interview_one
 from .evidence import collect
 from .report import write_report
 
 __all__ = [
     "generate_all", "ARTIFACTS", "collect", "write_report",
     "load_decisions", "Decision", "generate_declared", "DECLARED_GENERATORS",
+    "interview_interactive", "interview_one",
 ]

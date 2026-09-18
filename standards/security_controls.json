@@ -1,4 +1,42 @@
 {
-  "status": "omitted",
-  "reason": "declared_by is 'unset'; threat_model.assets empty; threat_model.adversaries empty; threat_model.worst_outcomes empty"
+  "status": "generated",
+  "declared_by": "metadusa",
+  "assets": [
+    "spec files in mesh/specs/",
+    "generated code in mesh/emitted/",
+    "gate definitions in packages/buildability/"
+  ],
+  "adversaries": [
+    "spec author who omits interfaces by accident",
+    "spec author who declares duplicate responsibilities without noticing"
+  ],
+  "worst_outcomes": [
+    "a spec with no interfaces passes G1 and code is emitted",
+    "two components claim identical responsibility and the system is ambiguous by construction"
+  ],
+  "controls": [
+    {
+      "control": "input_validation",
+      "frameworks": [
+        "NIST SP 800-53 SI",
+        "ISO 27002 8.28"
+      ]
+    },
+    {
+      "control": "integrity",
+      "frameworks": [
+        "NIST SP 800-53 SI-7",
+        "ISO 27002 8.24"
+      ]
+    },
+    {
+      "control": "audit_log",
+      "frameworks": [
+        "NIST SP 800-53 AU",
+        "ISO 27002 8.15"
+      ]
+    }
+  ],
+  "unmapped_controls": [],
+  "conformant": true
 }
