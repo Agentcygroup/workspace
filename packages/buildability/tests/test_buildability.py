@@ -42,9 +42,15 @@ def test_g2_missing_substrate():
     assert not r.passed
 
 
-def test_g2_unavailable():
-    r = g2_substrate(_full_spec(substrate_available=False))
-    assert not r.passed
+def test_g2_flag_ignored_when_probe_succeeds():
+    """Probe wins. A spec cannot deny an available substrate.
+
+    This is the design decision made in _g2: the environment answers
+    availability better than the spec author. substrate_available is
+    only consulted when the probe has no information.
+    """
+    r = g2_substrate(_full_spec(substrate="local", substrate_available=False))
+    assert r.passed, r.reason
 
 
 def test_g3_no_solver():
@@ -103,8 +109,14 @@ def test_evaluate_research():
 
 
 def test_evaluate_engineering():
-    v = evaluate(_full_spec(substrate_available=False))
-    assert v.regime == Regime.ENGINEERING
+    """ENGINEERING requires an unavailable substrate, not just a flag.
+
+    To reach ENGINEERING the probe must actually fail. We use a
+    substrate name with no registered probe and substrate_available=False
+    so the probe returns unknown and the flag decides.
+    """
+    v = evaluate(_full_spec(substrate="mystery-substrate", substrate_available=False))
+    assert v.regime == Regime.ENGINEERING, v
 
 
 def test_evaluate_construction():
@@ -162,24 +174,26 @@ def test_no_substrate_is_research_not_engineering():
 
 
 def test_declared_but_unavailable_substrate_is_engineering():
-    """A spec that NAMES a substrate which is unavailable fails G2.
+    """A spec declaring an unknown substrate as unavailable fails G2.
 
-    This is the case G2 was built for: the spec is complete, but the
-    world does not cooperate.
+    The probe returns unknown for unregistered substrate names. In that
+    case the spec's flag decides. substrate_available=False with no
+    probe means the spec author has spoken and the framework honors it.
     """
     from buildability.model import Spec, Component, Interface, Invariant, Lifecycle
     spec = Spec(
         name="HAS-SUB-NO-AVAIL",
-        components=[Component("api", "serve")],
-        interfaces=[Interface("rest", "openapi", "http", "v1", "5xx")],
-        invariants=[Invariant("latency", "p99<200ms")],
+        components=(Component("api", "serve"),),
+        interfaces=(Interface("rest", "openapi", "http", "v1", "5xx"),),
+        invariants=(Invariant("latency", "p99<200ms"),),
         lifecycle=Lifecycle("a", "b", "c", "d", "e"),
-        substrate="kubernetes",
+        substrate="mystery-substrate",
         substrate_available=False,
     )
     v = evaluate(spec)
     assert v.regime == Regime.ENGINEERING, v
-    assert any("unavailable" in r.reason for r in v.results if not r.passed)
+    assert any("declared unavailable" in r.reason
+               for r in v.results if not r.passed)
 
 def test_spec_is_frozen():
     """Spec must reject attribute assignment at runtime."""

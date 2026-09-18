@@ -50,11 +50,16 @@ EXPANDED = REPO / "mesh" / "specs_expanded"
 # ===========================================================================
 
 def test_claim_g1_and_g2_are_implemented():
-    """G1 (spec) and G2 (substrate) are structurally checked."""
-    # G1 checks presence of six elements.
+    """G1 (spec) and G2 (substrate) are both structurally checked.
+
+    G2 semantics: probe first, fall back to substrate_available only
+    when the probe has no opinion. This test pins the fallback path.
+    """
     assert evaluate(full_spec()).regime in ("CONSTRUCTION", "BUILDABLE")
-    # G2 checks substrate flag.
-    assert evaluate(full_spec(substrate_available=False)).regime == "ENGINEERING"
+    # An unknown substrate with the flag False lands at ENGINEERING.
+    v = evaluate(full_spec(substrate="mystery-substrate",
+                           substrate_available=False))
+    assert v.regime == "ENGINEERING"
 
 
 def test_claim_g3_g4_g5_are_stubs_not_generators():

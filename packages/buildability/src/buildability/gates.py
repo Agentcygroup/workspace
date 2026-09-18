@@ -78,20 +78,14 @@ def _g2(spec: Spec, _history) -> tuple[bool, str]:
     if not spec.substrate:
         return False, "no substrate declared"
 
-    if spec.substrate_available is False:
-        result = probe(spec.substrate)
-        return False, f"substrate '{spec.substrate}' declared unavailable ({result.reason})"
-
-    if spec.substrate_available is True:
-        result = probe(spec.substrate)
-        return True, f"substrate '{spec.substrate}' declared available ({result.reason})"
-
     result = probe(spec.substrate)
     if result.available:
         return True, f"substrate '{spec.substrate}' available ({result.reason})"
-    if result.unknown:
-        return False, f"substrate '{spec.substrate}' unknown ({result.reason})"
-    return False, f"substrate '{spec.substrate}' unavailable ({result.reason})"
+    if not result.unknown:
+        return False, f"substrate '{spec.substrate}' unavailable ({result.reason})"
+    if spec.substrate_available is True:
+        return True, f"substrate '{spec.substrate}' declared available, unverified"
+    return False, f"substrate '{spec.substrate}' declared unavailable, unverified"
 
 
 def _g3(spec: Spec, _history) -> tuple[bool, str, Any]:
