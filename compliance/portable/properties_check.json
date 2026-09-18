@@ -1,0 +1,10 @@
+{
+  "sovereign": true,
+  "airgapped": true,
+  "airgapped_offenders": [],
+  "offline": true,
+  "idempotent": true,
+  "composable": true,
+  "interoperable": true,
+  "fingerprint": "0d63e2c1fa57810fdf77214171f9a4578fef757aa7fce496206cabbdcaf46b1f"
+}

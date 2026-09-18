@@ -1,0 +1,8 @@
+[
+  "linux",
+  "macos",
+  "windows",
+  "bsd",
+  "wasi",
+  "unknown"
+]

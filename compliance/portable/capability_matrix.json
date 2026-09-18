@@ -1,0 +1,120 @@
+[
+  {
+    "target": "linux",
+    "toolchain": {
+      "cc": "cc",
+      "cxx": "c++",
+      "linker": "ld"
+    },
+    "extensions": {
+      "exe": "",
+      "lib": ".so",
+      "obj": ".o"
+    },
+    "paths": {
+      "sep": "/",
+      "path_sep": ":",
+      "home": "HOME",
+      "tmp": "/tmp"
+    },
+    "shell": "sh",
+    "install": "python3 -m pip install --user <pkg>"
+  },
+  {
+    "target": "macos",
+    "toolchain": {
+      "cc": "clang",
+      "cxx": "clang++",
+      "linker": "ld64"
+    },
+    "extensions": {
+      "exe": "",
+      "lib": ".dylib",
+      "obj": ".o"
+    },
+    "paths": {
+      "sep": "/",
+      "path_sep": ":",
+      "home": "HOME",
+      "tmp": "/tmp"
+    },
+    "shell": "zsh",
+    "install": "brew install <pkg>  # or: python3 -m pip install --user <pkg>"
+  },
+  {
+    "target": "windows",
+    "toolchain": {
+      "cc": "cl.exe",
+      "cxx": "cl.exe",
+      "linker": "link.exe"
+    },
+    "extensions": {
+      "exe": ".exe",
+      "lib": ".dll",
+      "obj": ".obj"
+    },
+    "paths": {
+      "sep": "\\",
+      "path_sep": ";",
+      "home": "USERPROFILE",
+      "tmp": "C:\\Windows\\Temp"
+    },
+    "shell": "powershell",
+    "install": "py -m pip install --user <pkg>"
+  },
+  {
+    "target": "bsd",
+    "toolchain": {
+      "cc": "cc",
+      "cxx": "c++",
+      "linker": "ld"
+    },
+    "extensions": {
+      "exe": "",
+      "lib": ".so",
+      "obj": ".o"
+    },
+    "paths": {
+      "sep": "/",
+      "path_sep": ":",
+      "home": "HOME",
+      "tmp": "/tmp"
+    },
+    "shell": "sh",
+    "install": "pkg_add <pkg>  # or: python3 -m pip install --user <pkg>"
+  },
+  {
+    "target": "wasi",
+    "toolchain": {
+      "cc": "clang",
+      "cxx": "clang++",
+      "linker": "wasm-ld"
+    },
+    "extensions": {
+      "exe": ".wasm",
+      "lib": ".wasm",
+      "obj": ".o"
+    },
+    "paths": {
+      "sep": "/",
+      "path_sep": ":",
+      "home": "HOME",
+      "tmp": "/tmp"
+    },
+    "shell": "sh",
+    "install": "not applicable"
+  },
+  {
+    "target": "unknown",
+    "toolchain": {},
+    "extensions": {},
+    "paths": {
+      "sep": "/",
+      "path_sep": ":",
+      "home": "HOME",
+      "tmp": "/tmp"
+    },
+    "shell": "sh",
+    "install": "python3 -m pip install --user <pkg>"
+  }
+]

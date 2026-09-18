@@ -1,0 +1,7 @@
+{
+  "os": "macos",
+  "arch": "arm64",
+  "python": "3.14.7",
+  "executable": "/Users/metadusa/workspace/.venv/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}
