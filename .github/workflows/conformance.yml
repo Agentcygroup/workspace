@@ -1,0 +1,21 @@
+name: conformance
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  standard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e packages/core -e packages/standard pytest
+      - run: python -m pytest packages/standard/tests -q
+      - run: python -c "from standard import conformance_report; import json,sys; r=conformance_report(); open('conformance_report.json','w').write(json.dumps(r,indent=2)); assert r['articles']==10, 'article count drifted'; assert r['refusals']==6, 'refusal count drifted'; assert r['moats_total']==10, 'moat count drifted'; assert r['scoped_completion'] is False; assert r['unscoped_completion']=='undefined'; print('conformance ok')"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: conformance_report
+          path: conformance_report.json

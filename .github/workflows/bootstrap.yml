@@ -1,0 +1,23 @@
+name: bootstrap
+on:
+  push:
+    tags: ["v*"]
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+jobs:
+  fresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: chmod +x bootstrap.sh
+      - run: ./bootstrap.sh
+      - run: python -c "import json; r=json.load(open('bootstrap_report.json')); assert r['status']=='pass', 'bootstrap failed'; assert r['packages_total']>=13, 'package count drifted'; print('bootstrap verified:', r['packages_total'], 'packages,', r['pytest_exit_code'], 'exit')"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bootstrap_report
+          path: bootstrap_report.json
