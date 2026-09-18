@@ -10,6 +10,25 @@ REPORT = ROOT / "mesh" / "report.json"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kinds import engine_for
 
+
+def _gate(raw: dict) -> str | None:
+    """Return regime string if the spec must be refused, else None.
+
+    RESEARCH and INCOHERENT mean the spec is not ready to emit.
+    DIVERGENT means iteration will not converge.
+    """
+    try:
+        from buildability import spec_from_dict, evaluate
+    except ImportError:
+        return None
+    try:
+        v = evaluate(spec_from_dict(raw))
+    except Exception as e:
+        return f"gate-error: {e}"
+    if v.regime in ("RESEARCH", "INCOHERENT", "DIVERGENT"):
+        return v.regime
+    return None
+
 def load_specs():
     out = []
     for p in sorted(SPECS.glob("*.json")):

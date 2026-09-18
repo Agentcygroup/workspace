@@ -65,9 +65,33 @@ class Verdict:
             ],
         }
 
+def _bind_model(spec: Spec) -> Spec:
+    """If spec has no solver and a model is declared (on spec.model,
+    falling back to spec.substrate for backwards compatibility), return
+    a copy with solver/prover/resolver bound to that model.
+    """
+    if spec.solver is not None:
+        return spec
+    try:
+        from .models import MODEL_REGISTRY
+    except ImportError:
+        return spec
+    name = (spec.model or spec.substrate or "").lower()
+    model = MODEL_REGISTRY.get(name)
+    if model is None:
+        return spec
+    return spec.replace(
+        solver=lambda: model.solver(spec),
+        prover=lambda c: model.prover(c, spec),
+        resolver=lambda a, b: model.resolver(a, b),
+    )
+
+
 def evaluate(spec: Spec, gap_history: list[int] | None = None) -> Verdict:
     """Run all gates in REGISTRY order; the first failure names the regime."""
     from .gates import REGISTRY, Gate
+
+    spec = _bind_model(spec)
 
     results: list[GateResult] = []
     candidate = None

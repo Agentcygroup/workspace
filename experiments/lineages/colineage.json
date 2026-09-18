@@ -1,0 +1,1817 @@
+[
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Alan Turing",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Alfred North Whitehead",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Alonzo Church",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Aristotle",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Bertrand Russell",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Al-Khwarizmi",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Alfred North Whitehead",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Alonzo Church",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Aristotle",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Bertrand Russell",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Alonzo Church",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Aristotle",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Bertrand Russell",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alfred North Whitehead",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Aristotle",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Bertrand Russell",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Alonzo Church",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Bertrand Russell",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Bertrand Russell",
+    "target": "Euclid",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Bertrand Russell",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Bertrand Russell",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Bertrand Russell",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Bertrand Russell",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Euclid",
+    "target": "George Boole",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Euclid",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Euclid",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Euclid",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "George Boole",
+    "target": "Gottlob Frege",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "George Boole",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "George Boole",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Gottlob Frege",
+    "target": "Kurt Godel",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Gottlob Frege",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Kurt Godel",
+    "target": "Leibniz",
+    "lineage": "I. Logic & Formal Reasoning"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Blaise Pascal",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Claude Shannon",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "John von Neumann",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Joseph Fourier",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Leonhard Euler",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Andrey Kolmogorov",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Claude Shannon",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "John von Neumann",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Joseph Fourier",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Leonhard Euler",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Blaise Pascal",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "John von Neumann",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Joseph Fourier",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Leonhard Euler",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Joseph Fourier",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Leonhard Euler",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Joseph Fourier",
+    "target": "Leonhard Euler",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Joseph Fourier",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Joseph Fourier",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Joseph Fourier",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Joseph Fourier",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Leonhard Euler",
+    "target": "Pierre de Fermat",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Leonhard Euler",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Leonhard Euler",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Leonhard Euler",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Pierre de Fermat",
+    "target": "Pierre-Simon Laplace",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Pierre de Fermat",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Pierre de Fermat",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Pierre-Simon Laplace",
+    "target": "Richard Bellman",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Pierre-Simon Laplace",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Richard Bellman",
+    "target": "Thomas Bayes",
+    "lineage": "II. Mathematics of Uncertainty & Optimization"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Claude Shannon",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Erwin Schrodinger",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Isaac Newton",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "James Clerk Maxwell",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "John Bardeen",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Erwin Schrodinger",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Isaac Newton",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "James Clerk Maxwell",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "John Bardeen",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Isaac Newton",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "James Clerk Maxwell",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "John Bardeen",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Erwin Schrodinger",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "James Clerk Maxwell",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "John Bardeen",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Isaac Newton",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "John Bardeen",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "Ludwig Boltzmann",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "John Bardeen",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Ludwig Boltzmann",
+    "target": "Niels Bohr",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Ludwig Boltzmann",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Ludwig Boltzmann",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Ludwig Boltzmann",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Ludwig Boltzmann",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Rolf Landauer",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Rolf Landauer",
+    "target": "Walter Brattain",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Rolf Landauer",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Rolf Landauer",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Walter Brattain",
+    "target": "Werner Heisenberg",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Walter Brattain",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "William Shockley",
+    "lineage": "III. Physics & Constraint Boundaries"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Claude Shannon",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Demis Hassabis",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Frank Rosenblatt",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Geoffrey Hinton",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "John McCarthy",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Alan Turing",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Demis Hassabis",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Frank Rosenblatt",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Geoffrey Hinton",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "John McCarthy",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Claude Shannon",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Frank Rosenblatt",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Geoffrey Hinton",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "John McCarthy",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Demis Hassabis",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Geoffrey Hinton",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "John McCarthy",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Frank Rosenblatt",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "John McCarthy",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Geoffrey Hinton",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "John von Neumann",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John McCarthy",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Judea Pearl",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "John von Neumann",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Judea Pearl",
+    "target": "Marvin Minsky",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Judea Pearl",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Judea Pearl",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Judea Pearl",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Marvin Minsky",
+    "target": "Norbert Wiener",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Marvin Minsky",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Marvin Minsky",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Norbert Wiener",
+    "target": "Yann LeCun",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Norbert Wiener",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Yann LeCun",
+    "target": "Yoshua Bengio",
+    "lineage": "IV. Computation & Intelligence"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "David Ricardo",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Elinor Ostrom",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Friedrich Hayek",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "John Maynard Keynes",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Karl Marx",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Adam Smith",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Elinor Ostrom",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Friedrich Hayek",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "John Maynard Keynes",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Karl Marx",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "David Ricardo",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "Friedrich Hayek",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "John Maynard Keynes",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "Karl Marx",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Elinor Ostrom",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Friedrich Hayek",
+    "target": "John Maynard Keynes",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Friedrich Hayek",
+    "target": "Karl Marx",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Friedrich Hayek",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Friedrich Hayek",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Friedrich Hayek",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "John Maynard Keynes",
+    "target": "Karl Marx",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "John Maynard Keynes",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "John Maynard Keynes",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "John Maynard Keynes",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Karl Marx",
+    "target": "Kenneth Arrow",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Karl Marx",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Karl Marx",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Kenneth Arrow",
+    "target": "Leon Walras",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Kenneth Arrow",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Leon Walras",
+    "target": "Ronald Coase",
+    "lineage": "V. Economics & Coordination"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Confucius",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Hammurabi",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "James Madison",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "John Locke",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Montesquieu",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Aristotle",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "Hammurabi",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "James Madison",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "John Locke",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "Montesquieu",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Confucius",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "James Madison",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "John Locke",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "Montesquieu",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Hammurabi",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "James Madison",
+    "target": "John Locke",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "James Madison",
+    "target": "Montesquieu",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "James Madison",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "James Madison",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "James Madison",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "John Locke",
+    "target": "Montesquieu",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "John Locke",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "John Locke",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "John Locke",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Montesquieu",
+    "target": "Niccolo Machiavelli",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Montesquieu",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Montesquieu",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Niccolo Machiavelli",
+    "target": "Plato",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Niccolo Machiavelli",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Plato",
+    "target": "Thomas Hobbes",
+    "lineage": "VI. Governance & Political Structure"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Daniel Kahneman",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Donald Hebb",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Jean Piaget",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Karl Friston",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Noam Chomsky",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Amos Tversky",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "Donald Hebb",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "Jean Piaget",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "Karl Friston",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "Noam Chomsky",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Daniel Kahneman",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Donald Hebb",
+    "target": "Jean Piaget",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Donald Hebb",
+    "target": "Karl Friston",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Donald Hebb",
+    "target": "Noam Chomsky",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Donald Hebb",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Donald Hebb",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Jean Piaget",
+    "target": "Karl Friston",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Jean Piaget",
+    "target": "Noam Chomsky",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Jean Piaget",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Jean Piaget",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Karl Friston",
+    "target": "Noam Chomsky",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Karl Friston",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Karl Friston",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Noam Chomsky",
+    "target": "Sigmund Freud",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Noam Chomsky",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Sigmund Freud",
+    "target": "William James",
+    "lineage": "VII. Cognitive & Mind Science"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Jay Forrester",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Ludwig von Bertalanffy",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Paul Baran",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Stafford Beer",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Tim Berners-Lee",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Bob Kahn",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Jay Forrester",
+    "target": "Ludwig von Bertalanffy",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Jay Forrester",
+    "target": "Paul Baran",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Jay Forrester",
+    "target": "Stafford Beer",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Jay Forrester",
+    "target": "Tim Berners-Lee",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Jay Forrester",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Ludwig von Bertalanffy",
+    "target": "Paul Baran",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Ludwig von Bertalanffy",
+    "target": "Stafford Beer",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Ludwig von Bertalanffy",
+    "target": "Tim Berners-Lee",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Ludwig von Bertalanffy",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Paul Baran",
+    "target": "Stafford Beer",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Paul Baran",
+    "target": "Tim Berners-Lee",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Paul Baran",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Stafford Beer",
+    "target": "Tim Berners-Lee",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Stafford Beer",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Tim Berners-Lee",
+    "target": "Vint Cerf",
+    "lineage": "VIII. Systems & Networks"
+  },
+  {
+    "source": "Agricultural system designers",
+    "target": "Ancient navigators",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Agricultural system designers",
+    "target": "Anonymous metallurgists",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Agricultural system designers",
+    "target": "Early astronomers in Mesopotamia China Mesoamerica",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Agricultural system designers",
+    "target": "Early toolmakers",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Ancient navigators",
+    "target": "Anonymous metallurgists",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Ancient navigators",
+    "target": "Early astronomers in Mesopotamia China Mesoamerica",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Ancient navigators",
+    "target": "Early toolmakers",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Anonymous metallurgists",
+    "target": "Early astronomers in Mesopotamia China Mesoamerica",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Anonymous metallurgists",
+    "target": "Early toolmakers",
+    "lineage": "IX. Deep Ancestral Minds"
+  },
+  {
+    "source": "Early astronomers in Mesopotamia China Mesoamerica",
+    "target": "Early toolmakers",
+    "lineage": "IX. Deep Ancestral Minds"
+  }
+]

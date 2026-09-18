@@ -1,0 +1,155 @@
+I. Logic & Formal Reasoning
+Aristotle
+formal logic foundations
+Euclid
+axiomatic systems
+Al-Khwarizmi
+algorithmic procedure
+Leibniz
+symbolic logic vision
+George Boole
+Boolean algebra
+Gottlob Frege
+modern logic foundations
+Bertrand Russell / Alfred North Whitehead
+formalism
+Kurt Godel
+limits of formal systems
+Alonzo Church / Alan Turing
+computation formalized
+SECTION
+II. Mathematics of Uncertainty & Optimization
+Blaise Pascal / Pierre de Fermat
+probability theory
+Thomas Bayes
+Bayesian inference
+Pierre-Simon Laplace
+probabilistic determinism
+Andrey Kolmogorov
+axioms of probability
+Leonhard Euler
+network mathematics
+Joseph Fourier
+signal decomposition
+Richard Bellman
+dynamic programming
+John von Neumann
+game theory minimax
+Claude Shannon
+information theory
+SECTION
+III. Physics & Constraint Boundaries
+Isaac Newton
+mechanics
+James Clerk Maxwell
+electromagnetism
+Ludwig Boltzmann
+statistical mechanics
+Albert Einstein
+spacetime constraints
+Niels Bohr / Werner Heisenberg / Erwin Schrodinger
+quantum structure
+Claude Shannon
+information entropy
+Rolf Landauer
+thermodynamic cost of information
+John Bardeen / Walter Brattain / William Shockley
+transistor
+SECTION
+IV. Computation & Intelligence
+Alan Turing
+universal computation
+John von Neumann
+stored-program architecture
+Norbert Wiener
+cybernetics feedback systems
+Claude Shannon
+digital logic
+Marvin Minsky / John McCarthy
+early AI
+Frank Rosenblatt
+perceptron
+Geoffrey Hinton / Yann LeCun / Yoshua Bengio
+neural networks
+Judea Pearl
+causal inference
+Demis Hassabis
+scaled model-based AI systems
+SECTION
+V. Economics & Coordination
+Adam Smith
+distributed coordination via markets
+David Ricardo
+comparative advantage
+Karl Marx
+structural economic analysis
+Leon Walras
+equilibrium modeling
+John Maynard Keynes
+macro coordination
+Friedrich Hayek
+distributed knowledge
+Kenneth Arrow
+social choice limits
+Ronald Coase
+transaction costs
+Elinor Ostrom
+collective resource governance
+SECTION
+VI. Governance & Political Structure
+Hammurabi
+codified law
+Confucius
+social order theory
+Plato / Aristotle
+political philosophy
+Niccolo Machiavelli
+power realism
+Thomas Hobbes
+social contract
+John Locke
+rights framework
+Montesquieu
+separation of powers
+James Madison
+constitutional design
+SECTION
+VII. Cognitive & Mind Science
+William James
+psychology foundations
+Sigmund Freud
+subconscious modeling
+Jean Piaget
+cognitive development
+Donald Hebb
+neural learning rule
+Karl Friston
+predictive processing
+Daniel Kahneman / Amos Tversky
+bounded rationality
+Noam Chomsky
+language structure
+SECTION
+VIII. Systems & Networks
+Ludwig von Bertalanffy
+general systems theory
+Jay Forrester
+system dynamics
+Stafford Beer
+cybernetic governance
+Paul Baran / Vint Cerf / Bob Kahn
+internet architecture
+Tim Berners-Lee
+web protocol layer
+SECTION
+IX. Deep Ancestral Minds
+Early toolmakers
+Upper Paleolithic engineers
+Agricultural system designers
+Agricultural system designers
+Ancient navigators
+Ancient navigators
+Anonymous metallurgists
+Anonymous metallurgists
+Early astronomers in Mesopotamia China Mesoamerica
+Early astronomers in Mesopotamia China Mesoamerica

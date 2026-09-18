@@ -1,0 +1,1392 @@
+[
+  {
+    "source": "A* search",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "A* search",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "A* search",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "A* search",
+    "target": "graph traversal",
+    "weight": 1
+  },
+  {
+    "source": "A* search",
+    "target": "pathfinding",
+    "weight": 1
+  },
+  {
+    "source": "abductive logic programming",
+    "target": "abductive reasoning",
+    "weight": 1
+  },
+  {
+    "source": "action language",
+    "target": "state",
+    "weight": 1
+  },
+  {
+    "source": "action model learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "action model learning",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "activation function",
+    "target": "node",
+    "weight": 2
+  },
+  {
+    "source": "adaptive algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "adaptive neuro fuzzy inference system",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "admissible heuristic",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "admissible heuristic",
+    "target": "heuristic",
+    "weight": 1
+  },
+  {
+    "source": "admissible heuristic",
+    "target": "pathfinding",
+    "weight": 1
+  },
+  {
+    "source": "agent architecture",
+    "target": "intelligent control",
+    "weight": 1
+  },
+  {
+    "source": "agent architecture",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "AI accelerator",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "AI-complete",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "algorithmic efficiency",
+    "target": "algorithm",
+    "weight": 2
+  },
+  {
+    "source": "analytics",
+    "target": "interpretation",
+    "weight": 1
+  },
+  {
+    "source": "answer set programming",
+    "target": "declarative programming",
+    "weight": 1
+  },
+  {
+    "source": "anytime algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "application programming interface",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "artificial immune system",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "Artificial Intelligence Markup Language",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "Association for the Advancement of Artificial Intelligence",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "asymptotic computational complexity",
+    "target": "computational complexity theory",
+    "weight": 1
+  },
+  {
+    "source": "attention mechanism",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "autoencoder",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "automated machine learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "automated planning and scheduling",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "automated reasoning",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "bag-of-words model",
+    "target": "natural language processing",
+    "weight": 1
+  },
+  {
+    "source": "bees algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "bees algorithm",
+    "target": "search algorithm",
+    "weight": 1
+  },
+  {
+    "source": "behavior tree",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "behavior tree",
+    "target": "robotics",
+    "weight": 1
+  },
+  {
+    "source": "belief desire intention software model",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "big data",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "binary tree",
+    "target": "node",
+    "weight": 1
+  },
+  {
+    "source": "blackboard system",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "Boltzmann machine",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "Boltzmann machine",
+    "target": "recurrent neural network",
+    "weight": 1
+  },
+  {
+    "source": "Boolean satisfiability problem",
+    "target": "interpretation",
+    "weight": 1
+  },
+  {
+    "source": "boosting",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "boosting",
+    "target": "metaheuristic",
+    "weight": 1
+  },
+  {
+    "source": "bootstrap aggregating",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "bootstrap aggregating",
+    "target": "metaheuristic",
+    "weight": 1
+  },
+  {
+    "source": "branching factor",
+    "target": "game theory",
+    "weight": 1
+  },
+  {
+    "source": "branching factor",
+    "target": "node",
+    "weight": 1
+  },
+  {
+    "source": "capsule neural network",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "capsule neural network",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "chatbot",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "cloud robotics",
+    "target": "robotics",
+    "weight": 1
+  },
+  {
+    "source": "cognitive computing",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "committee machine",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "commonsense reasoning",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "computational creativity",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "computational cybernetics",
+    "target": "computational intelligence",
+    "weight": 1
+  },
+  {
+    "source": "computational humor",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "computational humor",
+    "target": "computational linguistics",
+    "weight": 1
+  },
+  {
+    "source": "computational learning theory",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "computational learning theory",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "computational statistics",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "computer audition",
+    "target": "machine listening",
+    "weight": 1
+  },
+  {
+    "source": "concept drift",
+    "target": "analytics",
+    "weight": 1
+  },
+  {
+    "source": "concept drift",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "concept drift",
+    "target": "predictive analytics",
+    "weight": 1
+  },
+  {
+    "source": "connectionism",
+    "target": "cognitive science",
+    "weight": 1
+  },
+  {
+    "source": "consistent heuristic",
+    "target": "heuristic",
+    "weight": 1
+  },
+  {
+    "source": "constrained conditional model",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "constraint logic programming",
+    "target": "constraint programming",
+    "weight": 1
+  },
+  {
+    "source": "constraint logic programming",
+    "target": "logic programming",
+    "weight": 1
+  },
+  {
+    "source": "convolutional neural network",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "crossover",
+    "target": "evolutionary computation",
+    "weight": 1
+  },
+  {
+    "source": "crossover",
+    "target": "genetic operator",
+    "weight": 1
+  },
+  {
+    "source": "Darkforest",
+    "target": "convolutional neural network",
+    "weight": 1
+  },
+  {
+    "source": "Darkforest",
+    "target": "deep learning",
+    "weight": 1
+  },
+  {
+    "source": "Darkforest",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "Dartmouth workshop",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "data mining",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "Datalog",
+    "target": "logic programming",
+    "weight": 1
+  },
+  {
+    "source": "Datalog",
+    "target": "programming language",
+    "weight": 1
+  },
+  {
+    "source": "Datalog",
+    "target": "Prolog",
+    "weight": 1
+  },
+  {
+    "source": "decision boundary",
+    "target": "backpropagation",
+    "weight": 1
+  },
+  {
+    "source": "deductive classifier",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "deductive classifier",
+    "target": "inference engine",
+    "weight": 1
+  },
+  {
+    "source": "deep learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "deep learning",
+    "target": "representation learning",
+    "weight": 1
+  },
+  {
+    "source": "DeepMind Technologies",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "Density-based spatial clustering of applications with noise",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "Dijkstra's algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "Dijkstra's algorithm",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "distributed artificial intelligence",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "double descent",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "dropout",
+    "target": "overfitting",
+    "weight": 1
+  },
+  {
+    "source": "dropout",
+    "target": "regularization",
+    "weight": 1
+  },
+  {
+    "source": "early stopping",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "early stopping",
+    "target": "regularization",
+    "weight": 1
+  },
+  {
+    "source": "echo state network",
+    "target": "hidden layer",
+    "weight": 1
+  },
+  {
+    "source": "echo state network",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "echo state network",
+    "target": "recurrent neural network",
+    "weight": 1
+  },
+  {
+    "source": "embodied agent",
+    "target": "intelligent agent",
+    "weight": 1
+  },
+  {
+    "source": "error-driven learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "ensemble learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "epoch",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "ethics of artificial intelligence",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "evolutionary algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "evolutionary algorithm",
+    "target": "evolutionary computation",
+    "weight": 1
+  },
+  {
+    "source": "evolutionary algorithm",
+    "target": "metaheuristic",
+    "weight": 1
+  },
+  {
+    "source": "evolving classification function",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "evolving classification function",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "existential risk",
+    "target": "artificial general intelligence",
+    "weight": 1
+  },
+  {
+    "source": "feature extraction",
+    "target": "feature",
+    "weight": 1
+  },
+  {
+    "source": "feature learning",
+    "target": "feature",
+    "weight": 1
+  },
+  {
+    "source": "federated learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "first-order logic",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "forward chaining",
+    "target": "inference engine",
+    "weight": 1
+  },
+  {
+    "source": "frame",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "frame language",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "friendly artificial intelligence",
+    "target": "artificial general intelligence",
+    "weight": 1
+  },
+  {
+    "source": "fuzzy control system",
+    "target": "fuzzy logic",
+    "weight": 1
+  },
+  {
+    "source": "fuzzy rule",
+    "target": "fuzzy logic",
+    "weight": 1
+  },
+  {
+    "source": "general game playing",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "generalization error",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "generative adversarial network",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "generative artificial intelligence",
+    "target": "artificial intelligence",
+    "weight": 2
+  },
+  {
+    "source": "generative pretrained transformer",
+    "target": "language model",
+    "weight": 1
+  },
+  {
+    "source": "generative pretrained transformer",
+    "target": "large language model",
+    "weight": 1
+  },
+  {
+    "source": "generative pretrained transformer",
+    "target": "transformer",
+    "weight": 1
+  },
+  {
+    "source": "genetic algorithm",
+    "target": "metaheuristic",
+    "weight": 1
+  },
+  {
+    "source": "genetic algorithm",
+    "target": "selection",
+    "weight": 1
+  },
+  {
+    "source": "genetic operator",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "glowworm swarm optimization",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "glowworm swarm optimization",
+    "target": "swarm intelligence",
+    "weight": 1
+  },
+  {
+    "source": "gradient boosting",
+    "target": "boosting",
+    "weight": 1
+  },
+  {
+    "source": "gradient boosting",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "graph",
+    "target": "abstract data type",
+    "weight": 1
+  },
+  {
+    "source": "graph",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "graph database",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "graph traversal",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "hidden layer",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "hyper-heuristic",
+    "target": "heuristic",
+    "weight": 1
+  },
+  {
+    "source": "hyperparameter",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "hyperparameter optimization",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "hyperplane",
+    "target": "decision boundary",
+    "weight": 1
+  },
+  {
+    "source": "hyperplane",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "incremental learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "Information Processing Language",
+    "target": "programming language",
+    "weight": 1
+  },
+  {
+    "source": "intelligence explosion",
+    "target": "artificial general intelligence",
+    "weight": 1
+  },
+  {
+    "source": "intelligent control",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "intelligent personal assistant",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "interpretation",
+    "target": "formal language",
+    "weight": 1
+  },
+  {
+    "source": "intrinsic motivation",
+    "target": "intelligent agent",
+    "weight": 1
+  },
+  {
+    "source": "junction tree algorithm",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "kernel method",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "k-nearest neighbors",
+    "target": "supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "knowledge acquisition",
+    "target": "knowledge-based system",
+    "weight": 1
+  },
+  {
+    "source": "knowledge distillation",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "knowledge representation and reasoning",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "large language model",
+    "target": "language model",
+    "weight": 1
+  },
+  {
+    "source": "lazy learning",
+    "target": "generalization",
+    "weight": 1
+  },
+  {
+    "source": "long short-term memory",
+    "target": "deep learning",
+    "weight": 1
+  },
+  {
+    "source": "long short-term memory",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "long short-term memory",
+    "target": "recurrent neural network",
+    "weight": 1
+  },
+  {
+    "source": "mathematical optimization",
+    "target": "selection",
+    "weight": 1
+  },
+  {
+    "source": "mechanism design",
+    "target": "game theory",
+    "weight": 1
+  },
+  {
+    "source": "metaheuristic",
+    "target": "heuristic",
+    "weight": 2
+  },
+  {
+    "source": "Monte Carlo tree search",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "Monte Carlo tree search",
+    "target": "heuristic",
+    "weight": 1
+  },
+  {
+    "source": "Monte Carlo tree search",
+    "target": "search algorithm",
+    "weight": 1
+  },
+  {
+    "source": "multilayer perceptron",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "multi-swarm optimization",
+    "target": "particle swarm optimization",
+    "weight": 1
+  },
+  {
+    "source": "mutation",
+    "target": "genetic operator",
+    "weight": 1
+  },
+  {
+    "source": "Mycin",
+    "target": "backward chaining",
+    "weight": 1
+  },
+  {
+    "source": "Mycin",
+    "target": "expert system",
+    "weight": 1
+  },
+  {
+    "source": "naive semantics",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "natural language generation",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "natural language processing",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "natural language processing",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "neural machine translation",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "neural Turing machine",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "neural Turing machine",
+    "target": "recurrent neural network",
+    "weight": 1
+  },
+  {
+    "source": "neuro-fuzzy",
+    "target": "fuzzy logic",
+    "weight": 1
+  },
+  {
+    "source": "nondeterministic algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "NP",
+    "target": "computational complexity theory",
+    "weight": 1
+  },
+  {
+    "source": "NP-completeness",
+    "target": "NP",
+    "weight": 1
+  },
+  {
+    "source": "NP-hardness",
+    "target": "NP",
+    "weight": 1
+  },
+  {
+    "source": "offline learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "online machine learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "OpenCog",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "Open Mind Common Sense",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "open-source software",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "partial order reduction",
+    "target": "state",
+    "weight": 1
+  },
+  {
+    "source": "partially observable Markov decision process",
+    "target": "generalization",
+    "weight": 1
+  },
+  {
+    "source": "partially observable Markov decision process",
+    "target": "Markov decision process",
+    "weight": 1
+  },
+  {
+    "source": "perceptron",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "perceptron",
+    "target": "supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "predicate logic",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "predictive analytics",
+    "target": "data mining",
+    "weight": 1
+  },
+  {
+    "source": "predictive analytics",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "programming language",
+    "target": "formal language",
+    "weight": 1
+  },
+  {
+    "source": "Prolog",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "Prolog",
+    "target": "computational linguistics",
+    "weight": 1
+  },
+  {
+    "source": "Prolog",
+    "target": "logic programming",
+    "weight": 1
+  },
+  {
+    "source": "Prolog",
+    "target": "programming language",
+    "weight": 1
+  },
+  {
+    "source": "proximal policy optimization",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "proximal policy optimization",
+    "target": "intelligent agent",
+    "weight": 1
+  },
+  {
+    "source": "proximal policy optimization",
+    "target": "reinforcement learning",
+    "weight": 1
+  },
+  {
+    "source": "Python",
+    "target": "programming language",
+    "weight": 1
+  },
+  {
+    "source": "PyTorch",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "Q-learning",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "Q-learning",
+    "target": "reinforcement learning",
+    "weight": 1
+  },
+  {
+    "source": "Q-learning",
+    "target": "state",
+    "weight": 1
+  },
+  {
+    "source": "R programming language",
+    "target": "programming language",
+    "weight": 1
+  },
+  {
+    "source": "R programming language",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "radial basis function network",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "random forest",
+    "target": "ensemble learning",
+    "weight": 1
+  },
+  {
+    "source": "reasoning system",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "recurrent neural network",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "regularization",
+    "target": "dropout",
+    "weight": 1
+  },
+  {
+    "source": "regularization",
+    "target": "early stopping",
+    "weight": 1
+  },
+  {
+    "source": "reinforcement learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "reinforcement learning",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "representation learning",
+    "target": "feature",
+    "weight": 1
+  },
+  {
+    "source": "representation learning",
+    "target": "feature learning",
+    "weight": 1
+  },
+  {
+    "source": "restricted Boltzmann machine",
+    "target": "neural network",
+    "weight": 1
+  },
+  {
+    "source": "Rete algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "satisfiability",
+    "target": "interpretation",
+    "weight": 1
+  },
+  {
+    "source": "search algorithm",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "selection",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "selection",
+    "target": "genetic algorithm",
+    "weight": 1
+  },
+  {
+    "source": "semantic reasoner",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "semantic query",
+    "target": "analytics",
+    "weight": 1
+  },
+  {
+    "source": "semi-supervised learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "similarity learning",
+    "target": "supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "Selective Linear Definite clause resolution",
+    "target": "logic programming",
+    "weight": 1
+  },
+  {
+    "source": "software engineering",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "spatial-temporal reasoning",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "spatial-temporal reasoning",
+    "target": "cognitive science",
+    "weight": 1
+  },
+  {
+    "source": "spatial-temporal reasoning",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "SPARQL",
+    "target": "query language",
+    "weight": 1
+  },
+  {
+    "source": "sparse dictionary learning",
+    "target": "feature",
+    "weight": 1
+  },
+  {
+    "source": "sparse dictionary learning",
+    "target": "feature learning",
+    "weight": 1
+  },
+  {
+    "source": "speech recognition",
+    "target": "computational linguistics",
+    "weight": 1
+  },
+  {
+    "source": "spiking neural network",
+    "target": "neural network",
+    "weight": 2
+  },
+  {
+    "source": "state action reward state action",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "state action reward state action",
+    "target": "Markov decision process",
+    "weight": 1
+  },
+  {
+    "source": "state action reward state action",
+    "target": "reinforcement learning",
+    "weight": 1
+  },
+  {
+    "source": "statistical relational learning",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "statistical relational learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "stochastic semantic analysis",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "supervised learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "support vector machines",
+    "target": "supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "symbolic artificial intelligence",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "synthetic intelligence",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "temporal difference learning",
+    "target": "reinforcement learning",
+    "weight": 1
+  },
+  {
+    "source": "TensorFlow",
+    "target": "open-source software",
+    "weight": 1
+  },
+  {
+    "source": "TensorFlow",
+    "target": "software",
+    "weight": 1
+  },
+  {
+    "source": "theoretical computer science",
+    "target": "computer science",
+    "weight": 1
+  },
+  {
+    "source": "Thompson sampling",
+    "target": "heuristic",
+    "weight": 1
+  },
+  {
+    "source": "time complexity",
+    "target": "algorithm",
+    "weight": 1
+  },
+  {
+    "source": "transfer learning",
+    "target": "machine learning",
+    "weight": 1
+  },
+  {
+    "source": "transformer",
+    "target": "attention mechanism",
+    "weight": 1
+  },
+  {
+    "source": "transformer",
+    "target": "deep learning",
+    "weight": 1
+  },
+  {
+    "source": "tree traversal",
+    "target": "graph",
+    "weight": 1
+  },
+  {
+    "source": "tree traversal",
+    "target": "graph traversal",
+    "weight": 1
+  },
+  {
+    "source": "true quantified Boolean formula",
+    "target": "formal language",
+    "weight": 1
+  },
+  {
+    "source": "vision processing unit",
+    "target": "machine vision",
+    "weight": 1
+  },
+  {
+    "source": "weak AI",
+    "target": "artificial intelligence",
+    "weight": 1
+  },
+  {
+    "source": "weak supervision",
+    "target": "semi-supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "weak supervision",
+    "target": "supervised learning",
+    "weight": 1
+  },
+  {
+    "source": "word embedding",
+    "target": "natural language processing",
+    "weight": 1
+  },
+  {
+    "source": "XGBoost",
+    "target": "boosting",
+    "weight": 1
+  },
+  {
+    "source": "XGBoost",
+    "target": "gradient boosting",
+    "weight": 1
+  },
+  {
+    "source": "XGBoost",
+    "target": "open-source software",
+    "weight": 1
+  },
+  {
+    "source": "XGBoost",
+    "target": "software",
+    "weight": 1
+  }
+]

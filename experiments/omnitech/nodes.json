@@ -1,0 +1,682 @@
+[
+  {
+    "key": "omnitech",
+    "display": "OmniTech"
+  },
+  {
+    "key": "a unified ecosystem for the digital world",
+    "display": "A Unified Ecosystem for the Digital World"
+  },
+  {
+    "key": "integrates ai ml devops networking iot web development quantum computing data science security programming languages",
+    "display": "Integrates AI ML DevOps Networking IoT Web Development Quantum Computing Data Science Security Programming Languages"
+  },
+  {
+    "key": "super node orchestrates automates accelerates workflows",
+    "display": "Super node orchestrates automates accelerates workflows"
+  },
+  {
+    "key": "ai ml driven automation",
+    "display": "AI ML Driven Automation"
+  },
+  {
+    "key": "auto-gpt deeplearningexamples transformers",
+    "display": "Auto-GPT DeepLearningExamples transformers"
+  },
+  {
+    "key": "predictive analytics pandas tensorflow scikit-learn",
+    "display": "Predictive Analytics pandas tensorflow scikit-learn"
+  },
+  {
+    "key": "generative models stable-diffusion yolov5",
+    "display": "Generative Models Stable-Diffusion yolov5"
+  },
+  {
+    "key": "devops cloud oriented services",
+    "display": "DevOps Cloud Oriented Services"
+  },
+  {
+    "key": "terraform kubernetes helm",
+    "display": "terraform kubernetes helm"
+  },
+  {
+    "key": "docker keda pulumi",
+    "display": "Docker keda pulumi"
+  },
+  {
+    "key": "jenkins argo-cd",
+    "display": "Jenkins argo-cd"
+  },
+  {
+    "key": "prometheus vault",
+    "display": "Prometheus Vault"
+  },
+  {
+    "key": "networking security",
+    "display": "Networking Security"
+  },
+  {
+    "key": "metasploit nmap tor",
+    "display": "Metasploit nmap tor"
+  },
+  {
+    "key": "wireshark bettercap",
+    "display": "Wireshark bettercap"
+  },
+  {
+    "key": "pi-hole",
+    "display": "pi-hole"
+  },
+  {
+    "key": "iot embedded system management",
+    "display": "IoT Embedded System Management"
+  },
+  {
+    "key": "arduino esphome zephyr",
+    "display": "Arduino esphome zephyr"
+  },
+  {
+    "key": "open3d freecad",
+    "display": "Open3D FreeCAD"
+  },
+  {
+    "key": "openocd",
+    "display": "openocd"
+  },
+  {
+    "key": "web development frontend design",
+    "display": "Web Development Frontend Design"
+  },
+  {
+    "key": "react vue next.js django ruby on rails go express.js node.js",
+    "display": "React Vue next.js Django Ruby on Rails Go Express.js Node.js"
+  },
+  {
+    "key": "tailwindcss material-ui bootstrap",
+    "display": "TailwindCSS Material-UI Bootstrap"
+  },
+  {
+    "key": "serverless nestjs",
+    "display": "serverless NestJS"
+  },
+  {
+    "key": "quantum computing integration",
+    "display": "Quantum Computing Integration"
+  },
+  {
+    "key": "qiskit pyquil",
+    "display": "Qiskit pyquil"
+  },
+  {
+    "key": "cirq projectq",
+    "display": "Cirq ProjectQ"
+  },
+  {
+    "key": "data science analytics",
+    "display": "Data Science Analytics"
+  },
+  {
+    "key": "pandas numpy pyspark",
+    "display": "pandas numpy PySpark"
+  },
+  {
+    "key": "matplotlib seaborn plotly",
+    "display": "matplotlib seaborn plotly"
+  },
+  {
+    "key": "tensorflow pytorch scikit-learn",
+    "display": "tensorflow PyTorch scikit-learn"
+  },
+  {
+    "key": "mlflow kubeflow",
+    "display": "mlflow Kubeflow"
+  },
+  {
+    "key": "programming language integration",
+    "display": "Programming Language Integration"
+  },
+  {
+    "key": "python javascript go rust java ruby c++ swift kotlin c#",
+    "display": "Python JavaScript Go Rust Java Ruby C++ Swift Kotlin C#"
+  },
+  {
+    "key": "execute",
+    "display": "Execute"
+  },
+  {
+    "key": "universal development platform",
+    "display": "Universal Development Platform"
+  },
+  {
+    "key": "go golang gin echo fiber gorm",
+    "display": "Go Golang Gin Echo Fiber Gorm"
+  },
+  {
+    "key": "ruby on rails activerecord devise sidekiq",
+    "display": "Ruby on Rails ActiveRecord Devise Sidekiq"
+  },
+  {
+    "key": "express.js node.js mongodb postgresql mysql",
+    "display": "Express.js Node.js MongoDB PostgreSQL MySQL"
+  },
+  {
+    "key": "swift ios uikit swiftui core data cocoapods",
+    "display": "Swift iOS UIKit SwiftUI Core Data CocoaPods"
+  },
+  {
+    "key": "kotlin android jetpack coroutines multiplatform",
+    "display": "Kotlin Android Jetpack Coroutines Multiplatform"
+  },
+  {
+    "key": "aws gcp azure kubernetes docker",
+    "display": "AWS GCP Azure Kubernetes Docker"
+  },
+  {
+    "key": "jenkins gitlab ci travis ci circleci",
+    "display": "Jenkins GitLab CI Travis CI CircleCI"
+  },
+  {
+    "key": "react native flutter electron",
+    "display": "React Native Flutter Electron"
+  },
+  {
+    "key": "ames model",
+    "display": "Ames Model"
+  },
+  {
+    "key": "architecture",
+    "display": "Architecture"
+  },
+  {
+    "key": "modeling",
+    "display": "Modeling"
+  },
+  {
+    "key": "evaluation",
+    "display": "Evaluation"
+  },
+  {
+    "key": "systematic integration",
+    "display": "Systematic Integration"
+  },
+  {
+    "key": "space mission design",
+    "display": "Space Mission Design"
+  },
+  {
+    "key": "enterprise system design",
+    "display": "Enterprise System Design"
+  },
+  {
+    "key": "a i m s",
+    "display": "A I M S"
+  },
+  {
+    "key": "artificial intelligence for mission success",
+    "display": "Artificial Intelligence for Mission Success"
+  },
+  {
+    "key": "simulation and scenario generation",
+    "display": "Simulation and Scenario Generation"
+  },
+  {
+    "key": "predictive modeling",
+    "display": "Predictive Modeling"
+  },
+  {
+    "key": "autonomous system optimization",
+    "display": "Autonomous System Optimization"
+  },
+  {
+    "key": "real time feedback and adaptation",
+    "display": "Real Time Feedback and Adaptation"
+  },
+  {
+    "key": "continuous system monitoring",
+    "display": "Continuous System Monitoring"
+  },
+  {
+    "key": "adaptive control mechanism",
+    "display": "Adaptive Control Mechanism"
+  },
+  {
+    "key": "decision making support and risk management",
+    "display": "Decision Making Support and Risk Management"
+  },
+  {
+    "key": "ai powered decision trees",
+    "display": "AI Powered Decision Trees"
+  },
+  {
+    "key": "risk prediction and mitigation",
+    "display": "Risk Prediction and Mitigation"
+  },
+  {
+    "key": "data integration and analysis",
+    "display": "Data Integration and Analysis"
+  },
+  {
+    "key": "big data processing",
+    "display": "Big Data Processing"
+  },
+  {
+    "key": "cross domain knowledge integration",
+    "display": "Cross Domain Knowledge Integration"
+  },
+  {
+    "key": "system performance monitoring with predictive analytics",
+    "display": "System Performance Monitoring with Predictive Analytics"
+  },
+  {
+    "key": "predictive maintenance",
+    "display": "Predictive Maintenance"
+  },
+  {
+    "key": "optimization algorithms",
+    "display": "Optimization Algorithms"
+  },
+  {
+    "key": "enhanced collaboration and communication",
+    "display": "Enhanced Collaboration and Communication"
+  },
+  {
+    "key": "ai assisted communication",
+    "display": "AI Assisted Communication"
+  },
+  {
+    "key": "collaborative multi agent systems",
+    "display": "Collaborative Multi Agent Systems"
+  },
+  {
+    "key": "autonomous task allocation and execution",
+    "display": "Autonomous Task Allocation and Execution"
+  },
+  {
+    "key": "task distribution",
+    "display": "Task Distribution"
+  },
+  {
+    "key": "automated execution of low level tasks",
+    "display": "Automated Execution of Low Level Tasks"
+  },
+  {
+    "key": "long term mission support with machine learning",
+    "display": "Long Term Mission Support with Machine Learning"
+  },
+  {
+    "key": "long term data collection and learning",
+    "display": "Long Term Data Collection and Learning"
+  },
+  {
+    "key": "self evolving systems",
+    "display": "Self Evolving Systems"
+  },
+  {
+    "key": "human machine collaboration and augmented intelligence",
+    "display": "Human Machine Collaboration and Augmented Intelligence"
+  },
+  {
+    "key": "ai assisted human decision making",
+    "display": "AI Assisted Human Decision Making"
+  },
+  {
+    "key": "augmented reality interfaces",
+    "display": "Augmented Reality Interfaces"
+  },
+  {
+    "key": "system security and integrity",
+    "display": "System Security and Integrity"
+  },
+  {
+    "key": "ai driven threat detection",
+    "display": "AI Driven Threat Detection"
+  },
+  {
+    "key": "data integrity and verification",
+    "display": "Data Integrity and Verification"
+  },
+  {
+    "key": "recursive breakdown",
+    "display": "Recursive Breakdown"
+  },
+  {
+    "key": "eight sub levels",
+    "display": "Eight Sub Levels"
+  },
+  {
+    "key": "bedrock",
+    "display": "Bedrock"
+  },
+  {
+    "key": "formal logic",
+    "display": "Formal Logic"
+  },
+  {
+    "key": "mathematics",
+    "display": "Mathematics"
+  },
+  {
+    "key": "number theory",
+    "display": "Number Theory"
+  },
+  {
+    "key": "linear algebra",
+    "display": "Linear Algebra"
+  },
+  {
+    "key": "calculus",
+    "display": "Calculus"
+  },
+  {
+    "key": "probability statistics",
+    "display": "Probability Statistics"
+  },
+  {
+    "key": "set theory",
+    "display": "Set Theory"
+  },
+  {
+    "key": "deductive reasoning",
+    "display": "Deductive Reasoning"
+  },
+  {
+    "key": "inductive reasoning",
+    "display": "Inductive Reasoning"
+  },
+  {
+    "key": "game theory",
+    "display": "Game Theory"
+  },
+  {
+    "key": "classical mechanics",
+    "display": "Classical Mechanics"
+  },
+  {
+    "key": "thermodynamics",
+    "display": "Thermodynamics"
+  },
+  {
+    "key": "electromagnetism",
+    "display": "Electromagnetism"
+  },
+  {
+    "key": "quantum mechanics",
+    "display": "Quantum Mechanics"
+  },
+  {
+    "key": "relativity",
+    "display": "Relativity"
+  },
+  {
+    "key": "information theory",
+    "display": "Information Theory"
+  },
+  {
+    "key": "computer science",
+    "display": "Computer Science"
+  },
+  {
+    "key": "biological sciences",
+    "display": "Biological Sciences"
+  },
+  {
+    "key": "philosophy ethics",
+    "display": "Philosophy Ethics"
+  },
+  {
+    "key": "epistemology",
+    "display": "Epistemology"
+  },
+  {
+    "key": "metaphysics",
+    "display": "Metaphysics"
+  },
+  {
+    "key": "ethics",
+    "display": "Ethics"
+  },
+  {
+    "key": "design thinking",
+    "display": "Design Thinking"
+  },
+  {
+    "key": "systems thinking",
+    "display": "Systems Thinking"
+  },
+  {
+    "key": "prototyping and iteration",
+    "display": "Prototyping and Iteration"
+  },
+  {
+    "key": "complex systems",
+    "display": "Complex Systems"
+  },
+  {
+    "key": "feedback loops",
+    "display": "Feedback Loops"
+  },
+  {
+    "key": "web crawler",
+    "display": "Web Crawler"
+  },
+  {
+    "key": "crawl logic architecture",
+    "display": "Crawl Logic Architecture"
+  },
+  {
+    "key": "spider design",
+    "display": "Spider Design"
+  },
+  {
+    "key": "distributed architecture",
+    "display": "Distributed Architecture"
+  },
+  {
+    "key": "scalable infrastructure",
+    "display": "Scalable Infrastructure"
+  },
+  {
+    "key": "data extraction parsing",
+    "display": "Data Extraction Parsing"
+  },
+  {
+    "key": "continuous operation",
+    "display": "Continuous Operation"
+  },
+  {
+    "key": "dark web crawling",
+    "display": "Dark Web Crawling"
+  },
+  {
+    "key": "onion routing",
+    "display": "Onion Routing"
+  },
+  {
+    "key": "legal ethical privacy considerations",
+    "display": "Legal Ethical Privacy Considerations"
+  },
+  {
+    "key": "architecture modeling evaluation systematic integration",
+    "display": "Architecture Modeling Evaluation Systematic Integration"
+  },
+  {
+    "key": "law",
+    "display": "Law"
+  },
+  {
+    "key": "definition of law",
+    "display": "Definition of Law"
+  },
+  {
+    "key": "system of rules",
+    "display": "System of Rules"
+  },
+  {
+    "key": "common law",
+    "display": "Common Law"
+  },
+  {
+    "key": "civil law",
+    "display": "Civil Law"
+  },
+  {
+    "key": "precedent",
+    "display": "Precedent"
+  },
+  {
+    "key": "stare decisis",
+    "display": "Stare Decisis"
+  },
+  {
+    "key": "legal codes",
+    "display": "Legal Codes"
+  },
+  {
+    "key": "justice",
+    "display": "Justice"
+  },
+  {
+    "key": "due process",
+    "display": "Due Process"
+  },
+  {
+    "key": "presumption of innocence",
+    "display": "Presumption of Innocence"
+  },
+  {
+    "key": "equal protection",
+    "display": "Equal Protection"
+  },
+  {
+    "key": "stability order",
+    "display": "Stability Order"
+  },
+  {
+    "key": "contracts",
+    "display": "Contracts"
+  },
+  {
+    "key": "criminal law",
+    "display": "Criminal Law"
+  },
+  {
+    "key": "restitution",
+    "display": "Restitution"
+  },
+  {
+    "key": "rehabilitation",
+    "display": "Rehabilitation"
+  },
+  {
+    "key": "relationships between individuals",
+    "display": "Relationships Between Individuals"
+  },
+  {
+    "key": "marriage family law",
+    "display": "Marriage Family Law"
+  },
+  {
+    "key": "divorce custody",
+    "display": "Divorce Custody"
+  },
+  {
+    "key": "adoption foster care",
+    "display": "Adoption Foster Care"
+  },
+  {
+    "key": "guardianship",
+    "display": "Guardianship"
+  },
+  {
+    "key": "individual rights",
+    "display": "Individual Rights"
+  },
+  {
+    "key": "constitutional rights",
+    "display": "Constitutional Rights"
+  },
+  {
+    "key": "freedom of speech",
+    "display": "Freedom of Speech"
+  },
+  {
+    "key": "freedom of assembly",
+    "display": "Freedom of Assembly"
+  },
+  {
+    "key": "freedom of religion",
+    "display": "Freedom of Religion"
+  },
+  {
+    "key": "right to bear arms",
+    "display": "Right to Bear Arms"
+  },
+  {
+    "key": "right to privacy",
+    "display": "Right to Privacy"
+  },
+  {
+    "key": "ames research center",
+    "display": "Ames Research Center"
+  },
+  {
+    "key": "modeling and simulation",
+    "display": "Modeling and Simulation"
+  },
+  {
+    "key": "mission planning",
+    "display": "Mission Planning"
+  },
+  {
+    "key": "scientific research",
+    "display": "Scientific Research"
+  },
+  {
+    "key": "knowledge management",
+    "display": "Knowledge Management"
+  },
+  {
+    "key": "data flow",
+    "display": "Data Flow"
+  },
+  {
+    "key": "efficiency in decision making",
+    "display": "Efficiency in Decision Making"
+  },
+  {
+    "key": "risk assessment",
+    "display": "Risk Assessment"
+  },
+  {
+    "key": "structured problem solving",
+    "display": "Structured Problem Solving"
+  },
+  {
+    "key": "architecture driven approach",
+    "display": "Architecture Driven Approach"
+  },
+  {
+    "key": "continuous integration",
+    "display": "Continuous Integration"
+  },
+  {
+    "key": "provenance",
+    "display": "Provenance"
+  },
+  {
+    "key": "lineage",
+    "display": "Lineage"
+  },
+  {
+    "key": "traceability",
+    "display": "Traceability"
+  },
+  {
+    "key": "feedback",
+    "display": "Feedback"
+  },
+  {
+    "key": "iteration",
+    "display": "Iteration"
+  }
+]

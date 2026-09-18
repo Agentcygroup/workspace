@@ -14,6 +14,7 @@ def spec_from_dict(raw: dict, *, name: str | None = None) -> Spec:
         lifecycle=Lifecycle(**raw["lifecycle"]) if raw.get("lifecycle") else None,
         substrate=raw.get("substrate") or raw.get("level"),
         substrate_available=bool(raw.get("substrate") or raw.get("level")),
+        model=raw.get("model"),
         gaps=tuple(Gap(**g) for g in raw.get("gaps", [])),
     )
 

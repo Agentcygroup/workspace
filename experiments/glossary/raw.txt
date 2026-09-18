@@ -1,0 +1,769 @@
+A* search
+A graph traversal and pathfinding algorithm which is used in many fields of computer science due to its completeness, optimality, and optimal efficiency.
+abductive logic programming
+A high-level knowledge-representation framework that can be used to solve problems declaratively based on abductive reasoning.
+abductive reasoning
+Also abduction.
+A form of logical inference which starts with an observation or set of observations then seeks to find the simplest and most likely explanation.
+ablation
+The removal of a component of an AI system.
+abstract data type
+A mathematical model for data types, where a data type is defined by its behavior from the point of view of a user of the data.
+abstraction
+The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems.
+accelerating change
+A perceived increase in the rate of technological change throughout history.
+action language
+A language for specifying state transition systems, and is commonly used to create formal models of the effects of actions on the world.
+action model learning
+An area of machine learning concerned with creation and modification of software agent's knowledge about effects and preconditions of the actions.
+action selection
+A way of characterizing the most basic problem of intelligent systems: what to do next.
+activation function
+In artificial neural networks, the activation function of a node defines the output of that node given an input or set of inputs.
+adaptive algorithm
+An algorithm that changes its behavior at the time it is run, based on a priori defined reward mechanism or criterion.
+adaptive neuro fuzzy inference system
+A kind of artificial neural network that is based on fuzzy inference system.
+admissible heuristic
+In computer science, specifically in algorithms related to pathfinding, a heuristic function is said to be admissible if it never overestimates the cost of reaching the goal.
+affective computing
+The study and development of systems and devices that can recognize, interpret, process, and simulate human affects.
+agent architecture
+A blueprint for software agents and intelligent control systems, depicting the arrangement of components.
+AI accelerator
+A class of microprocessor or computer system designed as hardware acceleration for artificial intelligence applications.
+AI-complete
+In the field of artificial intelligence, the most difficult problems are informally known as AI-complete or AI-hard.
+algorithm
+An unambiguous specification of how to solve a class of problems.
+algorithmic efficiency
+A property of an algorithm which relates to the number of computational resources used by the algorithm.
+algorithmic probability
+In algorithmic information theory, algorithmic probability, also known as Solomonoff probability, is a mathematical method of assigning a prior probability to a given observation.
+AlphaGo
+A computer program that plays the board game Go.
+ambient intelligence
+Electronic environments that are sensitive and responsive to the presence of people.
+analysis of algorithms
+The determination of the computational complexity of algorithms.
+analytics
+The discovery, interpretation, and communication of meaningful patterns in data.
+answer set programming
+A form of declarative programming oriented towards difficult search problems.
+ant colony optimization
+A probabilistic technique for solving computational problems that can be reduced to finding good paths through graphs.
+anytime algorithm
+An algorithm that can return a valid solution to a problem even if it is interrupted before it ends.
+application programming interface
+A set of subroutine definitions, communication protocols, and tools for building software.
+approximate string matching
+The technique of finding strings that match a pattern approximately.
+approximation error
+The discrepancy between an exact value and some approximation to it.
+argumentation framework
+A way to deal with contentious information and draw conclusions from it.
+artificial general intelligence
+A type of AI that matches or surpasses human cognitive capabilities across a wide range of cognitive tasks.
+artificial immune system
+A class of computationally intelligent, rule-based machine learning systems inspired by the principles and processes of the vertebrate immune system.
+artificial intelligence
+Any intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
+Artificial Intelligence Markup Language
+An XML dialect for creating natural language software agents.
+Association for the Advancement of Artificial Intelligence
+An international, nonprofit, scientific society devoted to promote research in, and responsible use of, artificial intelligence.
+asymptotic computational complexity
+In computational complexity theory, asymptotic computational complexity is the usage of asymptotic analysis for the estimation of computational complexity of algorithms and computational problems.
+attention mechanism
+Machine learning-based attention is a mechanism mimicking cognitive attention.
+attributional calculus
+A logic and representation system defined by Ryszard S. Michalski.
+augmented reality
+An interactive experience of a real-world environment where the objects that reside in the real-world are augmented by computer-generated perceptual information.
+autoencoder
+A type of artificial neural network used to learn efficient codings of unlabeled data.
+automata theory
+The study of abstract machines and automata, as well as the computational problems that can be solved using them.
+automated machine learning
+A field of machine learning which aims to automatically configure an ML system to maximize its performance.
+automated planning and scheduling
+A branch of artificial intelligence that concerns the realization of strategies or action sequences.
+automated reasoning
+An area of computer science and mathematical logic dedicated to understanding different aspects of reasoning.
+autonomic computing
+The self-managing characteristics of distributed computing resources, adapting to unpredictable changes.
+autonomous car
+A vehicle that is capable of sensing its environment and moving with little or no human input.
+autonomous robot
+A robot that performs behaviors or tasks with a high degree of autonomy.
+backpropagation
+A method used in artificial neural networks to calculate a gradient that is needed in the calculation of the weights to be used in the network.
+backpropagation through structure
+A gradient-based technique for training recurrent neural networks.
+backpropagation through time
+A gradient-based technique for training certain types of recurrent neural networks, such as Elman networks.
+backward chaining
+An inference method described colloquially as working backward from the goal.
+bag-of-words model
+A simplifying representation used in natural language processing and information retrieval.
+batch normalization
+A technique for improving the performance and stability of artificial neural networks.
+Bayesian programming
+A formalism and a methodology for having a technique to specify probabilistic models.
+bees algorithm
+A population-based search algorithm which mimics the food foraging behaviour of honey bee colonies.
+behavior informatics
+The informatics of behaviors so as to obtain behavior intelligence and behavior insights.
+behavior tree
+A mathematical model of plan execution used in computer science, robotics, control systems and video games.
+belief desire intention software model
+A software model developed for programming intelligent agents.
+bias variance tradeoff
+The property of a set of predictive models whereby models with a lower bias in parameter estimation have a higher variance.
+big data
+A term used to refer to data sets that are too large or complex for traditional data-processing application software to adequately deal with.
+Big O notation
+A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+binary tree
+A tree data structure in which each node has at most two children.
+blackboard system
+An artificial intelligence approach based on the blackboard architectural model.
+Boltzmann machine
+A type of stochastic recurrent neural network and Markov random field.
+Boolean satisfiability problem
+The problem of determining if there exists an interpretation that satisfies a given Boolean formula.
+boosting
+A machine learning ensemble metaheuristic for primarily reducing bias.
+bootstrap aggregating
+A machine learning ensemble metaheuristic for primarily reducing variance.
+brain technology
+A technology that employs the latest findings in neuroscience.
+branching factor
+In computing, tree data structures, and game theory, the number of children at each node.
+brute-force search
+A very general problem-solving technique and algorithmic paradigm that consists of systematically enumerating all possible candidates.
+capsule neural network
+A machine learning system that is a type of artificial neural network that can be used to better model hierarchical relationships.
+case-based reasoning
+Broadly construed, the process of solving new problems based on the solutions of similar past problems.
+chatbot
+A computer program or an artificial intelligence which conducts a conversation via auditory or textual methods.
+cloud robotics
+A field of robotics that attempts to invoke cloud technologies such as cloud computing, cloud storage.
+cluster analysis
+The task of grouping a set of objects in such a way that objects in the same group are more similar to each other.
+Cobweb
+An incremental system for hierarchical conceptual clustering.
+cognitive architecture
+Hypothesis about the fixed structures that provide a mind, whether in natural or artificial systems.
+cognitive computing
+The term cognitive computing has been used to refer to new hardware and software that mimics the functioning of the human brain.
+cognitive science
+The interdisciplinary scientific study of the mind and its processes.
+combinatorial optimization
+Finding an optimal object from a finite set of objects.
+committee machine
+A type of artificial neural network using a divide and conquer strategy.
+commonsense knowledge
+Facts about the everyday world that all humans are expected to know.
+commonsense reasoning
+A branch of artificial intelligence concerned with simulating the human ability to make presumptions about ordinary situations.
+computational chemistry
+A branch of chemistry that uses computer simulation to assist in solving chemical problems.
+computational complexity theory
+Focuses on classifying computational problems according to their inherent difficulty.
+computational creativity
+A multidisciplinary endeavour that includes the fields of artificial intelligence, cognitive psychology, philosophy, and the arts.
+computational cybernetics
+The integration of cybernetics and computational intelligence techniques.
+computational humor
+A branch of computational linguistics and artificial intelligence which uses computers in humor research.
+computational intelligence
+Usually refers to the ability of a computer to learn a specific task from data or experimental observation.
+computational learning theory
+A subfield of artificial intelligence devoted to studying the design and analysis of machine learning algorithms.
+computational linguistics
+An interdisciplinary field concerned with the statistical or rule-based modeling of natural language from a computational perspective.
+computational mathematics
+The mathematical research in areas of science where computing plays an essential role.
+computational neuroscience
+A branch of neuroscience which employs mathematical models, theoretical analysis and abstractions of the brain.
+computational number theory
+The study of algorithms for performing number theoretic computations.
+computational problem
+A mathematical object representing a collection of questions that computers might be able to solve.
+computational statistics
+The interface between statistics and computer science.
+computer-automated design
+Design automation usually refers to electronic design automation.
+computer audition
+See machine listening.
+computer science
+The theory, experimentation, and engineering that form the basis for the design and use of computers.
+computer vision
+An interdisciplinary scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos.
+concept drift
+In predictive analytics and machine learning, the concept drift means that the statistical properties of the target variable change over time.
+connectionism
+An approach in the fields of cognitive science, that hopes to explain mental phenomena using artificial neural networks.
+consistent heuristic
+A heuristic function is said to be consistent if its estimate is always less than or equal to the estimated distance from any neighboring vertex to the goal.
+constrained conditional model
+A machine learning and inference framework that augments the learning of conditional models with declarative constraints.
+constraint logic programming
+A form of constraint programming, in which logic programming is extended to include concepts from constraint satisfaction.
+constraint programming
+A programming paradigm wherein relations between variables are stated in the form of constraints.
+constructed language
+A language whose phonology, grammar, and vocabulary are consciously devised.
+control theory
+A subfield of mathematics that deals with the control of continuously operating dynamical systems.
+convolutional neural network
+A class of deep neural network most commonly applied to image analysis.
+crossover
+In genetic algorithms and evolutionary computation, a genetic operator used to combine the genetic information of two parents.
+Darkforest
+A computer go program developed by Facebook, based on deep learning techniques using a convolutional neural network.
+Dartmouth workshop
+The Dartmouth Summer Research Project on Artificial Intelligence was the name of a 1956 summer workshop.
+data augmentation
+Data augmentation in data analysis are techniques used to increase the amount of data.
+data fusion
+The process of integrating multiple data sources to produce more consistent, accurate, and useful information.
+data integration
+The process of combining data residing in different sources and providing users with a unified view of them.
+data mining
+The process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems.
+data science
+An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data.
+data set
+A collection of data.
+data warehouse
+A system used for reporting and data analysis.
+Datalog
+A declarative logic programming language that syntactically is a subset of Prolog.
+decision boundary
+In the case of backpropagation-based artificial neural networks or perceptrons, the type of decision boundary that the network can learn is determined by the number of hidden layers.
+decision support system
+An information system that supports business or organizational decision-making activities.
+decision theory
+The study of the reasoning underlying an agent's choices.
+decision tree learning
+Uses a decision tree to go from observations about an item to conclusions about the item's target value.
+declarative programming
+A programming paradigm that expresses the logic of a computation without describing its control flow.
+deductive classifier
+A type of artificial intelligence inference engine.
+Deep Blue
+A chess-playing computer developed by IBM.
+deep learning
+A subset of machine learning that focuses on utilizing neural networks to perform tasks such as classification, regression, and representation learning.
+DeepMind Technologies
+A British artificial intelligence company founded in September 2010, currently owned by Alphabet Inc.
+default logic
+A non-monotonic logic proposed by Raymond Reiter to formalize reasoning with default assumptions.
+Density-based spatial clustering of applications with noise
+A clustering algorithm.
+description logic
+A family of formal knowledge representation languages.
+developmental robotics
+A scientific field which aims at studying the developmental mechanisms, architectures, and constraints that allow lifelong and open-ended learning.
+diagnosis
+Concerned with the development of algorithms and techniques that are able to determine whether the behaviour of a system is correct.
+dialogue system
+A computer system intended to converse with a human with a coherent structure.
+diffusion model
+A class of latent variable models.
+Dijkstra's algorithm
+An algorithm for finding the shortest paths between nodes in a weighted graph.
+dimensionality reduction
+The process of reducing the number of random variables under consideration.
+discrete system
+Any system with a countable number of states.
+distributed artificial intelligence
+A subfield of artificial intelligence research dedicated to the development of distributed solutions for problems.
+double descent
+A phenomenon in statistics and machine learning.
+dropout
+A regularization technique for reducing overfitting in artificial neural networks.
+dynamic epistemic logic
+A logical framework dealing with knowledge and information change.
+eager learning
+A learning method in which the system tries to construct a general, input-independent target function during training of the system.
+early stopping
+A regularization technique often used when training a machine learning model with an iterative method such as gradient descent.
+Ebert test
+A test which gauges whether a computer-based synthesized voice can tell a joke.
+echo state network
+A recurrent neural network with a sparsely connected hidden layer.
+embodied agent
+An intelligent agent that interacts with the environment through a physical body within that environment.
+embodied cognitive science
+An interdisciplinary field of research, the aim of which is to explain the mechanisms underlying intelligent behavior.
+error-driven learning
+A sub-area of machine learning concerned with how an agent ought to take actions in an environment so as to minimize some error feedback.
+ensemble learning
+The use of multiple machine learning algorithms to obtain better predictive performance.
+epoch
+In machine learning, an epoch is training the model for one cycle through the full training dataset.
+ethics of artificial intelligence
+The part of the ethics of technology specific to artificial intelligence.
+evolutionary algorithm
+A subset of evolutionary computation, a generic population-based metaheuristic optimization algorithm.
+evolutionary computation
+A family of algorithms for global optimization inspired by biological evolution.
+evolving classification function
+Evolving classification functions are used for classifying and clustering in the field of machine learning and artificial intelligence.
+existential risk
+The hypothesis that substantial progress in artificial general intelligence could someday result in human extinction.
+expert system
+A computer system that emulates the decision-making ability of a human expert.
+fast-and-frugal trees
+A type of classification tree.
+feature
+An individual measurable property or characteristic of a phenomenon.
+feature extraction
+Feature extraction starts from an initial set of measured data and builds derived values.
+feature learning
+A set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data.
+feature selection
+The process of selecting a subset of relevant features for use in model construction.
+federated learning
+A machine learning technique that allows for training models on multiple devices with decentralized data.
+first-order logic
+A collection of formal systems used in mathematics, philosophy, linguistics, and computer science.
+fluent
+A condition that can change over time.
+formal language
+A set of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules.
+forward chaining
+One of the two main methods of reasoning when using an inference engine.
+frame
+An artificial intelligence data structure used to divide knowledge into substructures by representing stereotyped situations.
+frame language
+A technology used for knowledge representation in artificial intelligence.
+frame problem
+The problem of finding adequate collections of axioms for a viable description of a robot environment.
+friendly artificial intelligence
+A hypothetical artificial general intelligence that would have a positive effect on humanity.
+futures studies
+The study of postulating possible, probable, and preferable futures.
+fuzzy control system
+A control system based on fuzzy logic.
+fuzzy logic
+A simple form for the many-valued logic, in which the truth values of variables may have any degree of Truthfulness.
+fuzzy rule
+A rule used within fuzzy logic systems to infer an output based on input variables.
+fuzzy set
+Fuzzy set theory permits the gradual assessment of the membership of elements in a set.
+game theory
+The study of mathematical models of strategic interaction between rational decision-makers.
+general game playing
+General game playing is the design of artificial intelligence programs to be able to run and play more than one game successfully.
+generalization
+The concept that humans, other animals, and artificial neural networks use past learning in present situations of learning.
+generalization error
+A measure of how accurately a learning algorithm is able to predict outcomes for previously unseen data.
+generative adversarial network
+A class of machine learning systems.
+generative artificial intelligence
+Generative artificial intelligence is artificial intelligence capable of generating text, images, or other media in response to prompts.
+generative pretrained transformer
+A large language model based on the transformer architecture that generates text.
+genetic algorithm
+A metaheuristic inspired by the process of natural selection.
+genetic operator
+An operator used in genetic algorithms to guide the algorithm towards a solution.
+glowworm swarm optimization
+A swarm intelligence optimization algorithm based on the behaviour of glowworms.
+gradient boosting
+A machine learning technique based on boosting in a functional space.
+graph
+In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts.
+graph database
+A database that uses graph structures for semantic queries with nodes, edges, and properties.
+graph theory
+The study of graphs, which are mathematical structures used to model pairwise relations between objects.
+graph traversal
+The process of visiting each vertex in a graph.
+hallucination
+A response generated by AI that contains false or misleading information presented as fact.
+heuristic
+A technique designed for solving a problem more quickly when classic methods are too slow.
+hidden layer
+A layer of neurons in an artificial neural network that is neither an input layer nor an output layer.
+hyper-heuristic
+A heuristic search method that seeks to automate the process of selecting, combining, generating, or adapting several simpler heuristics.
+hyperparameter
+A parameter that can be set in order to define any configurable part of a machine learning model's learning process.
+hyperparameter optimization
+The process of choosing a set of optimal hyperparameters for a learning algorithm.
+hyperplane
+A decision boundary in machine learning classifiers that partitions the input space into two or more sections.
+IEEE Computational Intelligence Society
+A professional society of the Institute of Electrical and Electronics Engineers.
+incremental learning
+A method of machine learning, in which input data is continuously used to extend the existing model's knowledge.
+inference engine
+A component of the system that applies logical rules to the knowledge base to deduce new information.
+information integration
+The merging of information from heterogeneous sources.
+Information Processing Language
+A programming language that includes features intended to help with programs that perform simple problem solving actions.
+intelligence amplification
+The effective use of information technology in augmenting human intelligence.
+intelligence explosion
+A possible outcome of humanity building artificial general intelligence.
+intelligent agent
+An autonomous entity which acts, directing its activity towards achieving goals.
+intelligent control
+A class of control techniques that use various artificial intelligence computing approaches.
+intelligent personal assistant
+A software agent that can perform tasks or services for an individual based on verbal commands.
+interpretation
+An assignment of meaning to the symbols of a formal language.
+intrinsic motivation
+An intelligent agent is intrinsically motivated to act if the information content alone is the motivating factor.
+issue tree
+A graphical breakdown of a question that dissects it into its different components.
+junction tree algorithm
+A method used in machine learning to extract marginalization in general graphs.
+kernel method
+In machine learning, kernel methods are a class of algorithms for pattern analysis.
+KL-ONE
+A well-known knowledge representation system in the tradition of semantic networks and frames.
+k-nearest neighbors
+A non-parametric supervised learning method.
+knowledge acquisition
+The process used to define the rules and ontologies required for a knowledge-based system.
+knowledge-based system
+A computer program that reasons and uses a knowledge base to solve complex problems.
+knowledge distillation
+The process of transferring knowledge from a large machine learning model to a smaller one.
+knowledge engineering
+All technical, scientific, and social aspects involved in building, maintaining, and using knowledge-based systems.
+knowledge extraction
+The creation of knowledge from structured and unstructured sources.
+knowledge Interchange Format
+A computer language designed to enable systems to share and reuse information from knowledge-based systems.
+knowledge representation and reasoning
+The field of artificial intelligence dedicated to representing information about the world.
+k-means clustering
+A method of vector quantization.
+language model
+A probabilistic model that manipulates natural language.
+large language model
+A language model with a large number of parameters that are adjusted during training.
+lazy learning
+A learning method in which generalization of the training data is delayed until a query is made to the system.
+Lisp
+A family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
+logic programming
+A type of programming paradigm which is largely based on formal logic.
+long short-term memory
+An artificial recurrent neural network architecture used in the field of deep learning.
+machine vision
+The technology and methods used to provide imaging-based automatic inspection and analysis.
+Markov chain
+A stochastic model describing a sequence of possible events.
+Markov decision process
+A discrete time stochastic control process.
+mathematical optimization
+The selection of a best element from some set of available alternatives.
+machine learning
+The scientific study of algorithms and statistical models that computer systems use in order to perform a specific task effectively without using explicit instructions.
+machine listening
+A general field of study of algorithms and systems for audio understanding by machine.
+machine perception
+The capability of a computer system to interpret data in a manner that is similar to the way humans use their senses.
+mechanism design
+A field in economics and game theory that takes an engineering approach to designing economic mechanisms or incentives.
+mechatronics
+A multidisciplinary branch of engineering.
+metabolic network reconstruction and simulation
+Allows for an in-depth insight into the molecular mechanisms of a particular organism.
+metaheuristic
+A higher-level procedure or heuristic designed to find, generate, or select a heuristic.
+model checking
+For a given model of a system, exhaustively and automatically checking whether this model meets a given specification.
+modus ponens
+In propositional logic, modus ponens is a rule of inference.
+modus tollens
+In propositional logic, modus tollens is a valid argument form and a rule of inference.
+Monte Carlo tree search
+A heuristic search algorithm for some kinds of decision processes.
+multi-agent system
+A computerized system composed of multiple interacting intelligent agents.
+multilayer perceptron
+A name for a modern feedforward neural network.
+multi-swarm optimization
+A variant of particle swarm optimization.
+mutation
+A genetic operator used to maintain genetic diversity.
+Mycin
+An early backward chaining expert system.
+naive Bayes classifier
+A family of simple probabilistic classifiers based on applying Bayes' theorem.
+naive semantics
+An approach used in computer science for representing basic knowledge about a specific domain.
+name binding
+The association of entities with identifiers.
+named-entity recognition
+A subtask of information extraction.
+named graph
+A key concept of Semantic Web architecture.
+natural language generation
+A software process that transforms structured data into plain-English content.
+natural language processing
+A subfield of computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human languages.
+natural language programming
+An ontology-assisted way of programming in terms of natural-language sentences.
+network motif
+Recurrent and statistically significant sub-graphs or patterns.
+neural machine translation
+An approach to machine translation that uses a large artificial neural network.
+neural network
+A network of artificial neurons or nodes.
+neural Turing machine
+A recurrent neural network model.
+neuro-fuzzy
+Combinations of artificial neural networks and fuzzy logic.
+neurocybernetics
+A direct communication pathway between an enhanced or wired brain and an external device.
+neuromorphic engineering
+The use of very-large-scale integration systems containing electronic analog circuits to mimic neuro-biological architectures.
+node
+A basic unit of a data structure.
+nondeterministic algorithm
+An algorithm that, even for the same input, can exhibit different behaviors on different runs.
+nouvelle AI
+Nouvelle AI differs from classical AI by aiming to produce robots with intelligence levels similar to insects.
+NP
+In computational complexity theory, NP is a complexity class used to classify decision problems.
+NP-completeness
+A problem is NP-complete when it can be solved by a restricted class of brute force search algorithms.
+NP-hardness
+The defining property of a class of problems that are at least as hard as the hardest problems in NP.
+Occam's razor
+The problem-solving principle that states that when presented with competing hypotheses that make the same predictions, one should select the solution with the fewest assumptions.
+offline learning
+A machine learning training approach in which a model is trained on a fixed dataset.
+online machine learning
+A method of machine learning in which data becomes available in a sequential order.
+ontology learning
+The automatic or semi-automatic creation of ontologies.
+OpenAI
+The for-profit corporation OpenAI LP.
+OpenCog
+A project that aims to build an open-source artificial intelligence framework.
+Open Mind Common Sense
+An artificial intelligence project based at the Massachusetts Institute of Technology Media Lab.
+open-source software
+A type of computer software in which source code is released under a license.
+overfitting
+The production of an analysis that corresponds too closely or exactly to a particular set of data.
+partial order reduction
+A technique for reducing the size of the state-space to be searched.
+partially observable Markov decision process
+A generalization of a Markov decision process.
+particle swarm optimization
+A computational method that optimizes a problem by iteratively trying to improve a candidate solution.
+pathfinding
+The plotting, by a computer application, of the shortest route between two points.
+pattern recognition
+Concerned with the automatic discovery of regularities in data through the use of computer algorithms.
+perceptron
+An algorithm for supervised learning of binary classifiers.
+predicate logic
+A collection of formal systems used in mathematics, philosophy, linguistics, and computer science.
+predictive analytics
+A variety of statistical techniques from data mining, predictive modelling, and machine learning.
+principal component analysis
+A statistical procedure that uses an orthogonal transformation.
+principle of rationality
+A principle coined by Karl R. Popper.
+probabilistic programming
+A programming paradigm in which probabilistic models are specified and inference for these models is performed automatically.
+production system
+A computer program typically used to provide some form of AI.
+programming language
+A formal language, which comprises a set of instructions that produce various kinds of output.
+Prolog
+A logic programming language associated with artificial intelligence and computational linguistics.
+propositional calculus
+A branch of logic which deals with propositions and argument flow.
+proximal policy optimization
+A reinforcement learning algorithm for training an intelligent agent's decision function.
+Python
+An interpreted, high-level, general-purpose programming language.
+PyTorch
+A machine learning library based on the Torch library.
+Q-learning
+A model-free reinforcement learning algorithm for learning the value of an action in a particular state.
+qualification problem
+The impossibility of listing all of the preconditions required for a real-world action to have its intended effect.
+quantifier
+In logic, quantification specifies the quantity of specimens in the domain of discourse that satisfy an open formula.
+quantum computing
+The use of quantum-mechanical phenomena such as superposition and entanglement to perform computation.
+query language
+Query languages are computer languages used to make queries in databases and information systems.
+R programming language
+A programming language and free software environment for statistical computing and graphics.
+radial basis function network
+An artificial neural network that uses radial basis functions as activation functions.
+random forest
+An ensemble learning method for classification, regression, and other tasks.
+reasoning system
+A software system that generates conclusions from available knowledge using logical techniques.
+recurrent neural network
+A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence.
+regression analysis
+A set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables.
+regularization
+A set of techniques such as dropout, early stopping, and L1 and L2 regularization.
+reinforcement learning
+An area of machine learning concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward.
+reinforcement learning from human feedback
+A technique that involves training a reward model to predict how humans rate the quality of generated content.
+representation learning
+See feature learning.
+reservoir computing
+A framework for computation that may be viewed as an extension of neural networks.
+Resource Description Framework
+A family of World Wide Web Consortium specifications.
+restricted Boltzmann machine
+A generative stochastic artificial neural network that can learn a probability distribution over its set of inputs.
+Rete algorithm
+A pattern matching algorithm for implementing rule-based systems.
+robotics
+An interdisciplinary branch of science and engineering.
+rule-based system
+A rule-based system is used to store and manipulate knowledge to interpret information in a useful way.
+satisfiability
+A formula is satisfiable if it is possible to find an interpretation that makes the formula true.
+search algorithm
+Any algorithm which solves the search problem.
+selection
+The stage of a genetic algorithm in which individual genomes are chosen from a population.
+self-management
+The process by which computer systems manage their own operation without human intervention.
+semantic network
+A knowledge base that represents semantic relations between concepts in a network.
+semantic reasoner
+A piece of software able to infer logical consequences from a set of asserted facts or axioms.
+semantic query
+Allows for queries and analytics of associative and contextual nature.
+semantics
+The field concerned with the rigorous mathematical study of the meaning of programming languages.
+semi-supervised learning
+A machine learning training paradigm characterized by using a combination of a small amount of human-labeled data.
+sensor fusion
+The combining of sensory data or data derived from disparate sources.
+separation logic
+An extension of Hoare logic.
+similarity learning
+An area of supervised learning closely related to classification and regression.
+simulated annealing
+A probabilistic technique for approximating the global optimum of a given function.
+situated approach
+The situated approach builds agents that are designed to behave effectively successfully in their environment.
+situation calculus
+A logic formalism designed for representing and reasoning about dynamical domains.
+Selective Linear Definite clause resolution
+The basic inference rule used in logic programming.
+software
+A collection of data or computer instructions that tell the computer how to work.
+software engineering
+The application of engineering to the development of software in a systematic method.
+spatial-temporal reasoning
+An area of artificial intelligence which draws from the fields of computer science, cognitive science, and cognitive psychology.
+SPARQL
+An RDF query language.
+sparse dictionary learning
+A feature learning method.
+speech recognition
+An interdisciplinary subfield of computational linguistics.
+spiking neural network
+An artificial neural network that more closely mimics a natural neural network.
+state
+A program is described as stateful if it is designed to remember preceding events or user interactions.
+statistical classification
+The problem of identifying to which of a set of categories a new observation belongs.
+state action reward state action
+A reinforcement learning algorithm for learning a Markov decision process policy.
+statistical relational learning
+A subdiscipline of artificial intelligence and machine learning.
+stochastic optimization
+Any optimization method that generates and uses random variables.
+stochastic semantic analysis
+An approach used in computer science as a semantic component of natural language understanding.
+Stanford Research Institute Problem Solver
+An automated planner developed by Richard Fikes and Nils Nilsson.
+subject-matter expert
+A person who has accumulated great knowledge in a particular field or topic.
+superintelligence
+A hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted human minds.
+supervised learning
+The machine learning task of learning a function that maps an input to an output based on example input-output pairs.
+support vector machines
+Supervised learning models with associated learning algorithms that analyze data used for classification and regression.
+swarm intelligence
+The collective behavior of decentralized, self-organized systems.
+symbolic artificial intelligence
+The term for the collection of all methods in artificial intelligence research that are based on high-level symbolic representations of problems.
+synthetic intelligence
+An alternative term for artificial intelligence.
+systems neuroscience
+A subdiscipline of neuroscience and systems biology.
+technological singularity
+A hypothetical point in the future when technological growth becomes uncontrollable and irreversible.
+temporal difference learning
+A class of model-free reinforcement learning methods.
+tensor network theory
+A theory of brain function that provides a mathematical model.
+TensorFlow
+A free and open-source software library for dataflow and differentiable programming.
+theoretical computer science
+A subset of general computer science and mathematics.
+theory of computation
+The branch that deals with how efficiently problems can be solved on a model of computation.
+Thompson sampling
+A heuristic for choosing actions.
+time complexity
+The computational complexity that describes the amount of time it takes to run an algorithm.
+transfer learning
+A machine learning technique in which knowledge learned from a task is reused.
+transformer
+A type of deep learning architecture that exploits a multi-head attention mechanism.
+transhumanism
+An international philosophical movement.
+transition system
+A concept used in the study of computation.
+tree traversal
+A form of graph traversal.
+true quantified Boolean formula
+The language TQBF is a formal language.
+Turing machine
+A mathematical model of computation.
+Turing test
+A test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human.
+type system
+A set of rules that assigns a property called type to the various constructs of a computer program.
+unsupervised learning
+A type of self-organized Hebbian learning.
+vision processing unit
+A type of microprocessor designed to accelerate machine vision tasks.
+Value-alignment complete
+A value-alignment complete problem is a problem where the AI control problem needs to be fully solved to solve it.
+Watson
+A question-answering computer system.
+weak AI
+Artificial intelligence that is focused on one narrow task.
+weak supervision
+See semi-supervised learning.
+word embedding
+A representation of a word in natural language processing.
+XGBoost
+An open-source software library which provides a regularizing gradient boosting framework.

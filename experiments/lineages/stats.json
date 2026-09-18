@@ -1,0 +1,36 @@
+{
+  "records": 69,
+  "lineages": 9,
+  "unique_people": 78,
+  "lineage_sizes": {
+    "I. Logic & Formal Reasoning": 11,
+    "II. Mathematics of Uncertainty & Optimization": 10,
+    "III. Physics & Constraint Boundaries": 12,
+    "IV. Computation & Intelligence": 12,
+    "V. Economics & Coordination": 9,
+    "VI. Governance & Political Structure": 9,
+    "VII. Cognitive & Mind Science": 8,
+    "VIII. Systems & Networks": 7,
+    "IX. Deep Ancestral Minds": 5
+  },
+  "multi_lineage_people": {
+    "Aristotle": [
+      "I. Logic & Formal Reasoning",
+      "VI. Governance & Political Structure"
+    ],
+    "Alan Turing": [
+      "I. Logic & Formal Reasoning",
+      "IV. Computation & Intelligence"
+    ],
+    "John von Neumann": [
+      "II. Mathematics of Uncertainty & Optimization",
+      "IV. Computation & Intelligence"
+    ],
+    "Claude Shannon": [
+      "II. Mathematics of Uncertainty & Optimization",
+      "III. Physics & Constraint Boundaries",
+      "IV. Computation & Intelligence"
+    ]
+  },
+  "recurring_primitives": []
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": 384,
+  "edges": 278,
+  "top_in_degree": [
+    [
+      "machine learning",
+      36
+    ],
+    [
+      "artificial intelligence",
+      31
+    ],
+    [
+      "algorithm",
+      22
+    ],
+    [
+      "software",
+      17
+    ],
+    [
+      "neural network",
+      16
+    ],
+    [
+      "computer science",
+      13
+    ],
+    [
+      "graph",
+      6
+    ],
+    [
+      "heuristic",
+      6
+    ],
+    [
+      "programming language",
+      5
+    ],
+    [
+      "supervised learning",
+      5
+    ],
+    [
+      "recurrent neural network",
+      4
+    ],
+    [
+      "metaheuristic",
+      4
+    ],
+    [
+      "logic programming",
+      4
+    ],
+    [
+      "feature",
+      4
+    ],
+    [
+      "reinforcement learning",
+      4
+    ],
+    [
+      "state",
+      3
+    ],
+    [
+      "node",
+      3
+    ],
+    [
+      "interpretation",
+      3
+    ],
+    [
+      "computational linguistics",
+      3
+    ],
+    [
+      "deep learning",
+      3
+    ]
+  ]
+}

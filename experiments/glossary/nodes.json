@@ -1,0 +1,1538 @@
+[
+  {
+    "term": "A* search",
+    "definition": "A graph traversal and pathfinding algorithm which is used in many fields of computer science due to its completeness, optimality, and optimal efficiency."
+  },
+  {
+    "term": "abductive logic programming",
+    "definition": "A high-level knowledge-representation framework that can be used to solve problems declaratively based on abductive reasoning."
+  },
+  {
+    "term": "abductive reasoning",
+    "definition": "Also abduction. A form of logical inference which starts with an observation or set of observations then seeks to find the simplest and most likely explanation."
+  },
+  {
+    "term": "ablation",
+    "definition": "The removal of a component of an AI system."
+  },
+  {
+    "term": "abstract data type",
+    "definition": "A mathematical model for data types, where a data type is defined by its behavior from the point of view of a user of the data."
+  },
+  {
+    "term": "abstraction",
+    "definition": "The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems."
+  },
+  {
+    "term": "accelerating change",
+    "definition": "A perceived increase in the rate of technological change throughout history."
+  },
+  {
+    "term": "action language",
+    "definition": "A language for specifying state transition systems, and is commonly used to create formal models of the effects of actions on the world."
+  },
+  {
+    "term": "action model learning",
+    "definition": "An area of machine learning concerned with creation and modification of software agent's knowledge about effects and preconditions of the actions."
+  },
+  {
+    "term": "action selection",
+    "definition": "A way of characterizing the most basic problem of intelligent systems: what to do next."
+  },
+  {
+    "term": "activation function",
+    "definition": "In artificial neural networks, the activation function of a node defines the output of that node given an input or set of inputs."
+  },
+  {
+    "term": "adaptive algorithm",
+    "definition": "An algorithm that changes its behavior at the time it is run, based on a priori defined reward mechanism or criterion."
+  },
+  {
+    "term": "adaptive neuro fuzzy inference system",
+    "definition": "A kind of artificial neural network that is based on fuzzy inference system."
+  },
+  {
+    "term": "admissible heuristic",
+    "definition": "In computer science, specifically in algorithms related to pathfinding, a heuristic function is said to be admissible if it never overestimates the cost of reaching the goal."
+  },
+  {
+    "term": "affective computing",
+    "definition": "The study and development of systems and devices that can recognize, interpret, process, and simulate human affects."
+  },
+  {
+    "term": "agent architecture",
+    "definition": "A blueprint for software agents and intelligent control systems, depicting the arrangement of components."
+  },
+  {
+    "term": "AI accelerator",
+    "definition": "A class of microprocessor or computer system designed as hardware acceleration for artificial intelligence applications."
+  },
+  {
+    "term": "AI-complete",
+    "definition": "In the field of artificial intelligence, the most difficult problems are informally known as AI-complete or AI-hard."
+  },
+  {
+    "term": "algorithm",
+    "definition": "An unambiguous specification of how to solve a class of problems."
+  },
+  {
+    "term": "algorithmic efficiency",
+    "definition": "A property of an algorithm which relates to the number of computational resources used by the algorithm."
+  },
+  {
+    "term": "algorithmic probability",
+    "definition": "In algorithmic information theory, algorithmic probability, also known as Solomonoff probability, is a mathematical method of assigning a prior probability to a given observation."
+  },
+  {
+    "term": "AlphaGo",
+    "definition": "A computer program that plays the board game Go."
+  },
+  {
+    "term": "ambient intelligence",
+    "definition": "Electronic environments that are sensitive and responsive to the presence of people."
+  },
+  {
+    "term": "analysis of algorithms",
+    "definition": "The determination of the computational complexity of algorithms."
+  },
+  {
+    "term": "analytics",
+    "definition": "The discovery, interpretation, and communication of meaningful patterns in data."
+  },
+  {
+    "term": "answer set programming",
+    "definition": "A form of declarative programming oriented towards difficult search problems."
+  },
+  {
+    "term": "ant colony optimization",
+    "definition": "A probabilistic technique for solving computational problems that can be reduced to finding good paths through graphs."
+  },
+  {
+    "term": "anytime algorithm",
+    "definition": "An algorithm that can return a valid solution to a problem even if it is interrupted before it ends."
+  },
+  {
+    "term": "application programming interface",
+    "definition": "A set of subroutine definitions, communication protocols, and tools for building software."
+  },
+  {
+    "term": "approximate string matching",
+    "definition": "The technique of finding strings that match a pattern approximately."
+  },
+  {
+    "term": "approximation error",
+    "definition": "The discrepancy between an exact value and some approximation to it."
+  },
+  {
+    "term": "argumentation framework",
+    "definition": "A way to deal with contentious information and draw conclusions from it."
+  },
+  {
+    "term": "artificial general intelligence",
+    "definition": "A type of AI that matches or surpasses human cognitive capabilities across a wide range of cognitive tasks."
+  },
+  {
+    "term": "artificial immune system",
+    "definition": "A class of computationally intelligent, rule-based machine learning systems inspired by the principles and processes of the vertebrate immune system."
+  },
+  {
+    "term": "artificial intelligence",
+    "definition": "Any intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals."
+  },
+  {
+    "term": "Artificial Intelligence Markup Language",
+    "definition": "An XML dialect for creating natural language software agents."
+  },
+  {
+    "term": "Association for the Advancement of Artificial Intelligence",
+    "definition": "An international, nonprofit, scientific society devoted to promote research in, and responsible use of, artificial intelligence."
+  },
+  {
+    "term": "asymptotic computational complexity",
+    "definition": "In computational complexity theory, asymptotic computational complexity is the usage of asymptotic analysis for the estimation of computational complexity of algorithms and computational problems."
+  },
+  {
+    "term": "attention mechanism",
+    "definition": "Machine learning-based attention is a mechanism mimicking cognitive attention."
+  },
+  {
+    "term": "attributional calculus",
+    "definition": "A logic and representation system defined by Ryszard S. Michalski."
+  },
+  {
+    "term": "augmented reality",
+    "definition": "An interactive experience of a real-world environment where the objects that reside in the real-world are augmented by computer-generated perceptual information."
+  },
+  {
+    "term": "autoencoder",
+    "definition": "A type of artificial neural network used to learn efficient codings of unlabeled data."
+  },
+  {
+    "term": "automata theory",
+    "definition": "The study of abstract machines and automata, as well as the computational problems that can be solved using them."
+  },
+  {
+    "term": "automated machine learning",
+    "definition": "A field of machine learning which aims to automatically configure an ML system to maximize its performance."
+  },
+  {
+    "term": "automated planning and scheduling",
+    "definition": "A branch of artificial intelligence that concerns the realization of strategies or action sequences."
+  },
+  {
+    "term": "automated reasoning",
+    "definition": "An area of computer science and mathematical logic dedicated to understanding different aspects of reasoning."
+  },
+  {
+    "term": "autonomic computing",
+    "definition": "The self-managing characteristics of distributed computing resources, adapting to unpredictable changes."
+  },
+  {
+    "term": "autonomous car",
+    "definition": "A vehicle that is capable of sensing its environment and moving with little or no human input."
+  },
+  {
+    "term": "autonomous robot",
+    "definition": "A robot that performs behaviors or tasks with a high degree of autonomy."
+  },
+  {
+    "term": "backpropagation",
+    "definition": "A method used in artificial neural networks to calculate a gradient that is needed in the calculation of the weights to be used in the network."
+  },
+  {
+    "term": "backpropagation through structure",
+    "definition": "A gradient-based technique for training recurrent neural networks."
+  },
+  {
+    "term": "backpropagation through time",
+    "definition": "A gradient-based technique for training certain types of recurrent neural networks, such as Elman networks."
+  },
+  {
+    "term": "backward chaining",
+    "definition": "An inference method described colloquially as working backward from the goal."
+  },
+  {
+    "term": "bag-of-words model",
+    "definition": "A simplifying representation used in natural language processing and information retrieval."
+  },
+  {
+    "term": "batch normalization",
+    "definition": "A technique for improving the performance and stability of artificial neural networks."
+  },
+  {
+    "term": "Bayesian programming",
+    "definition": "A formalism and a methodology for having a technique to specify probabilistic models."
+  },
+  {
+    "term": "bees algorithm",
+    "definition": "A population-based search algorithm which mimics the food foraging behaviour of honey bee colonies."
+  },
+  {
+    "term": "behavior informatics",
+    "definition": "The informatics of behaviors so as to obtain behavior intelligence and behavior insights."
+  },
+  {
+    "term": "behavior tree",
+    "definition": "A mathematical model of plan execution used in computer science, robotics, control systems and video games."
+  },
+  {
+    "term": "belief desire intention software model",
+    "definition": "A software model developed for programming intelligent agents."
+  },
+  {
+    "term": "bias variance tradeoff",
+    "definition": "The property of a set of predictive models whereby models with a lower bias in parameter estimation have a higher variance."
+  },
+  {
+    "term": "big data",
+    "definition": "A term used to refer to data sets that are too large or complex for traditional data-processing application software to adequately deal with."
+  },
+  {
+    "term": "Big O notation",
+    "definition": "A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity."
+  },
+  {
+    "term": "binary tree",
+    "definition": "A tree data structure in which each node has at most two children."
+  },
+  {
+    "term": "blackboard system",
+    "definition": "An artificial intelligence approach based on the blackboard architectural model."
+  },
+  {
+    "term": "Boltzmann machine",
+    "definition": "A type of stochastic recurrent neural network and Markov random field."
+  },
+  {
+    "term": "Boolean satisfiability problem",
+    "definition": "The problem of determining if there exists an interpretation that satisfies a given Boolean formula."
+  },
+  {
+    "term": "boosting",
+    "definition": "A machine learning ensemble metaheuristic for primarily reducing bias."
+  },
+  {
+    "term": "bootstrap aggregating",
+    "definition": "A machine learning ensemble metaheuristic for primarily reducing variance."
+  },
+  {
+    "term": "brain technology",
+    "definition": "A technology that employs the latest findings in neuroscience."
+  },
+  {
+    "term": "branching factor",
+    "definition": "In computing, tree data structures, and game theory, the number of children at each node."
+  },
+  {
+    "term": "brute-force search",
+    "definition": "A very general problem-solving technique and algorithmic paradigm that consists of systematically enumerating all possible candidates."
+  },
+  {
+    "term": "capsule neural network",
+    "definition": "A machine learning system that is a type of artificial neural network that can be used to better model hierarchical relationships."
+  },
+  {
+    "term": "case-based reasoning",
+    "definition": "Broadly construed, the process of solving new problems based on the solutions of similar past problems."
+  },
+  {
+    "term": "chatbot",
+    "definition": "A computer program or an artificial intelligence which conducts a conversation via auditory or textual methods."
+  },
+  {
+    "term": "cloud robotics",
+    "definition": "A field of robotics that attempts to invoke cloud technologies such as cloud computing, cloud storage."
+  },
+  {
+    "term": "cluster analysis",
+    "definition": "The task of grouping a set of objects in such a way that objects in the same group are more similar to each other."
+  },
+  {
+    "term": "Cobweb",
+    "definition": "An incremental system for hierarchical conceptual clustering."
+  },
+  {
+    "term": "cognitive architecture",
+    "definition": "Hypothesis about the fixed structures that provide a mind, whether in natural or artificial systems."
+  },
+  {
+    "term": "cognitive computing",
+    "definition": "The term cognitive computing has been used to refer to new hardware and software that mimics the functioning of the human brain."
+  },
+  {
+    "term": "cognitive science",
+    "definition": "The interdisciplinary scientific study of the mind and its processes."
+  },
+  {
+    "term": "combinatorial optimization",
+    "definition": "Finding an optimal object from a finite set of objects."
+  },
+  {
+    "term": "committee machine",
+    "definition": "A type of artificial neural network using a divide and conquer strategy."
+  },
+  {
+    "term": "commonsense knowledge",
+    "definition": "Facts about the everyday world that all humans are expected to know."
+  },
+  {
+    "term": "commonsense reasoning",
+    "definition": "A branch of artificial intelligence concerned with simulating the human ability to make presumptions about ordinary situations."
+  },
+  {
+    "term": "computational chemistry",
+    "definition": "A branch of chemistry that uses computer simulation to assist in solving chemical problems."
+  },
+  {
+    "term": "computational complexity theory",
+    "definition": "Focuses on classifying computational problems according to their inherent difficulty."
+  },
+  {
+    "term": "computational creativity",
+    "definition": "A multidisciplinary endeavour that includes the fields of artificial intelligence, cognitive psychology, philosophy, and the arts."
+  },
+  {
+    "term": "computational cybernetics",
+    "definition": "The integration of cybernetics and computational intelligence techniques."
+  },
+  {
+    "term": "computational humor",
+    "definition": "A branch of computational linguistics and artificial intelligence which uses computers in humor research."
+  },
+  {
+    "term": "computational intelligence",
+    "definition": "Usually refers to the ability of a computer to learn a specific task from data or experimental observation."
+  },
+  {
+    "term": "computational learning theory",
+    "definition": "A subfield of artificial intelligence devoted to studying the design and analysis of machine learning algorithms."
+  },
+  {
+    "term": "computational linguistics",
+    "definition": "An interdisciplinary field concerned with the statistical or rule-based modeling of natural language from a computational perspective."
+  },
+  {
+    "term": "computational mathematics",
+    "definition": "The mathematical research in areas of science where computing plays an essential role."
+  },
+  {
+    "term": "computational neuroscience",
+    "definition": "A branch of neuroscience which employs mathematical models, theoretical analysis and abstractions of the brain."
+  },
+  {
+    "term": "computational number theory",
+    "definition": "The study of algorithms for performing number theoretic computations."
+  },
+  {
+    "term": "computational problem",
+    "definition": "A mathematical object representing a collection of questions that computers might be able to solve."
+  },
+  {
+    "term": "computational statistics",
+    "definition": "The interface between statistics and computer science."
+  },
+  {
+    "term": "computer-automated design",
+    "definition": "Design automation usually refers to electronic design automation."
+  },
+  {
+    "term": "computer audition",
+    "definition": "See machine listening."
+  },
+  {
+    "term": "computer science",
+    "definition": "The theory, experimentation, and engineering that form the basis for the design and use of computers."
+  },
+  {
+    "term": "computer vision",
+    "definition": "An interdisciplinary scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos."
+  },
+  {
+    "term": "concept drift",
+    "definition": "In predictive analytics and machine learning, the concept drift means that the statistical properties of the target variable change over time."
+  },
+  {
+    "term": "connectionism",
+    "definition": "An approach in the fields of cognitive science, that hopes to explain mental phenomena using artificial neural networks."
+  },
+  {
+    "term": "consistent heuristic",
+    "definition": "A heuristic function is said to be consistent if its estimate is always less than or equal to the estimated distance from any neighboring vertex to the goal."
+  },
+  {
+    "term": "constrained conditional model",
+    "definition": "A machine learning and inference framework that augments the learning of conditional models with declarative constraints."
+  },
+  {
+    "term": "constraint logic programming",
+    "definition": "A form of constraint programming, in which logic programming is extended to include concepts from constraint satisfaction."
+  },
+  {
+    "term": "constraint programming",
+    "definition": "A programming paradigm wherein relations between variables are stated in the form of constraints."
+  },
+  {
+    "term": "constructed language",
+    "definition": "A language whose phonology, grammar, and vocabulary are consciously devised."
+  },
+  {
+    "term": "control theory",
+    "definition": "A subfield of mathematics that deals with the control of continuously operating dynamical systems."
+  },
+  {
+    "term": "convolutional neural network",
+    "definition": "A class of deep neural network most commonly applied to image analysis."
+  },
+  {
+    "term": "crossover",
+    "definition": "In genetic algorithms and evolutionary computation, a genetic operator used to combine the genetic information of two parents."
+  },
+  {
+    "term": "Darkforest",
+    "definition": "A computer go program developed by Facebook, based on deep learning techniques using a convolutional neural network."
+  },
+  {
+    "term": "Dartmouth workshop",
+    "definition": "The Dartmouth Summer Research Project on Artificial Intelligence was the name of a 1956 summer workshop."
+  },
+  {
+    "term": "data augmentation",
+    "definition": "Data augmentation in data analysis are techniques used to increase the amount of data."
+  },
+  {
+    "term": "data fusion",
+    "definition": "The process of integrating multiple data sources to produce more consistent, accurate, and useful information."
+  },
+  {
+    "term": "data integration",
+    "definition": "The process of combining data residing in different sources and providing users with a unified view of them."
+  },
+  {
+    "term": "data mining",
+    "definition": "The process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems."
+  },
+  {
+    "term": "data science",
+    "definition": "An interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data."
+  },
+  {
+    "term": "data set",
+    "definition": "A collection of data."
+  },
+  {
+    "term": "data warehouse",
+    "definition": "A system used for reporting and data analysis."
+  },
+  {
+    "term": "Datalog",
+    "definition": "A declarative logic programming language that syntactically is a subset of Prolog."
+  },
+  {
+    "term": "decision boundary",
+    "definition": "In the case of backpropagation-based artificial neural networks or perceptrons, the type of decision boundary that the network can learn is determined by the number of hidden layers."
+  },
+  {
+    "term": "decision support system",
+    "definition": "An information system that supports business or organizational decision-making activities."
+  },
+  {
+    "term": "decision theory",
+    "definition": "The study of the reasoning underlying an agent's choices."
+  },
+  {
+    "term": "decision tree learning",
+    "definition": "Uses a decision tree to go from observations about an item to conclusions about the item's target value."
+  },
+  {
+    "term": "declarative programming",
+    "definition": "A programming paradigm that expresses the logic of a computation without describing its control flow."
+  },
+  {
+    "term": "deductive classifier",
+    "definition": "A type of artificial intelligence inference engine."
+  },
+  {
+    "term": "Deep Blue",
+    "definition": "A chess-playing computer developed by IBM."
+  },
+  {
+    "term": "deep learning",
+    "definition": "A subset of machine learning that focuses on utilizing neural networks to perform tasks such as classification, regression, and representation learning."
+  },
+  {
+    "term": "DeepMind Technologies",
+    "definition": "A British artificial intelligence company founded in September 2010, currently owned by Alphabet Inc."
+  },
+  {
+    "term": "default logic",
+    "definition": "A non-monotonic logic proposed by Raymond Reiter to formalize reasoning with default assumptions."
+  },
+  {
+    "term": "Density-based spatial clustering of applications with noise",
+    "definition": "A clustering algorithm."
+  },
+  {
+    "term": "description logic",
+    "definition": "A family of formal knowledge representation languages."
+  },
+  {
+    "term": "developmental robotics",
+    "definition": "A scientific field which aims at studying the developmental mechanisms, architectures, and constraints that allow lifelong and open-ended learning."
+  },
+  {
+    "term": "diagnosis",
+    "definition": "Concerned with the development of algorithms and techniques that are able to determine whether the behaviour of a system is correct."
+  },
+  {
+    "term": "dialogue system",
+    "definition": "A computer system intended to converse with a human with a coherent structure."
+  },
+  {
+    "term": "diffusion model",
+    "definition": "A class of latent variable models."
+  },
+  {
+    "term": "Dijkstra's algorithm",
+    "definition": "An algorithm for finding the shortest paths between nodes in a weighted graph."
+  },
+  {
+    "term": "dimensionality reduction",
+    "definition": "The process of reducing the number of random variables under consideration."
+  },
+  {
+    "term": "discrete system",
+    "definition": "Any system with a countable number of states."
+  },
+  {
+    "term": "distributed artificial intelligence",
+    "definition": "A subfield of artificial intelligence research dedicated to the development of distributed solutions for problems."
+  },
+  {
+    "term": "double descent",
+    "definition": "A phenomenon in statistics and machine learning."
+  },
+  {
+    "term": "dropout",
+    "definition": "A regularization technique for reducing overfitting in artificial neural networks."
+  },
+  {
+    "term": "dynamic epistemic logic",
+    "definition": "A logical framework dealing with knowledge and information change."
+  },
+  {
+    "term": "eager learning",
+    "definition": "A learning method in which the system tries to construct a general, input-independent target function during training of the system."
+  },
+  {
+    "term": "early stopping",
+    "definition": "A regularization technique often used when training a machine learning model with an iterative method such as gradient descent."
+  },
+  {
+    "term": "Ebert test",
+    "definition": "A test which gauges whether a computer-based synthesized voice can tell a joke."
+  },
+  {
+    "term": "echo state network",
+    "definition": "A recurrent neural network with a sparsely connected hidden layer."
+  },
+  {
+    "term": "embodied agent",
+    "definition": "An intelligent agent that interacts with the environment through a physical body within that environment."
+  },
+  {
+    "term": "embodied cognitive science",
+    "definition": "An interdisciplinary field of research, the aim of which is to explain the mechanisms underlying intelligent behavior."
+  },
+  {
+    "term": "error-driven learning",
+    "definition": "A sub-area of machine learning concerned with how an agent ought to take actions in an environment so as to minimize some error feedback."
+  },
+  {
+    "term": "ensemble learning",
+    "definition": "The use of multiple machine learning algorithms to obtain better predictive performance."
+  },
+  {
+    "term": "epoch",
+    "definition": "In machine learning, an epoch is training the model for one cycle through the full training dataset."
+  },
+  {
+    "term": "ethics of artificial intelligence",
+    "definition": "The part of the ethics of technology specific to artificial intelligence."
+  },
+  {
+    "term": "evolutionary algorithm",
+    "definition": "A subset of evolutionary computation, a generic population-based metaheuristic optimization algorithm."
+  },
+  {
+    "term": "evolutionary computation",
+    "definition": "A family of algorithms for global optimization inspired by biological evolution."
+  },
+  {
+    "term": "evolving classification function",
+    "definition": "Evolving classification functions are used for classifying and clustering in the field of machine learning and artificial intelligence."
+  },
+  {
+    "term": "existential risk",
+    "definition": "The hypothesis that substantial progress in artificial general intelligence could someday result in human extinction."
+  },
+  {
+    "term": "expert system",
+    "definition": "A computer system that emulates the decision-making ability of a human expert."
+  },
+  {
+    "term": "fast-and-frugal trees",
+    "definition": "A type of classification tree."
+  },
+  {
+    "term": "feature",
+    "definition": "An individual measurable property or characteristic of a phenomenon."
+  },
+  {
+    "term": "feature extraction",
+    "definition": "Feature extraction starts from an initial set of measured data and builds derived values."
+  },
+  {
+    "term": "feature learning",
+    "definition": "A set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data."
+  },
+  {
+    "term": "feature selection",
+    "definition": "The process of selecting a subset of relevant features for use in model construction."
+  },
+  {
+    "term": "federated learning",
+    "definition": "A machine learning technique that allows for training models on multiple devices with decentralized data."
+  },
+  {
+    "term": "first-order logic",
+    "definition": "A collection of formal systems used in mathematics, philosophy, linguistics, and computer science."
+  },
+  {
+    "term": "fluent",
+    "definition": "A condition that can change over time."
+  },
+  {
+    "term": "formal language",
+    "definition": "A set of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules."
+  },
+  {
+    "term": "forward chaining",
+    "definition": "One of the two main methods of reasoning when using an inference engine."
+  },
+  {
+    "term": "frame",
+    "definition": "An artificial intelligence data structure used to divide knowledge into substructures by representing stereotyped situations."
+  },
+  {
+    "term": "frame language",
+    "definition": "A technology used for knowledge representation in artificial intelligence."
+  },
+  {
+    "term": "frame problem",
+    "definition": "The problem of finding adequate collections of axioms for a viable description of a robot environment."
+  },
+  {
+    "term": "friendly artificial intelligence",
+    "definition": "A hypothetical artificial general intelligence that would have a positive effect on humanity."
+  },
+  {
+    "term": "futures studies",
+    "definition": "The study of postulating possible, probable, and preferable futures."
+  },
+  {
+    "term": "fuzzy control system",
+    "definition": "A control system based on fuzzy logic."
+  },
+  {
+    "term": "fuzzy logic",
+    "definition": "A simple form for the many-valued logic, in which the truth values of variables may have any degree of Truthfulness."
+  },
+  {
+    "term": "fuzzy rule",
+    "definition": "A rule used within fuzzy logic systems to infer an output based on input variables."
+  },
+  {
+    "term": "fuzzy set",
+    "definition": "Fuzzy set theory permits the gradual assessment of the membership of elements in a set."
+  },
+  {
+    "term": "game theory",
+    "definition": "The study of mathematical models of strategic interaction between rational decision-makers."
+  },
+  {
+    "term": "general game playing",
+    "definition": "General game playing is the design of artificial intelligence programs to be able to run and play more than one game successfully."
+  },
+  {
+    "term": "generalization",
+    "definition": "The concept that humans, other animals, and artificial neural networks use past learning in present situations of learning."
+  },
+  {
+    "term": "generalization error",
+    "definition": "A measure of how accurately a learning algorithm is able to predict outcomes for previously unseen data."
+  },
+  {
+    "term": "generative adversarial network",
+    "definition": "A class of machine learning systems."
+  },
+  {
+    "term": "generative artificial intelligence",
+    "definition": "Generative artificial intelligence is artificial intelligence capable of generating text, images, or other media in response to prompts."
+  },
+  {
+    "term": "generative pretrained transformer",
+    "definition": "A large language model based on the transformer architecture that generates text."
+  },
+  {
+    "term": "genetic algorithm",
+    "definition": "A metaheuristic inspired by the process of natural selection."
+  },
+  {
+    "term": "genetic operator",
+    "definition": "An operator used in genetic algorithms to guide the algorithm towards a solution."
+  },
+  {
+    "term": "glowworm swarm optimization",
+    "definition": "A swarm intelligence optimization algorithm based on the behaviour of glowworms."
+  },
+  {
+    "term": "gradient boosting",
+    "definition": "A machine learning technique based on boosting in a functional space."
+  },
+  {
+    "term": "graph",
+    "definition": "In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts."
+  },
+  {
+    "term": "graph database",
+    "definition": "A database that uses graph structures for semantic queries with nodes, edges, and properties."
+  },
+  {
+    "term": "graph theory",
+    "definition": "The study of graphs, which are mathematical structures used to model pairwise relations between objects."
+  },
+  {
+    "term": "graph traversal",
+    "definition": "The process of visiting each vertex in a graph."
+  },
+  {
+    "term": "hallucination",
+    "definition": "A response generated by AI that contains false or misleading information presented as fact."
+  },
+  {
+    "term": "heuristic",
+    "definition": "A technique designed for solving a problem more quickly when classic methods are too slow."
+  },
+  {
+    "term": "hidden layer",
+    "definition": "A layer of neurons in an artificial neural network that is neither an input layer nor an output layer."
+  },
+  {
+    "term": "hyper-heuristic",
+    "definition": "A heuristic search method that seeks to automate the process of selecting, combining, generating, or adapting several simpler heuristics."
+  },
+  {
+    "term": "hyperparameter",
+    "definition": "A parameter that can be set in order to define any configurable part of a machine learning model's learning process."
+  },
+  {
+    "term": "hyperparameter optimization",
+    "definition": "The process of choosing a set of optimal hyperparameters for a learning algorithm."
+  },
+  {
+    "term": "hyperplane",
+    "definition": "A decision boundary in machine learning classifiers that partitions the input space into two or more sections."
+  },
+  {
+    "term": "IEEE Computational Intelligence Society",
+    "definition": "A professional society of the Institute of Electrical and Electronics Engineers."
+  },
+  {
+    "term": "incremental learning",
+    "definition": "A method of machine learning, in which input data is continuously used to extend the existing model's knowledge."
+  },
+  {
+    "term": "inference engine",
+    "definition": "A component of the system that applies logical rules to the knowledge base to deduce new information."
+  },
+  {
+    "term": "information integration",
+    "definition": "The merging of information from heterogeneous sources."
+  },
+  {
+    "term": "Information Processing Language",
+    "definition": "A programming language that includes features intended to help with programs that perform simple problem solving actions."
+  },
+  {
+    "term": "intelligence amplification",
+    "definition": "The effective use of information technology in augmenting human intelligence."
+  },
+  {
+    "term": "intelligence explosion",
+    "definition": "A possible outcome of humanity building artificial general intelligence."
+  },
+  {
+    "term": "intelligent agent",
+    "definition": "An autonomous entity which acts, directing its activity towards achieving goals."
+  },
+  {
+    "term": "intelligent control",
+    "definition": "A class of control techniques that use various artificial intelligence computing approaches."
+  },
+  {
+    "term": "intelligent personal assistant",
+    "definition": "A software agent that can perform tasks or services for an individual based on verbal commands."
+  },
+  {
+    "term": "interpretation",
+    "definition": "An assignment of meaning to the symbols of a formal language."
+  },
+  {
+    "term": "intrinsic motivation",
+    "definition": "An intelligent agent is intrinsically motivated to act if the information content alone is the motivating factor."
+  },
+  {
+    "term": "issue tree",
+    "definition": "A graphical breakdown of a question that dissects it into its different components."
+  },
+  {
+    "term": "junction tree algorithm",
+    "definition": "A method used in machine learning to extract marginalization in general graphs."
+  },
+  {
+    "term": "kernel method",
+    "definition": "In machine learning, kernel methods are a class of algorithms for pattern analysis."
+  },
+  {
+    "term": "KL-ONE",
+    "definition": "A well-known knowledge representation system in the tradition of semantic networks and frames."
+  },
+  {
+    "term": "k-nearest neighbors",
+    "definition": "A non-parametric supervised learning method."
+  },
+  {
+    "term": "knowledge acquisition",
+    "definition": "The process used to define the rules and ontologies required for a knowledge-based system."
+  },
+  {
+    "term": "knowledge-based system",
+    "definition": "A computer program that reasons and uses a knowledge base to solve complex problems."
+  },
+  {
+    "term": "knowledge distillation",
+    "definition": "The process of transferring knowledge from a large machine learning model to a smaller one."
+  },
+  {
+    "term": "knowledge engineering",
+    "definition": "All technical, scientific, and social aspects involved in building, maintaining, and using knowledge-based systems."
+  },
+  {
+    "term": "knowledge extraction",
+    "definition": "The creation of knowledge from structured and unstructured sources."
+  },
+  {
+    "term": "knowledge Interchange Format",
+    "definition": "A computer language designed to enable systems to share and reuse information from knowledge-based systems."
+  },
+  {
+    "term": "knowledge representation and reasoning",
+    "definition": "The field of artificial intelligence dedicated to representing information about the world."
+  },
+  {
+    "term": "k-means clustering",
+    "definition": "A method of vector quantization."
+  },
+  {
+    "term": "language model",
+    "definition": "A probabilistic model that manipulates natural language."
+  },
+  {
+    "term": "large language model",
+    "definition": "A language model with a large number of parameters that are adjusted during training."
+  },
+  {
+    "term": "lazy learning",
+    "definition": "A learning method in which generalization of the training data is delayed until a query is made to the system."
+  },
+  {
+    "term": "Lisp",
+    "definition": "A family of programming languages with a long history and a distinctive, fully parenthesized prefix notation."
+  },
+  {
+    "term": "logic programming",
+    "definition": "A type of programming paradigm which is largely based on formal logic."
+  },
+  {
+    "term": "long short-term memory",
+    "definition": "An artificial recurrent neural network architecture used in the field of deep learning."
+  },
+  {
+    "term": "machine vision",
+    "definition": "The technology and methods used to provide imaging-based automatic inspection and analysis."
+  },
+  {
+    "term": "Markov chain",
+    "definition": "A stochastic model describing a sequence of possible events."
+  },
+  {
+    "term": "Markov decision process",
+    "definition": "A discrete time stochastic control process."
+  },
+  {
+    "term": "mathematical optimization",
+    "definition": "The selection of a best element from some set of available alternatives."
+  },
+  {
+    "term": "machine learning",
+    "definition": "The scientific study of algorithms and statistical models that computer systems use in order to perform a specific task effectively without using explicit instructions."
+  },
+  {
+    "term": "machine listening",
+    "definition": "A general field of study of algorithms and systems for audio understanding by machine."
+  },
+  {
+    "term": "machine perception",
+    "definition": "The capability of a computer system to interpret data in a manner that is similar to the way humans use their senses."
+  },
+  {
+    "term": "mechanism design",
+    "definition": "A field in economics and game theory that takes an engineering approach to designing economic mechanisms or incentives."
+  },
+  {
+    "term": "mechatronics",
+    "definition": "A multidisciplinary branch of engineering."
+  },
+  {
+    "term": "metabolic network reconstruction and simulation",
+    "definition": "Allows for an in-depth insight into the molecular mechanisms of a particular organism."
+  },
+  {
+    "term": "metaheuristic",
+    "definition": "A higher-level procedure or heuristic designed to find, generate, or select a heuristic."
+  },
+  {
+    "term": "model checking",
+    "definition": "For a given model of a system, exhaustively and automatically checking whether this model meets a given specification."
+  },
+  {
+    "term": "modus ponens",
+    "definition": "In propositional logic, modus ponens is a rule of inference."
+  },
+  {
+    "term": "modus tollens",
+    "definition": "In propositional logic, modus tollens is a valid argument form and a rule of inference."
+  },
+  {
+    "term": "Monte Carlo tree search",
+    "definition": "A heuristic search algorithm for some kinds of decision processes."
+  },
+  {
+    "term": "multi-agent system",
+    "definition": "A computerized system composed of multiple interacting intelligent agents."
+  },
+  {
+    "term": "multilayer perceptron",
+    "definition": "A name for a modern feedforward neural network."
+  },
+  {
+    "term": "multi-swarm optimization",
+    "definition": "A variant of particle swarm optimization."
+  },
+  {
+    "term": "mutation",
+    "definition": "A genetic operator used to maintain genetic diversity."
+  },
+  {
+    "term": "Mycin",
+    "definition": "An early backward chaining expert system."
+  },
+  {
+    "term": "naive Bayes classifier",
+    "definition": "A family of simple probabilistic classifiers based on applying Bayes' theorem."
+  },
+  {
+    "term": "naive semantics",
+    "definition": "An approach used in computer science for representing basic knowledge about a specific domain."
+  },
+  {
+    "term": "name binding",
+    "definition": "The association of entities with identifiers."
+  },
+  {
+    "term": "named-entity recognition",
+    "definition": "A subtask of information extraction."
+  },
+  {
+    "term": "named graph",
+    "definition": "A key concept of Semantic Web architecture."
+  },
+  {
+    "term": "natural language generation",
+    "definition": "A software process that transforms structured data into plain-English content."
+  },
+  {
+    "term": "natural language processing",
+    "definition": "A subfield of computer science, information engineering, and artificial intelligence concerned with the interactions between computers and human languages."
+  },
+  {
+    "term": "natural language programming",
+    "definition": "An ontology-assisted way of programming in terms of natural-language sentences."
+  },
+  {
+    "term": "network motif",
+    "definition": "Recurrent and statistically significant sub-graphs or patterns."
+  },
+  {
+    "term": "neural machine translation",
+    "definition": "An approach to machine translation that uses a large artificial neural network."
+  },
+  {
+    "term": "neural network",
+    "definition": "A network of artificial neurons or nodes."
+  },
+  {
+    "term": "neural Turing machine",
+    "definition": "A recurrent neural network model."
+  },
+  {
+    "term": "neuro-fuzzy",
+    "definition": "Combinations of artificial neural networks and fuzzy logic."
+  },
+  {
+    "term": "neurocybernetics",
+    "definition": "A direct communication pathway between an enhanced or wired brain and an external device."
+  },
+  {
+    "term": "neuromorphic engineering",
+    "definition": "The use of very-large-scale integration systems containing electronic analog circuits to mimic neuro-biological architectures."
+  },
+  {
+    "term": "node",
+    "definition": "A basic unit of a data structure."
+  },
+  {
+    "term": "nondeterministic algorithm",
+    "definition": "An algorithm that, even for the same input, can exhibit different behaviors on different runs."
+  },
+  {
+    "term": "nouvelle AI",
+    "definition": "Nouvelle AI differs from classical AI by aiming to produce robots with intelligence levels similar to insects."
+  },
+  {
+    "term": "NP",
+    "definition": "In computational complexity theory, NP is a complexity class used to classify decision problems."
+  },
+  {
+    "term": "NP-completeness",
+    "definition": "A problem is NP-complete when it can be solved by a restricted class of brute force search algorithms."
+  },
+  {
+    "term": "NP-hardness",
+    "definition": "The defining property of a class of problems that are at least as hard as the hardest problems in NP."
+  },
+  {
+    "term": "Occam's razor",
+    "definition": "The problem-solving principle that states that when presented with competing hypotheses that make the same predictions, one should select the solution with the fewest assumptions."
+  },
+  {
+    "term": "offline learning",
+    "definition": "A machine learning training approach in which a model is trained on a fixed dataset."
+  },
+  {
+    "term": "online machine learning",
+    "definition": "A method of machine learning in which data becomes available in a sequential order."
+  },
+  {
+    "term": "ontology learning",
+    "definition": "The automatic or semi-automatic creation of ontologies."
+  },
+  {
+    "term": "OpenAI",
+    "definition": "The for-profit corporation OpenAI LP."
+  },
+  {
+    "term": "OpenCog",
+    "definition": "A project that aims to build an open-source artificial intelligence framework."
+  },
+  {
+    "term": "Open Mind Common Sense",
+    "definition": "An artificial intelligence project based at the Massachusetts Institute of Technology Media Lab."
+  },
+  {
+    "term": "open-source software",
+    "definition": "A type of computer software in which source code is released under a license."
+  },
+  {
+    "term": "overfitting",
+    "definition": "The production of an analysis that corresponds too closely or exactly to a particular set of data."
+  },
+  {
+    "term": "partial order reduction",
+    "definition": "A technique for reducing the size of the state-space to be searched."
+  },
+  {
+    "term": "partially observable Markov decision process",
+    "definition": "A generalization of a Markov decision process."
+  },
+  {
+    "term": "particle swarm optimization",
+    "definition": "A computational method that optimizes a problem by iteratively trying to improve a candidate solution."
+  },
+  {
+    "term": "pathfinding",
+    "definition": "The plotting, by a computer application, of the shortest route between two points."
+  },
+  {
+    "term": "pattern recognition",
+    "definition": "Concerned with the automatic discovery of regularities in data through the use of computer algorithms."
+  },
+  {
+    "term": "perceptron",
+    "definition": "An algorithm for supervised learning of binary classifiers."
+  },
+  {
+    "term": "predicate logic",
+    "definition": "A collection of formal systems used in mathematics, philosophy, linguistics, and computer science."
+  },
+  {
+    "term": "predictive analytics",
+    "definition": "A variety of statistical techniques from data mining, predictive modelling, and machine learning."
+  },
+  {
+    "term": "principal component analysis",
+    "definition": "A statistical procedure that uses an orthogonal transformation."
+  },
+  {
+    "term": "principle of rationality",
+    "definition": "A principle coined by Karl R. Popper."
+  },
+  {
+    "term": "probabilistic programming",
+    "definition": "A programming paradigm in which probabilistic models are specified and inference for these models is performed automatically."
+  },
+  {
+    "term": "production system",
+    "definition": "A computer program typically used to provide some form of AI."
+  },
+  {
+    "term": "programming language",
+    "definition": "A formal language, which comprises a set of instructions that produce various kinds of output."
+  },
+  {
+    "term": "Prolog",
+    "definition": "A logic programming language associated with artificial intelligence and computational linguistics."
+  },
+  {
+    "term": "propositional calculus",
+    "definition": "A branch of logic which deals with propositions and argument flow."
+  },
+  {
+    "term": "proximal policy optimization",
+    "definition": "A reinforcement learning algorithm for training an intelligent agent's decision function."
+  },
+  {
+    "term": "Python",
+    "definition": "An interpreted, high-level, general-purpose programming language."
+  },
+  {
+    "term": "PyTorch",
+    "definition": "A machine learning library based on the Torch library."
+  },
+  {
+    "term": "Q-learning",
+    "definition": "A model-free reinforcement learning algorithm for learning the value of an action in a particular state."
+  },
+  {
+    "term": "qualification problem",
+    "definition": "The impossibility of listing all of the preconditions required for a real-world action to have its intended effect."
+  },
+  {
+    "term": "quantifier",
+    "definition": "In logic, quantification specifies the quantity of specimens in the domain of discourse that satisfy an open formula."
+  },
+  {
+    "term": "quantum computing",
+    "definition": "The use of quantum-mechanical phenomena such as superposition and entanglement to perform computation."
+  },
+  {
+    "term": "query language",
+    "definition": "Query languages are computer languages used to make queries in databases and information systems."
+  },
+  {
+    "term": "R programming language",
+    "definition": "A programming language and free software environment for statistical computing and graphics."
+  },
+  {
+    "term": "radial basis function network",
+    "definition": "An artificial neural network that uses radial basis functions as activation functions."
+  },
+  {
+    "term": "random forest",
+    "definition": "An ensemble learning method for classification, regression, and other tasks."
+  },
+  {
+    "term": "reasoning system",
+    "definition": "A software system that generates conclusions from available knowledge using logical techniques."
+  },
+  {
+    "term": "recurrent neural network",
+    "definition": "A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence."
+  },
+  {
+    "term": "regression analysis",
+    "definition": "A set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables."
+  },
+  {
+    "term": "regularization",
+    "definition": "A set of techniques such as dropout, early stopping, and L1 and L2 regularization."
+  },
+  {
+    "term": "reinforcement learning",
+    "definition": "An area of machine learning concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward."
+  },
+  {
+    "term": "reinforcement learning from human feedback",
+    "definition": "A technique that involves training a reward model to predict how humans rate the quality of generated content."
+  },
+  {
+    "term": "representation learning",
+    "definition": "See feature learning."
+  },
+  {
+    "term": "reservoir computing",
+    "definition": "A framework for computation that may be viewed as an extension of neural networks."
+  },
+  {
+    "term": "Resource Description Framework",
+    "definition": "A family of World Wide Web Consortium specifications."
+  },
+  {
+    "term": "restricted Boltzmann machine",
+    "definition": "A generative stochastic artificial neural network that can learn a probability distribution over its set of inputs."
+  },
+  {
+    "term": "Rete algorithm",
+    "definition": "A pattern matching algorithm for implementing rule-based systems."
+  },
+  {
+    "term": "robotics",
+    "definition": "An interdisciplinary branch of science and engineering."
+  },
+  {
+    "term": "rule-based system",
+    "definition": "A rule-based system is used to store and manipulate knowledge to interpret information in a useful way."
+  },
+  {
+    "term": "satisfiability",
+    "definition": "A formula is satisfiable if it is possible to find an interpretation that makes the formula true."
+  },
+  {
+    "term": "search algorithm",
+    "definition": "Any algorithm which solves the search problem."
+  },
+  {
+    "term": "selection",
+    "definition": "The stage of a genetic algorithm in which individual genomes are chosen from a population."
+  },
+  {
+    "term": "self-management",
+    "definition": "The process by which computer systems manage their own operation without human intervention."
+  },
+  {
+    "term": "semantic network",
+    "definition": "A knowledge base that represents semantic relations between concepts in a network."
+  },
+  {
+    "term": "semantic reasoner",
+    "definition": "A piece of software able to infer logical consequences from a set of asserted facts or axioms."
+  },
+  {
+    "term": "semantic query",
+    "definition": "Allows for queries and analytics of associative and contextual nature."
+  },
+  {
+    "term": "semantics",
+    "definition": "The field concerned with the rigorous mathematical study of the meaning of programming languages."
+  },
+  {
+    "term": "semi-supervised learning",
+    "definition": "A machine learning training paradigm characterized by using a combination of a small amount of human-labeled data."
+  },
+  {
+    "term": "sensor fusion",
+    "definition": "The combining of sensory data or data derived from disparate sources."
+  },
+  {
+    "term": "separation logic",
+    "definition": "An extension of Hoare logic."
+  },
+  {
+    "term": "similarity learning",
+    "definition": "An area of supervised learning closely related to classification and regression."
+  },
+  {
+    "term": "simulated annealing",
+    "definition": "A probabilistic technique for approximating the global optimum of a given function."
+  },
+  {
+    "term": "situated approach",
+    "definition": "The situated approach builds agents that are designed to behave effectively successfully in their environment."
+  },
+  {
+    "term": "situation calculus",
+    "definition": "A logic formalism designed for representing and reasoning about dynamical domains."
+  },
+  {
+    "term": "Selective Linear Definite clause resolution",
+    "definition": "The basic inference rule used in logic programming."
+  },
+  {
+    "term": "software",
+    "definition": "A collection of data or computer instructions that tell the computer how to work."
+  },
+  {
+    "term": "software engineering",
+    "definition": "The application of engineering to the development of software in a systematic method."
+  },
+  {
+    "term": "spatial-temporal reasoning",
+    "definition": "An area of artificial intelligence which draws from the fields of computer science, cognitive science, and cognitive psychology."
+  },
+  {
+    "term": "SPARQL",
+    "definition": "An RDF query language."
+  },
+  {
+    "term": "sparse dictionary learning",
+    "definition": "A feature learning method."
+  },
+  {
+    "term": "speech recognition",
+    "definition": "An interdisciplinary subfield of computational linguistics."
+  },
+  {
+    "term": "spiking neural network",
+    "definition": "An artificial neural network that more closely mimics a natural neural network."
+  },
+  {
+    "term": "state",
+    "definition": "A program is described as stateful if it is designed to remember preceding events or user interactions."
+  },
+  {
+    "term": "statistical classification",
+    "definition": "The problem of identifying to which of a set of categories a new observation belongs."
+  },
+  {
+    "term": "state action reward state action",
+    "definition": "A reinforcement learning algorithm for learning a Markov decision process policy."
+  },
+  {
+    "term": "statistical relational learning",
+    "definition": "A subdiscipline of artificial intelligence and machine learning."
+  },
+  {
+    "term": "stochastic optimization",
+    "definition": "Any optimization method that generates and uses random variables."
+  },
+  {
+    "term": "stochastic semantic analysis",
+    "definition": "An approach used in computer science as a semantic component of natural language understanding."
+  },
+  {
+    "term": "Stanford Research Institute Problem Solver",
+    "definition": "An automated planner developed by Richard Fikes and Nils Nilsson."
+  },
+  {
+    "term": "subject-matter expert",
+    "definition": "A person who has accumulated great knowledge in a particular field or topic."
+  },
+  {
+    "term": "superintelligence",
+    "definition": "A hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted human minds."
+  },
+  {
+    "term": "supervised learning",
+    "definition": "The machine learning task of learning a function that maps an input to an output based on example input-output pairs."
+  },
+  {
+    "term": "support vector machines",
+    "definition": "Supervised learning models with associated learning algorithms that analyze data used for classification and regression."
+  },
+  {
+    "term": "swarm intelligence",
+    "definition": "The collective behavior of decentralized, self-organized systems."
+  },
+  {
+    "term": "symbolic artificial intelligence",
+    "definition": "The term for the collection of all methods in artificial intelligence research that are based on high-level symbolic representations of problems."
+  },
+  {
+    "term": "synthetic intelligence",
+    "definition": "An alternative term for artificial intelligence."
+  },
+  {
+    "term": "systems neuroscience",
+    "definition": "A subdiscipline of neuroscience and systems biology."
+  },
+  {
+    "term": "technological singularity",
+    "definition": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible."
+  },
+  {
+    "term": "temporal difference learning",
+    "definition": "A class of model-free reinforcement learning methods."
+  },
+  {
+    "term": "tensor network theory",
+    "definition": "A theory of brain function that provides a mathematical model."
+  },
+  {
+    "term": "TensorFlow",
+    "definition": "A free and open-source software library for dataflow and differentiable programming."
+  },
+  {
+    "term": "theoretical computer science",
+    "definition": "A subset of general computer science and mathematics."
+  },
+  {
+    "term": "theory of computation",
+    "definition": "The branch that deals with how efficiently problems can be solved on a model of computation."
+  },
+  {
+    "term": "Thompson sampling",
+    "definition": "A heuristic for choosing actions."
+  },
+  {
+    "term": "time complexity",
+    "definition": "The computational complexity that describes the amount of time it takes to run an algorithm."
+  },
+  {
+    "term": "transfer learning",
+    "definition": "A machine learning technique in which knowledge learned from a task is reused."
+  },
+  {
+    "term": "transformer",
+    "definition": "A type of deep learning architecture that exploits a multi-head attention mechanism."
+  },
+  {
+    "term": "transhumanism",
+    "definition": "An international philosophical movement."
+  },
+  {
+    "term": "transition system",
+    "definition": "A concept used in the study of computation."
+  },
+  {
+    "term": "tree traversal",
+    "definition": "A form of graph traversal."
+  },
+  {
+    "term": "true quantified Boolean formula",
+    "definition": "The language TQBF is a formal language."
+  },
+  {
+    "term": "Turing machine",
+    "definition": "A mathematical model of computation."
+  },
+  {
+    "term": "Turing test",
+    "definition": "A test of a machine's ability to exhibit intelligent behaviour equivalent to that of a human."
+  },
+  {
+    "term": "type system",
+    "definition": "A set of rules that assigns a property called type to the various constructs of a computer program."
+  },
+  {
+    "term": "unsupervised learning",
+    "definition": "A type of self-organized Hebbian learning."
+  },
+  {
+    "term": "vision processing unit",
+    "definition": "A type of microprocessor designed to accelerate machine vision tasks."
+  },
+  {
+    "term": "Value-alignment complete",
+    "definition": "A value-alignment complete problem is a problem where the AI control problem needs to be fully solved to solve it."
+  },
+  {
+    "term": "Watson",
+    "definition": "A question-answering computer system."
+  },
+  {
+    "term": "weak AI",
+    "definition": "Artificial intelligence that is focused on one narrow task."
+  },
+  {
+    "term": "weak supervision",
+    "definition": "See semi-supervised learning."
+  },
+  {
+    "term": "word embedding",
+    "definition": "A representation of a word in natural language processing."
+  },
+  {
+    "term": "XGBoost",
+    "definition": "An open-source software library which provides a regularizing gradient boosting framework."
+  }
+]

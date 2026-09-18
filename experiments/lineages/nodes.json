@@ -1,0 +1,347 @@
+[
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Aristotle",
+    "primitive": "formal logic foundations"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Euclid",
+    "primitive": "axiomatic systems"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Al-Khwarizmi",
+    "primitive": "algorithmic procedure"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Leibniz",
+    "primitive": "symbolic logic vision"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "George Boole",
+    "primitive": "Boolean algebra"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Gottlob Frege",
+    "primitive": "modern logic foundations"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Bertrand Russell / Alfred North Whitehead",
+    "primitive": "formalism"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Kurt Godel",
+    "primitive": "limits of formal systems"
+  },
+  {
+    "lineage": "I. Logic & Formal Reasoning",
+    "person": "Alonzo Church / Alan Turing",
+    "primitive": "computation formalized"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Blaise Pascal / Pierre de Fermat",
+    "primitive": "probability theory"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Thomas Bayes",
+    "primitive": "Bayesian inference"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Pierre-Simon Laplace",
+    "primitive": "probabilistic determinism"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Andrey Kolmogorov",
+    "primitive": "axioms of probability"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Leonhard Euler",
+    "primitive": "network mathematics"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Joseph Fourier",
+    "primitive": "signal decomposition"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Richard Bellman",
+    "primitive": "dynamic programming"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "John von Neumann",
+    "primitive": "game theory minimax"
+  },
+  {
+    "lineage": "II. Mathematics of Uncertainty & Optimization",
+    "person": "Claude Shannon",
+    "primitive": "information theory"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Isaac Newton",
+    "primitive": "mechanics"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "James Clerk Maxwell",
+    "primitive": "electromagnetism"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Ludwig Boltzmann",
+    "primitive": "statistical mechanics"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Albert Einstein",
+    "primitive": "spacetime constraints"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Niels Bohr / Werner Heisenberg / Erwin Schrodinger",
+    "primitive": "quantum structure"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Claude Shannon",
+    "primitive": "information entropy"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "Rolf Landauer",
+    "primitive": "thermodynamic cost of information"
+  },
+  {
+    "lineage": "III. Physics & Constraint Boundaries",
+    "person": "John Bardeen / Walter Brattain / William Shockley",
+    "primitive": "transistor"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Alan Turing",
+    "primitive": "universal computation"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "John von Neumann",
+    "primitive": "stored-program architecture"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Norbert Wiener",
+    "primitive": "cybernetics feedback systems"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Claude Shannon",
+    "primitive": "digital logic"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Marvin Minsky / John McCarthy",
+    "primitive": "early AI"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Frank Rosenblatt",
+    "primitive": "perceptron"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Geoffrey Hinton / Yann LeCun / Yoshua Bengio",
+    "primitive": "neural networks"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Judea Pearl",
+    "primitive": "causal inference"
+  },
+  {
+    "lineage": "IV. Computation & Intelligence",
+    "person": "Demis Hassabis",
+    "primitive": "scaled model-based AI systems"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Adam Smith",
+    "primitive": "distributed coordination via markets"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "David Ricardo",
+    "primitive": "comparative advantage"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Karl Marx",
+    "primitive": "structural economic analysis"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Leon Walras",
+    "primitive": "equilibrium modeling"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "John Maynard Keynes",
+    "primitive": "macro coordination"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Friedrich Hayek",
+    "primitive": "distributed knowledge"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Kenneth Arrow",
+    "primitive": "social choice limits"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Ronald Coase",
+    "primitive": "transaction costs"
+  },
+  {
+    "lineage": "V. Economics & Coordination",
+    "person": "Elinor Ostrom",
+    "primitive": "collective resource governance"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Hammurabi",
+    "primitive": "codified law"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Confucius",
+    "primitive": "social order theory"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Plato / Aristotle",
+    "primitive": "political philosophy"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Niccolo Machiavelli",
+    "primitive": "power realism"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Thomas Hobbes",
+    "primitive": "social contract"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "John Locke",
+    "primitive": "rights framework"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "Montesquieu",
+    "primitive": "separation of powers"
+  },
+  {
+    "lineage": "VI. Governance & Political Structure",
+    "person": "James Madison",
+    "primitive": "constitutional design"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "William James",
+    "primitive": "psychology foundations"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Sigmund Freud",
+    "primitive": "subconscious modeling"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Jean Piaget",
+    "primitive": "cognitive development"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Donald Hebb",
+    "primitive": "neural learning rule"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Karl Friston",
+    "primitive": "predictive processing"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Daniel Kahneman / Amos Tversky",
+    "primitive": "bounded rationality"
+  },
+  {
+    "lineage": "VII. Cognitive & Mind Science",
+    "person": "Noam Chomsky",
+    "primitive": "language structure"
+  },
+  {
+    "lineage": "VIII. Systems & Networks",
+    "person": "Ludwig von Bertalanffy",
+    "primitive": "general systems theory"
+  },
+  {
+    "lineage": "VIII. Systems & Networks",
+    "person": "Jay Forrester",
+    "primitive": "system dynamics"
+  },
+  {
+    "lineage": "VIII. Systems & Networks",
+    "person": "Stafford Beer",
+    "primitive": "cybernetic governance"
+  },
+  {
+    "lineage": "VIII. Systems & Networks",
+    "person": "Paul Baran / Vint Cerf / Bob Kahn",
+    "primitive": "internet architecture"
+  },
+  {
+    "lineage": "VIII. Systems & Networks",
+    "person": "Tim Berners-Lee",
+    "primitive": "web protocol layer"
+  },
+  {
+    "lineage": "IX. Deep Ancestral Minds",
+    "person": "Early toolmakers",
+    "primitive": "Upper Paleolithic engineers"
+  },
+  {
+    "lineage": "IX. Deep Ancestral Minds",
+    "person": "Agricultural system designers",
+    "primitive": "Agricultural system designers"
+  },
+  {
+    "lineage": "IX. Deep Ancestral Minds",
+    "person": "Ancient navigators",
+    "primitive": "Ancient navigators"
+  },
+  {
+    "lineage": "IX. Deep Ancestral Minds",
+    "person": "Anonymous metallurgists",
+    "primitive": "Anonymous metallurgists"
+  },
+  {
+    "lineage": "IX. Deep Ancestral Minds",
+    "person": "Early astronomers in Mesopotamia China Mesoamerica",
+    "primitive": "Early astronomers in Mesopotamia China Mesoamerica"
+  }
+]

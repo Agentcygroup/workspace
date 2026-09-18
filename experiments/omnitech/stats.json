@@ -1,0 +1,126 @@
+{
+  "nodes": 170,
+  "edges": 1362,
+  "top_in_degree": [
+    [
+      "ames model",
+      16
+    ],
+    [
+      "a i m s",
+      15
+    ],
+    [
+      "artificial intelligence for mission success",
+      15
+    ],
+    [
+      "ai ml driven automation",
+      8
+    ],
+    [
+      "auto-gpt deeplearningexamples transformers",
+      8
+    ],
+    [
+      "predictive analytics pandas tensorflow scikit-learn",
+      8
+    ],
+    [
+      "generative models stable-diffusion yolov5",
+      8
+    ],
+    [
+      "devops cloud oriented services",
+      8
+    ],
+    [
+      "terraform kubernetes helm",
+      8
+    ],
+    [
+      "docker keda pulumi",
+      8
+    ],
+    [
+      "jenkins argo-cd",
+      8
+    ],
+    [
+      "prometheus vault",
+      8
+    ],
+    [
+      "networking security",
+      8
+    ],
+    [
+      "metasploit nmap tor",
+      8
+    ],
+    [
+      "wireshark bettercap",
+      8
+    ],
+    [
+      "pi-hole",
+      8
+    ],
+    [
+      "iot embedded system management",
+      8
+    ],
+    [
+      "arduino esphome zephyr",
+      8
+    ],
+    [
+      "open3d freecad",
+      8
+    ],
+    [
+      "openocd",
+      8
+    ],
+    [
+      "web development frontend design",
+      8
+    ],
+    [
+      "react vue next.js django ruby on rails go express.js node.js",
+      8
+    ],
+    [
+      "tailwindcss material-ui bootstrap",
+      8
+    ],
+    [
+      "serverless nestjs",
+      8
+    ],
+    [
+      "quantum computing integration",
+      8
+    ],
+    [
+      "qiskit pyquil",
+      8
+    ],
+    [
+      "cirq projectq",
+      8
+    ],
+    [
+      "data science analytics",
+      8
+    ],
+    [
+      "pandas numpy pyspark",
+      8
+    ],
+    [
+      "matplotlib seaborn plotly",
+      8
+    ]
+  ]
+}

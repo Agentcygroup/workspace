@@ -1,0 +1,103 @@
+{
+  "I. Logic & Formal Reasoning": [
+    "Al-Khwarizmi",
+    "Alan Turing",
+    "Alfred North Whitehead",
+    "Alonzo Church",
+    "Aristotle",
+    "Bertrand Russell",
+    "Euclid",
+    "George Boole",
+    "Gottlob Frege",
+    "Kurt Godel",
+    "Leibniz"
+  ],
+  "II. Mathematics of Uncertainty & Optimization": [
+    "Andrey Kolmogorov",
+    "Blaise Pascal",
+    "Claude Shannon",
+    "John von Neumann",
+    "Joseph Fourier",
+    "Leonhard Euler",
+    "Pierre de Fermat",
+    "Pierre-Simon Laplace",
+    "Richard Bellman",
+    "Thomas Bayes"
+  ],
+  "III. Physics & Constraint Boundaries": [
+    "Albert Einstein",
+    "Claude Shannon",
+    "Erwin Schrodinger",
+    "Isaac Newton",
+    "James Clerk Maxwell",
+    "John Bardeen",
+    "Ludwig Boltzmann",
+    "Niels Bohr",
+    "Rolf Landauer",
+    "Walter Brattain",
+    "Werner Heisenberg",
+    "William Shockley"
+  ],
+  "IV. Computation & Intelligence": [
+    "Alan Turing",
+    "Claude Shannon",
+    "Demis Hassabis",
+    "Frank Rosenblatt",
+    "Geoffrey Hinton",
+    "John McCarthy",
+    "John von Neumann",
+    "Judea Pearl",
+    "Marvin Minsky",
+    "Norbert Wiener",
+    "Yann LeCun",
+    "Yoshua Bengio"
+  ],
+  "V. Economics & Coordination": [
+    "Adam Smith",
+    "David Ricardo",
+    "Elinor Ostrom",
+    "Friedrich Hayek",
+    "John Maynard Keynes",
+    "Karl Marx",
+    "Kenneth Arrow",
+    "Leon Walras",
+    "Ronald Coase"
+  ],
+  "VI. Governance & Political Structure": [
+    "Aristotle",
+    "Confucius",
+    "Hammurabi",
+    "James Madison",
+    "John Locke",
+    "Montesquieu",
+    "Niccolo Machiavelli",
+    "Plato",
+    "Thomas Hobbes"
+  ],
+  "VII. Cognitive & Mind Science": [
+    "Amos Tversky",
+    "Daniel Kahneman",
+    "Donald Hebb",
+    "Jean Piaget",
+    "Karl Friston",
+    "Noam Chomsky",
+    "Sigmund Freud",
+    "William James"
+  ],
+  "VIII. Systems & Networks": [
+    "Bob Kahn",
+    "Jay Forrester",
+    "Ludwig von Bertalanffy",
+    "Paul Baran",
+    "Stafford Beer",
+    "Tim Berners-Lee",
+    "Vint Cerf"
+  ],
+  "IX. Deep Ancestral Minds": [
+    "Agricultural system designers",
+    "Ancient navigators",
+    "Anonymous metallurgists",
+    "Early astronomers in Mesopotamia China Mesoamerica",
+    "Early toolmakers"
+  ]
+}

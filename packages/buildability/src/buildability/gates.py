@@ -61,11 +61,25 @@ def _g1_5(spec: Spec, _history) -> tuple[bool, str]:
 
 
 def _g2(spec: Spec, _history) -> tuple[bool, str]:
+    """Probe the substrate for real availability.
+
+    The spec's substrate_available flag is a claim. This gate verifies it
+    against the environment. If no probe is registered for the substrate,
+    we fall back to the declared flag and mark the reason as unverified.
+    """
+    from .substrate import probe
+
     if not spec.substrate:
         return False, "no substrate declared"
-    if not spec.substrate_available:
-        return False, f"substrate '{spec.substrate}' unavailable"
-    return True, f"substrate '{spec.substrate}' available"
+
+    result = probe(spec.substrate)
+    if result.available:
+        return True, f"substrate '{spec.substrate}' available ({result.reason})"
+    if result.unknown:
+        if spec.substrate_available:
+            return True, f"substrate '{spec.substrate}' declared available ({result.reason})"
+        return False, f"substrate '{spec.substrate}' declared unavailable ({result.reason})"
+    return False, f"substrate '{spec.substrate}' unavailable ({result.reason})"
 
 
 def _g3(spec: Spec, _history) -> tuple[bool, str, Any]:
