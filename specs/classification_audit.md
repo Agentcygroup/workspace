@@ -20,3 +20,6 @@ and the git commit at time of classification.
 
 ## Current state
 Not done. Classification is stateless.
+
+## Status
+state: not-done

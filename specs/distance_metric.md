@@ -28,3 +28,6 @@ The metric is used to rank partial specs within the same regime.
 ## Current state
 Not done. `test_fail_no_distance_metric_between_specs` documents the
 absence.
+
+## Status
+state: not-done

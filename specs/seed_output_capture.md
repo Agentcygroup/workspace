@@ -21,3 +21,6 @@ input that produced each diagram is preserved.
 
 ## Current state
 Not done. Only the `.mmd` files are written.
+
+## Status
+state: not-done

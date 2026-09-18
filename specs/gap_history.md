@@ -25,3 +25,6 @@ that returns the final spec and the sequence of open-gap counts.
 ## Current state
 Not done. `test_fail_divergence_requires_external_history` documents the
 absence.
+
+## Status
+state: not-done

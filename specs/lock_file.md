@@ -20,3 +20,6 @@ package, generated from the current virtualenv.
 
 ## Current state
 Not done. No lock file exists.
+
+## Status
+state: not-done

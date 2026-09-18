@@ -24,3 +24,6 @@ A crawler with a `Crawler` class supporting:
 
 ## Current state
 Not done. The web crawler exists only as prose.
+
+## Status
+state: not-done

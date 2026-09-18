@@ -26,3 +26,6 @@ element, its state, and what would complete it.
 
 ## Current state
 Not done. `test_fail_no_partial_spec_handling` documents the absence.
+
+## Status
+state: not-done

@@ -28,3 +28,6 @@ interface has exactly one producer.
 
 ## Current state
 Not done. Interfaces have no `consumes` field.
+
+## Status
+state: not-done

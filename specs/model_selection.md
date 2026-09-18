@@ -25,3 +25,6 @@ The selection is based on spec properties, not on arbitrary assignment.
 ## Current state
 Not done. Model binding is currently `spec.model or spec.substrate`, which
 is a lookup, not a selection.
+
+## Status
+state: not-done

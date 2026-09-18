@@ -23,3 +23,6 @@ fails with a specific error.
 
 ## Current state
 Not done. Specs have no version field.
+
+## Status
+state: not-done

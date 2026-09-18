@@ -22,3 +22,6 @@ a structured output. A top-level `ames(mission) -> dict` composes them.
 
 ## Current state
 Not done. AMES exists only as prose describing what it would do.
+
+## Status
+state: not-done

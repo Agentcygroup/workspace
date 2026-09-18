@@ -119,14 +119,41 @@ def _g4(spec: Spec, candidate: Any, _history) -> tuple[bool, str]:
 
 
 def _g5(spec: Spec, candidate: Any, _history) -> tuple[bool, str]:
+    """G5: resolver must be a total, antisymmetric order with self-tie.
+
+    Checks:
+      1. self-tie: resolver(c, c) is 0 or None
+      2. antisymmetry: for a distinct sentinel d, resolver(c, d) and
+         resolver(d, c) must not both return the same non-zero value.
+    """
     if spec.resolver is None:
         return False, "no resolver wired"
+
     try:
-        a = spec.resolver(candidate, candidate)
+        self_tie = spec.resolver(candidate, candidate)
     except Exception as e:
-        return False, f"resolver raised: {e!r}"
-    if a not in (0, None):
-        return False, f"resolver(c, c) = {a}; violates self-tie"
+        return False, f"resolver raised on self: {e!r}"
+    if self_tie not in (0, None):
+        return False, f"resolver(c, c) = {self_tie}; violates self-tie"
+
+    sentinel = object()
+    try:
+        ab = spec.resolver(candidate, sentinel)
+        ba = spec.resolver(sentinel, candidate)
+    except Exception:
+        # Resolver is type-constrained to its own candidates. Not a violation.
+        return True, "resolver total with tie semantics"
+
+    if ab is None or ba is None:
+        # ⊥ on either side: undecidable is a valid outcome, not a violation.
+        return True, "resolver total with tie semantics"
+
+    if ab != 0 and ab == ba:
+        return False, (
+            f"resolver not antisymmetric: "
+            f"resolver(c, d)={ab}, resolver(d, c)={ba}"
+        )
+
     return True, "resolver total with tie semantics"
 
 

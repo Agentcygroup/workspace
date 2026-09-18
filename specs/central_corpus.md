@@ -26,3 +26,7 @@ result.
 ## Current state
 Partial. The corpus has one positive case and two negatives. Not enough
 to establish the claim statistically.
+
+## Status
+state: partial
+evidence-file: experiments/central/outcome.json

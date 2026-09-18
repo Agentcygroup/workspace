@@ -18,3 +18,7 @@ the repo, so the hooks fire on commit.
 
 ## Current state
 Partial. The config file exists; the hook was never installed.
+
+## Status
+state: partial
+evidence-file: .pre-commit-config.yaml

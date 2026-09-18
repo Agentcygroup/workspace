@@ -27,3 +27,6 @@ tests is importable by pytest without path manipulation.
 Partial. `packages/complexity` was diagnosed as not installed but was not
 re-installed. `packages/attest/__init__.py` exports the names the tests
 need, but `decide.py` and `interview.py` are not in `__all__`.
+
+## Status
+state: partial

@@ -21,3 +21,6 @@ current state of the repository. Stale content is detectable.
 
 ## Current state
 Partial. The report is generated once and not refreshed.
+
+## Status
+state: partial

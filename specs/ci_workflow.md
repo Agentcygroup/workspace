@@ -23,3 +23,6 @@ workflow log.
 
 ## Current state
 Not done. No CI configuration exists.
+
+## Status
+state: not-done

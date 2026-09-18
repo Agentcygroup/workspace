@@ -26,3 +26,6 @@ A curriculum file `curriculum.yaml` with a list of items, each having:
 
 ## Current state
 Not done. The curriculum exists only as prose.
+
+## Status
+state: not-done

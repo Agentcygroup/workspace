@@ -24,3 +24,6 @@ when the topic is a primitive (formal logic, mathematics, etc.).
 
 ## Current state
 Not done. The recursive framework exists only as prose.
+
+## Status
+state: not-done

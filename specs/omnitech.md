@@ -21,3 +21,6 @@ super-node that dispatches requests.
 ## Current state
 Not done. OmniTech exists as a parsed graph of a conversation about it,
 not as a running system.
+
+## Status
+state: not-done

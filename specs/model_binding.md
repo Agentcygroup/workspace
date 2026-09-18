@@ -25,3 +25,6 @@ run for that spec using the model's solver/prover/resolver.
 ## Current state
 Partial. `_bind_model` exists but is not invoked from `evaluate()` for
 any spec except through test cases.
+
+## Status
+state: partial

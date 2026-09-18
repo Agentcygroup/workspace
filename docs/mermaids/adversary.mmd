@@ -23,6 +23,7 @@ graph TD
   framework_NIST SP 800_53 SI("NIST SP 800-53 SI")
   framework_NIST SP 800_53 SI_7("NIST SP 800-53 SI-7")
   standards_artifact_ai_rmf_profile["ai_rmf_profile"]
+  standards_artifact_attestation_gaps["attestation_gaps"]
   standards_artifact_configuration_management["configuration_management"]
   standards_artifact_gate_conformance["gate_conformance"]
   standards_artifact_provenance_record["provenance_record"]
@@ -56,6 +57,7 @@ graph TD
   decision_security ==>|unlocks| artifact_security_controls
   artifact_INDEX -->|lists| standards_artifact_ai_rmf_profile
   standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
+  artifact_INDEX -->|lists| standards_artifact_attestation_gaps
   artifact_INDEX -->|lists| standards_artifact_configuration_management
   standards_artifact_configuration_management -->|materializes| artifact_configuration_management
   artifact_INDEX -->|lists| standards_artifact_gate_conformance

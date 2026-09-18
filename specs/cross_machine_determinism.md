@@ -24,3 +24,7 @@ major.minor version and the same git commit checked out.
 
 ## Current state
 Partial. The test only runs twice on one machine. No cross-machine check.
+
+## Status
+state: partial
+evidence-file: packages/seeds/tests/test_seed_determinism.py

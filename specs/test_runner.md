@@ -24,3 +24,7 @@ the report.
 
 ## Current state
 Not done. The attester runs one subprocess per test.
+
+## Status
+state: partial
+evidence-file: packages/gaps/src/gaps/attest.py

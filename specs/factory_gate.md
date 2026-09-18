@@ -35,3 +35,6 @@ must be refused with a reason and must not produce output files.
 ## Current state
 Not done. The `_gate` function was defined but never inserted into the loop.
 `mesh/report.json` still shows `skipped_invalid: 0`.
+
+## Status
+state: not-done

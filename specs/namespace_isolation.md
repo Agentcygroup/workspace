@@ -23,3 +23,6 @@ if two directories claim the same top-level name.
 ## Current state
 Not done. The `attest` collision was diagnosed at the pytest level but
 no registry prevents the class of bug.
+
+## Status
+state: not-done

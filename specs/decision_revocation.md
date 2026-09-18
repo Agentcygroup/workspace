@@ -24,3 +24,6 @@ Artifacts generated from the revoked decision are marked superseded.
 
 ## Current state
 Not done. Decisions have no revocation mechanism.
+
+## Status
+state: not-done
