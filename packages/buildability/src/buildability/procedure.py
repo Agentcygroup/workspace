@@ -66,47 +66,28 @@ class Verdict:
         }
 
 def evaluate(spec: Spec, gap_history: list[int] | None = None) -> Verdict:
-    """Run all gates in order; the first failure names the regime."""
+    """Run all gates in REGISTRY order; the first failure names the regime."""
+    from .gates import REGISTRY, Gate
+
     results: list[GateResult] = []
+    candidate = None
 
-    # G0 -- convergence, only meaningful if we have history.
-    if gap_history:
-        r0 = g0_convergence(gap_history)
-        results.append(r0)
-        if not r0.passed:
-            return Verdict(Regime.DIVERGENT, results)
+    for gs in REGISTRY:
+        g = gs.gate
+        if g is Gate.G0:
+            ok, reason = gs.check(spec, gap_history)
+        elif g is Gate.G3:
+            ok, reason, candidate = gs.check(spec, gap_history)
+        elif g in (Gate.G4, Gate.G5):
+            ok, reason = gs.check(spec, candidate, gap_history)
+        else:
+            ok, reason = gs.check(spec, gap_history)
 
-    # G1 -- spec
-    r1 = g1_spec(spec)
-    results.append(r1)
-    if not r1.passed:
-        return Verdict(Regime.RESEARCH, results)
+        results.append(GateResult(g, ok, reason))
+        if not ok:
+            return Verdict(gs.regime, tuple(results), candidate)
 
-    # G2 -- substrate
-    r2 = g2_substrate(spec)
-    results.append(r2)
-    if not r2.passed:
-        return Verdict(Regime.ENGINEERING, results)
-
-    # G3 -- solver
-    r3, candidate = g3_solver(spec)
-    results.append(r3)
-    if not r3.passed:
-        return Verdict(Regime.CONSTRUCTION, results)
-
-    # G4 -- prover
-    r4 = g4_prover(spec, candidate)
-    results.append(r4)
-    if not r4.passed:
-        return Verdict(Regime.VERIFICATION, results, candidate)
-
-    # G5 -- resolver
-    r5 = g5_resolver(spec, candidate)
-    results.append(r5)
-    if not r5.passed:
-        return Verdict(Regime.ADJUDICATION, results, candidate)
-
-    return Verdict(Regime.BUILDABLE, results, candidate)
+    return Verdict("BUILDABLE", tuple(results), candidate)
 
 
 def build(spec: Spec, max_iterations: int = 100) -> Verdict:

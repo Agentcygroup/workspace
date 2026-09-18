@@ -14,6 +14,7 @@ from .model import Spec
 class Gate(str, Enum):
     G0 = "G0"   # convergence
     G1 = "G1"   # spec
+    G1_5 = "G1.5"  # consistency
     G2 = "G2"   # substrate
     G3 = "G3"   # solver
     G4 = "G4"   # prover
@@ -121,7 +122,7 @@ class GateSpec:
 REGISTRY: list[GateSpec] = [
     GateSpec(Gate.G0, _g0, "DIVERGENT"),
     GateSpec(Gate.G1, _g1, "RESEARCH"),
-    GateSpec(Gate.G1_5_CONSISTENCY, _g1_5, "INCOHERENT"),
+    GateSpec(Gate.G1_5, _g1_5, "INCOHERENT"),
     GateSpec(Gate.G2, _g2, "ENGINEERING"),
     GateSpec(Gate.G3, _g3, "CONSTRUCTION"),
     GateSpec(Gate.G4, _g4, "VERIFICATION"),

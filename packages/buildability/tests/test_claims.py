@@ -88,32 +88,25 @@ def test_claim_no_builder_exists():
 # CLAIM GROUP 2: What the framework fails to do
 # ===========================================================================
 
-def test_fail_semantic_incompleteness_not_detected():
-    """A spec can name all six elements and still be incoherent.
-
-    Two components with identical responsibility, an interface with no
-    producer, an invariant that contradicts another. G1 passes all.
-    """
+def test_semantic_incompleteness_is_detected():
+    """G1.5 catches the incoherence G1 misses."""
     incoherent = Spec(
         name="incoherent",
         components=(
-            Component("api", "serve"),      # two components
-            Component("api2", "serve"),     # claiming identical responsibility
+            Component("api", "serve"),
+            Component("api2", "serve"),
         ),
         interfaces=(Interface("rest", "openapi", "http", "v1", "5xx"),),
         invariants=(
             Invariant("fast", "p99<100ms"),
-            Invariant("slow", "p99>500ms"),  # contradictory
+            Invariant("slow", "p99>500ms"),
         ),
         lifecycle=Lifecycle("a", "b", "c", "d", "e"),
         substrate="kubernetes",
         substrate_available=True,
     )
     v = evaluate(incoherent)
-    # G1 passes despite incoherence.
-    assert v.regime == "CONSTRUCTION", (
-        f"Framework detected incoherence (unexpected): {v}"
-    )
+    assert v.regime == "INCOHERENT", v
 
 
 def test_fail_no_distance_metric_between_specs():
@@ -143,9 +136,11 @@ def test_fail_divergence_requires_external_history():
     v = evaluate(spec)  # no history
     # No divergence check ran.
     assert v.regime == "RESEARCH"
-    assert not any(r.gate.value == "G0" for r in v.results), (
-        "Framework computed gap history internally (unexpected)"
-    )
+    # G0 runs but with no history it reports insufficient and passes.
+    g0_results = [r for r in v.results if r.gate.value == "G0"]
+    assert g0_results, "G0 should run even without history"
+    assert g0_results[0].passed, "G0 with no history should pass"
+    assert "insufficient" in g0_results[0].reason
 
 
 def test_cross_spec_composition_exists():
