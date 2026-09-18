@@ -13,7 +13,8 @@ class Regime(str, Enum):
         return self.value
 
     DIVERGENT       = "DIVERGENT"        # G0
-    RESEARCH        = "RESEARCH"         # G1
+    RESEARCH        = "RESEARCH"
+    INCOHERENT      = "INCOHERENT"         # G1
     ENGINEERING     = "ENGINEERING"      # G2
     CONSTRUCTION    = "CONSTRUCTION"     # G3
     VERIFICATION    = "VERIFICATION"     # G4

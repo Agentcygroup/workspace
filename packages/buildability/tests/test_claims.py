@@ -413,8 +413,8 @@ def test_central_claim_has_counterexample():
     p = REPO / "mesh" / "specs_counterexample" / "COUNTEREXAMPLE-DUPLICATE-OWNER.json"
     assert p.exists(), "counterexample spec missing"
     v = evaluate(spec_from_file(p))
-    assert v.regime == "CONSTRUCTION", (
-        f"G1 now detects this incoherence (framework improved): {v}"
+    assert v.regime == "INCOHERENT", (
+        f"G1.5 does not detect the incoherence: {v}"
     )
     spec = spec_from_file(p)
     responsibilities = [c.responsibility for c in spec.components]

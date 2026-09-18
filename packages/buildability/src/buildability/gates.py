@@ -49,6 +49,16 @@ def _g1(spec: Spec, _history) -> tuple[bool, str]:
     return True, "spec complete"
 
 
+def _g1_5(spec: Spec, _history) -> tuple[bool, str]:
+    from .consistency import check_consistency
+    findings = check_consistency(spec)
+    if findings:
+        return False, "incoherent: " + "; ".join(
+            f.reason for f in findings
+        )
+    return True, "consistent"
+
+
 def _g2(spec: Spec, _history) -> tuple[bool, str]:
     if not spec.substrate:
         return False, "no substrate declared"
@@ -111,6 +121,7 @@ class GateSpec:
 REGISTRY: list[GateSpec] = [
     GateSpec(Gate.G0, _g0, "DIVERGENT"),
     GateSpec(Gate.G1, _g1, "RESEARCH"),
+    GateSpec(Gate.G1_5_CONSISTENCY, _g1_5, "INCOHERENT"),
     GateSpec(Gate.G2, _g2, "ENGINEERING"),
     GateSpec(Gate.G3, _g3, "CONSTRUCTION"),
     GateSpec(Gate.G4, _g4, "VERIFICATION"),
