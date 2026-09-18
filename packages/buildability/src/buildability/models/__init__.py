@@ -1,8 +1,7 @@
-"""Ten computational models, each providing solver / prover / resolver."""
+"""Computational models, each providing solver / prover / resolver."""
 from . import (
-from . import ames
     boolean, lambda_, combinatory, turing, pi, interaction,
-    cellular, category, quantum, general, gerhardt,
+    cellular, category, quantum, general, gerhardt, ames,
 )
 
 MODEL_REGISTRY = {
@@ -17,4 +16,5 @@ MODEL_REGISTRY = {
     "quantum":     quantum,
     "general":     general,
     "gerhardt":    gerhardt,
+    "ames":        ames,
 }

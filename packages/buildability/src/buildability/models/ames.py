@@ -11,4 +11,8 @@ def prover(candidate, spec):
 
 
 def resolver(a, b):
-    return a if a == b else {"model": "ames", "resolved": False}
+    if a is b:
+        return 0
+    if a == b:
+        return 0
+    return None
