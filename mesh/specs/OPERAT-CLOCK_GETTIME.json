@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-CLOCK_GETTIME",
+  "level": "OPERATING_SYSTEM",
+  "name": "CLOCK_GETTIME",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

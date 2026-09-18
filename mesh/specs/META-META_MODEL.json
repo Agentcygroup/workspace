@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_MODEL",
+  "level": "META",
+  "name": "META_MODEL",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

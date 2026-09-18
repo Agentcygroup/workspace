@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-BRK",
+  "level": "OPERATING_SYSTEM",
+  "name": "BRK",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

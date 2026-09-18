@@ -1,0 +1,12 @@
+{
+  "kind_id": "GOVERN-SANCTION",
+  "level": "GOVERNANCE",
+  "name": "SANCTION",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/governance/src/"
+  },
+  "validator": null
+}

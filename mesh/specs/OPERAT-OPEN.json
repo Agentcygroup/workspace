@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-OPEN",
+  "level": "OPERATING_SYSTEM",
+  "name": "OPEN",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

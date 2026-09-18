@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-CAPGET",
+  "level": "OPERATING_SYSTEM",
+  "name": "CAPGET",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

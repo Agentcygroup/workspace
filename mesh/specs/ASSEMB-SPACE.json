@@ -1,0 +1,12 @@
+{
+  "kind_id": "ASSEMB-SPACE",
+  "level": "ASSEMBLY",
+  "name": "SPACE",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/assembly/src/"
+  },
+  "validator": null
+}

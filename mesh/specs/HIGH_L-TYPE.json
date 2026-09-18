@@ -1,0 +1,12 @@
+{
+  "kind_id": "HIGH_L-TYPE",
+  "level": "HIGH_LEVEL_LANGUAGE",
+  "name": "TYPE",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/high_level_language/src/"
+  },
+  "validator": null
+}

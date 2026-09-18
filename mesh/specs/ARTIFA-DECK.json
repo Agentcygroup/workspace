@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-DECK",
+  "level": "ARTIFACT",
+  "name": "DECK",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

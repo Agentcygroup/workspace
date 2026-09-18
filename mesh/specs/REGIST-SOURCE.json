@@ -1,0 +1,12 @@
+{
+  "kind_id": "REGIST-SOURCE",
+  "level": "REGISTRY",
+  "name": "SOURCE",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/registry/src/"
+  },
+  "validator": null
+}

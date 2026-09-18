@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-SCHEDULER",
+  "level": "APPLICATION",
+  "name": "SCHEDULER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

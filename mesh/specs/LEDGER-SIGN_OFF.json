@@ -1,0 +1,12 @@
+{
+  "kind_id": "LEDGER-SIGN_OFF",
+  "level": "LEDGER",
+  "name": "SIGN_OFF",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/ledger/src/"
+  },
+  "validator": null
+}

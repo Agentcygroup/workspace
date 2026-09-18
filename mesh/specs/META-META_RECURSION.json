@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_RECURSION",
+  "level": "META",
+  "name": "META_RECURSION",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

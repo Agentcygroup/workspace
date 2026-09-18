@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KindSpec",
+  "type": "object",
+  "required": ["kind_id","level","name","status","emit"],
+  "additionalProperties": false,
+  "properties": {
+    "kind_id":  {"type":"string","pattern":"^[A-Z0-9_]+-[A-Z0-9_]+$"},
+    "level":    {"enum":["PHYSICAL","GATE","TRANSISTOR","LOGIC","MICROARCHITECTURE","INSTRUCTION_SET_ARCHITECTURE","OPERATING_SYSTEM","ASSEMBLY","HIGH_LEVEL_LANGUAGE","APPLICATION","FRAMEWORK","REGISTRY","LEDGER","ARTIFACT","GOVERNANCE","META"]},
+    "name":     {"type":"string","minLength":1},
+    "status":   {"enum":["stub","specified","implemented"]},
+    "semantics":{"type":["object","null"]},
+    "emit":     {"type":"object","required":["language","target"],"properties":{"language":{"type":"string"},"target":{"type":"string"}}},
+    "validator":{"type":["string","null"]}
+  }
+}

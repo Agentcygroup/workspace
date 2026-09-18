@@ -1,0 +1,12 @@
+{
+  "kind_id": "ASSEMB-UNION",
+  "level": "ASSEMBLY",
+  "name": "UNION",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/assembly/src/"
+  },
+  "validator": null
+}

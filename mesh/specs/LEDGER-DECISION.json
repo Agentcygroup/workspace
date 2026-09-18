@@ -1,0 +1,12 @@
+{
+  "kind_id": "LEDGER-DECISION",
+  "level": "LEDGER",
+  "name": "DECISION",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/ledger/src/"
+  },
+  "validator": null
+}

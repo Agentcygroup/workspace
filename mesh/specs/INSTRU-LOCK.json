@@ -1,0 +1,12 @@
+{
+  "kind_id": "INSTRU-LOCK",
+  "level": "INSTRUCTION_SET_ARCHITECTURE",
+  "name": "LOCK",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/instruction_set_architecture/src/"
+  },
+  "validator": null
+}

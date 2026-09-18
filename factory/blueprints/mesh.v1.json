@@ -1,0 +1,20 @@
+{
+  "blueprint_id": "mesh.v1",
+  "name": "internal-automation-mesh",
+  "version": "1.0.0",
+  "stages": [
+    {"id": "S01","name": "scaffold",   "engine": "engine_scaffold",  "input": "blueprint","output": "layout"},
+    {"id": "S02","name": "specs",      "engine": "engine_specs",     "input": "ontology", "output": "mesh/specs"},
+    {"id": "S03","name": "engines",    "engine": "engine_engines",   "input": "layout",   "output": "mesh/engines"},
+    {"id": "S04","name": "controller", "engine": "engine_controller","input": "layout",   "output": "mesh/mesh.py"},
+    {"id": "S05","name": "tests",      "engine": "engine_tests",     "input": "layout",   "output": "mesh/tests"},
+    {"id": "S06","name": "wire",       "engine": "engine_wire",      "input": "all",      "output": "wired"}
+  ],
+  "invariants": [
+    "every stage input resolves",
+    "every stage output is written under the workspace root",
+    "no stage overwrites a file outside its declared output",
+    "no stage invents semantics",
+    "stub specs never emit code"
+  ]
+}

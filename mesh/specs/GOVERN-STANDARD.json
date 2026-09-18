@@ -1,0 +1,12 @@
+{
+  "kind_id": "GOVERN-STANDARD",
+  "level": "GOVERNANCE",
+  "name": "STANDARD",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/governance/src/"
+  },
+  "validator": null
+}

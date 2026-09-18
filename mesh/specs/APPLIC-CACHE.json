@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-CACHE",
+  "level": "APPLICATION",
+  "name": "CACHE",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

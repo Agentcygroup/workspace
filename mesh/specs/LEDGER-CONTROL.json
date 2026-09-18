@@ -1,0 +1,12 @@
+{
+  "kind_id": "LEDGER-CONTROL",
+  "level": "LEDGER",
+  "name": "CONTROL",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/ledger/src/"
+  },
+  "validator": null
+}

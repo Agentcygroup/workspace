@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-REPOSITORY",
+  "level": "APPLICATION",
+  "name": "REPOSITORY",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

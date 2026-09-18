@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-FORK",
+  "level": "OPERATING_SYSTEM",
+  "name": "FORK",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

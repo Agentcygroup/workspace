@@ -1,0 +1,12 @@
+{
+  "kind_id": "GOVERN-SIGN_OFF",
+  "level": "GOVERNANCE",
+  "name": "SIGN_OFF",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/governance/src/"
+  },
+  "validator": null
+}

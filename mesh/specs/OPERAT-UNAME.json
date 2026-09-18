@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-UNAME",
+  "level": "OPERATING_SYSTEM",
+  "name": "UNAME",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

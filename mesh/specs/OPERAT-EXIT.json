@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-EXIT",
+  "level": "OPERATING_SYSTEM",
+  "name": "EXIT",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

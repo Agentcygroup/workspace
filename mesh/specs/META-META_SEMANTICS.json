@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_SEMANTICS",
+  "level": "META",
+  "name": "META_SEMANTICS",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

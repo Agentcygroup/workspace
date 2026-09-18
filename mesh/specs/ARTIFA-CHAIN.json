@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-CHAIN",
+  "level": "ARTIFACT",
+  "name": "CHAIN",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

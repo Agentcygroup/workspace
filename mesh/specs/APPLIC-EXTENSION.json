@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-EXTENSION",
+  "level": "APPLICATION",
+  "name": "EXTENSION",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

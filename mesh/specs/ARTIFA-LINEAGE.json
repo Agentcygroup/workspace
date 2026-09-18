@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-LINEAGE",
+  "level": "ARTIFACT",
+  "name": "LINEAGE",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

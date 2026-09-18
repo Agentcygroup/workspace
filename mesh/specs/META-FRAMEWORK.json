@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-FRAMEWORK",
+  "level": "META",
+  "name": "FRAMEWORK",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

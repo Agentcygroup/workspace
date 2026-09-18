@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-LINTER",
+  "level": "APPLICATION",
+  "name": "LINTER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

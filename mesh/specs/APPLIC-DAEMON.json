@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-DAEMON",
+  "level": "APPLICATION",
+  "name": "DAEMON",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

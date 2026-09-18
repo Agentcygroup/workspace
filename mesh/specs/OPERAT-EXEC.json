@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-EXEC",
+  "level": "OPERATING_SYSTEM",
+  "name": "EXEC",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

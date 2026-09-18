@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_EPISTEMOLOGY",
+  "level": "META",
+  "name": "META_EPISTEMOLOGY",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

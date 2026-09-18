@@ -1,0 +1,12 @@
+{
+  "kind_id": "ASSEMB-INCLUDE",
+  "level": "ASSEMBLY",
+  "name": "INCLUDE",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/assembly/src/"
+  },
+  "validator": null
+}

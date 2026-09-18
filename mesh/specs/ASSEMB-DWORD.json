@@ -1,0 +1,12 @@
+{
+  "kind_id": "ASSEMB-DWORD",
+  "level": "ASSEMBLY",
+  "name": "DWORD",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/assembly/src/"
+  },
+  "validator": null
+}

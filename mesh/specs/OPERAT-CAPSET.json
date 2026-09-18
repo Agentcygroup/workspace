@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-CAPSET",
+  "level": "OPERATING_SYSTEM",
+  "name": "CAPSET",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

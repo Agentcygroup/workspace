@@ -1,0 +1,12 @@
+{
+  "kind_id": "REGIST-AXIS",
+  "level": "REGISTRY",
+  "name": "AXIS",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/registry/src/"
+  },
+  "validator": null
+}

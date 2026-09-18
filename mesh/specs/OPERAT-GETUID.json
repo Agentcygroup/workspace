@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-GETUID",
+  "level": "OPERATING_SYSTEM",
+  "name": "GETUID",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

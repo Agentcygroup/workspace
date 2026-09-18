@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-CLOSURE_LOG",
+  "level": "ARTIFACT",
+  "name": "CLOSURE_LOG",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

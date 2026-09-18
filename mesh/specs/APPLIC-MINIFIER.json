@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-MINIFIER",
+  "level": "APPLICATION",
+  "name": "MINIFIER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

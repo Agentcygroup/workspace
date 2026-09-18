@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-ADAPTER",
+  "level": "APPLICATION",
+  "name": "ADAPTER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

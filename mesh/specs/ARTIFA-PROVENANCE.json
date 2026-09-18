@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-PROVENANCE",
+  "level": "ARTIFACT",
+  "name": "PROVENANCE",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

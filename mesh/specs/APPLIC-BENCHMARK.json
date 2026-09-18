@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-BENCHMARK",
+  "level": "APPLICATION",
+  "name": "BENCHMARK",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

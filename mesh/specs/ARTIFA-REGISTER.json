@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-REGISTER",
+  "level": "ARTIFACT",
+  "name": "REGISTER",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

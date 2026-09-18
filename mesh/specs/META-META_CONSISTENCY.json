@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_CONSISTENCY",
+  "level": "META",
+  "name": "META_CONSISTENCY",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

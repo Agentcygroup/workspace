@@ -1,0 +1,12 @@
+{
+  "kind_id": "REGIST-CLOSURE",
+  "level": "REGISTRY",
+  "name": "CLOSURE",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/registry/src/"
+  },
+  "validator": null
+}

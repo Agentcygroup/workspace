@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-SERVER",
+  "level": "APPLICATION",
+  "name": "SERVER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

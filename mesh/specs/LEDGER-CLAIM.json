@@ -1,0 +1,12 @@
+{
+  "kind_id": "LEDGER-CLAIM",
+  "level": "LEDGER",
+  "name": "CLAIM",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/ledger/src/"
+  },
+  "validator": null
+}

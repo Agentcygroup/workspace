@@ -1,0 +1,12 @@
+{
+  "kind_id": "ARTIFA-ATTESTATION",
+  "level": "ARTIFACT",
+  "name": "ATTESTATION",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/artifact/src/"
+  },
+  "validator": null
+}

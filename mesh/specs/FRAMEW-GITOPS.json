@@ -1,0 +1,12 @@
+{
+  "kind_id": "FRAMEW-GITOPS",
+  "level": "FRAMEWORK",
+  "name": "GITOPS",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/framework/src/"
+  },
+  "validator": null
+}

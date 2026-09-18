@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-CONNECT",
+  "level": "OPERATING_SYSTEM",
+  "name": "CONNECT",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

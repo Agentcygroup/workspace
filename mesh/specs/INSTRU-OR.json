@@ -1,0 +1,12 @@
+{
+  "kind_id": "INSTRU-OR",
+  "level": "INSTRUCTION_SET_ARCHITECTURE",
+  "name": "OR",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/instruction_set_architecture/src/"
+  },
+  "validator": null
+}

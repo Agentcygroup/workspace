@@ -1,0 +1,12 @@
+{
+  "kind_id": "META-META_LEXICON",
+  "level": "META",
+  "name": "META_LEXICON",
+  "status": "specified",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/meta/src/"
+  },
+  "validator": null
+}

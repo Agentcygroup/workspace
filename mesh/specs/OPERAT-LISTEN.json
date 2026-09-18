@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-LISTEN",
+  "level": "OPERATING_SYSTEM",
+  "name": "LISTEN",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

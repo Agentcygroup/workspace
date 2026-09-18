@@ -1,0 +1,12 @@
+{
+  "kind_id": "ASSEMB-SECTION",
+  "level": "ASSEMBLY",
+  "name": "SECTION",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/assembly/src/"
+  },
+  "validator": null
+}

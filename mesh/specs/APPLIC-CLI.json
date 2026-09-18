@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-CLI",
+  "level": "APPLICATION",
+  "name": "CLI",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-TRANSPILER",
+  "level": "APPLICATION",
+  "name": "TRANSPILER",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}

@@ -1,0 +1,12 @@
+{
+  "kind_id": "OPERAT-MOUNT",
+  "level": "OPERATING_SYSTEM",
+  "name": "MOUNT",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/operating_system/src/"
+  },
+  "validator": null
+}

@@ -1,0 +1,12 @@
+{
+  "kind_id": "APPLIC-STORE",
+  "level": "APPLICATION",
+  "name": "STORE",
+  "status": "stub",
+  "semantics": null,
+  "emit": {
+    "language": "python",
+    "target": "packages/application/src/"
+  },
+  "validator": null
+}
