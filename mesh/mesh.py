@@ -50,6 +50,14 @@ def run():
         if s.get("status") != "specified":
             report["skipped_stub"] += 1
             continue
+        _reason = _gate(s)
+        if _reason:
+            report["skipped_invalid"] += 1
+            report["errors"].append({
+                "kind_id": s.get("kind_id"),
+                "error": f"refused by gate: {_reason}",
+            })
+            continue
         eng = engine_for(s)
         if eng is None:
             report["skipped_stub"] += 1

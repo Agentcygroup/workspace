@@ -89,6 +89,7 @@ class Spec:
     lifecycle: Optional[Lifecycle] = None
     substrate: Optional[str] = None
     substrate_available: bool = False
+    model: Optional[str] = None
     gaps: tuple[Gap, ...] = ()
 
     # Solver / prover / resolver wiring (optional, set by caller).
