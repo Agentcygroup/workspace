@@ -26,6 +26,11 @@ from .loader import spec_from_dict, spec_from_file
 from .fixedpoint import is_fixed_point, closure
 from .intent import IntentRatio
 
+from .distance import spec_distance
+from .selection import select_model, NoSuitableModel
+from .diagnose import diagnose, Diagnostic
+from .gap_history import close_one_gap, iterate, order_by_severity
+
 __all__ = [
     "Spec", "Component", "Interface", "Invariant", "Lifecycle", "Gap",
     "Gate", "GateResult",
@@ -36,4 +41,11 @@ __all__ = [
     "MODEL_REGISTRY", "probe", "ProbeResult",
     "is_fixed_point", "closure",
     "IntentRatio",
-]
+    "spec_distance",
+    "select_model",
+    "NoSuitableModel",
+    "diagnose",
+    "Diagnostic",
+    "close_one_gap",
+    "iterate",
+    "order_by_severity",]

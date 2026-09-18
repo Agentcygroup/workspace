@@ -54,6 +54,7 @@ graph TD
   commit_bdb2118d3ba9>"bdb2118d3ba9"]
   commit_bf6694cb9d5c>"bf6694cb9d5c"]
   commit_cb2ae80a455c>"cb2ae80a455c"]
+  commit_cd79a01f9129>"cd79a01f9129"]
   commit_ce03b07b9c0d>"ce03b07b9c0d"]
   commit_ce39955beae2>"ce39955beae2"]
   commit_cf1db86c8939>"cf1db86c8939"]
@@ -142,6 +143,7 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_cd79a01f9129 -.->|recorded_in| artifact_provenance_record
   commit_81687279eba5 -.->|recorded_in| artifact_provenance_record
   commit_a36c9708dc37 -.->|recorded_in| artifact_provenance_record
   commit_048d1bca7b2a -.->|recorded_in| artifact_provenance_record

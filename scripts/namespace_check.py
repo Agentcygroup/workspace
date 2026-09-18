@@ -14,10 +14,12 @@ def main() -> int:
         src = pkg / "src"
         if src.is_dir():
             for mod in src.iterdir():
-                if mod.is_dir() and (mod / "__init__.py").exists():
+                if (mod.is_dir() and mod.name not in skip
+                        and (mod / "__init__.py").exists()):
                     claims[mod.name].append(mod)
         for mod in pkg.iterdir():
-            if mod.is_dir() and mod.name != "src" and (mod / "__init__.py").exists():
+            if (mod.is_dir() and mod.name not in skip
+                    and (mod / "__init__.py").exists()):
                 claims[mod.name].append(mod)
 
     conflicts = {k: v for k, v in claims.items() if len(v) > 1}
