@@ -1,65 +1,115 @@
 {
   "sections": [
     {
-      "name": "counterexample",
-      "spec": "COUNTEREXAMPLE-DUPLICATE-OWNER",
-      "regime": "CONSTRUCTION",
-      "verdict": "Verdict(CONSTRUCTION)\n  G1 PASS  spec complete\n  G2 PASS  substrate 'REGISTRY' available\n  G3 FAIL  no solver wired"
-    },
-    {
-      "name": "uci_corpus",
+      "name": "mesh/specs_uci",
       "count": 40,
-      "distribution": {
-        "CONSTRUCTION": 40
+      "regimes": {
+        "BUILDABLE": 40
       }
     },
     {
-      "name": "mesh_composition",
-      "count": 100,
-      "mismatches": 0,
-      "ok": false
+      "name": "mesh/specs_expanded",
+      "count": 16,
+      "regimes": {
+        "CONSTRUCTION": 2,
+        "RESEARCH": 14
+      }
     },
     {
-      "name": "ground_truth",
-      "outcomes": [
-        {
-          "spec": "DEMO-FULL",
-          "regime": "CONSTRUCTION",
-          "components_declared": 1,
-          "interfaces_declared": 1,
-          "build_attempted": true,
-          "build_succeeded": true,
-          "error": null,
-          "instances": [
-            "api"
-          ],
-          "wiring": [
-            [
-              "rest",
-              "openapi",
-              "http"
-            ]
-          ]
-        },
-        {
-          "spec": "EXPAND-L1-NO-INTERFACES",
-          "regime": "RESEARCH",
-          "components_declared": 1,
-          "interfaces_declared": 0,
-          "build_attempted": true,
-          "build_succeeded": false,
-          "error": "ValueError: no interfaces to wire"
-        },
-        {
-          "spec": "INSTRU-NOP",
-          "regime": "RESEARCH",
-          "components_declared": 0,
-          "interfaces_declared": 0,
-          "build_attempted": true,
-          "build_succeeded": false,
-          "error": "ValueError: no components to instantiate"
-        }
-      ]
+      "name": "mesh/specs_counterexample",
+      "count": 1,
+      "regimes": {
+        "INCOHERENT": 1
+      }
+    },
+    {
+      "name": "central_experiment",
+      "outcome": {
+        "spec": "UCI-CMS",
+        "regime": "BUILDABLE",
+        "build_attempted": true,
+        "build_succeeded": true,
+        "run_attempted": true,
+        "run_succeeded": true,
+        "error": null,
+        "calls": [
+          {
+            "request": {
+              "action": "put",
+              "key": "a",
+              "value": 1
+            },
+            "response": {
+              "ok": true,
+              "stored": "a"
+            }
+          },
+          {
+            "request": {
+              "action": "get",
+              "key": "a"
+            },
+            "response": {
+              "ok": true,
+              "value": 1
+            }
+          },
+          {
+            "request": {
+              "action": "get",
+              "key": "missing"
+            },
+            "response": {
+              "ok": true,
+              "value": null
+            }
+          }
+        ]
+      }
     }
-  ]
+  ],
+  "seeds": {
+    "nodes": 593,
+    "edges": 256,
+    "node_kinds": {
+      "artifact": 11,
+      "requirement": 7,
+      "gate": 7,
+      "test": 398,
+      "control": 3,
+      "framework": 6,
+      "adversary": 2,
+      "characteristic": 5,
+      "threshold": 5,
+      "role": 3,
+      "cadence": 1,
+      "decision": 4,
+      "commit": 58,
+      "standards_artifact": 10,
+      "decision_file": 4,
+      "uci_spec": 40,
+      "model": 11,
+      "expanded_spec": 16,
+      "counterexample_spec": 1,
+      "factory_report": 1
+    },
+    "edge_kinds": {
+      "generated": 10,
+      "covers": 7,
+      "contains": 31,
+      "verifies": 21,
+      "traces_to": 21,
+      "tested_by": 21,
+      "maps_to": 6,
+      "considers": 2,
+      "declares": 7,
+      "bounded_by": 5,
+      "assigns": 3,
+      "unlocks": 4,
+      "recorded_in": 58,
+      "lists": 10,
+      "materializes": 10,
+      "binds": 40
+    }
+  }
 }
