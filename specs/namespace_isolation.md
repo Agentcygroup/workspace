@@ -25,4 +25,6 @@ Not done. The `attest` collision was diagnosed at the pytest level but
 no registry prevents the class of bug.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: scripts/namespace_check.py

@@ -28,4 +28,6 @@ element, its state, and what would complete it.
 Not done. `test_fail_no_partial_spec_handling` documents the absence.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/diagnose.py

@@ -25,4 +25,6 @@ workflow log.
 Not done. No CI configuration exists.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: .github/workflows/verify.yml

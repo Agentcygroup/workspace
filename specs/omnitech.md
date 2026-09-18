@@ -23,4 +23,6 @@ Not done. OmniTech exists as a parsed graph of a conversation about it,
 not as a running system.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: experiments/omnitech/graph.json

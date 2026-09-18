@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 422,
+  "count": 440,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1011,6 +1011,69 @@
       "type": "unit"
     },
     {
+      "test_id": "packages/buildability/tests/test_distance.py::test_identity",
+      "location": {
+        "file": "packages/buildability/tests/test_distance.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_distance.py::test_symmetry",
+      "location": {
+        "file": "packages/buildability/tests/test_distance.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_distance.py::test_range",
+      "location": {
+        "file": "packages/buildability/tests/test_distance.py",
+        "line": 33
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_distance.py::test_triangle_inequality",
+      "location": {
+        "file": "packages/buildability/tests/test_distance.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_distance.py::test_increasing_distance",
+      "location": {
+        "file": "packages/buildability/tests/test_distance.py",
+        "line": 47
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_model_ames.py::test_ames_registered",
+      "location": {
+        "file": "packages/buildability/tests/test_model_ames.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_model_ames.py::test_ames_prover_rejects_non_ames",
+      "location": {
+        "file": "packages/buildability/tests/test_model_ames.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
       "test_id": "packages/buildability/tests/test_model_correctness.py::test_boolean_satisfiability",
       "location": {
         "file": "packages/buildability/tests/test_model_correctness.py",
@@ -1042,6 +1105,69 @@
       "location": {
         "file": "packages/buildability/tests/test_model_correctness.py",
         "line": 58
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_substrate_names_model",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_internal_protocol_selects_pi",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 33
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_state_machine_selects_general",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 38
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_fallback_to_boolean",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 43
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_no_discriminating_feature_raises",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 47
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_selection.py::test_every_selection_is_in_registry",
+      "location": {
+        "file": "packages/buildability/tests/test_selection.py",
+        "line": 53
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_crawl.py::test_fetch_unreachable_returns_dict",
+      "location": {
+        "file": "packages/buildability/tests/test_crawl.py",
+        "line": 8
       },
       "purpose": "(no docstring)",
       "type": "unit"
@@ -1314,6 +1440,42 @@
         "line": 286
       },
       "purpose": "G1.5 passes a spec whose components have distinct responsibilities.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_diagnose.py::test_clean_spec_has_no_diagnostics",
+      "location": {
+        "file": "packages/buildability/tests/test_diagnose.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_diagnose.py::test_missing_interfaces_diagnosed",
+      "location": {
+        "file": "packages/buildability/tests/test_diagnose.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_diagnose.py::test_missing_components_diagnosed",
+      "location": {
+        "file": "packages/buildability/tests/test_diagnose.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_diagnose.py::test_open_gap_diagnosed",
+      "location": {
+        "file": "packages/buildability/tests/test_diagnose.py",
+        "line": 54
+      },
+      "purpose": "(no docstring)",
       "type": "unit"
     },
     {

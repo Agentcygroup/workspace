@@ -22,4 +22,6 @@ package, generated from the current virtualenv.
 Not done. No lock file exists.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: requirements.lock

@@ -28,4 +28,6 @@ A curriculum file `curriculum.yaml` with a list of items, each having:
 Not done. The curriculum exists only as prose.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: docs/curriculum.md

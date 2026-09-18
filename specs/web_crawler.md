@@ -26,4 +26,6 @@ A crawler with a `Crawler` class supporting:
 Not done. The web crawler exists only as prose.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/crawl.py

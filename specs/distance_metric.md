@@ -30,4 +30,6 @@ Not done. `test_fail_no_distance_metric_between_specs` documents the
 absence.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/distance.py

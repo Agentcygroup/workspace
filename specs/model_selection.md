@@ -27,4 +27,6 @@ Not done. Model binding is currently `spec.model or spec.substrate`, which
 is a lookup, not a selection.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/selection.py

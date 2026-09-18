@@ -47,6 +47,7 @@ graph TD
   commit_68f8a3c4fd76>"68f8a3c4fd76"]
   commit_6dbedd68a048>"6dbedd68a048"]
   commit_728f1fd8149c>"728f1fd8149c"]
+  commit_81687279eba5>"81687279eba5"]
   commit_8337159f78c3>"8337159f78c3"]
   commit_8aa3d666b586>"8aa3d666b586"]
   commit_8cea31b214c9>"8cea31b214c9"]
@@ -135,6 +136,8 @@ graph TD
   test_test_all_42_categories["test_all_42_categories"]
   test_test_all_hands_kinds_nonempty["test_all_hands_kinds_nonempty"]
   test_test_allow_rule["test_allow_rule"]
+  test_test_ames_prover_rejects_non_ames["test_ames_prover_rejects_non_ames"]
+  test_test_ames_registered["test_ames_registered"]
   test_test_analyze_schema["test_analyze_schema"]
   test_test_app_types_count["test_app_types_count"]
   test_test_append_event["test_append_event"]
@@ -201,6 +204,7 @@ graph TD
   test_test_class_bad_name["test_class_bad_name"]
   test_test_classes_nonempty["test_classes_nonempty"]
   test_test_classify_host_shape["test_classify_host_shape"]
+  test_test_clean_spec_has_no_diagnostics["test_clean_spec_has_no_diagnostics"]
   test_test_clip_bad_bound["test_clip_bad_bound"]
   test_test_clip_enforces_bound["test_clip_enforces_bound"]
   test_test_clip_within_bound["test_clip_within_bound"]
@@ -252,6 +256,7 @@ graph TD
   test_test_evaluate_unknown_tenant["test_evaluate_unknown_tenant"]
   test_test_evaluate_verification["test_evaluate_verification"]
   test_test_every_allocation_legal["test_every_allocation_legal"]
+  test_test_every_selection_is_in_registry["test_every_selection_is_in_registry"]
   test_test_every_term_has_primitive["test_every_term_has_primitive"]
   test_test_evidence_ref["test_evidence_ref"]
   test_test_evidence_scoped["test_evidence_scoped"]
@@ -265,9 +270,11 @@ graph TD
   test_test_fail_no_distance_metric_between_specs["test_fail_no_distance_metric_between_specs"]
   test_test_fail_no_partial_spec_handling["test_fail_no_partial_spec_handling"]
   test_test_fail_substrate_availability_not_probed["test_fail_substrate_availability_not_probed"]
+  test_test_fallback_to_boolean["test_fallback_to_boolean"]
   test_test_families["test_families"]
   test_test_federated_empty["test_federated_empty"]
   test_test_federated_round["test_federated_round"]
+  test_test_fetch_unreachable_returns_dict["test_fetch_unreachable_returns_dict"]
   test_test_fifteen_invariants["test_fifteen_invariants"]
   test_test_file_construction["test_file_construction"]
   test_test_fingerprint_stable["test_fingerprint_stable"]
@@ -334,14 +341,17 @@ graph TD
   test_test_hll_constructs_count["test_hll_constructs_count"]
   test_test_human_required_lists["test_human_required_lists"]
   test_test_idempotent_builder["test_idempotent_builder"]
+  test_test_identity["test_identity"]
   test_test_illegal_transition["test_illegal_transition"]
   test_test_implementation_status["test_implementation_status"]
+  test_test_increasing_distance["test_increasing_distance"]
   test_test_initial["test_initial"]
   test_test_initial_state["test_initial_state"]
   test_test_institute_bad_archetype["test_institute_bad_archetype"]
   test_test_institute_bad_jurisdiction["test_institute_bad_jurisdiction"]
   test_test_institute_valid["test_institute_valid"]
   test_test_intent_ratio_is_wired["test_intent_ratio_is_wired"]
+  test_test_internal_protocol_selects_pi["test_internal_protocol_selects_pi"]
   test_test_interop_overlap_rejected["test_interop_overlap_rejected"]
   test_test_interoperable_check["test_interoperable_check"]
   test_test_invariants_closed["test_invariants_closed"]
@@ -384,10 +394,13 @@ graph TD
   test_test_memory_bounds["test_memory_bounds"]
   test_test_merge["test_merge"]
   test_test_meta_kinds_count["test_meta_kinds_count"]
+  test_test_missing_components_diagnosed["test_missing_components_diagnosed"]
+  test_test_missing_interfaces_diagnosed["test_missing_interfaces_diagnosed"]
   test_test_modes_closed["test_modes_closed"]
   test_test_no_args["test_no_args"]
   test_test_no_conformance["test_no_conformance"]
   test_test_no_cycle["test_no_cycle"]
+  test_test_no_discriminating_feature_raises["test_no_discriminating_feature_raises"]
   test_test_no_signer["test_no_signer"]
   test_test_no_substrate_is_research_not_engineering["test_no_substrate_is_research_not_engineering"]
   test_test_non_implication_carried["test_non_implication_carried"]
@@ -395,6 +408,7 @@ graph TD
   test_test_not_found["test_not_found"]
   test_test_one_refused_aborts["test_one_refused_aborts"]
   test_test_opcodes_present["test_opcodes_present"]
+  test_test_open_gap_diagnosed["test_open_gap_diagnosed"]
   test_test_operator_align["test_operator_align"]
   test_test_operator_merge_split["test_operator_merge_split"]
   test_test_operator_project["test_operator_project"]
@@ -423,6 +437,7 @@ graph TD
   test_test_prover_can_fail["test_prover_can_fail"]
   test_test_push_pop["test_push_pop"]
   test_test_quantization_error["test_quantization_error"]
+  test_test_range["test_range"]
   test_test_ratio["test_ratio"]
   test_test_refusals["test_refusals"]
   test_test_register["test_register"]
@@ -480,10 +495,13 @@ graph TD
   test_test_sources["test_sources"]
   test_test_sovereign_check["test_sovereign_check"]
   test_test_spec_is_frozen["test_spec_is_frozen"]
+  test_test_state_machine_selects_general["test_state_machine_selects_general"]
   test_test_statement_hash_stable["test_statement_hash_stable"]
   test_test_step_limit["test_step_limit"]
   test_test_sub_flags["test_sub_flags"]
   test_test_subject_digest["test_subject_digest"]
+  test_test_substrate_names_model["test_substrate_names_model"]
+  test_test_symmetry["test_symmetry"]
   test_test_syscall_count["test_syscall_count"]
   test_test_syscalls_present["test_syscalls_present"]
   test_test_tamper_detected["test_tamper_detected"]
@@ -500,6 +518,7 @@ graph TD
   test_test_to_dict_shape["test_to_dict_shape"]
   test_test_tokenize_basic["test_tokenize_basic"]
   test_test_toolchain_linux_windows["test_toolchain_linux_windows"]
+  test_test_triangle_inequality["test_triangle_inequality"]
   test_test_turing_halts["test_turing_halts"]
   test_test_two_level["test_two_level"]
   test_test_unknown_agent["test_unknown_agent"]
@@ -655,8 +674,8 @@ graph TD
   test_test_g0_convergent_passes -->|traces_to| requirement_REQ_G0
   test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
   test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
-  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G2
-  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G1
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G4
   test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
   test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
   gate_G0 -->|tested_by| test_test_g0_no_history_passes
@@ -773,6 +792,7 @@ graph TD
   uci_spec_UCI_TMS -->|binds| model_boolean
   uci_spec_UCI_VOICE_CM -->|binds| model_boolean
   uci_spec_UCI_WCM -->|binds| model_boolean
+  commit_81687279eba5 -.->|recorded_in| artifact_provenance_record
   commit_a36c9708dc37 -.->|recorded_in| artifact_provenance_record
   commit_048d1bca7b2a -.->|recorded_in| artifact_provenance_record
   commit_212e5c5e5f5c -.->|recorded_in| artifact_provenance_record

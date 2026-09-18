@@ -26,4 +26,6 @@ when the topic is a primitive (formal logic, mathematics, etc.).
 Not done. The recursive framework exists only as prose.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: docs/recursive_framework.md

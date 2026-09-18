@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "count": 422,
+  "count": 440,
   "traced": 21,
-  "untraced": 401,
+  "untraced": 419,
   "rows": [
     {
       "test": "test_construct",
@@ -789,6 +789,55 @@
       "traced": false
     },
     {
+      "test": "test_identity",
+      "file": "packages/buildability/tests/test_distance.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_symmetry",
+      "file": "packages/buildability/tests/test_distance.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_range",
+      "file": "packages/buildability/tests/test_distance.py",
+      "line": 33,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_triangle_inequality",
+      "file": "packages/buildability/tests/test_distance.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_increasing_distance",
+      "file": "packages/buildability/tests/test_distance.py",
+      "line": 47,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ames_registered",
+      "file": "packages/buildability/tests/test_model_ames.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ames_prover_rejects_non_ames",
+      "file": "packages/buildability/tests/test_model_ames.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
       "test": "test_boolean_satisfiability",
       "file": "packages/buildability/tests/test_model_correctness.py",
       "line": 22,
@@ -813,6 +862,55 @@
       "test": "test_combinatory_identity",
       "file": "packages/buildability/tests/test_model_correctness.py",
       "line": 58,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_substrate_names_model",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_internal_protocol_selects_pi",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 33,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_state_machine_selects_general",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 38,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fallback_to_boolean",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 43,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_discriminating_feature_raises",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 47,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_every_selection_is_in_registry",
+      "file": "packages/buildability/tests/test_selection.py",
+      "line": 53,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fetch_unreachable_returns_dict",
+      "file": "packages/buildability/tests/test_crawl.py",
+      "line": 8,
       "requirement": null,
       "traced": false
     },
@@ -1027,6 +1125,34 @@
       "traced": true
     },
     {
+      "test": "test_clean_spec_has_no_diagnostics",
+      "file": "packages/buildability/tests/test_diagnose.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_missing_interfaces_diagnosed",
+      "file": "packages/buildability/tests/test_diagnose.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_missing_components_diagnosed",
+      "file": "packages/buildability/tests/test_diagnose.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_open_gap_diagnosed",
+      "file": "packages/buildability/tests/test_diagnose.py",
+      "line": 54,
+      "requirement": null,
+      "traced": false
+    },
+    {
       "test": "test_prover_can_fail",
       "file": "packages/buildability/tests/test_prover_falsifiable.py",
       "line": 22,
@@ -1037,14 +1163,14 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G2",
+      "requirement": "REQ-G1",
       "traced": true
     },
     {
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G3",
+      "requirement": "REQ-G4",
       "traced": true
     },
     {

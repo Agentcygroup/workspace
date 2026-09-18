@@ -47,6 +47,7 @@ graph TD
   commit_68f8a3c4fd76>"68f8a3c4fd76"]
   commit_6dbedd68a048>"6dbedd68a048"]
   commit_728f1fd8149c>"728f1fd8149c"]
+  commit_81687279eba5>"81687279eba5"]
   commit_8337159f78c3>"8337159f78c3"]
   commit_8aa3d666b586>"8aa3d666b586"]
   commit_8cea31b214c9>"8cea31b214c9"]
@@ -218,8 +219,8 @@ graph TD
   test_test_g0_convergent_passes -->|traces_to| requirement_REQ_G0
   test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
   test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
-  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G2
-  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G1
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G4
   test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
   test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
   artifact_security_controls -->|contains| control_input_validation
@@ -281,6 +282,7 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_81687279eba5 -.->|recorded_in| artifact_provenance_record
   commit_a36c9708dc37 -.->|recorded_in| artifact_provenance_record
   commit_048d1bca7b2a -.->|recorded_in| artifact_provenance_record
   commit_212e5c5e5f5c -.->|recorded_in| artifact_provenance_record

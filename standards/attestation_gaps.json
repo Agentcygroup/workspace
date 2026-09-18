@@ -1,13 +1,152 @@
 {
-  "total_claims": 447,
-  "attested": 447,
-  "unattested": [],
+  "total_claims": 465,
+  "attested": 448,
+  "unattested": [
+    {
+      "id": "test:test_identity",
+      "source": "packages/buildability/tests/test_distance.py",
+      "kind": "tested",
+      "text": "test_identity asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_distance.py)"
+    },
+    {
+      "id": "test:test_symmetry",
+      "source": "packages/buildability/tests/test_distance.py",
+      "kind": "tested",
+      "text": "test_symmetry asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_distance.py)"
+    },
+    {
+      "id": "test:test_range",
+      "source": "packages/buildability/tests/test_distance.py",
+      "kind": "tested",
+      "text": "test_range asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_distance.py)"
+    },
+    {
+      "id": "test:test_triangle_inequality",
+      "source": "packages/buildability/tests/test_distance.py",
+      "kind": "tested",
+      "text": "test_triangle_inequality asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_distance.py)"
+    },
+    {
+      "id": "test:test_increasing_distance",
+      "source": "packages/buildability/tests/test_distance.py",
+      "kind": "tested",
+      "text": "test_increasing_distance asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_distance.py)"
+    },
+    {
+      "id": "test:test_ames_registered",
+      "source": "packages/buildability/tests/test_model_ames.py",
+      "kind": "tested",
+      "text": "test_ames_registered asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_model_ames.py)"
+    },
+    {
+      "id": "test:test_ames_prover_rejects_non_ames",
+      "source": "packages/buildability/tests/test_model_ames.py",
+      "kind": "tested",
+      "text": "test_ames_prover_rejects_non_ames asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_model_ames.py)"
+    },
+    {
+      "id": "test:test_substrate_names_model",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_substrate_names_model asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_internal_protocol_selects_pi",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_internal_protocol_selects_pi asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_state_machine_selects_general",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_state_machine_selects_general asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_fallback_to_boolean",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_fallback_to_boolean asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_no_discriminating_feature_raises",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_no_discriminating_feature_raises asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_every_selection_is_in_registry",
+      "source": "packages/buildability/tests/test_selection.py",
+      "kind": "tested",
+      "text": "test_every_selection_is_in_registry asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_selection.py)"
+    },
+    {
+      "id": "test:test_clean_spec_has_no_diagnostics",
+      "source": "packages/buildability/tests/test_diagnose.py",
+      "kind": "tested",
+      "text": "test_clean_spec_has_no_diagnostics asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_diagnose.py)"
+    },
+    {
+      "id": "test:test_missing_interfaces_diagnosed",
+      "source": "packages/buildability/tests/test_diagnose.py",
+      "kind": "tested",
+      "text": "test_missing_interfaces_diagnosed asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_diagnose.py)"
+    },
+    {
+      "id": "test:test_missing_components_diagnosed",
+      "source": "packages/buildability/tests/test_diagnose.py",
+      "kind": "tested",
+      "text": "test_missing_components_diagnosed asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_diagnose.py)"
+    },
+    {
+      "id": "test:test_open_gap_diagnosed",
+      "source": "packages/buildability/tests/test_diagnose.py",
+      "kind": "tested",
+      "text": "test_open_gap_diagnosed asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest failed (packages/buildability/tests/test_diagnose.py)"
+    }
+  ],
   "by_kind": {
     "positive": 17,
     "conformant": 3,
     "declared": 4,
     "refused": 1,
-    "tested": 422
+    "tested": 440
   },
-  "unattested_by_kind": {}
+  "unattested_by_kind": {
+    "tested": 17
+  }
 }

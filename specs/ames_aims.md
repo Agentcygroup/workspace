@@ -24,4 +24,6 @@ a structured output. A top-level `ames(mission) -> dict` composes them.
 Not done. AMES exists only as prose describing what it would do.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/models/ames.py
