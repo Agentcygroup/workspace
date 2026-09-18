@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "count": 440,
+  "count": 442,
   "traced": 21,
-  "untraced": 419,
+  "untraced": 421,
   "rows": [
     {
       "test": "test_construct",
@@ -838,6 +838,20 @@
       "traced": false
     },
     {
+      "test": "test_record_appends",
+      "file": "packages/buildability/tests/test_audit_log.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_query_filters_by_regime",
+      "file": "packages/buildability/tests/test_audit_log.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
       "test": "test_boolean_satisfiability",
       "file": "packages/buildability/tests/test_model_correctness.py",
       "line": 22,
@@ -1163,14 +1177,14 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G1",
+      "requirement": "REQ-G2",
       "traced": true
     },
     {
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G3",
+      "requirement": "REQ-G5",
       "traced": true
     },
     {

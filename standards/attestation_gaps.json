@@ -1,5 +1,5 @@
 {
-  "total_claims": 465,
+  "total_claims": 467,
   "attested": 380,
   "unattested": [
     {
@@ -105,6 +105,22 @@
       "text": "test_ames_prover_rejects_non_ames asserts a property",
       "evidence_needed": "pytest -k matches and passes",
       "reason": "pytest did not collect (packages/buildability/tests/test_model_ames.py)"
+    },
+    {
+      "id": "test:test_record_appends",
+      "source": "packages/buildability/tests/test_audit_log.py",
+      "kind": "tested",
+      "text": "test_record_appends asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_audit_log.py)"
+    },
+    {
+      "id": "test:test_query_filters_by_regime",
+      "source": "packages/buildability/tests/test_audit_log.py",
+      "kind": "tested",
+      "text": "test_query_filters_by_regime asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest did not collect (packages/buildability/tests/test_audit_log.py)"
     },
     {
       "id": "test:test_boolean_satisfiability",
@@ -688,11 +704,11 @@
     "conformant": 3,
     "declared": 4,
     "refused": 1,
-    "tested": 440
+    "tested": 442
   },
   "unattested_by_kind": {
     "positive": 5,
     "refused": 1,
-    "tested": 79
+    "tested": 81
   }
 }

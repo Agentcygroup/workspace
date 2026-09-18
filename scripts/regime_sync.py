@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate artifacts that depend on spec regimes.
-
-Does NOT refresh the attestation baseline — that is a separate step.
-Run `python packages/gaps/gaps.py --save-baseline` explicitly if needed.
-"""
+"""Regenerate artifacts that depend on spec regimes."""
 from __future__ import annotations
 import json
 import sys

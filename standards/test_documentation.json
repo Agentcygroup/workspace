@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 440,
+  "count": 442,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1069,6 +1069,24 @@
       "location": {
         "file": "packages/buildability/tests/test_model_ames.py",
         "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_audit_log.py::test_record_appends",
+      "location": {
+        "file": "packages/buildability/tests/test_audit_log.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_audit_log.py::test_query_filters_by_regime",
+      "location": {
+        "file": "packages/buildability/tests/test_audit_log.py",
+        "line": 21
       },
       "purpose": "(no docstring)",
       "type": "unit"
