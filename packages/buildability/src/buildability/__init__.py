@@ -19,6 +19,8 @@ from .gates import (
     g3_solver, g4_prover, g5_resolver,
 )
 from .procedure import evaluate, build, Verdict, Regime
+from .compose import evaluate_many, CompositionResult, InterfaceMismatch
+from .loader import spec_from_dict, spec_from_file
 from .fixedpoint import is_fixed_point, closure
 from .intent import IntentRatio
 
@@ -28,6 +30,7 @@ __all__ = [
     "g0_convergence", "g1_spec", "g2_substrate",
     "g3_solver", "g4_prover", "g5_resolver",
     "evaluate", "build", "Verdict", "Regime",
+    "evaluate_many", "CompositionResult", "InterfaceMismatch",
     "is_fixed_point", "closure",
     "IntentRatio",
 ]

@@ -1,0 +1,39 @@
+[
+  {
+    "spec": "DEMO-FULL",
+    "regime": "CONSTRUCTION",
+    "components_declared": 1,
+    "interfaces_declared": 1,
+    "build_attempted": true,
+    "build_succeeded": true,
+    "error": null,
+    "instances": [
+      "api"
+    ],
+    "wiring": [
+      [
+        "rest",
+        "openapi",
+        "http"
+      ]
+    ]
+  },
+  {
+    "spec": "EXPAND-L1-NO-INTERFACES",
+    "regime": "RESEARCH",
+    "components_declared": 1,
+    "interfaces_declared": 0,
+    "build_attempted": true,
+    "build_succeeded": false,
+    "error": "ValueError: no interfaces to wire"
+  },
+  {
+    "spec": "INSTRU-NOP",
+    "regime": "RESEARCH",
+    "components_declared": 0,
+    "interfaces_declared": 0,
+    "build_attempted": true,
+    "build_succeeded": false,
+    "error": "ValueError: no components to instantiate"
+  }
+]
