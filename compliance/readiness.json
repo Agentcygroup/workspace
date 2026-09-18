@@ -1,0 +1,1267 @@
+{
+  "manifest_version": "0.1.0",
+  "non_implication": "No certification is claimed. No standards body has assessed this repository. Every 'attested' status in this file is backed by a signed file in compliance/attestations/ whose signature must be independently verified. Every non-attested clause is named as a gap. Compliance is a relationship requiring a qualified human assessor in a jurisdiction at a time; this file records the repository's side of that relationship.",
+  "standards": [
+    "ISO/IEC 27001:2022",
+    "NIST SP 800-53 Rev 5",
+    "SOC 2 TSC",
+    "NIST SP 800-218 SSDF"
+  ],
+  "clause_count": 144,
+  "status_counts": {
+    "gap": 144
+  },
+  "any_certification_claimed": false,
+  "grammar": {
+    "Compliance": "Scope \u00d7 Control \u00d7 Evidence \u00d7 Attestation",
+    "closure_requires": "signed attestation per clause",
+    "missing_parts_named_as": "gap"
+  },
+  "clauses": [
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "4 Context",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "5 Leadership",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "6 Planning",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "7 Support",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "8 Operation",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "9 Performance evaluation",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "10 Improvement",
+      "section": "main",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.1",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.2",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.3",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.4",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.5",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.6",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.7",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.8",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.9",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.10",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.11",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.12",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.13",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.14",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.15",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.16",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.17",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.18",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.19",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.20",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.21",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.22",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.23",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.24",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.25",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.26",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.27",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.28",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.29",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.30",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.31",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.32",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.33",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.34",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.35",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.36",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.5.37",
+      "section": "annex_a",
+      "family": "A.5",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.1",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.2",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.3",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.4",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.5",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.6",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.7",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.6.8",
+      "section": "annex_a",
+      "family": "A.6",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.1",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.2",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.3",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.4",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.5",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.6",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.7",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.8",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.9",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.10",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.11",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.12",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.13",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.7.14",
+      "section": "annex_a",
+      "family": "A.7",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.1",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.2",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.3",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.4",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.5",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.6",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.7",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.8",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.9",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.10",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.11",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.12",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.13",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.14",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.15",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.16",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.17",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.18",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.19",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.20",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.21",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.22",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.23",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.24",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.25",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.26",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.27",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.28",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.29",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.30",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.31",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.32",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.33",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "ISO/IEC 27001:2022",
+      "clause": "A.8.34",
+      "section": "annex_a",
+      "family": "A.8",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "AC",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "AT",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "AU",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "CA",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "CM",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "CP",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "IA",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "IR",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "MA",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "MP",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "PE",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "PL",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "PM",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "PS",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "PT",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "RA",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "SA",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "SC",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "SI",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-53 Rev 5",
+      "clause": "SR",
+      "section": "family",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC1",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC2",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC3",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC4",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC5",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC6",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC7",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC8",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "CC9",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "A1",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "C1",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "PI1",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P1",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P2",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P3",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P4",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P5",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P6",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P7",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "SOC 2 TSC",
+      "clause": "P8",
+      "section": "tsc",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-218 SSDF",
+      "clause": "PO",
+      "section": "ssdf",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-218 SSDF",
+      "clause": "PS",
+      "section": "ssdf",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-218 SSDF",
+      "clause": "PW",
+      "section": "ssdf",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    },
+    {
+      "standard": "NIST SP 800-218 SSDF",
+      "clause": "RV",
+      "section": "ssdf",
+      "mapping": null,
+      "attestation": null,
+      "status": "gap"
+    }
+  ]
+}
