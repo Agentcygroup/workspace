@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-KMS",
+  "level": "APPLICATION",
+  "name": "knowledge-management",
+  "status": "specified",
+  "components": [
+    {
+      "name": "knowledge-management",
+      "responsibility": "organizes org knowledge"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "kms.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "kms.well-formed",
+      "predicate": "knowledge-management instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

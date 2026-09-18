@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-ESP",
+  "level": "APPLICATION",
+  "name": "email-service-provider",
+  "status": "specified",
+  "components": [
+    {
+      "name": "email-service-provider",
+      "responsibility": "delivers email content"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "esp.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "esp.well-formed",
+      "predicate": "email-service-provider instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

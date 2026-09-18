@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-HLS",
+  "level": "APPLICATION",
+  "name": "http-live-streaming",
+  "status": "specified",
+  "components": [
+    {
+      "name": "http-live-streaming",
+      "responsibility": "delivers video"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "hls.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "hls.well-formed",
+      "predicate": "http-live-streaming instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

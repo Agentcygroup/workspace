@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-PMS",
+  "level": "APPLICATION",
+  "name": "project-management",
+  "status": "specified",
+  "components": [
+    {
+      "name": "project-management",
+      "responsibility": "manages content projects"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "pms.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "pms.well-formed",
+      "predicate": "project-management instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

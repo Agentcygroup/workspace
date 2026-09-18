@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-AB-TESTING",
+  "level": "APPLICATION",
+  "name": "experimentation",
+  "status": "specified",
+  "components": [
+    {
+      "name": "experimentation",
+      "responsibility": "tests content variants"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "ab-testing.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "ab-testing.well-formed",
+      "predicate": "experimentation instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-CDN",
+  "level": "APPLICATION",
+  "name": "content-delivery-network",
+  "status": "specified",
+  "components": [
+    {
+      "name": "content-delivery-network",
+      "responsibility": "distributes content globally"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "cdn.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "cdn.well-formed",
+      "predicate": "content-delivery-network instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

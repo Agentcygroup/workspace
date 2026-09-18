@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-GAMIFICATION",
+  "level": "APPLICATION",
+  "name": "gamification-system",
+  "status": "specified",
+  "components": [
+    {
+      "name": "gamification-system",
+      "responsibility": "adds interactive elements"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "gamification.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "gamification.well-formed",
+      "predicate": "gamification-system instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

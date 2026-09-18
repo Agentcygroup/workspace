@@ -399,3 +399,25 @@ def test_central_claim_g1_failing_fails():
         assert not o["build_succeeded"], (
             f"{o['spec']} failed G1 but built successfully"
         )
+
+
+def test_central_claim_has_counterexample():
+    """A spec can pass all six element checks and still be incoherent.
+
+    COUNTEREXAMPLE-DUPLICATE-OWNER declares two components with identical
+    responsibility and an invariant stating "exactly one component owns a
+    content record." G1 does not detect the contradiction. The spec lands
+    at CONSTRUCTION. This test pins that fact.
+    """
+    import json
+    p = REPO / "mesh" / "specs_counterexample" / "COUNTEREXAMPLE-DUPLICATE-OWNER.json"
+    assert p.exists(), "counterexample spec missing"
+    v = evaluate(spec_from_file(p))
+    assert v.regime == "CONSTRUCTION", (
+        f"G1 now detects this incoherence (framework improved): {v}"
+    )
+    spec = spec_from_file(p)
+    responsibilities = [c.responsibility for c in spec.components]
+    assert len(responsibilities) != len(set(responsibilities)), (
+        "counterexample no longer has duplicate responsibilities"
+    )

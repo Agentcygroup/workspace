@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-RPA",
+  "level": "APPLICATION",
+  "name": "robotic-process-automation",
+  "status": "specified",
+  "components": [
+    {
+      "name": "robotic-process-automation",
+      "responsibility": "automates repetitive tasks"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "rpa.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "rpa.well-formed",
+      "predicate": "robotic-process-automation instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-CICD",
+  "level": "APPLICATION",
+  "name": "cicd-pipelines",
+  "status": "specified",
+  "components": [
+    {
+      "name": "cicd-pipelines",
+      "responsibility": "deploys content updates"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "cicd.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "cicd.well-formed",
+      "predicate": "cicd-pipelines instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

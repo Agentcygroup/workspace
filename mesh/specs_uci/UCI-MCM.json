@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-MCM",
+  "level": "APPLICATION",
+  "name": "mobile-content-management",
+  "status": "specified",
+  "components": [
+    {
+      "name": "mobile-content-management",
+      "responsibility": "optimizes mobile delivery"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "mcm.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "mcm.well-formed",
+      "predicate": "mobile-content-management instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

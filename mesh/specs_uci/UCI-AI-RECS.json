@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-AI-RECS",
+  "level": "APPLICATION",
+  "name": "ai-recommendation",
+  "status": "specified",
+  "components": [
+    {
+      "name": "ai-recommendation",
+      "responsibility": "suggests content"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "ai-recs.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "ai-recs.well-formed",
+      "predicate": "ai-recommendation instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

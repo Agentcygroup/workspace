@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-PERMISSIONS",
+  "level": "APPLICATION",
+  "name": "user-role-permissions",
+  "status": "specified",
+  "components": [
+    {
+      "name": "user-role-permissions",
+      "responsibility": "controls access"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "permissions.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "permissions.well-formed",
+      "predicate": "user-role-permissions instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

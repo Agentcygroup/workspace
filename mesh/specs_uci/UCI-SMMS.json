@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-SMMS",
+  "level": "APPLICATION",
+  "name": "social-media-management",
+  "status": "specified",
+  "components": [
+    {
+      "name": "social-media-management",
+      "responsibility": "manages social distribution"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "smms.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "smms.well-formed",
+      "predicate": "social-media-management instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind_id": "UCI-DRM",
+  "level": "APPLICATION",
+  "name": "digital-rights-management",
+  "status": "specified",
+  "components": [
+    {
+      "name": "digital-rights-management",
+      "responsibility": "protects content"
+    }
+  ],
+  "interfaces": [
+    {
+      "name": "drm.api",
+      "schema": "openapi",
+      "protocol": "http",
+      "version": "v1",
+      "failure_semantics": "5xx"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "drm.well-formed",
+      "predicate": "digital-rights-management instance satisfies its declared shape"
+    }
+  ],
+  "lifecycle": {
+    "create": "register instance",
+    "update": "rolling replace",
+    "migrate": "schema bump",
+    "delete": "deregister",
+    "rollback": "restore prior"
+  }
+}

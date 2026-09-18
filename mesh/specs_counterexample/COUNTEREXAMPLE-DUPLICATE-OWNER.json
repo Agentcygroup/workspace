@@ -1,0 +1,25 @@
+{
+  "kind_id": "COUNTEREXAMPLE-DUPLICATE-OWNER",
+  "level": "REGISTRY",
+  "name": "DUPLICATE_OWNER",
+  "status": "specified",
+  "components": [
+    {"name": "content_api", "responsibility": "owns and serves content records"},
+    {"name": "content_store", "responsibility": "owns and serves content records"}
+  ],
+  "interfaces": [
+    {"name": "content.read", "schema": "openapi", "protocol": "http",
+     "version": "v1", "failure_semantics": "5xx"}
+  ],
+  "invariants": [
+    {"name": "content.single-owner",
+     "predicate": "exactly one component owns a content record"}
+  ],
+  "lifecycle": {
+    "create": "register component",
+    "update": "rolling replace",
+    "migrate": "schema version bump",
+    "delete": "deregister",
+    "rollback": "restore prior version"
+  }
+}
