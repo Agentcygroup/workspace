@@ -133,8 +133,13 @@ def test_fixed_point():
     assert is_fixed_point(spec, perturbs)
 
 
-def test_l1_no_substrate_routes_to_engineering():
-    """A spec with no substrate must fail G2, not silently pass to G3."""
+def test_no_substrate_is_research_not_engineering():
+    """Substrate is a spec element, not a runtime property.
+
+    A spec that does not name its substrate is INCOMPLETE (G1 fails,
+    regime RESEARCH). A spec that names a substrate which is unavailable
+    fails G2 (regime ENGINEERING). The two are different problems.
+    """
     from buildability.loader import spec_from_dict
     raw = {
         "kind_id": "NO-SUB",
@@ -149,5 +154,29 @@ def test_l1_no_substrate_routes_to_engineering():
     spec = spec_from_dict(raw)
     assert spec.substrate is None
     assert spec.substrate_available is False
+
+    # No substrate named -> spec is incomplete -> RESEARCH.
+    v = evaluate(spec)
+    assert v.regime == Regime.RESEARCH, v
+    assert any("substrate" in r.reason for r in v.results if not r.passed)
+
+
+def test_declared_but_unavailable_substrate_is_engineering():
+    """A spec that NAMES a substrate which is unavailable fails G2.
+
+    This is the case G2 was built for: the spec is complete, but the
+    world does not cooperate.
+    """
+    from buildability.model import Spec, Component, Interface, Invariant, Lifecycle
+    spec = Spec(
+        name="HAS-SUB-NO-AVAIL",
+        components=[Component("api", "serve")],
+        interfaces=[Interface("rest", "openapi", "http", "v1", "5xx")],
+        invariants=[Invariant("latency", "p99<200ms")],
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="kubernetes",
+        substrate_available=False,
+    )
     v = evaluate(spec)
     assert v.regime == Regime.ENGINEERING, v
+    assert any("unavailable" in r.reason for r in v.results if not r.passed)

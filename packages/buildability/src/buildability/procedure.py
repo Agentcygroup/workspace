@@ -9,6 +9,9 @@ from .gates import (
 
 
 class Regime(str, Enum):
+    def __str__(self):
+        return self.value
+
     DIVERGENT       = "DIVERGENT"        # G0
     RESEARCH        = "RESEARCH"         # G1
     ENGINEERING     = "ENGINEERING"      # G2
