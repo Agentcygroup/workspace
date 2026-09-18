@@ -37,5 +37,6 @@
       "question": "what is the schema?",
       "resolved": false
     }
-  ]
+  ],
+  "model": "boolean"
 }

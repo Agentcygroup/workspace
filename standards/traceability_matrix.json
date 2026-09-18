@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "count": 412,
+  "count": 419,
   "traced": 21,
-  "untraced": 391,
+  "untraced": 398,
   "rows": [
     {
       "test": "test_construct",
@@ -789,6 +789,34 @@
       "traced": false
     },
     {
+      "test": "test_boolean_satisfiability",
+      "file": "packages/buildability/tests/test_model_correctness.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lambda_reduction",
+      "file": "packages/buildability/tests/test_model_correctness.py",
+      "line": 35,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_turing_halts",
+      "file": "packages/buildability/tests/test_model_correctness.py",
+      "line": 46,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_combinatory_identity",
+      "file": "packages/buildability/tests/test_model_correctness.py",
+      "line": 58,
+      "requirement": null,
+      "traced": false
+    },
+    {
       "test": "test_g1_complete",
       "file": "packages/buildability/tests/test_buildability.py",
       "line": 24,
@@ -1002,7 +1030,7 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G1",
+      "requirement": "REQ-G2",
       "traced": true
     },
     {
@@ -1345,6 +1373,27 @@
       "test": "test_to_dict_shape",
       "file": "packages/provenance/tests/test_provenance.py",
       "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_production_allows_low_ops",
+      "file": "packages/autonomy/tests/test_production_path.py",
+      "line": 56,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_production_refuses_high_ops_without_confidence",
+      "file": "packages/autonomy/tests/test_production_path.py",
+      "line": 66,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_production_allows_high_ops_with_full_evidence",
+      "file": "packages/autonomy/tests/test_production_path.py",
+      "line": 77,
       "requirement": null,
       "traced": false
     },

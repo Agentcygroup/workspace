@@ -11,7 +11,7 @@
       "name": "mesh/specs_expanded",
       "count": 16,
       "regimes": {
-        "CONSTRUCTION": 2,
+        "BUILDABLE": 2,
         "RESEARCH": 14
       }
     },

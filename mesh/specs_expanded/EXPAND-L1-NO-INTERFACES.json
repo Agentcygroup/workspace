@@ -22,5 +22,6 @@
     "migrate": "auto",
     "delete": "cascade",
     "rollback": "previous"
-  }
+  },
+  "model": "boolean"
 }

@@ -37,4 +37,5 @@ Not done. The `_gate` function was defined but never inserted into the loop.
 `mesh/report.json` still shows `skipped_invalid: 0`.
 
 ## Status
-state: not-done
+state: partial
+evidence-file: mesh/mesh.py

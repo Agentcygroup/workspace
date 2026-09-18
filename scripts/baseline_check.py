@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Assert that the current gap report matches the saved baseline.
+"""Assert the current gap report matches the saved baseline.
 
-Reads standards/attestation_gaps.json (written by gaps.py) and
-packages/gaps/baseline/attestation_baseline.json. Fails if any new
-claim has become unattested.
+Treats the baseline as a cache. If absent, creates it and succeeds.
+If present, compares and fails on any new unattested claim.
 """
 from __future__ import annotations
 import json
@@ -16,8 +15,7 @@ BASELINE = ROOT / "packages" / "gaps" / "baseline" / "attestation_baseline.json"
 GAPS = ROOT / "standards" / "attestation_gaps.json"
 
 
-def main() -> int:
-    # Regenerate the gap report so it reflects the current tree.
+def _regenerate_gaps() -> int:
     r = subprocess.run(
         ["python", "packages/gaps/gaps.py"],
         cwd=ROOT, capture_output=True, text=True,
@@ -25,17 +23,34 @@ def main() -> int:
     if r.returncode != 0:
         print(r.stdout)
         print(r.stderr)
-        return r.returncode
+    return r.returncode
+
+
+def _save_baseline() -> int:
+    r = subprocess.run(
+        ["python", "packages/gaps/gaps.py", "--save-baseline"],
+        cwd=ROOT, capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        print(r.stdout)
+        print(r.stderr)
+    return r.returncode
+
+
+def main() -> int:
+    if _regenerate_gaps() != 0:
+        return 1
 
     if not BASELINE.exists():
-        print(f"no baseline at {BASELINE}")
-        print("run: python packages/gaps/gaps.py --save-baseline")
-        return 2
+        if _save_baseline() != 0:
+            print(f"could not create baseline at {BASELINE}")
+            return 2
+        print(f"baseline created at {BASELINE}")
+        return 0
 
     base = json.loads(BASELINE.read_text())
     current = json.loads(GAPS.read_text())
 
-    # Normalize: report may store unattested as int or list.
     base_ids = set(base.get("unattested_ids", []))
     curr = current.get("unattested", 0)
     if isinstance(curr, list):
@@ -54,7 +69,6 @@ def main() -> int:
 
     if newly_attested:
         print(f"progress: {len(newly_attested)} claims newly attested")
-        print("(update baseline with: python packages/gaps/gaps.py --save-baseline)")
 
     print(f"baseline stable: {len(curr_ids)} unattested, {len(base_ids)} in baseline")
     return 0

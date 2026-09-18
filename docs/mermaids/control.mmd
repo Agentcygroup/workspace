@@ -4,6 +4,7 @@ graph TD
   artifact_INDEX[["INDEX"]]
   artifact_ai_rmf_profile[["ai_rmf_profile"]]
   artifact_attestation_gaps[["attestation_gaps"]]
+  artifact_composition_report[["composition_report"]]
   artifact_configuration_management[["configuration_management"]]
   artifact_gate_conformance[["gate_conformance"]]
   artifact_provenance_record[["provenance_record"]]
@@ -25,6 +26,7 @@ graph TD
   commit_0d349cafcec7>"0d349cafcec7"]
   commit_1438bb25ef4f>"1438bb25ef4f"]
   commit_14a0515ad06a>"14a0515ad06a"]
+  commit_212e5c5e5f5c>"212e5c5e5f5c"]
   commit_2aee866b47f4>"2aee866b47f4"]
   commit_2e109df113b3>"2e109df113b3"]
   commit_2edf5141a29e>"2edf5141a29e"]
@@ -107,6 +109,7 @@ graph TD
   role_reviewer("reviewer")
   standards_artifact_ai_rmf_profile["ai_rmf_profile"]
   standards_artifact_attestation_gaps["attestation_gaps"]
+  standards_artifact_composition_report["composition_report"]
   standards_artifact_configuration_management["configuration_management"]
   standards_artifact_gate_conformance["gate_conformance"]
   standards_artifact_provenance_record["provenance_record"]
@@ -214,7 +217,7 @@ graph TD
   test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
   test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
   test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G1
-  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G4
   test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
   test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
   artifact_security_controls -->|contains| control_input_validation
@@ -256,6 +259,8 @@ graph TD
   standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
   artifact_INDEX -->|lists| standards_artifact_attestation_gaps
   standards_artifact_attestation_gaps -->|materializes| artifact_attestation_gaps
+  artifact_INDEX -->|lists| standards_artifact_composition_report
+  standards_artifact_composition_report -->|materializes| artifact_composition_report
   artifact_INDEX -->|lists| standards_artifact_configuration_management
   standards_artifact_configuration_management -->|materializes| artifact_configuration_management
   artifact_INDEX -->|lists| standards_artifact_gate_conformance
@@ -274,6 +279,7 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_212e5c5e5f5c -.->|recorded_in| artifact_provenance_record
   commit_8cea31b214c9 -.->|recorded_in| artifact_provenance_record
   commit_9e797794d973 -.->|recorded_in| artifact_provenance_record
   commit_f0aacd0abac8 -.->|recorded_in| artifact_provenance_record

@@ -29,4 +29,5 @@ re-installed. `packages/attest/__init__.py` exports the names the tests
 need, but `decide.py` and `interview.py` are not in `__all__`.
 
 ## Status
-state: partial
+state: done
+evidence-file: packages/autonomy/pyproject.toml

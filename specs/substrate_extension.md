@@ -29,5 +29,5 @@ this function are indistinguishable from built-in ones.
 Partial. `PROBES` is a hardcoded dict with no registration function.
 
 ## Status
-state: partial
+state: done
 evidence-file: packages/buildability/src/buildability/substrate.py

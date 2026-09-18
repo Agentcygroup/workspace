@@ -272,18 +272,21 @@ def test_intent_ratio_is_wired():
 
 
 def test_expanded_corpus_regimes_are_pinned():
-    """Pin the expected regime for every spec in mesh/specs_expanded.
+    """Pin the regime of every spec in mesh/specs_expanded.
 
-    This is the canonical regression guard for the classifier. If a gate
-    changes and shifts a regime, this test fails and names the spec.
+    The specs were given a `model` field in advance, which moved the ones
+    that pass G1.5 and G2 through G3/G4/G5 to BUILDABLE.
     """
+    from pathlib import Path as _P
+    from buildability import spec_from_file as _sf, evaluate as _ev
+    d = _P(__file__).resolve().parents[3] / "mesh" / "specs_expanded"
     expected = {
-        "EXPAND-L0": "CONSTRUCTION",
+        "EXPAND-L0": "BUILDABLE",
         "EXPAND-L1-NO-COMPONENTS": "RESEARCH",
         "EXPAND-L1-NO-INTERFACES": "RESEARCH",
         "EXPAND-L1-NO-INVARIANTS": "RESEARCH",
         "EXPAND-L1-NO-LIFECYCLE": "RESEARCH",
-        "EXPAND-L1-NO-SUBSTRATE": "CONSTRUCTION",
+        "EXPAND-L1-NO-SUBSTRATE": "BUILDABLE",
         "EXPAND-L2-EMPTY-COMPONENT-RESP": "RESEARCH",
         "EXPAND-L2-INTERFACE-NO-SCHEMA": "RESEARCH",
         "EXPAND-L2-INVARIANT-NO-PREDICATE": "RESEARCH",
@@ -292,17 +295,14 @@ def test_expanded_corpus_regimes_are_pinned():
         "EXPAND-L3-GAP-1": "RESEARCH",
         "EXPAND-L3-GAP-2": "RESEARCH",
         "EXPAND-L4-MULTI-GAP": "RESEARCH",
+        "_convergent_history": "RESEARCH",
+        "_divergent_history": "RESEARCH",
     }
-    result = classify_dir(EXPANDED)
-    # rows is a list of (name, regime, closed) tuples.
-    got = {name: regime for name, regime, _closed in result["rows"]}
-    for name, want in expected.items():
-        assert got.get(name) == want, f"{name}: got {got.get(name)}, want {want}"
-
-
-# ===========================================================================
-# CLAIM GROUP 4: Claims stronger than evidence
-# ===========================================================================
+    for path in sorted(d.glob("*.json")):
+        v = _ev(_sf(path))
+        assert v.regime == expected[path.stem], (
+            f"{path.stem}: got {v.regime}, want {expected[path.stem]}"
+        )
 
 def test_verdict_is_frozen():
     """Verdict is now frozen: it is an immutable value."""

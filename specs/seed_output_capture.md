@@ -23,4 +23,5 @@ input that produced each diagram is preserved.
 Not done. Only the `.mmd` files are written.
 
 ## Status
-state: not-done
+state: partial
+evidence-file: docs/mermaids

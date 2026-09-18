@@ -1,0 +1,12 @@
+{
+  "mesh/specs_uci": {
+    "count": 40,
+    "mismatches": 0,
+    "ok": true
+  },
+  "mesh/specs_expanded": {
+    "count": 16,
+    "mismatches": 13,
+    "ok": false
+  }
+}

@@ -24,5 +24,6 @@
       "predicate": "p99<200ms"
     }
   ],
-  "lifecycle": []
+  "lifecycle": [],
+  "model": "boolean"
 }

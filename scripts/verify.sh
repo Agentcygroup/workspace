@@ -28,10 +28,6 @@ if ! command -v python >/dev/null 2>&1; then
     exit 127
   fi
 fi
-QUICK=0
-for arg in "$@"; do
-  [ "$arg" = "--quick" ] && QUICK=1
-done
 
 PASS="\033[32mPASS\033[0m"
 FAIL="\033[31mFAIL\033[0m"
@@ -74,12 +70,9 @@ echo "==============================================================="
 echo
 
 # --- stage 1: buildability tests -------------------------------------------
-if [ $QUICK -eq 0 ]; then
   run_stage "buildability tests" \
     python -m pytest packages/buildability/tests -q
-else
-  skip_stage "buildability tests" "--quick"
-fi
+
 
 # --- stage 2: standards artifacts regeneration -----------------------------
 run_stage "standards artifacts regenerate" \

@@ -1,0 +1,62 @@
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_agent_data&subdirectory=packages/agent_data
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_attest&subdirectory=packages/attest
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_audit&subdirectory=packages/audit
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_autonomy&subdirectory=packages/autonomy
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_ax&subdirectory=packages/ax
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_capstone&subdirectory=packages/capstone
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_capstone_flow&subdirectory=packages/capstone_flow
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_certificate&subdirectory=packages/certificate
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_citation&subdirectory=packages/citation
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_cli&subdirectory=packages/cli
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_complexity&subdirectory=packages/complexity
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_conformance&subdirectory=packages/conformance
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_core&subdirectory=packages/core
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_coverage&subdirectory=packages/coverage
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_dag&subdirectory=packages/dag
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_dataset&subdirectory=packages/dataset
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_dispute&subdirectory=packages/dispute
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_dsl&subdirectory=packages/dsl
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_evidence&subdirectory=packages/evidence
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_fedlearn&subdirectory=packages/fedlearn
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_fusion&subdirectory=packages/fusion
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_gate&subdirectory=packages/gate
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_handoff&subdirectory=packages/handoff
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_hands&subdirectory=packages/hands
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_hands_cs&subdirectory=packages/hands_cs
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_hats&subdirectory=packages/hats
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_heal&subdirectory=packages/heal
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_hle&subdirectory=packages/hle
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_isa_vm&subdirectory=packages/isa_vm
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_kernel&subdirectory=packages/kernel
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_kernels&subdirectory=packages/kernels
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_ledger&subdirectory=packages/ledger
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_lenses&subdirectory=packages/lenses
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_lexicon&subdirectory=packages/lexicon
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_metric&subdirectory=packages/metric
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_ontology&subdirectory=packages/ontology
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_pattern&subdirectory=packages/pattern
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_pmap&subdirectory=packages/pmap
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_policy&subdirectory=packages/policy
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_policyplat&subdirectory=packages/policyplat
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_portable&subdirectory=packages/portable
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_primitives&subdirectory=packages/primitives
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_protocol&subdirectory=packages/protocol
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_provenance&subdirectory=packages/provenance
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_quantize&subdirectory=packages/quantize
+agentcy-queue==0.1.0
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_queuekit&subdirectory=packages/queuekit
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_registry&subdirectory=packages/registry
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_sdk&subdirectory=packages/sdk
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_serialization&subdirectory=packages/serialization
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_sovereignty&subdirectory=packages/sovereignty
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_standard&subdirectory=packages/standard
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_state_machine&subdirectory=packages/state_machine
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_taxonomy&subdirectory=packages/taxonomy
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=agentcy_tree&subdirectory=packages/tree
+-e git+https://github.com/Agentcygroup/workspace.git@212e5c5e5f5cde00c1360e12b7c56ea4459748c8#egg=buildability&subdirectory=packages/buildability
+iniconfig==2.3.0
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.1.1
+PyYAML==6.0.3

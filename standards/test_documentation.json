@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 412,
+  "count": 419,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1011,6 +1011,42 @@
       "type": "unit"
     },
     {
+      "test_id": "packages/buildability/tests/test_model_correctness.py::test_boolean_satisfiability",
+      "location": {
+        "file": "packages/buildability/tests/test_model_correctness.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_model_correctness.py::test_lambda_reduction",
+      "location": {
+        "file": "packages/buildability/tests/test_model_correctness.py",
+        "line": 35
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_model_correctness.py::test_turing_halts",
+      "location": {
+        "file": "packages/buildability/tests/test_model_correctness.py",
+        "line": 46
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_model_correctness.py::test_combinatory_identity",
+      "location": {
+        "file": "packages/buildability/tests/test_model_correctness.py",
+        "line": 58
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
       "test_id": "packages/buildability/tests/test_buildability.py::test_g1_complete",
       "location": {
         "file": "packages/buildability/tests/test_buildability.py",
@@ -1421,7 +1457,7 @@
         "file": "packages/buildability/tests/test_claims.py",
         "line": 274
       },
-      "purpose": "Pin the expected regime for every spec in mesh/specs_expanded.",
+      "purpose": "Pin the regime of every spec in mesh/specs_expanded.",
       "type": "unit"
     },
     {
@@ -1726,6 +1762,33 @@
       "location": {
         "file": "packages/provenance/tests/test_provenance.py",
         "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/autonomy/tests/test_production_path.py::test_production_allows_low_ops",
+      "location": {
+        "file": "packages/autonomy/tests/test_production_path.py",
+        "line": 56
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/autonomy/tests/test_production_path.py::test_production_refuses_high_ops_without_confidence",
+      "location": {
+        "file": "packages/autonomy/tests/test_production_path.py",
+        "line": 66
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/autonomy/tests/test_production_path.py::test_production_allows_high_ops_with_full_evidence",
+      "location": {
+        "file": "packages/autonomy/tests/test_production_path.py",
+        "line": 77
       },
       "purpose": "(no docstring)",
       "type": "unit"

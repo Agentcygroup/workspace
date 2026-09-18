@@ -23,4 +23,5 @@ current state of the repository. Stale content is detectable.
 Partial. The report is generated once and not refreshed.
 
 ## Status
-state: partial
+state: done
+evidence-file: standards/composition_report.json

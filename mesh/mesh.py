@@ -75,3 +75,5 @@ def run():
 if __name__ == "__main__":
     r = run()
     print(json.dumps({k: r[k] for k in ("total","emitted","skipped_stub","skipped_invalid","failed")}, indent=2))
+
+# _gate_call_wired

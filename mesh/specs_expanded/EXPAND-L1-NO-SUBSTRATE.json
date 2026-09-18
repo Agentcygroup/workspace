@@ -31,5 +31,6 @@
     "delete": "cascade",
     "rollback": "previous"
   },
-  "substrate": null
+  "substrate": null,
+  "model": "boolean"
 }

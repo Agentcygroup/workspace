@@ -47,5 +47,6 @@
       "question": "per-tenant cluster?",
       "resolved": false
     }
-  ]
+  ],
+  "model": "boolean"
 }

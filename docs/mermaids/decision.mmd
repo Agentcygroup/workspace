@@ -40,6 +40,7 @@ graph TD
   role_reviewer("reviewer")
   standards_artifact_ai_rmf_profile["ai_rmf_profile"]
   standards_artifact_attestation_gaps["attestation_gaps"]
+  standards_artifact_composition_report["composition_report"]
   standards_artifact_configuration_management["configuration_management"]
   standards_artifact_gate_conformance["gate_conformance"]
   standards_artifact_provenance_record["provenance_record"]
@@ -97,6 +98,7 @@ graph TD
   artifact_INDEX -->|lists| standards_artifact_ai_rmf_profile
   standards_artifact_ai_rmf_profile -->|materializes| artifact_ai_rmf_profile
   artifact_INDEX -->|lists| standards_artifact_attestation_gaps
+  artifact_INDEX -->|lists| standards_artifact_composition_report
   artifact_INDEX -->|lists| standards_artifact_configuration_management
   standards_artifact_configuration_management -->|materializes| artifact_configuration_management
   artifact_INDEX -->|lists| standards_artifact_gate_conformance

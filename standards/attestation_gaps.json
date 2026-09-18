@@ -1,13 +1,13 @@
 {
-  "total_claims": 437,
-  "attested": 437,
+  "total_claims": 444,
+  "attested": 444,
   "unattested": [],
   "by_kind": {
     "positive": 17,
     "conformant": 3,
     "declared": 4,
     "refused": 1,
-    "tested": 412
+    "tested": 419
   },
   "unattested_by_kind": {}
 }

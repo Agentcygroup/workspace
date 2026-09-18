@@ -1,28 +1,42 @@
-# Agentcy Workspace
+# workspace
 
-Engineering workspace for Agentcy Group.
+A repository with a spec classifier, a generative pipeline, and a
+declarative autonomy contract.
 
-## Packages
+## What's here
 
-| Package | Description | Owner |
-|---|---|---|
-| agentcy-core | core primitives | @Agentcygroup |
-| agentcy-cli  | CLI entry point | @Agentcygroup |
+- `packages/buildability/` — classifies specs into regimes (RESEARCH,
+  INCOHERENT, ENGINEERING, CONSTRUCTION, VERIFICATION, ADJUDICATION,
+  BUILDABLE, DIVERGENT) via a registry of gates.
+- `packages/autonomy/` — evaluates proposed actions against
+  `security/autonomy_contract.yaml`. Enforces scope, level, confidence,
+  blast radius, and a runtime kill switch.
+- `packages/gaps/` — enumerates claims and attests them.
+- `packages/seeds/` — dendritic graph over the repository's contents.
+- `packages/attest/` — generates standards artifacts.
+- `scripts/verify.sh` — one command to run everything.
+- `specs/` — 26 specifications for work not yet done.
 
 ## Install
 
-    python -m venv .venv
+    python3 -m venv .venv
     . .venv/bin/activate
-    pip install -e packages/core -e packages/cli
+    pip install -r requirements.lock
+    pip install -e packages/buildability -e packages/autonomy
 
-## Test
+## Verify
 
-    python -m pytest -q
+    ./scripts/verify.sh
 
-## Use
+Runs 11 stages. Exits non-zero on the first failure.
 
-    agentcy hash hello
+## The autonomy contract
 
-## Governance
+`security/autonomy_contract.yaml` declares, per scope and level, which
+action classes are authorized and under what conditions.
 
-See GOVERNANCE.md and SECURITY.md.
+`security/KILL_SWITCH` is a file. If it exists, every action is refused.
+
+## License
+
+Unspecified.
