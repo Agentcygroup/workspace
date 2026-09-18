@@ -61,24 +61,36 @@ def _g1_5(spec: Spec, _history) -> tuple[bool, str]:
 
 
 def _g2(spec: Spec, _history) -> tuple[bool, str]:
-    """Probe the substrate for real availability.
+    """Check substrate availability.
 
-    The spec's substrate_available flag is a claim. This gate verifies it
-    against the environment. If no probe is registered for the substrate,
-    we fall back to the declared flag and mark the reason as unverified.
+    Precedence:
+      1. If substrate_available is explicitly False, the spec author has
+         declared the substrate unavailable. Fail regardless of probe.
+      2. If substrate_available is explicitly True, the spec author has
+         declared it available. Pass regardless of probe (the probe result
+         is noted in the reason for visibility).
+      3. If substrate_available is unset, probe the environment.
+
+    This preserves the spec author's intent over the machine's state.
     """
     from .substrate import probe
 
     if not spec.substrate:
         return False, "no substrate declared"
 
+    if spec.substrate_available is False:
+        result = probe(spec.substrate)
+        return False, f"substrate '{spec.substrate}' declared unavailable ({result.reason})"
+
+    if spec.substrate_available is True:
+        result = probe(spec.substrate)
+        return True, f"substrate '{spec.substrate}' declared available ({result.reason})"
+
     result = probe(spec.substrate)
     if result.available:
         return True, f"substrate '{spec.substrate}' available ({result.reason})"
     if result.unknown:
-        if spec.substrate_available:
-            return True, f"substrate '{spec.substrate}' declared available ({result.reason})"
-        return False, f"substrate '{spec.substrate}' declared unavailable ({result.reason})"
+        return False, f"substrate '{spec.substrate}' unknown ({result.reason})"
     return False, f"substrate '{spec.substrate}' unavailable ({result.reason})"
 
 

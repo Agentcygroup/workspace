@@ -227,13 +227,15 @@ def test_fail_mesh_specs_remain_research():
     )
 
 
-def test_fail_factory_still_emits_for_incomplete_specs():
-    """Factory refuses nothing; it emits for every spec."""
+def test_factory_refuses_incomplete_specs():
+    """Factory is wired to buildability and refuses RESEARCH specs."""
     mesh_py = REPO / "mesh" / "mesh.py"
     src = mesh_py.read_text()
-    # No import of buildability in the mesh controller.
-    assert "buildability" not in src, (
-        "factory already wired to buildability (unexpected)"
+    assert "buildability" in src, (
+        "factory is not wired to the buildability classifier"
+    )
+    assert "_gate(" in src, (
+        "factory does not call _gate in its emit loop"
     )
 
 
