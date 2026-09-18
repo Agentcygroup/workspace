@@ -1,4 +1,16 @@
 {
-  "status": "omitted",
-  "reason": "declared_by is 'unset'; roles empty; review_cadence absent"
+  "status": "generated",
+  "declared_by": "metadusa",
+  "roles": {
+    "maintainer": "metadusa",
+    "reviewer": "metadusa",
+    "release_authority": "metadusa"
+  },
+  "review_cadence": "every commit",
+  "release_criteria": [
+    "all 56 tests pass",
+    "attest reports gate_conformance.conformant is true",
+    "mesh factory report has failed == 0",
+    "git tree is clean at commit time"
+  ]
 }

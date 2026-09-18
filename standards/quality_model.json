@@ -1,4 +1,21 @@
 {
-  "status": "omitted",
-  "reason": "declared_by is 'unset'; purpose_statement empty; iso_25010_characteristics empty"
+  "status": "generated",
+  "declared_by": "metadusa",
+  "purpose_statement": "Classify JSON specifications of software architectures by which gate they fail, refuse to emit code for specifications that do not declare their own interfaces, and produce standards artifacts from evidence already present in the repository without inventing content.",
+  "characteristics": {
+    "functional_suitability": "The classifier returns the correct regime for every test spec in the corpus.",
+    "reliability": "Deterministic: identical inputs produce identical outputs across runs and machines.",
+    "maintainability": "Frozen value types, single registry of gates, one loader, no hidden state.",
+    "security": "No network I/O, no dynamic code execution, no secrets handling. Threat model declared in decisions/security.json.",
+    "compatibility": "Python 3.10+ standard library only for the core; optional dependencies declared per model."
+  },
+  "thresholds": {
+    "functional_suitability": "0 failing tests out of 56",
+    "reliability": "byte-identical output across two consecutive runs",
+    "maintainability": "no mutable Spec fields; no untyped public functions",
+    "security": "0 unmapped controls; 0 adversaries without a control",
+    "compatibility": "imports succeed on Python 3.10, 3.11, 3.12, 3.13, 3.14"
+  },
+  "characteristics_without_threshold": [],
+  "conformant": true
 }

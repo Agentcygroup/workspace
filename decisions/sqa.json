@@ -1,8 +1,17 @@
 {
-  "declared_by": "unset",
-  "declared_at": "unset",
-  "status": "pending",
-  "roles": {},
-  "review_cadence": null,
-  "release_criteria": []
+  "declared_by": "metadusa",
+  "declared_at": "2026-09-18",
+  "status": "accepted",
+  "roles": {
+    "maintainer": "metadusa",
+    "reviewer": "metadusa",
+    "release_authority": "metadusa"
+  },
+  "review_cadence": "every commit",
+  "release_criteria": [
+    "all 56 tests pass",
+    "attest reports gate_conformance.conformant is true",
+    "mesh factory report has failed == 0",
+    "git tree is clean at commit time"
+  ]
 }

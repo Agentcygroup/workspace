@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "728f1fd8149ceb6977dade072bdd412669f73acc",
-  "commit_count": 44,
+  "head": "5c72631368c7af92b1381154d289453e1f4d4db5",
+  "commit_count": 45,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:5c72631368c7",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:31:42 -0400",
+      "used": "repo",
+      "generated": "commit:5c72631368c7",
+      "label": "feat(attest): interactive decision CLI; human answers unlock artifacts"
+    },
     {
       "id": "commit:728f1fd8149c",
       "type": "prov:Activity",

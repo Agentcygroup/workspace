@@ -1,9 +1,9 @@
 {
-  "declared_by": "unset",
-  "declared_at": "unset",
-  "status": "pending",
-  "is_ai_system_eu_ai_act": null,
-  "rationale": "",
-  "risk_tier": null,
-  "nist_ai_rmf_profile": null
+  "declared_by": "metadusa",
+  "declared_at": "2026-09-18",
+  "status": "accepted",
+  "is_ai_system_eu_ai_act": false,
+  "rationale": "The framework does not train on data, does not infer from data, does not make autonomous decisions, and does not produce outputs that affect natural persons. It is a static classifier that evaluates JSON specifications. EU AI Act Art. 3(1) does not apply. The framework operates on specs that describe AI systems, but it is not itself an AI system under the applicable definition.",
+  "risk_tier": "not-applicable",
+  "nist_ai_rmf_profile": "not-applicable"
 }
