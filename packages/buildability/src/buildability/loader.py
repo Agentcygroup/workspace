@@ -22,3 +22,20 @@ def spec_from_dict(raw: dict, *, name: str | None = None) -> Spec:
 def spec_from_file(p: Path | str) -> Spec:
     p = Path(p)
     return spec_from_dict(json.loads(p.read_text()), name=p.stem)
+
+
+import hashlib as _hashlib
+
+
+def spec_identity(spec):
+    """SHA-256 over the spec's canonical content."""
+    import json as _json
+    payload = {
+        "name": spec.name,
+        "components": sorted((c.name, c.responsibility) for c in spec.components),
+        "interfaces": sorted((i.name, i.schema, i.protocol, i.version) for i in spec.interfaces),
+        "invariants": sorted((v.name, v.predicate) for v in spec.invariants),
+        "substrate": spec.substrate,
+    }
+    blob = _json.dumps(payload, sort_keys=True, separators=(",", ":"))
+    return _hashlib.sha256(blob.encode()).hexdigest()

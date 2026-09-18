@@ -27,4 +27,6 @@ Not done. `test_fail_divergence_requires_external_history` documents the
 absence.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/gap_history.py

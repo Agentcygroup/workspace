@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "048d1bca7b2a945dc5455d046b188cd1fedde564",
-  "commit_count": 55,
+  "head": "a36c9708dc37dbf5ccca70312bd231efc2126920",
+  "commit_count": 56,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:a36c9708dc37",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:24:03 -0400",
+      "used": "repo",
+      "generated": "commit:a36c9708dc37",
+      "label": "feat: close 10 remaining specs; add regime_sync; all artifacts green"
+    },
     {
       "id": "commit:048d1bca7b2a",
       "type": "prov:Activity",

@@ -12,6 +12,7 @@ graph TD
   artifact_traceability_matrix[["traceability_matrix"]]
   cadence_every commit["every commit"]
   commit_0258cef40cd9>"0258cef40cd9"]
+  commit_048d1bca7b2a>"048d1bca7b2a"]
   commit_07a1de6c9a71>"07a1de6c9a71"]
   commit_0c51328b0d6f>"0c51328b0d6f"]
   commit_0d349cafcec7>"0d349cafcec7"]
@@ -43,6 +44,7 @@ graph TD
   commit_90253809b4ad>"90253809b4ad"]
   commit_904ae43c71d1>"904ae43c71d1"]
   commit_9e797794d973>"9e797794d973"]
+  commit_a36c9708dc37>"a36c9708dc37"]
   commit_b09f04dfb52e>"b09f04dfb52e"]
   commit_b3e17fd63bdc>"b3e17fd63bdc"]
   commit_bb18b63785e4>"bb18b63785e4"]
@@ -91,6 +93,7 @@ graph TD
   standards_artifact_sqa_plan["sqa_plan"]
   standards_artifact_test_documentation["test_documentation"]
   standards_artifact_traceability_matrix["traceability_matrix"]
+  test_test_both_allowed_commits["test_both_allowed_commits"]
   artifact_INDEX -->|generated| artifact_requirements_specification
   artifact_INDEX -->|generated| artifact_traceability_matrix
   artifact_INDEX -->|generated| artifact_test_documentation
@@ -138,6 +141,8 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_a36c9708dc37 -.->|recorded_in| artifact_provenance_record
+  commit_048d1bca7b2a -.->|recorded_in| artifact_provenance_record
   commit_212e5c5e5f5c -.->|recorded_in| artifact_provenance_record
   commit_8cea31b214c9 -.->|recorded_in| artifact_provenance_record
   commit_9e797794d973 -.->|recorded_in| artifact_provenance_record

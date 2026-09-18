@@ -25,4 +25,6 @@ fails with a specific error.
 Not done. Specs have no version field.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/semver.py

@@ -1037,7 +1037,7 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G1",
+      "requirement": "REQ-G2",
       "traced": true
     },
     {
@@ -1148,70 +1148,70 @@
     {
       "test": "test_verdict_is_frozen",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 307,
+      "line": 303,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_gate_result_is_frozen",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 315,
+      "line": 311,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_verdict_has_value_eq",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 323,
+      "line": 319,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_verdict_to_dict_is_json_serializable",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 331,
+      "line": 327,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_claim_closure_terminates_on_pathological_perturbation",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 341,
+      "line": 337,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_replace_validates_collection_types",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 354,
+      "line": 350,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_central_claim_has_ground_truth",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 365,
+      "line": 361,
       "requirement": null,
       "traced": false
     },
     {
       "test": "test_central_claim_g1_passing_builds",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 378,
+      "line": 374,
       "requirement": "REQ-G1",
       "traced": true
     },
     {
       "test": "test_central_claim_g1_failing_fails",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 392,
+      "line": 388,
       "requirement": "REQ-G1",
       "traced": true
     },
     {
       "test": "test_central_claim_has_counterexample",
       "file": "packages/buildability/tests/test_claims.py",
-      "line": 406,
+      "line": 402,
       "requirement": null,
       "traced": false
     },

@@ -27,4 +27,6 @@ Partial. `_bind_model` exists but is not invoked from `evaluate()` for
 any spec except through test cases.
 
 ## Status
-state: partial
+
+state: done
+evidence-file: packages/buildability/src/buildability/loader.py

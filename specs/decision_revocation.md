@@ -26,4 +26,6 @@ Artifacts generated from the revoked decision are marked superseded.
 Not done. Decisions have no revocation mechanism.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/attest/src/attest/decisions.py

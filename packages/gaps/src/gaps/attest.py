@@ -17,27 +17,66 @@ def _run(cmd, cwd, timeout=60):
 
 
 def _attest_test(root, c):
-    """Run pytest against the test's source file only, not the whole tree."""
-    name = c.id.split("test:", 1)[1]
-    target = root / c.source
-    if not target.exists():
-        c.evidence_found = False
-        c.evidence_where = f"source file missing: {c.source}"
-        return
-    code, out, err = _run(
-        ["python", "-m", "pytest", "-q", "--no-header",
-         str(target), "-k", name], root,
-    )
-    if code == 0:
-        c.evidence_found = True
-        c.evidence_where = "pytest passed"
-    elif code == 5:
-        c.evidence_found = False
-        c.evidence_where = "pytest collected 0 matching tests"
-    else:
-        c.evidence_found = False
-        c.evidence_where = f"pytest rc={code}"
+    """Mark a single test claim. Actual pytest runs are batched.
 
+    This function is called once per claim during enumeration, but the
+    actual work is deferred: attest_all() collects all test claims and
+    runs pytest once. See _attest_tests_batch below.
+    """
+    # Nothing to do here; the batch runs after enumeration.
+    pass
+
+
+def _attest_tests_batch(root, test_claims):
+    """Run pytest once for all test claims and mark each result.
+
+    Groups claims by source file, runs pytest once per file, parses
+    the summary line to find which tests passed.
+    """
+    from collections import defaultdict
+    by_file = defaultdict(list)
+    for c in test_claims:
+        name = c.id.split("test:", 1)[1] if "test:" in c.id else c.id
+        by_file[c.source].append((c, name))
+
+    for source, items in by_file.items():
+        target = root / source
+        if not target.exists():
+            for c, _ in items:
+                c.evidence_found = False
+                c.evidence_where = f"source file missing: {source}"
+            continue
+        # Run pytest once for the whole file, verbose so we can parse names.
+        code, out, err = _run(
+            ["python", "-m", "pytest", "-v", "--no-header",
+             str(target)],
+            root, timeout=120,
+        )
+        # Parse lines like:
+        #   path::test_name PASSED
+        #   path::test_name FAILED
+        passed = set()
+        failed = set()
+        for line in out.splitlines():
+            if " PASSED" in line:
+                # extract test name after the last ::
+                if "::" in line:
+                    name = line.split("::", 1)[1].split()[0]
+                    passed.add(name)
+            elif " FAILED" in line or " ERROR" in line:
+                if "::" in line:
+                    name = line.split("::", 1)[1].split()[0]
+                    failed.add(name)
+        for c, name in items:
+            if name in passed:
+                c.evidence_found = True
+                c.evidence_where = f"pytest passed ({source})"
+            elif name in failed:
+                c.evidence_found = False
+                c.evidence_where = f"pytest failed ({source})"
+            else:
+                c.evidence_found = False
+                c.evidence_where = f"pytest did not collect ({source})"
 
 def _attest_declared(root, c):
     p = root / c.source
@@ -185,12 +224,20 @@ ROUTES = {
 
 
 def attest_all(root: Path, claims: list[Claim]) -> list[Claim]:
+    """Attest every claim.
+
+    Test claims are collected and batched — pytest runs once per source
+    file, not once per test. Everything else routes as before.
+    """
+    tested: list[Claim] = []
     for c in claims:
+        if c.kind == "tested":
+            tested.append(c)
+            continue
         fn = ROUTES.get(c.kind)
         if fn is not None:
             fn(root, c)
             continue
-        # Route positives by id prefix. Order: most specific first.
         if c.id.startswith("standards:") and c.id.endswith(":all-verified"):
             _attest_standards_all_verified(root, c)
         elif c.id.startswith("standards:") and c.id.endswith(":generated"):
@@ -206,4 +253,6 @@ def attest_all(root: Path, claims: list[Claim]) -> list[Claim]:
         else:
             c.evidence_found = False
             c.evidence_where = "no attester wired"
+    if tested:
+        _attest_tests_batch(root, tested)
     return claims

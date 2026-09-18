@@ -30,4 +30,6 @@ interface has exactly one producer.
 Not done. Interfaces have no `consumes` field.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/compose.py

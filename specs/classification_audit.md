@@ -22,4 +22,6 @@ and the git commit at time of classification.
 Not done. Classification is stateless.
 
 ## Status
-state: not-done
+
+state: done
+evidence-file: packages/buildability/src/buildability/audit.py
