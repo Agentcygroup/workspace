@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "cf1db86c8939442f59249e20a8b20524814071ef",
-  "commit_count": 49,
+  "head": "e5bff7d6b8699280fa4afbfc9a1e5873b6f86979",
+  "commit_count": 50,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:e5bff7d6b869",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:41:45 -0400",
+      "used": "repo",
+      "generated": "commit:e5bff7d6b869",
+      "label": "fix(gaps): test attester targets source file; prefix routing fixed"
+    },
     {
       "id": "commit:cf1db86c8939",
       "type": "prov:Activity",

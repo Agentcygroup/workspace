@@ -12,7 +12,12 @@ from .interview import interview_interactive, interview_one
 from .evidence import collect
 from .report import write_report
 
+from .statement import Statement, Subject, build_statement, sha_file
+from .sbom import SBOM, generate_sbom
+
 __all__ = [
+    "Statement", "Subject", "build_statement", "sha_file",
+    "SBOM", "generate_sbom",
     "generate_all", "ARTIFACTS", "collect", "write_report",
     "load_decisions", "Decision", "generate_declared", "DECLARED_GENERATORS",
     "interview_interactive", "interview_one",
