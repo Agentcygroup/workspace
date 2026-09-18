@@ -1,0 +1,10 @@
+{
+  "assisted": 8,
+  "human_approved": 3,
+  "human_supervised": 7,
+  "agent_executed": 9,
+  "exception_supervised": 4,
+  "dual_control": 4,
+  "multi_agent": 3,
+  "human_only": 4
+}

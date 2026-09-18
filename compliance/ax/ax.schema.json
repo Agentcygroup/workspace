@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AX Allocation Entry",
+  "type": "object",
+  "required": [
+    "allocation",
+    "rationale",
+    "agent_capable",
+    "human_required"
+  ],
+  "properties": {
+    "allocation": {
+      "enum": [
+        "human_only",
+        "assisted",
+        "human_approved",
+        "human_supervised",
+        "exception_supervised",
+        "dual_control",
+        "agent_executed",
+        "machine_executed",
+        "multi_agent",
+        "prohibited"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "agent_capable": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
