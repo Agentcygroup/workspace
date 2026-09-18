@@ -10,7 +10,7 @@ EMITTED = ROOT / "mesh" / "emitted"
 REPORT = ROOT / "mesh" / "report.json"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from engines import engine_for
+from kinds import engine_for
 
 def load_specs():
     out = []

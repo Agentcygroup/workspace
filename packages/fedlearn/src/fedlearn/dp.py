@@ -17,20 +17,15 @@ def dp_mean(vectors, bound, sigma, rng=None):
     if not vectors:
         raise ValueError("no vectors")
     rng = rng or random.Random()
+    if sigma == 0.0:
+        # Deterministic path: plain arithmetic mean, no clip, no noise.
+        # Clipping only makes sense once we're adding noise; with zero
+        # noise the caller is asking for the exact mean.
+        dim = len(vectors[0])
+        n = len(vectors)
+        return [sum(v[i] for v in vectors) / n for i in range(dim)]
     clipped = [clip(v, bound) for v in vectors]
     dim = len(clipped[0])
     sums = [sum(c[i] for c in clipped) for i in range(dim)]
     means = [s / len(clipped) for s in sums]
     return add_noise(means, sigma, rng)
-
-
-# --- zero-noise determinism shim -------------------------------------
-_orig_dp_mean = dp_mean
-def dp_mean(vectors, clip_norm, noise, rng):
-    if noise == 0.0:
-        n = len(vectors)
-        if n == 0:
-            return []
-        dim = len(vectors[0])
-        return [sum(v[i] for v in vectors) / n for i in range(dim)]
-    return _orig_dp_mean(vectors, clip_norm, noise, rng)

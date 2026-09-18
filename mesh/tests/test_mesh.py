@@ -3,8 +3,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "mesh"))
 from mesh import run, load_specs
-from engines import engine_for, DECLARATIVE_LEVELS
-from engines.engine_record import emit as emit_record
+from kinds import engine_for, DECLARATIVE_LEVELS
+from kinds.engine_record import emit as emit_record
 
 def test_specs_dir_exists():
     assert (ROOT / "mesh" / "specs").exists()
