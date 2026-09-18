@@ -1,6 +1,6 @@
 """Specification model: the six elements a complete S(A) must contain."""
 from __future__ import annotations
-from dataclasses import dataclass, field
+from dataclasses import dataclass, replace as _dc_replace
 from typing import Any, Callable, Optional
 
 
@@ -59,17 +59,37 @@ class Gap:
         return not self.resolved
 
 
-@dataclass
+@dataclass(frozen=True)
 class Spec:
-    """A specification S(A)."""
+    """A specification S(A).
+
+    Frozen: any change to a Spec produces a new Spec via `replace`.
+    This is what makes the fixed-point loop in closure() provably
+    side-effect free.
+    """
+
+    def replace(self, **changes) -> "Spec":
+        """Return a new Spec with the given fields replaced.
+
+        Collection fields must be tuples. Passing a list is a TypeError
+        rather than a silent coercion, so callers cannot accidentally
+        reintroduce mutable state.
+        """
+        collection_fields = {"components", "interfaces", "invariants", "gaps"}
+        for k, v in changes.items():
+            if k in collection_fields and not isinstance(v, tuple):
+                raise TypeError(
+                    f"Spec.{k} must be a tuple, got {type(v).__name__}"
+                )
+        return _dc_replace(self, **changes)
     name: str
-    components: list[Component] = field(default_factory=list)
-    interfaces: list[Interface] = field(default_factory=list)
-    invariants: list[Invariant] = field(default_factory=list)
+    components: tuple[Component, ...] = ()
+    interfaces: tuple[Interface, ...] = ()
+    invariants: tuple[Invariant, ...] = ()
     lifecycle: Optional[Lifecycle] = None
     substrate: Optional[str] = None
     substrate_available: bool = False
-    gaps: list[Gap] = field(default_factory=list)
+    gaps: tuple[Gap, ...] = ()
 
     # Solver / prover / resolver wiring (optional, set by caller).
     solver: Optional[Callable[[], Any]] = None

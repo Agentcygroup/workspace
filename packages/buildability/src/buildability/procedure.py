@@ -22,19 +22,47 @@ class Regime(str, Enum):
 
 
 class Verdict:
-    def __init__(self, regime: Regime, results: list[GateResult], candidate=None):
-        self.regime = regime
-        self.results = results
-        self.candidate = candidate
+    """The result of evaluating a Spec. Immutable value type."""
 
-    def __repr__(self):
-        head = f"Verdict({self.regime.value})"
+    __slots__ = ("regime", "results", "candidate")
+
+    def __init__(self, regime, results=(), candidate=None):
+        object.__setattr__(self, "regime", regime)
+        object.__setattr__(self, "results", tuple(results))
+        object.__setattr__(self, "candidate", candidate)
+
+    def __setattr__(self, name, value):
+        raise AttributeError(
+            f"Verdict is frozen; cannot assign to {name!r}"
+        )
+
+    def __eq__(self, other):
+        if not isinstance(other, Verdict):
+            return NotImplemented
+        return self.regime == other.regime and self.results == other.results
+
+    def __hash__(self):
+        return hash((self.regime, self.results))
+
+    def __str__(self):
+        head = f"Verdict({self.regime})"
         body = "\n".join(
             f"  {r.gate.value} {'PASS' if r.passed else 'FAIL'}  {r.reason}"
             for r in self.results
         )
         return head + "\n" + body
 
+    __repr__ = __str__
+
+    def to_dict(self):
+        """JSON-serializable representation."""
+        return {
+            "regime": self.regime,
+            "results": [
+                {"gate": r.gate.value, "passed": r.passed, "reason": r.reason}
+                for r in self.results
+            ],
+        }
 
 def evaluate(spec: Spec, gap_history: list[int] | None = None) -> Verdict:
     """Run all gates in order; the first failure names the regime."""

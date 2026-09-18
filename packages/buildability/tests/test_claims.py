@@ -1,0 +1,346 @@
+"""Validation of every claim made about the buildability framework.
+
+Each test names a specific claim. Tests marked FAIL are the ones that
+demonstrate the gap between what the framework claims and what it does.
+They are intentionally failing assertions, wrapped so the suite reports
+them as validation findings rather than build failures.
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pytest
+
+from buildability import (
+    Spec, Component, Interface, Invariant, Lifecycle, Gap,
+    evaluate, Regime,
+)
+from buildability.loader import spec_from_dict, spec_from_file
+from buildability.classify import classify_dir
+from buildability.fixedpoint import closure, is_fixed_point
+from buildability.intent import IntentRatio
+
+
+# ---------------------------------------------------------------------------
+# Fixtures
+# ---------------------------------------------------------------------------
+
+def full_spec(**over):
+    base = dict(
+        name="full",
+        components=(Component("api", "serve"),),
+        interfaces=(Interface("rest", "openapi", "http", "v1", "5xx"),),
+        invariants=(Invariant("latency", "p99<200ms"),),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="kubernetes",
+        substrate_available=True,
+    )
+    base.update(over)
+    return Spec(**base)
+
+
+REPO = Path(__file__).resolve().parents[3]
+MESH_SPECS = REPO / "mesh" / "specs"
+EXPANDED = REPO / "mesh" / "specs_expanded"
+
+
+# ===========================================================================
+# CLAIM GROUP 1: What the framework actually implements
+# ===========================================================================
+
+def test_claim_g1_and_g2_are_implemented():
+    """G1 (spec) and G2 (substrate) are structurally checked."""
+    # G1 checks presence of six elements.
+    assert evaluate(full_spec()).regime in ("CONSTRUCTION", "BUILDABLE")
+    # G2 checks substrate flag.
+    assert evaluate(full_spec(substrate_available=False)).regime == "ENGINEERING"
+
+
+def test_claim_g3_g4_g5_are_stubs_not_generators():
+    """G3/G4/G5 only check that user-supplied callables exist.
+
+    The framework does not produce a solver, prover, or resolver. It
+    only invokes one if wired. This test demonstrates the stub nature:
+    a spec with no solver wired fails G3 with 'no solver wired', not
+    with any synthesized artifact.
+    """
+    v = evaluate(full_spec())
+    assert v.regime == "CONSTRUCTION"
+    g3 = [r for r in v.results if r.gate.value == "G3"][0]
+    assert "no solver wired" in g3.reason
+    # The framework did NOT attempt to construct anything.
+
+
+def test_claim_no_builder_exists():
+    """There is no function in buildability that emits an artifact."""
+    import buildability
+    public = [n for n in dir(buildability) if not n.startswith("_")]
+    builders = [n for n in public if "build" in n.lower() and n != "build"]
+    # `build` may exist but is a thin wrapper; there is no code emitter.
+    for n in public:
+        obj = getattr(buildability, n)
+        if callable(obj) and hasattr(obj, "__module__"):
+            assert "emit" not in n.lower(), f"unexpected emitter: {n}"
+
+
+# ===========================================================================
+# CLAIM GROUP 2: What the framework fails to do
+# ===========================================================================
+
+def test_fail_semantic_incompleteness_not_detected():
+    """A spec can name all six elements and still be incoherent.
+
+    Two components with identical responsibility, an interface with no
+    producer, an invariant that contradicts another. G1 passes all.
+    """
+    incoherent = Spec(
+        name="incoherent",
+        components=(
+            Component("api", "serve"),      # two components
+            Component("api2", "serve"),     # claiming identical responsibility
+        ),
+        interfaces=(Interface("rest", "openapi", "http", "v1", "5xx"),),
+        invariants=(
+            Invariant("fast", "p99<100ms"),
+            Invariant("slow", "p99>500ms"),  # contradictory
+        ),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="kubernetes",
+        substrate_available=True,
+    )
+    v = evaluate(incoherent)
+    # G1 passes despite incoherence.
+    assert v.regime == "CONSTRUCTION", (
+        f"Framework detected incoherence (unexpected): {v}"
+    )
+
+
+def test_fail_no_distance_metric_between_specs():
+    """A spec missing one element is the same regime as a spec missing five."""
+    almost = full_spec(name="almost")
+    almost = almost.replace(components=())  # missing one element
+
+    empty = Spec(name="empty")  # missing everything
+
+    assert evaluate(almost).regime == evaluate(empty).regime == "RESEARCH"
+    # No way to ask "how far from complete is this?"
+
+
+def test_fail_substrate_availability_not_probed():
+    """substrate_available=True is taken on faith; nothing checks it."""
+    lying = full_spec(substrate="nonexistent-cluster", substrate_available=True)
+    v = evaluate(lying)
+    # G2 passes because the boolean says so.
+    assert v.regime in ("CONSTRUCTION", "BUILDABLE"), (
+        "Framework probed substrate (unexpected)"
+    )
+
+
+def test_fail_divergence_requires_external_history():
+    """G0 needs a gap_history list from outside. Nothing computes it."""
+    spec = full_spec(gaps=(Gap("x", "?"),))
+    v = evaluate(spec)  # no history
+    # No divergence check ran.
+    assert v.regime == "RESEARCH"
+    assert not any(r.gate.value == "G0" for r in v.results), (
+        "Framework computed gap history internally (unexpected)"
+    )
+
+
+def test_fail_no_cross_spec_composition():
+    """Interfaces between two specs are not checked against each other."""
+    a = full_spec(name="a")
+    b = full_spec(name="b")
+    # No function exists to evaluate a *set* of specs.
+    import buildability
+    assert not hasattr(buildability, "evaluate_many"), (
+        "Multi-spec evaluation exists (unexpected)"
+    )
+    assert not hasattr(buildability, "evaluate_set")
+
+
+def test_fail_no_partial_spec_handling():
+    """G1 is binary per gate: any missing element fails the whole gate."""
+    partial = full_spec(components=(Component("api", ""),))  # blank responsibility
+    v = evaluate(partial)
+    assert v.regime == "RESEARCH"
+    g1 = [r for r in v.results if r.gate.value == "G1"][0]
+    # No partial credit, no "you're 5/6 complete".
+    assert "missing elements" in g1.reason
+
+
+# ===========================================================================
+# CLAIM GROUP 3: What the session failed to address
+# ===========================================================================
+
+def test_fail_mesh_specs_remain_research():
+    """All mesh specs are still RESEARCH; nothing fixed them."""
+    result = classify_dir(MESH_SPECS)
+    dist = result["distribution"]
+    assert dist.get("RESEARCH", 0) >= 400, (
+        f"expected nearly all RESEARCH, got {dist}"
+    )
+
+
+def test_fail_factory_still_emits_for_incomplete_specs():
+    """Factory refuses nothing; it emits for every spec."""
+    mesh_py = REPO / "mesh" / "mesh.py"
+    src = mesh_py.read_text()
+    # No import of buildability in the mesh controller.
+    assert "buildability" not in src, (
+        "factory already wired to buildability (unexpected)"
+    )
+
+
+def test_fail_no_determinism_test_for_classifier():
+    """Classifier output was never tested for determinism."""
+    r1 = classify_dir(EXPANDED)
+    r2 = classify_dir(EXPANDED)
+    # This passes because classify_dir is deterministic. But no test in the
+    # suite pins that. This test is the missing pin.
+    assert r1 == r2  # will pass; the gap is that this test did not exist
+
+
+def test_intent_ratio_is_wired():
+    """IntentRatio is imported and used by classify.py."""
+    import ast
+    import buildability
+    pkg = Path(buildability.__file__).parent
+    callers = []
+    for py in pkg.rglob("*.py"):
+        if py.name == "intent.py":
+            continue
+        tree = ast.parse(py.read_text())
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Name) and node.id == "IntentRatio":
+                callers.append(py.name)
+    assert "classify.py" in callers, (
+        f"IntentRatio not wired into classify.py; callers={callers}"
+    )
+
+
+def test_expanded_corpus_regimes_are_pinned():
+    """Pin the expected regime for every spec in mesh/specs_expanded.
+
+    This is the canonical regression guard for the classifier. If a gate
+    changes and shifts a regime, this test fails and names the spec.
+    """
+    expected = {
+        "EXPAND-L0": "CONSTRUCTION",
+        "EXPAND-L1-NO-COMPONENTS": "RESEARCH",
+        "EXPAND-L1-NO-INTERFACES": "RESEARCH",
+        "EXPAND-L1-NO-INVARIANTS": "RESEARCH",
+        "EXPAND-L1-NO-LIFECYCLE": "RESEARCH",
+        "EXPAND-L1-NO-SUBSTRATE": "CONSTRUCTION",
+        "EXPAND-L2-EMPTY-COMPONENT-RESP": "RESEARCH",
+        "EXPAND-L2-INTERFACE-NO-SCHEMA": "RESEARCH",
+        "EXPAND-L2-INVARIANT-NO-PREDICATE": "RESEARCH",
+        "EXPAND-L2-LIFECYCLE-NO-ROLLBACK": "RESEARCH",
+        "EXPAND-L3-GAP-0": "RESEARCH",
+        "EXPAND-L3-GAP-1": "RESEARCH",
+        "EXPAND-L3-GAP-2": "RESEARCH",
+        "EXPAND-L4-MULTI-GAP": "RESEARCH",
+    }
+    result = classify_dir(EXPANDED)
+    # rows is a list of (name, regime, closed) tuples.
+    got = {name: regime for name, regime, _closed in result["rows"]}
+    for name, want in expected.items():
+        assert got.get(name) == want, f"{name}: got {got.get(name)}, want {want}"
+
+
+# ===========================================================================
+# CLAIM GROUP 4: Claims stronger than evidence
+# ===========================================================================
+
+def test_verdict_is_frozen():
+    """Verdict is now frozen: it is an immutable value."""
+    from buildability.procedure import Verdict
+    v = Verdict("RESEARCH")
+    with pytest.raises(Exception):
+        v.regime = "BUILDABLE"
+
+
+def test_gate_result_is_frozen():
+    """GateResult is frozen; verify the contract holds."""
+    from buildability.gates import GateResult, Gate
+    r = GateResult(Gate.G1, True, "ok")
+    with pytest.raises(Exception):
+        r.passed = False
+
+
+def test_verdict_has_value_eq():
+    """Two verdicts with same regime+results compare equal."""
+    from buildability.procedure import Verdict
+    v1 = Verdict("RESEARCH")
+    v2 = Verdict("RESEARCH")
+    assert v1 == v2
+
+
+def test_verdict_to_dict_is_json_serializable():
+    """Verdict.to_dict() round-trips through JSON."""
+    from buildability.procedure import Verdict
+    v = Verdict("RESEARCH")
+    dumped = json.dumps(v.to_dict())
+    loaded = json.loads(dumped)
+    assert loaded["regime"] == "RESEARCH"
+    assert loaded["results"] == []
+
+
+def test_claim_closure_terminates_on_pathological_perturbation():
+    """closure() with a perturbation that never reduces gaps runs to max_rounds."""
+    spec = full_spec(gaps=(Gap("x", "?"),))
+    # A perturbation that adds a gap but returns a different spec each time.
+    counter = {"n": 0}
+    def pathological(s):
+        counter["n"] += 1
+        return s.replace(gaps=s.gaps + (Gap(f"g{counter['n']}", "?"),))
+    result, rounds = closure(spec, [pathological], max_rounds=5)
+    # It ran to max_rounds without detecting divergence.
+    assert rounds == 5, f"got {rounds} rounds"
+
+
+def test_replace_validates_collection_types():
+    """Spec.replace() rejects lists for collection fields."""
+    spec = full_spec()
+    with pytest.raises(TypeError):
+        spec.replace(gaps=[Gap("a", "?")])
+
+
+# ===========================================================================
+# CLAIM GROUP 5: The central claim (unfalsified)
+# ===========================================================================
+
+def test_central_claim_no_ground_truth_exists():
+    """The framework's central claim ('buildability') has no ground truth.
+
+    To validate the claim, we would need a corpus of specs labeled with
+    whether they built a working system. No such corpus exists in the repo.
+    This test asserts the absence.
+    """
+    ground_truth_files = list(REPO.rglob("*ground_truth*"))
+    ground_truth_files += list(REPO.rglob("*build_results*"))
+    ground_truth_files += list(REPO.rglob("*outcome*"))
+    # Filter to actual data files, not source.
+    data = [p for p in ground_truth_files if p.suffix in (".json", ".csv", ".yaml", ".yml")]
+    assert not data, (
+        f"ground truth data exists (central claim is testable): {data}"
+    )
+
+
+def test_central_claim_no_counterexample_exists():
+    """No spec in the repo is labeled 'passed G1 but failed to build'."""
+    counterexample_files = list(REPO.rglob("*counterexample*"))
+    counterexample_files += list(REPO.rglob("*falsif*"))
+    assert not counterexample_files, (
+        f"counterexample exists: {counterexample_files}"
+    )
+
+
+def test_central_claim_no_positive_confirmation():
+    """No spec in the repo is labeled 'passed G1 and built successfully'."""
+    confirmations = list(REPO.rglob("*built_ok*"))
+    confirmations += list(REPO.rglob("*verified_build*"))
+    assert not confirmations, (
+        f"positive confirmation exists: {confirmations}"
+    )

@@ -5,6 +5,7 @@ from collections import Counter
 from pathlib import Path
 from .loader import spec_from_file
 from .procedure import evaluate
+from .intent import IntentRatio
 
 
 def classify_dir(d: Path, gap_history: list[int] | None = None) -> dict:
@@ -12,9 +13,11 @@ def classify_dir(d: Path, gap_history: list[int] | None = None) -> dict:
     for p in sorted(Path(d).glob("*.json")):
         if p.name.startswith("_"):
             continue
-        v = evaluate(spec_from_file(p), gap_history=gap_history)
+        spec = spec_from_file(p)
+        v = evaluate(spec, gap_history=gap_history)
         regime = v.regime if isinstance(v.regime, str) else v.regime.value
-        rows.append((p.stem, regime))
+        ratio = IntentRatio.measure(spec, gap_history or [])
+        rows.append((p.stem, regime, ratio.closed()))
         dist[regime] += 1
     return {"rows": rows, "distribution": dict(dist)}
 
@@ -26,9 +29,10 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     result = classify_dir(args.dir, args.gap_history)
-    width = max((len(n) for n, _ in result["rows"]), default=0)
-    for name, regime in result["rows"]:
-        print(f"{name:<{width}}  {regime}")
+    width = max((len(n) for n, *_ in result["rows"]), default=0)
+    for name, regime, closed in result["rows"]:
+        flag = "C" if closed else " "
+        print(f"{name:<{width}}  {regime:<14} [{flag}]")
     print()
     print("distribution:")
     for regime, n in sorted(result["distribution"].items()):

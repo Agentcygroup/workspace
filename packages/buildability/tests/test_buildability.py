@@ -180,3 +180,46 @@ def test_declared_but_unavailable_substrate_is_engineering():
     v = evaluate(spec)
     assert v.regime == Regime.ENGINEERING, v
     assert any("unavailable" in r.reason for r in v.results if not r.passed)
+
+def test_spec_is_frozen():
+    """Spec must reject attribute assignment at runtime."""
+    spec = _full_spec()
+    try:
+        spec.name = "mutated"
+    except Exception as e:
+        # dataclasses.FrozenInstanceError is the expected type.
+        assert "frozen" in type(e).__name__.lower() or "cannot assign" in str(e).lower()
+    else:
+        raise AssertionError("Spec accepted mutation; frozen contract broken")
+
+
+def test_gap_is_frozen():
+    """Gap is a value object; mutating `resolved` must fail."""
+    from buildability.model import Gap
+    g = Gap("x", "?", resolved=False)
+    try:
+        g.resolved = True
+    except Exception:
+        pass
+    else:
+        raise AssertionError("Gap accepted mutation; frozen contract broken")
+
+
+def test_closure_does_not_mutate_input():
+    """closure must return a new spec and leave the input unchanged."""
+    from buildability.fixedpoint import closure
+
+    base = _full_spec(solver=lambda: 42)
+    # A perturbation that closes no gaps and produces an equal spec.
+    def noop(s):
+        return s
+
+    before_name = base.name
+    before_gaps = len(base.gaps)
+    result, rounds = closure(base, [noop], max_rounds=10)
+
+    # Input is untouched.
+    assert base.name == before_name
+    assert len(base.gaps) == before_gaps
+    # Output is either the same object (identity) or structurally equal.
+    assert result == base or result is base
