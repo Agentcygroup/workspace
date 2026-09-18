@@ -1,0 +1,42 @@
+{
+  "spec": "UCI-CMS",
+  "regime": "BUILDABLE",
+  "build_attempted": true,
+  "build_succeeded": true,
+  "run_attempted": true,
+  "run_succeeded": true,
+  "error": null,
+  "calls": [
+    {
+      "request": {
+        "action": "put",
+        "key": "a",
+        "value": 1
+      },
+      "response": {
+        "ok": true,
+        "stored": "a"
+      }
+    },
+    {
+      "request": {
+        "action": "get",
+        "key": "a"
+      },
+      "response": {
+        "ok": true,
+        "value": 1
+      }
+    },
+    {
+      "request": {
+        "action": "get",
+        "key": "missing"
+      },
+      "response": {
+        "ok": true,
+        "value": null
+      }
+    }
+  ]
+}

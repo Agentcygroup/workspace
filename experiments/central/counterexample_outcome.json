@@ -1,0 +1,7 @@
+{
+  "spec": "COUNTEREXAMPLE-DUPLICATE-OWNER",
+  "regime": "INCOHERENT",
+  "build_attempted": false,
+  "build_succeeded": false,
+  "reason": "spec is incoherent; build refused by gate"
+}
