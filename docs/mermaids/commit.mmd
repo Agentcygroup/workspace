@@ -80,6 +80,7 @@ graph TD
   commit_edbfbe4c1ac2>"edbfbe4c1ac2"]
   commit_f0aacd0abac8>"f0aacd0abac8"]
   commit_f587d1348979>"f587d1348979"]
+  commit_f7a4ce747316>"f7a4ce747316"]
   commit_f9ab55760db5>"f9ab55760db5"]
   decision_sqa>"sqa"]
   role_maintainer("maintainer")
@@ -145,6 +146,7 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_f7a4ce747316 -.->|recorded_in| artifact_provenance_record
   commit_4cfb009799e3 -.->|recorded_in| artifact_provenance_record
   commit_9abc076a0edc -.->|recorded_in| artifact_provenance_record
   commit_cd79a01f9129 -.->|recorded_in| artifact_provenance_record

@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "4cfb009799e37b33b1a1852b6f43f79af1ace60d",
-  "commit_count": 60,
+  "head": "f7a4ce747316720dd3aa814c48ae55dca125f56e",
+  "commit_count": 61,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:f7a4ce747316",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:40:45 -0400",
+      "used": "repo",
+      "generated": "commit:f7a4ce747316",
+      "label": "fix(buildability): register ames model in MODEL_REGISTRY"
+    },
     {
       "id": "commit:4cfb009799e3",
       "type": "prov:Activity",
