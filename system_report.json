@@ -1,0 +1,67 @@
+{
+  "steps": [
+    {
+      "step": "primitives.load",
+      "status": "ok",
+      "result": 90
+    },
+    {
+      "step": "primitives.validate",
+      "status": "ok",
+      "result": []
+    },
+    {
+      "step": "lexicon.load",
+      "status": "ok",
+      "result": 40
+    },
+    {
+      "step": "standard.conformance",
+      "status": "ok",
+      "result": "1.0.0"
+    },
+    {
+      "step": "hands.load",
+      "status": "ok",
+      "result": 110
+    },
+    {
+      "step": "ax.coverage",
+      "status": "ok",
+      "result": {
+        "assisted": 8,
+        "human_approved": 3,
+        "human_supervised": 7,
+        "agent_executed": 9,
+        "exception_supervised": 4,
+        "dual_control": 4,
+        "multi_agent": 3,
+        "human_only": 4
+      }
+    },
+    {
+      "step": "taxonomy.load",
+      "status": "ok",
+      "result": 16
+    },
+    {
+      "step": "kernel.envelope",
+      "status": "ok",
+      "result": []
+    },
+    {
+      "step": "kernel.map",
+      "status": "ok",
+      "result": "biology"
+    },
+    {
+      "step": "primitives.compose",
+      "status": "ok",
+      "result": {
+        "nodes": 90,
+        "edges": 0
+      }
+    }
+  ],
+  "status": "pass"
+}
