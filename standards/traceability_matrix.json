@@ -1,0 +1,2885 @@
+{
+  "status": "generated",
+  "count": 411,
+  "traced": 21,
+  "untraced": 390,
+  "rows": [
+    {
+      "test": "test_construct",
+      "file": "packages/conformance/tests/test_conformance.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_assess_pass",
+      "file": "packages/conformance/tests/test_conformance.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_assess_bad_verdict",
+      "file": "packages/conformance/tests/test_conformance.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_assess_requires_evidence",
+      "file": "packages/conformance/tests/test_conformance.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_assess_requires_name",
+      "file": "packages/conformance/tests/test_conformance.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_default_deny",
+      "file": "packages/policy/tests/test_policy.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_allow_rule",
+      "file": "packages/policy/tests/test_policy.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_priority",
+      "file": "packages/policy/tests/test_policy.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_bad_effect",
+      "file": "packages/policy/tests/test_policy.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_condition_error_denies",
+      "file": "packages/policy/tests/test_policy.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ten_operators",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_operators_id_and_neg",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_operator_merge_split",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_operator_align",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_operator_project",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_eight_axioms",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_envelope_verify_ok",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_axioms_satisfied_on_good_envelope",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 37,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_mappings_four",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 43,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_map_physics_to_biology",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_map_wrong_domain_raises",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 56,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sandbox_allows_known_operator",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 61,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sandbox_rejects_unknown_operator",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 66,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sandbox_rejects_oversized_payload",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 70,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_physics_adapter",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 75,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_biology_adapter",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 81,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_map_biology_to_medicine",
+      "file": "packages/kernel/tests/test_kernel.py",
+      "line": 87,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lenses_nonempty",
+      "file": "packages/lenses/tests/test_lenses.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_lens",
+      "file": "packages/lenses/tests/test_lenses.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lens_questions_security",
+      "file": "packages/lenses/tests/test_lenses.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lens_default_question",
+      "file": "packages/lenses/tests/test_lenses.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lens_ask",
+      "file": "packages/lenses/tests/test_lenses.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_tokenize_basic",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_comment_skipped",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_parse_program",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_parse_missing_brace",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 31,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_op",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 41,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lex_error",
+      "file": "packages/dsl/tests/test_dsl.py",
+      "line": 46,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_empty_report",
+      "file": "packages/coverage/tests/test_coverage.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ratio",
+      "file": "packages/coverage/tests/test_coverage.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gap_blocks_scoped",
+      "file": "packages/coverage/tests/test_coverage.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_to_dict",
+      "file": "packages/coverage/tests/test_coverage.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unscoped_always_undefined",
+      "file": "packages/coverage/tests/test_coverage.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_flow_four_steps",
+      "file": "packages/capstone_flow/tests/test_flow.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_flow_actors_present",
+      "file": "packages/capstone_flow/tests/test_flow.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_flow_verify_clean",
+      "file": "packages/capstone_flow/tests/test_flow.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_flow_provenance_chain",
+      "file": "packages/capstone_flow/tests/test_flow.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/capstone_flow/tests/test_flow.py",
+      "line": 33,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sli_ratio",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sli_empty",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_slo_bad_target",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_budget_consumed_zero",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_budget_consumed_full",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_burn_rate_positive",
+      "file": "packages/metric/tests/test_metric.py",
+      "line": 25,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_patterns_nonempty",
+      "file": "packages/pattern/tests/test_pattern.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_pattern",
+      "file": "packages/pattern/tests/test_pattern.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_by_category",
+      "file": "packages/pattern/tests/test_pattern.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hands_nonempty",
+      "file": "packages/hands_cs/tests/test_hands_cs.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_hand",
+      "file": "packages/hands_cs/tests/test_hands_cs.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hand_upgrade",
+      "file": "packages/hands_cs/tests/test_hands_cs.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hand_bad_level",
+      "file": "packages/hands_cs/tests/test_hands_cs.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_families",
+      "file": "packages/hands_cs/tests/test_hands_cs.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_clip_within_bound",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_clip_enforces_bound",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_clip_bad_bound",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dp_mean_deterministic_with_rng",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_federated_round",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_federated_empty",
+      "file": "packages/fedlearn/tests/test_fedlearn.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_permit_default",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_permit_blocked",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_permit_allowlist",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_route_allow",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_route_blocked",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_residency_blocks_personal",
+      "file": "packages/sovereignty/tests/test_sovereignty.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_terms_nonempty",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_all_clean",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_get_term",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_terms_by_source",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_terms_by_atom",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sources",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_every_term_has_primitive",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_citable_and_emergent_coexist",
+      "file": "packages/lexicon/tests/test_lexicon.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_nop_hlt",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_add",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sub_flags",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_jmp",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_je_taken",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 34,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_call_ret",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 42,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_opcode",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_load_store_roundtrip",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 55,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_step_limit",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 63,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_memory_bounds",
+      "file": "packages/isa_vm/tests/test_isa_vm.py",
+      "line": 69,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_all_hands_kinds_nonempty",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_hand",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_minimal_ok",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_missing_field",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_bad_state",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 36,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_bad_hand_kind",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 42,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_root_invariant_enforced",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/hands/tests/test_hands.py",
+      "line": 56,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gates_count",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_initial_state",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_full_chain",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_out_of_order_raises",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_gate_raises",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 25,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_revoke",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_history_length",
+      "file": "packages/gate/tests/test_gate.py",
+      "line": 36,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_source_add_publication",
+      "file": "packages/registry/tests/test_registry.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_registry_add_and_count",
+      "file": "packages/registry/tests/test_registry.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_freeze_snapshot_stable",
+      "file": "packages/registry/tests/test_registry.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_snapshot_lists_sources",
+      "file": "packages/registry/tests/test_registry.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_g1_complete",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 24,
+      "requirement": "REQ-G1",
+      "traced": true
+    },
+    {
+      "test": "test_g1_missing_component",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 28,
+      "requirement": "REQ-G1",
+      "traced": true
+    },
+    {
+      "test": "test_g1_open_gap_blocks",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 34,
+      "requirement": "REQ-G1",
+      "traced": true
+    },
+    {
+      "test": "test_g2_missing_substrate",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 40,
+      "requirement": "REQ-G2",
+      "traced": true
+    },
+    {
+      "test": "test_g2_flag_ignored_when_probe_succeeds",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 45,
+      "requirement": "REQ-G2",
+      "traced": true
+    },
+    {
+      "test": "test_g3_no_solver",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 56,
+      "requirement": "REQ-G3",
+      "traced": true
+    },
+    {
+      "test": "test_g3_solver_returns_candidate",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 61,
+      "requirement": "REQ-G3",
+      "traced": true
+    },
+    {
+      "test": "test_g4_no_prover",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 66,
+      "requirement": "REQ-G4",
+      "traced": true
+    },
+    {
+      "test": "test_g4_falsifiable_prover",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 70,
+      "requirement": "REQ-G4",
+      "traced": true
+    },
+    {
+      "test": "test_g4_unfalsifiable_prover_rejected",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 76,
+      "requirement": "REQ-G4",
+      "traced": true
+    },
+    {
+      "test": "test_g5_no_resolver",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 84,
+      "requirement": "REQ-G5",
+      "traced": true
+    },
+    {
+      "test": "test_g5_self_tie_ok",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 88,
+      "requirement": "REQ-G5",
+      "traced": true
+    },
+    {
+      "test": "test_evaluate_buildable",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 94,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_divergent",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 101,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_research",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 106,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_engineering",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 111,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_construction",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 122,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_verification",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 127,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_adjudication",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 132,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fixed_point",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 138,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_substrate_is_research_not_engineering",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 148,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_declared_but_unavailable_substrate_is_engineering",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 176,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_spec_is_frozen",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 198,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gap_is_frozen",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 210,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_closure_does_not_mutate_input",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 222,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_g0_no_history_passes",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 241,
+      "requirement": "REQ-G0",
+      "traced": true
+    },
+    {
+      "test": "test_g0_divergent_fails",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 249,
+      "requirement": "REQ-G0",
+      "traced": true
+    },
+    {
+      "test": "test_g0_convergent_passes",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 257,
+      "requirement": "REQ-G0",
+      "traced": true
+    },
+    {
+      "test": "test_g1_5_duplicate_responsibility_detected",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 264,
+      "requirement": "REQ-G1_5",
+      "traced": true
+    },
+    {
+      "test": "test_g1_5_clean_spec_passes",
+      "file": "packages/buildability/tests/test_buildability.py",
+      "line": 286,
+      "requirement": "REQ-G1_5",
+      "traced": true
+    },
+    {
+      "test": "test_claim_g1_and_g2_are_implemented",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 52,
+      "requirement": "REQ-G2",
+      "traced": true
+    },
+    {
+      "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 65,
+      "requirement": "REQ-G5",
+      "traced": true
+    },
+    {
+      "test": "test_claim_no_builder_exists",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 80,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_semantic_incompleteness_is_detected",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 96,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_no_distance_metric_between_specs",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 117,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_substrate_availability_not_probed",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 128,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_divergence_requires_external_history",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 138,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_cross_spec_composition_exists",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 151,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_cross_spec_composition_detects_mismatch",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 160,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_cross_spec_composition_accepts_matching",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 191,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_no_partial_spec_handling",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 212,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_mesh_specs_remain_research",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 226,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_factory_refuses_incomplete_specs",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 235,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fail_no_determinism_test_for_classifier",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 247,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_intent_ratio_is_wired",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 256,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_expanded_corpus_regimes_are_pinned",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 274,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verdict_is_frozen",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 307,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gate_result_is_frozen",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 315,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verdict_has_value_eq",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 323,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verdict_to_dict_is_json_serializable",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 331,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_closure_terminates_on_pathological_perturbation",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 341,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_replace_validates_collection_types",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 354,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_central_claim_has_ground_truth",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 365,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_central_claim_g1_passing_builds",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 378,
+      "requirement": "REQ-G1",
+      "traced": true
+    },
+    {
+      "test": "test_central_claim_g1_failing_fails",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 392,
+      "requirement": "REQ-G1",
+      "traced": true
+    },
+    {
+      "test": "test_central_claim_has_counterexample",
+      "file": "packages/buildability/tests/test_claims.py",
+      "line": 406,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_add_and_get",
+      "file": "packages/sdk/tests/test_sdk.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_not_found",
+      "file": "packages/sdk/tests/test_sdk.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_handler_error",
+      "file": "packages/sdk/tests/test_sdk.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_post_body",
+      "file": "packages/sdk/tests/test_sdk.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_levels_closed",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_opcodes_present",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_syscalls_present",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_scan_forbidden",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_instance_ok",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_instance_bad_kind",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 34,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_instance_unscoped",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_for_level",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 46,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_invariants_closed",
+      "file": "packages/taxonomy/tests/test_taxonomy.py",
+      "line": 51,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_append_event",
+      "file": "packages/audit/tests/test_audit.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verify_clean",
+      "file": "packages/audit/tests/test_audit.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_tamper_detected",
+      "file": "packages/audit/tests/test_audit.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_save_load",
+      "file": "packages/audit/tests/test_audit.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_non_implication_carried",
+      "file": "packages/audit/tests/test_audit.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_chain_empty",
+      "file": "packages/provenance/tests/test_provenance.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_add_entity_agent_activity",
+      "file": "packages/provenance/tests/test_provenance.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_used",
+      "file": "packages/provenance/tests/test_provenance.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_agent",
+      "file": "packages/provenance/tests/test_provenance.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_to_dict_shape",
+      "file": "packages/provenance/tests/test_provenance.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_register",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_run_once_success",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_run_once_failure",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_heal_after_failure",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_heal_exhausts_attempts",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_history_records",
+      "file": "packages/heal/tests/test_heal.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_archetypes_nonempty",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_jurisdictions",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_planes",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_institute_valid",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_institute_bad_archetype",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_institute_bad_jurisdiction",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 34,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_capstone_record_valid",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 39,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_capstone_record_bad_plane",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 44,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_interop_overlap_rejected",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_duplicate_governor",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 54,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/capstone/tests/test_capstone.py",
+      "line": 61,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verbs_closed",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_kinds_closed",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_atoms_count",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_atom_shape",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_all_clean",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_get_atom",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_atoms_by_verb",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_atoms_by_kind",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 33,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_atom_ids_unique",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 36,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compose_all",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compose_subset",
+      "file": "packages/primitives/tests/test_primitives.py",
+      "line": 46,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_version",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ten_articles",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ten_moats",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gap_names",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_refusals",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_articles_named",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_conformance_report",
+      "file": "packages/standard/tests/test_standard.py",
+      "line": 33,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_file_construction",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dispute_initial_state",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_legal_transition",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_illegal_transition",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_state",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_history_records",
+      "file": "packages/dispute/tests/test_dispute.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sixteen_levels",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_validate_clean",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_binds_chain",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fifteen_invariants",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_isa_opcodes_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_syscall_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_asm_directives_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hll_constructs_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_app_types_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_framework_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_registry_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 35,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_ledger_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 38,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_artifact_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 41,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_governance_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 44,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_meta_kinds_count",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 47,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_gap_register_nonempty",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 50,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_implementation_status",
+      "file": "packages/ontology/tests/test_ontology.py",
+      "line": 54,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hash_known_value",
+      "file": "packages/cli/tests/test_cli.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_args",
+      "file": "packages/cli/tests/test_cli.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_register_and_encode",
+      "file": "packages/protocol/tests/test_protocol.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unregistered_kind",
+      "file": "packages/protocol/tests/test_protocol.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_roundtrip",
+      "file": "packages/protocol/tests/test_protocol.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_tamper_detected",
+      "file": "packages/protocol/tests/test_protocol.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_version_mismatch",
+      "file": "packages/protocol/tests/test_protocol.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_subject_digest",
+      "file": "packages/attest/tests/test_attest.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_statement",
+      "file": "packages/attest/tests/test_attest.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_statement_hash_stable",
+      "file": "packages/attest/tests/test_attest.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sbom_cyclonedx_shape",
+      "file": "packages/attest/tests/test_attest.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_generate_sbom_returns_dict",
+      "file": "packages/attest/tests/test_attest.py",
+      "line": 36,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hats_nonempty",
+      "file": "packages/hats/tests/test_hats.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_hat",
+      "file": "packages/hats/tests/test_hats.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hat_can",
+      "file": "packages/hats/tests/test_hats.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_disciplines",
+      "file": "packages/hats/tests/test_hats.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_classes_nonempty",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_class_bad_name",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dominates_reflexive",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dominates_transitive",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_does_not_dominate",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_class",
+      "file": "packages/complexity/tests/test_complexity.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_targets_closed",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_arches_closed",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 15,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_properties_closed",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_detect_os",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_detect_arch",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_toolchain_linux_windows",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_extensions_os",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 38,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_paths_os",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 45,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_shell_os",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 51,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_matrix_validates",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 57,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_matrix_six_rows",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 61,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_classify_host_shape",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 65,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_canonical_and_fingerprint_stable",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 70,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_idempotent_builder",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 77,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_airgapped_check",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 81,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sovereign_check",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 88,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compose_matrices",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 92,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_interoperable_check",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 100,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/portable/tests/test_portable.py",
+      "line": 105,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_analyze_schema",
+      "file": "packages/agent_data/tests/test_agent_data.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_empty_column_detected",
+      "file": "packages/agent_data/tests/test_agent_data.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_source_hash_stable",
+      "file": "packages/agent_data/tests/test_agent_data.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evidence_scoped",
+      "file": "packages/agent_data/tests/test_agent_data.py",
+      "line": 25,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_run_writes",
+      "file": "packages/agent_data/tests/test_agent_data.py",
+      "line": 31,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_canonical_deterministic",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_parse",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_ok",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_missing",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_bad_type",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_not_dict",
+      "file": "packages/serialization/tests/test_serialization.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_empty",
+      "file": "packages/dag/tests/test_dag.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_linear",
+      "file": "packages/dag/tests/test_dag.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_diamond",
+      "file": "packages/dag/tests/test_dag.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_cycle_detected",
+      "file": "packages/dag/tests/test_dag.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_cycle",
+      "file": "packages/dag/tests/test_dag.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_add_record",
+      "file": "packages/dataset/tests/test_dataset.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_deduplicate",
+      "file": "packages/dataset/tests/test_dataset.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fingerprint_stable",
+      "file": "packages/dataset/tests/test_dataset.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_lineage",
+      "file": "packages/dataset/tests/test_dataset.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_to_dict",
+      "file": "packages/dataset/tests/test_dataset.py",
+      "line": 29,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_initial",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_simple_transition",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_unknown_event",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_guard_blocks",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_guard_allows",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 22,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_effect_runs",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_history",
+      "file": "packages/state_machine/tests/test_state_machine.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_valid_handoff",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_bad_mode",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_accept",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 12,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_accept_twice_fails",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_reject",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_modes_closed",
+      "file": "packages/handoff/tests/test_handoff.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_register_tenant",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_duplicate_tenant",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_unknown_tenant",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evaluate_records_audit",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_audit_report",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_drift_detected",
+      "file": "packages/policyplat/tests/test_policyplat.py",
+      "line": 42,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_construct",
+      "file": "packages/certificate/tests/test_certificate.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sign",
+      "file": "packages/certificate/tests/test_certificate.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_conformance",
+      "file": "packages/certificate/tests/test_certificate.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_no_signer",
+      "file": "packages/certificate/tests/test_certificate.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_role_closed",
+      "file": "packages/certificate/tests/test_certificate.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hash_bytes_stable",
+      "file": "packages/evidence/tests/test_evidence.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hash_file",
+      "file": "packages/evidence/tests/test_evidence.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evidence_ref",
+      "file": "packages/evidence/tests/test_evidence.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_provenance_chain",
+      "file": "packages/evidence/tests/test_evidence.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_provenance_validate",
+      "file": "packages/evidence/tests/test_evidence.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_leaderboard_nonempty",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_1_real",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_2_not_agi",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_3_no_agi_benchmark",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_guard_rejects_agi_claim",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 38,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_guard_accepts_honest_text",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 45,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_harness_runs_on_small_set",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_harness_report_carries_refusal",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 65,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_harness_report_forbidden_token_would_raise",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 71,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compare_to_leaderboard",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 80,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 88,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_assertions_closed_set",
+      "file": "packages/hle/tests/test_hle.py",
+      "line": 97,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sha256_stable",
+      "file": "packages/core/tests/test_core.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_canonical_json_sorted",
+      "file": "packages/core/tests/test_core.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_all_42_categories",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 6,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_coverage_sums_to_42",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_every_allocation_legal",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_software_is_agent_executed",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 20,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_legal_is_human_only",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 23,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_agent_capable_lists",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_human_required_lists",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_scope_variants_15x26",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 34,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_schema_enum",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 39,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_build_all",
+      "file": "packages/ax/tests/test_ax.py",
+      "line": 43,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_chain_starts_empty",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 5,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_chain_append_and_verify",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_chain_tamper_detected",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_chain_save_load",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_validate",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 32,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_claim_bad_id",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 36,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_evidence_validate",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 40,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_link_validate",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 44,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_link_unknown_refs",
+      "file": "packages/ledger/tests/test_ledger.py",
+      "line": 49,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_empty",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_set_returns_new",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_get",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_remove",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_keys_and_size",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 25,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_merge",
+      "file": "packages/pmap/tests/test_map.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dot",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_dot_mismatch",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 7,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_axpy",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 11,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_relu",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_sigmoid",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_softmax_sums_to_one",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_matmul",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 25,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_matmul_shape_mismatch",
+      "file": "packages/kernels/tests/test_kernels.py",
+      "line": 30,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_push_pop",
+      "file": "packages/queuekit/tests/test_queue.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_full",
+      "file": "packages/queuekit/tests/test_queue.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_empty",
+      "file": "packages/queuekit/tests/test_queue.py",
+      "line": 16,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_capacity_must_be_positive",
+      "file": "packages/queuekit/tests/test_queue.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_is_full_and_empty",
+      "file": "packages/queuekit/tests/test_queue.py",
+      "line": 27,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_scalar_roundtrip",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_scalar_bounds",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 9,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_bits_validation",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 13,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_quantization_error",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 17,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_tensor_roundtrip",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 21,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_tensor_empty",
+      "file": "packages/quantize/tests/test_quantize.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_single_node",
+      "file": "packages/tree/tests/test_tree.py",
+      "line": 3,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_two_level",
+      "file": "packages/tree/tests/test_tree.py",
+      "line": 10,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_preorder_order",
+      "file": "packages/tree/tests/test_tree.py",
+      "line": 18,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_postorder",
+      "file": "packages/tree/tests/test_tree.py",
+      "line": 26,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_citation_construct",
+      "file": "packages/citation/tests/test_citation.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verify_sets_fields",
+      "file": "packages/citation/tests/test_citation.py",
+      "line": 8,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verify_rejects_bad_confidence",
+      "file": "packages/citation/tests/test_citation.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_verify_requires_name",
+      "file": "packages/citation/tests/test_citation.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_add_and_fuse",
+      "file": "packages/fusion/tests/test_fusion.py",
+      "line": 4,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_bad_modality",
+      "file": "packages/fusion/tests/test_fusion.py",
+      "line": 14,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_bad_weight",
+      "file": "packages/fusion/tests/test_fusion.py",
+      "line": 19,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_fuse_convenience",
+      "file": "packages/fusion/tests/test_fusion.py",
+      "line": 24,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_hash_stable",
+      "file": "packages/fusion/tests/test_fusion.py",
+      "line": 28,
+      "requirement": null,
+      "traced": false
+    }
+  ]
+}

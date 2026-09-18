@@ -1,0 +1,91 @@
+{
+  "status": "generated",
+  "count": 7,
+  "verified": 7,
+  "requirements": [
+    {
+      "id": "REQ-G0",
+      "gate": "G0",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G0",
+      "verification": [
+        "test_g0_no_history_passes",
+        "test_g0_divergent_fails",
+        "test_g0_convergent_passes"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G1",
+      "gate": "G1",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G1",
+      "verification": [
+        "test_g1_complete",
+        "test_g1_missing_component",
+        "test_g1_open_gap_blocks",
+        "test_claim_g1_and_g2_are_implemented",
+        "test_central_claim_g1_passing_builds",
+        "test_central_claim_g1_failing_fails"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G1_5",
+      "gate": "G1_5",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G1_5",
+      "verification": [
+        "test_g1_5_duplicate_responsibility_detected",
+        "test_g1_5_clean_spec_passes"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G2",
+      "gate": "G2",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G2",
+      "verification": [
+        "test_g2_missing_substrate",
+        "test_g2_flag_ignored_when_probe_succeeds"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G3",
+      "gate": "G3",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G3",
+      "verification": [
+        "test_g3_no_solver",
+        "test_g3_solver_returns_candidate",
+        "test_claim_g3_g4_g5_are_stubs_not_generators"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G4",
+      "gate": "G4",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G4",
+      "verification": [
+        "test_g4_no_prover",
+        "test_g4_falsifiable_prover",
+        "test_g4_unfalsifiable_prover_rejected"
+      ],
+      "verified": true
+    },
+    {
+      "id": "REQ-G5",
+      "gate": "G5",
+      "defined_in": "packages/buildability/src/buildability/gates.py",
+      "criterion": "evaluate() returns a verdict determined by G5",
+      "verification": [
+        "test_g5_no_resolver",
+        "test_g5_self_tie_ok"
+      ],
+      "verified": true
+    }
+  ]
+}

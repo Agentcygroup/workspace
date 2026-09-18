@@ -1,0 +1,12 @@
+{
+  "generated": [
+    "requirements_specification",
+    "traceability_matrix",
+    "test_documentation",
+    "provenance_record",
+    "configuration_management",
+    "gate_conformance"
+  ],
+  "omitted_or_error": [],
+  "count": 6
+}

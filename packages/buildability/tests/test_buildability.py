@@ -237,3 +237,69 @@ def test_closure_does_not_mutate_input():
     assert len(base.gaps) == before_gaps
     # Output is either the same object (identity) or structurally equal.
     assert result == base or result is base
+
+def test_g0_no_history_passes():
+    """G0 with no history is vacuously true."""
+    from buildability.gates import g0_convergence
+    r = g0_convergence([])
+    assert r.passed
+    assert "insufficient" in r.reason
+
+
+def test_g0_divergent_fails():
+    """G0 fails when the gap count does not strictly decrease."""
+    from buildability.gates import g0_convergence
+    r = g0_convergence([5, 5, 5, 5])
+    assert not r.passed
+    assert "divergent" in r.reason
+
+
+def test_g0_convergent_passes():
+    """G0 passes when the gap count strictly decreases each iteration."""
+    from buildability.gates import g0_convergence
+    r = g0_convergence([5, 4, 3, 2, 1, 0])
+    assert r.passed
+
+
+def test_g1_5_duplicate_responsibility_detected():
+    """G1.5 catches components with identical responsibility."""
+    from buildability.consistency import check_consistency
+    from buildability.model import (
+        Spec, Component, Interface, Invariant, Lifecycle,
+    )
+    spec = Spec(
+        name="dup",
+        components=(
+            Component("a", "owns content"),
+            Component("b", "owns content"),
+        ),
+        interfaces=(Interface("x", "s", "p", "v", "f"),),
+        invariants=(Invariant("i", "p"),),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="python",
+        substrate_available=True,
+    )
+    findings = check_consistency(spec)
+    assert any(f.rule == "C1.duplicate-responsibility" for f in findings)
+
+
+def test_g1_5_clean_spec_passes():
+    """G1.5 passes a spec whose components have distinct responsibilities."""
+    from buildability.consistency import check_consistency
+    from buildability.model import (
+        Spec, Component, Interface, Invariant, Lifecycle,
+    )
+    spec = Spec(
+        name="clean",
+        components=(
+            Component("a", "owns content"),
+            Component("b", "serves content"),
+        ),
+        interfaces=(Interface("x", "s", "p", "v", "f"),),
+        invariants=(Invariant("i", "p"),),
+        lifecycle=Lifecycle("a", "b", "c", "d", "e"),
+        substrate="python",
+        substrate_available=True,
+    )
+    findings = check_consistency(spec)
+    assert findings == ()

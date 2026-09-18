@@ -1,0 +1,356 @@
+{
+  "status": "generated",
+  "head": "3bce2ac388b239e9d1eb9c3d8a8a278e6221ef8f",
+  "commit_count": 42,
+  "dirty": true,
+  "entities": [
+    {
+      "id": "repo",
+      "type": "prov:Collection"
+    }
+  ],
+  "activities": [
+    {
+      "id": "commit:3bce2ac388b2",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:26:41 -0400",
+      "used": "repo",
+      "generated": "commit:3bce2ac388b2",
+      "label": "feat(central): first non-dict build; UCI-CMS runs, counterexample refuses"
+    },
+    {
+      "id": "commit:0c51328b0d6f",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:25:52 -0400",
+      "used": "repo",
+      "generated": "commit:0c51328b0d6f",
+      "label": "test(buildability): align substrate tests with probe-first semantics"
+    },
+    {
+      "id": "commit:f587d1348979",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:24:32 -0400",
+      "used": "repo",
+      "generated": "commit:f587d1348979",
+      "label": "test(buildability): flip factory-emit test to assert refusal"
+    },
+    {
+      "id": "commit:da383ef9e7f6",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:22:44 -0400",
+      "used": "repo",
+      "generated": "commit:da383ef9e7f6",
+      "label": "fix: Spec.model field wired, mesh _gate active, UCI specs declare model"
+    },
+    {
+      "id": "commit:8337159f78c3",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:21:55 -0400",
+      "used": "repo",
+      "generated": "commit:8337159f78c3",
+      "label": "feat: wire _gate into mesh factory, add Spec.model, commit experiments"
+    },
+    {
+      "id": "commit:bf6694cb9d5c",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:14:43 -0400",
+      "used": "repo",
+      "generated": "commit:bf6694cb9d5c",
+      "label": "feat(buildability): eleven computational models fill G3/G4/G5"
+    },
+    {
+      "id": "commit:5a71453404fb",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:10:59 -0400",
+      "used": "repo",
+      "generated": "commit:5a71453404fb",
+      "label": "feat(buildability): G1.5 consistency gate, registry walk, counterexample closed"
+    },
+    {
+      "id": "commit:0d349cafcec7",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:08:36 -0400",
+      "used": "repo",
+      "generated": "commit:0d349cafcec7",
+      "label": "feat(buildability): G1.5 consistency gate detects incoherent specs"
+    },
+    {
+      "id": "commit:8aa3d666b586",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:07:30 -0400",
+      "used": "repo",
+      "generated": "commit:8aa3d666b586",
+      "label": "test(buildability): counterexample proves G1 does not check coherence"
+    },
+    {
+      "id": "commit:db1ae8452071",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:05:26 -0400",
+      "used": "repo",
+      "generated": "commit:db1ae8452071",
+      "label": "test(buildability): central claim and cross-spec composition asserted"
+    },
+    {
+      "id": "commit:ce39955beae2",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:04:19 -0400",
+      "used": "repo",
+      "generated": "commit:ce39955beae2",
+      "label": "feat(buildability): ground truth corpus generator"
+    },
+    {
+      "id": "commit:ce03b07b9c0d",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:02:13 -0400",
+      "used": "repo",
+      "generated": "commit:ce03b07b9c0d",
+      "label": "refactor(buildability): complete coherence pass"
+    },
+    {
+      "id": "commit:f9ab55760db5",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:56:56 -0400",
+      "used": "repo",
+      "generated": "commit:f9ab55760db5",
+      "label": "fix(buildability): render Regime as its value in classify output"
+    },
+    {
+      "id": "commit:2edf5141a29e",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:55:39 -0400",
+      "used": "repo",
+      "generated": "commit:2edf5141a29e",
+      "label": "fix(buildability): substrate precedence in loader, add regression test, normalize regime str"
+    },
+    {
+      "id": "commit:b3e17fd63bdc",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:54:55 -0400",
+      "used": "repo",
+      "generated": "commit:b3e17fd63bdc",
+      "label": "refactor(buildability): collapse gates to a registry, add loader and classify CLI"
+    },
+    {
+      "id": "commit:cb2ae80a455c",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:51:15 -0400",
+      "used": "repo",
+      "generated": "commit:cb2ae80a455c",
+      "label": "chore: ignore generated mesh output and python artifacts"
+    },
+    {
+      "id": "commit:90253809b4ad",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:50:25 -0400",
+      "used": "repo",
+      "generated": "commit:90253809b4ad",
+      "label": "chore: stop tracking generated mesh output"
+    },
+    {
+      "id": "commit:33f842b6a444",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:50:12 -0400",
+      "used": "repo",
+      "generated": "commit:33f842b6a444",
+      "label": "feat: buildability framework with G0-G5 gates and fixed-point closure"
+    },
+    {
+      "id": "commit:d8368518eeae",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:45:31 -0400",
+      "used": "repo",
+      "generated": "commit:d8368518eeae",
+      "label": "fix: point factory templates at mesh/kinds, dp_mean zero-noise path"
+    },
+    {
+      "id": "commit:615fcf167b38",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:44:20 -0400",
+      "used": "repo",
+      "generated": "commit:615fcf167b38",
+      "label": "fix: dp_mean zero-noise shim, engines->kinds imports, drop utcnow"
+    },
+    {
+      "id": "commit:e9944f7032b0",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:43:50 -0400",
+      "used": "repo",
+      "generated": "commit:e9944f7032b0",
+      "label": "fix: dp_mean zero-noise path, derive ontology counts, remove utcnow"
+    },
+    {
+      "id": "commit:e68c4a7585d7",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:39:17 -0400",
+      "used": "repo",
+      "generated": "commit:e68c4a7585d7",
+      "label": "docs(symbols): palette of 140 symbol specifications across 9 families"
+    },
+    {
+      "id": "commit:2aee866b47f4",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:24:50 -0400",
+      "used": "repo",
+      "generated": "commit:2aee866b47f4",
+      "label": "feat: hats, lenses, hands_cs, pattern, protocol, serialization, dag, tree"
+    },
+    {
+      "id": "commit:6367a9a831e3",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:20:33 -0400",
+      "used": "repo",
+      "generated": "commit:6367a9a831e3",
+      "label": "feat: ledger, registry, evidence, gate, metric, policy, audit packages"
+    },
+    {
+      "id": "commit:30b81352e2fe",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:18:28 -0400",
+      "used": "repo",
+      "generated": "commit:30b81352e2fe",
+      "label": "feat: run_system.sh orchestrator and sign package with H1-H6 gates"
+    },
+    {
+      "id": "commit:bc2c0a55eca7",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:15:46 -0400",
+      "used": "repo",
+      "generated": "commit:bc2c0a55eca7",
+      "label": "feat(ci): conformance, hle-refusal, portable, bootstrap workflows"
+    },
+    {
+      "id": "commit:5c648051cd3a",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:12:45 -0400",
+      "used": "repo",
+      "generated": "commit:5c648051cd3a",
+      "label": "fix: remove accidental embedded gitlink"
+    },
+    {
+      "id": "commit:1438bb25ef4f",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:11:41 -0400",
+      "used": "repo",
+      "generated": "commit:1438bb25ef4f",
+      "label": "feat(standard): execution standard v1.0.0 with articles, moats, refusals, conformance"
+    },
+    {
+      "id": "commit:bb18b63785e4",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:09:14 -0400",
+      "used": "repo",
+      "generated": "commit:bb18b63785e4",
+      "label": "feat: bootstrap script installs and verifies entire workspace"
+    },
+    {
+      "id": "commit:d06b5eb5a71a",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:04:21 -0400",
+      "used": "repo",
+      "generated": "commit:d06b5eb5a71a",
+      "label": "feat(portable): six properties checked across six target OSes"
+    },
+    {
+      "id": "commit:edbfbe4c1ac2",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 16:02:02 -0400",
+      "used": "repo",
+      "generated": "commit:edbfbe4c1ac2",
+      "label": "feat(hle): separate assertion from refusal in guard; all tests pass"
+    },
+    {
+      "id": "commit:3c2f9b038961",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:57:20 -0400",
+      "used": "repo",
+      "generated": "commit:3c2f9b038961",
+      "label": "fix(capstone_flow): add schema module and clean tests"
+    },
+    {
+      "id": "commit:68f8a3c4fd76",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:56:50 -0400",
+      "used": "repo",
+      "generated": "commit:68f8a3c4fd76",
+      "label": "feat(capstone): federated spec, synthetic flow, research agenda"
+    },
+    {
+      "id": "commit:0258cef40cd9",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:54:46 -0400",
+      "used": "repo",
+      "generated": "commit:0258cef40cd9",
+      "label": "feat(kernel): add biology_to_medicine mapping"
+    },
+    {
+      "id": "commit:14a0515ad06a",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:54:30 -0400",
+      "used": "repo",
+      "generated": "commit:14a0515ad06a",
+      "label": "feat(dashboard): clean rewrite plus pages workflow"
+    },
+    {
+      "id": "commit:6dbedd68a048",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:53:49 -0400",
+      "used": "repo",
+      "generated": "commit:6dbedd68a048",
+      "label": "feat(kernel): operators, axioms, mappings, sandbox, adapters"
+    },
+    {
+      "id": "commit:904ae43c71d1",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:51:18 -0400",
+      "used": "repo",
+      "generated": "commit:904ae43c71d1",
+      "label": "feat: data agent, dashboard tool, publish workflow, changelog"
+    },
+    {
+      "id": "commit:47018fe8dcfa",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:49:24 -0400",
+      "used": "repo",
+      "generated": "commit:47018fe8dcfa",
+      "label": "fix(ax): correct scope-variants test to use package constants; gitignore derived scope-function grid"
+    },
+    {
+      "id": "commit:bb4834da10df",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:47:01 -0400",
+      "used": "repo",
+      "generated": "commit:bb4834da10df",
+      "label": "fix(hands): rewrite validate_assignment to handle null/list-valued fields and non-dict authority"
+    },
+    {
+      "id": "commit:58665971091e",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:45:06 -0400",
+      "used": "repo",
+      "generated": "commit:58665971091e",
+      "label": "feat(taxonomy): 16-level schema package with kinds, invariants, validator, tests"
+    },
+    {
+      "id": "commit:2e109df113b3",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:43:14 -0400",
+      "used": "repo",
+      "generated": "commit:2e109df113b3",
+      "label": "feat: compliance enumeration across ISO 27001, NIST 800-53, SOC 2, NIST SSDF"
+    },
+    {
+      "id": "commit:5cdc31680cac",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 15:40:46 -0400",
+      "used": "repo",
+      "generated": "commit:5cdc31680cac",
+      "label": "feat: initial monorepo with core, cli, ci, governance, security"
+    }
+  ],
+  "agents": [
+    {
+      "id": "Danny Gerhardt",
+      "type": "prov:Person"
+    }
+  ]
+}

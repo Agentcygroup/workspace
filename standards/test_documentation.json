@@ -1,0 +1,3705 @@
+{
+  "status": "generated",
+  "count": 411,
+  "cases": [
+    {
+      "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
+      "location": {
+        "file": "packages/conformance/tests/test_conformance.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/conformance/tests/test_conformance.py::test_assess_pass",
+      "location": {
+        "file": "packages/conformance/tests/test_conformance.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/conformance/tests/test_conformance.py::test_assess_bad_verdict",
+      "location": {
+        "file": "packages/conformance/tests/test_conformance.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/conformance/tests/test_conformance.py::test_assess_requires_evidence",
+      "location": {
+        "file": "packages/conformance/tests/test_conformance.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/conformance/tests/test_conformance.py::test_assess_requires_name",
+      "location": {
+        "file": "packages/conformance/tests/test_conformance.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policy/tests/test_policy.py::test_default_deny",
+      "location": {
+        "file": "packages/policy/tests/test_policy.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policy/tests/test_policy.py::test_allow_rule",
+      "location": {
+        "file": "packages/policy/tests/test_policy.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policy/tests/test_policy.py::test_priority",
+      "location": {
+        "file": "packages/policy/tests/test_policy.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policy/tests/test_policy.py::test_bad_effect",
+      "location": {
+        "file": "packages/policy/tests/test_policy.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policy/tests/test_policy.py::test_condition_error_denies",
+      "location": {
+        "file": "packages/policy/tests/test_policy.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_ten_operators",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_operators_id_and_neg",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_operator_merge_split",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_operator_align",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_operator_project",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_eight_axioms",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_envelope_verify_ok",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_axioms_satisfied_on_good_envelope",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 37
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_mappings_four",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 43
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_map_physics_to_biology",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_map_wrong_domain_raises",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 56
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_sandbox_allows_known_operator",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 61
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_sandbox_rejects_unknown_operator",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 66
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_sandbox_rejects_oversized_payload",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 70
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_physics_adapter",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 75
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_biology_adapter",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 81
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernel/tests/test_kernel.py::test_map_biology_to_medicine",
+      "location": {
+        "file": "packages/kernel/tests/test_kernel.py",
+        "line": 87
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lenses/tests/test_lenses.py::test_lenses_nonempty",
+      "location": {
+        "file": "packages/lenses/tests/test_lenses.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lenses/tests/test_lenses.py::test_is_lens",
+      "location": {
+        "file": "packages/lenses/tests/test_lenses.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lenses/tests/test_lenses.py::test_lens_questions_security",
+      "location": {
+        "file": "packages/lenses/tests/test_lenses.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lenses/tests/test_lenses.py::test_lens_default_question",
+      "location": {
+        "file": "packages/lenses/tests/test_lenses.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lenses/tests/test_lenses.py::test_lens_ask",
+      "location": {
+        "file": "packages/lenses/tests/test_lenses.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_tokenize_basic",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_comment_skipped",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_parse_program",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_parse_missing_brace",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_evaluate",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 31
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_unknown_op",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 41
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dsl/tests/test_dsl.py::test_lex_error",
+      "location": {
+        "file": "packages/dsl/tests/test_dsl.py",
+        "line": 46
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/coverage/tests/test_coverage.py::test_empty_report",
+      "location": {
+        "file": "packages/coverage/tests/test_coverage.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/coverage/tests/test_coverage.py::test_ratio",
+      "location": {
+        "file": "packages/coverage/tests/test_coverage.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/coverage/tests/test_coverage.py::test_gap_blocks_scoped",
+      "location": {
+        "file": "packages/coverage/tests/test_coverage.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/coverage/tests/test_coverage.py::test_to_dict",
+      "location": {
+        "file": "packages/coverage/tests/test_coverage.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/coverage/tests/test_coverage.py::test_unscoped_always_undefined",
+      "location": {
+        "file": "packages/coverage/tests/test_coverage.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone_flow/tests/test_flow.py::test_flow_four_steps",
+      "location": {
+        "file": "packages/capstone_flow/tests/test_flow.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone_flow/tests/test_flow.py::test_flow_actors_present",
+      "location": {
+        "file": "packages/capstone_flow/tests/test_flow.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone_flow/tests/test_flow.py::test_flow_verify_clean",
+      "location": {
+        "file": "packages/capstone_flow/tests/test_flow.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone_flow/tests/test_flow.py::test_flow_provenance_chain",
+      "location": {
+        "file": "packages/capstone_flow/tests/test_flow.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone_flow/tests/test_flow.py::test_build_all",
+      "location": {
+        "file": "packages/capstone_flow/tests/test_flow.py",
+        "line": 33
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_sli_ratio",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_sli_empty",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_slo_bad_target",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_budget_consumed_zero",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_budget_consumed_full",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/metric/tests/test_metric.py::test_burn_rate_positive",
+      "location": {
+        "file": "packages/metric/tests/test_metric.py",
+        "line": 25
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pattern/tests/test_pattern.py::test_patterns_nonempty",
+      "location": {
+        "file": "packages/pattern/tests/test_pattern.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pattern/tests/test_pattern.py::test_is_pattern",
+      "location": {
+        "file": "packages/pattern/tests/test_pattern.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pattern/tests/test_pattern.py::test_by_category",
+      "location": {
+        "file": "packages/pattern/tests/test_pattern.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands_cs/tests/test_hands_cs.py::test_hands_nonempty",
+      "location": {
+        "file": "packages/hands_cs/tests/test_hands_cs.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands_cs/tests/test_hands_cs.py::test_is_hand",
+      "location": {
+        "file": "packages/hands_cs/tests/test_hands_cs.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands_cs/tests/test_hands_cs.py::test_hand_upgrade",
+      "location": {
+        "file": "packages/hands_cs/tests/test_hands_cs.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands_cs/tests/test_hands_cs.py::test_hand_bad_level",
+      "location": {
+        "file": "packages/hands_cs/tests/test_hands_cs.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands_cs/tests/test_hands_cs.py::test_families",
+      "location": {
+        "file": "packages/hands_cs/tests/test_hands_cs.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_clip_within_bound",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_clip_enforces_bound",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_clip_bad_bound",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_dp_mean_deterministic_with_rng",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_federated_round",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fedlearn/tests/test_fedlearn.py::test_federated_empty",
+      "location": {
+        "file": "packages/fedlearn/tests/test_fedlearn.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_permit_default",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_permit_blocked",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_permit_allowlist",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_route_allow",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_route_blocked",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sovereignty/tests/test_sovereignty.py::test_residency_blocks_personal",
+      "location": {
+        "file": "packages/sovereignty/tests/test_sovereignty.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_terms_nonempty",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_validate_all_clean",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_get_term",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_terms_by_source",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_terms_by_atom",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_sources",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_every_term_has_primitive",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/lexicon/tests/test_lexicon.py::test_citable_and_emergent_coexist",
+      "location": {
+        "file": "packages/lexicon/tests/test_lexicon.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_nop_hlt",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_add",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_sub_flags",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_jmp",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_je_taken",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 34
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_call_ret",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 42
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_unknown_opcode",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_load_store_roundtrip",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 55
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_step_limit",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 63
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/isa_vm/tests/test_isa_vm.py::test_memory_bounds",
+      "location": {
+        "file": "packages/isa_vm/tests/test_isa_vm.py",
+        "line": 69
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_all_hands_kinds_nonempty",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_is_hand",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_validate_minimal_ok",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_validate_missing_field",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_validate_bad_state",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 36
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_validate_bad_hand_kind",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 42
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_root_invariant_enforced",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hands/tests/test_hands.py::test_build_all",
+      "location": {
+        "file": "packages/hands/tests/test_hands.py",
+        "line": 56
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_gates_count",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_initial_state",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_full_chain",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_out_of_order_raises",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_unknown_gate_raises",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 25
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_revoke",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/gate/tests/test_gate.py::test_history_length",
+      "location": {
+        "file": "packages/gate/tests/test_gate.py",
+        "line": 36
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/registry/tests/test_registry.py::test_source_add_publication",
+      "location": {
+        "file": "packages/registry/tests/test_registry.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/registry/tests/test_registry.py::test_registry_add_and_count",
+      "location": {
+        "file": "packages/registry/tests/test_registry.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/registry/tests/test_registry.py::test_freeze_snapshot_stable",
+      "location": {
+        "file": "packages/registry/tests/test_registry.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/registry/tests/test_registry.py::test_snapshot_lists_sources",
+      "location": {
+        "file": "packages/registry/tests/test_registry.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g1_complete",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g1_missing_component",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g1_open_gap_blocks",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 34
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g2_missing_substrate",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g2_flag_ignored_when_probe_succeeds",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 45
+      },
+      "purpose": "Probe wins. A spec cannot deny an available substrate.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g3_no_solver",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 56
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g3_solver_returns_candidate",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 61
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g4_no_prover",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 66
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g4_falsifiable_prover",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 70
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g4_unfalsifiable_prover_rejected",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 76
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g5_no_resolver",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 84
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g5_self_tie_ok",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 88
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_buildable",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 94
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_divergent",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 101
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_research",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 106
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_engineering",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 111
+      },
+      "purpose": "ENGINEERING requires an unavailable substrate, not just a flag.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_construction",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 122
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_verification",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 127
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_evaluate_adjudication",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 132
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_fixed_point",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 138
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_no_substrate_is_research_not_engineering",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 148
+      },
+      "purpose": "Substrate is a spec element, not a runtime property.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_declared_but_unavailable_substrate_is_engineering",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 176
+      },
+      "purpose": "A spec declaring an unknown substrate as unavailable fails G2.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_spec_is_frozen",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 198
+      },
+      "purpose": "Spec must reject attribute assignment at runtime.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_gap_is_frozen",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 210
+      },
+      "purpose": "Gap is a value object; mutating `resolved` must fail.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_closure_does_not_mutate_input",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 222
+      },
+      "purpose": "closure must return a new spec and leave the input unchanged.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g0_no_history_passes",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 241
+      },
+      "purpose": "G0 with no history is vacuously true.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g0_divergent_fails",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 249
+      },
+      "purpose": "G0 fails when the gap count does not strictly decrease.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g0_convergent_passes",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 257
+      },
+      "purpose": "G0 passes when the gap count strictly decreases each iteration.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g1_5_duplicate_responsibility_detected",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 264
+      },
+      "purpose": "G1.5 catches components with identical responsibility.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_buildability.py::test_g1_5_clean_spec_passes",
+      "location": {
+        "file": "packages/buildability/tests/test_buildability.py",
+        "line": 286
+      },
+      "purpose": "G1.5 passes a spec whose components have distinct responsibilities.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_claim_g1_and_g2_are_implemented",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 52
+      },
+      "purpose": "G1 (spec) and G2 (substrate) are both structurally checked.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_claim_g3_g4_g5_are_stubs_not_generators",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 65
+      },
+      "purpose": "G3/G4/G5 only check that user-supplied callables exist.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_claim_no_builder_exists",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 80
+      },
+      "purpose": "There is no function in buildability that emits an artifact.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_semantic_incompleteness_is_detected",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 96
+      },
+      "purpose": "G1.5 catches the incoherence G1 misses.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_no_distance_metric_between_specs",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 117
+      },
+      "purpose": "A spec missing one element is the same regime as a spec missing five.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_substrate_availability_not_probed",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 128
+      },
+      "purpose": "substrate_available=True is taken on faith; nothing checks it.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_divergence_requires_external_history",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 138
+      },
+      "purpose": "G0 needs a gap_history list from outside. Nothing computes it.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_cross_spec_composition_exists",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 151
+      },
+      "purpose": "evaluate_many is exported and handles the empty case.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_cross_spec_composition_detects_mismatch",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 160
+      },
+      "purpose": "Two specs claiming the same interface with different schemas mismatch.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_cross_spec_composition_accepts_matching",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 191
+      },
+      "purpose": "Two specs with identical interface schemas compose cleanly.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_no_partial_spec_handling",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 212
+      },
+      "purpose": "G1 is binary per gate: any missing element fails the whole gate.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_mesh_specs_remain_research",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 226
+      },
+      "purpose": "All mesh specs are still RESEARCH; nothing fixed them.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_factory_refuses_incomplete_specs",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 235
+      },
+      "purpose": "Factory is wired to buildability and refuses RESEARCH specs.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_fail_no_determinism_test_for_classifier",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 247
+      },
+      "purpose": "Classifier output was never tested for determinism.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_intent_ratio_is_wired",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 256
+      },
+      "purpose": "IntentRatio is imported and used by classify.py.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_expanded_corpus_regimes_are_pinned",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 274
+      },
+      "purpose": "Pin the expected regime for every spec in mesh/specs_expanded.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_verdict_is_frozen",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 307
+      },
+      "purpose": "Verdict is now frozen: it is an immutable value.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_gate_result_is_frozen",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 315
+      },
+      "purpose": "GateResult is frozen; verify the contract holds.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_verdict_has_value_eq",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 323
+      },
+      "purpose": "Two verdicts with same regime+results compare equal.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_verdict_to_dict_is_json_serializable",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 331
+      },
+      "purpose": "Verdict.to_dict() round-trips through JSON.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_claim_closure_terminates_on_pathological_perturbation",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 341
+      },
+      "purpose": "closure() with a perturbation that never reduces gaps runs to max_rounds.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_replace_validates_collection_types",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 354
+      },
+      "purpose": "Spec.replace() rejects lists for collection fields.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_central_claim_has_ground_truth",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 365
+      },
+      "purpose": "The central claim is now testable: a labeled corpus exists.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_central_claim_g1_passing_builds",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 378
+      },
+      "purpose": "Every CONSTRUCTION-regime spec in the corpus built successfully.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_central_claim_g1_failing_fails",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 392
+      },
+      "purpose": "Every RESEARCH-regime spec in the corpus failed to build.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_claims.py::test_central_claim_has_counterexample",
+      "location": {
+        "file": "packages/buildability/tests/test_claims.py",
+        "line": 406
+      },
+      "purpose": "A spec can pass all six element checks and still be incoherent.",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sdk/tests/test_sdk.py::test_add_and_get",
+      "location": {
+        "file": "packages/sdk/tests/test_sdk.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sdk/tests/test_sdk.py::test_not_found",
+      "location": {
+        "file": "packages/sdk/tests/test_sdk.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sdk/tests/test_sdk.py::test_handler_error",
+      "location": {
+        "file": "packages/sdk/tests/test_sdk.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/sdk/tests/test_sdk.py::test_post_body",
+      "location": {
+        "file": "packages/sdk/tests/test_sdk.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_levels_closed",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_opcodes_present",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_syscalls_present",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_scan_forbidden",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_ok",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_bad_kind",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 34
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_unscoped",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_schema_for_level",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 46
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/taxonomy/tests/test_taxonomy.py::test_invariants_closed",
+      "location": {
+        "file": "packages/taxonomy/tests/test_taxonomy.py",
+        "line": 51
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/audit/tests/test_audit.py::test_append_event",
+      "location": {
+        "file": "packages/audit/tests/test_audit.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/audit/tests/test_audit.py::test_verify_clean",
+      "location": {
+        "file": "packages/audit/tests/test_audit.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/audit/tests/test_audit.py::test_tamper_detected",
+      "location": {
+        "file": "packages/audit/tests/test_audit.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/audit/tests/test_audit.py::test_save_load",
+      "location": {
+        "file": "packages/audit/tests/test_audit.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/audit/tests/test_audit.py::test_non_implication_carried",
+      "location": {
+        "file": "packages/audit/tests/test_audit.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/provenance/tests/test_provenance.py::test_chain_empty",
+      "location": {
+        "file": "packages/provenance/tests/test_provenance.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/provenance/tests/test_provenance.py::test_add_entity_agent_activity",
+      "location": {
+        "file": "packages/provenance/tests/test_provenance.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/provenance/tests/test_provenance.py::test_unknown_used",
+      "location": {
+        "file": "packages/provenance/tests/test_provenance.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/provenance/tests/test_provenance.py::test_unknown_agent",
+      "location": {
+        "file": "packages/provenance/tests/test_provenance.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/provenance/tests/test_provenance.py::test_to_dict_shape",
+      "location": {
+        "file": "packages/provenance/tests/test_provenance.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_register",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_run_once_success",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_run_once_failure",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_heal_after_failure",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_heal_exhausts_attempts",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/heal/tests/test_heal.py::test_history_records",
+      "location": {
+        "file": "packages/heal/tests/test_heal.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_archetypes_nonempty",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_jurisdictions",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_planes",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_institute_valid",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_institute_bad_archetype",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_institute_bad_jurisdiction",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 34
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_capstone_record_valid",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 39
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_capstone_record_bad_plane",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 44
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_interop_overlap_rejected",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_validate_duplicate_governor",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 54
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/capstone/tests/test_capstone.py::test_build_all",
+      "location": {
+        "file": "packages/capstone/tests/test_capstone.py",
+        "line": 61
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_verbs_closed",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_kinds_closed",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_atoms_count",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_atom_shape",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_validate_all_clean",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_get_atom",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_atoms_by_verb",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_atoms_by_kind",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 33
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_atom_ids_unique",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 36
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_compose_all",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/primitives/tests/test_primitives.py::test_compose_subset",
+      "location": {
+        "file": "packages/primitives/tests/test_primitives.py",
+        "line": 46
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_version",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_ten_articles",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_ten_moats",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_gap_names",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_refusals",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_articles_named",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/standard/tests/test_standard.py::test_conformance_report",
+      "location": {
+        "file": "packages/standard/tests/test_standard.py",
+        "line": 33
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_file_construction",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_dispute_initial_state",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_legal_transition",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_illegal_transition",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_unknown_state",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dispute/tests/test_dispute.py::test_history_records",
+      "location": {
+        "file": "packages/dispute/tests/test_dispute.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_sixteen_levels",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_validate_clean",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_binds_chain",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_fifteen_invariants",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_isa_opcodes_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_syscall_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_asm_directives_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_hll_constructs_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_app_types_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_framework_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_registry_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 35
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_ledger_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 38
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_artifact_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 41
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_governance_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 44
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_meta_kinds_count",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 47
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_gap_register_nonempty",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 50
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ontology/tests/test_ontology.py::test_implementation_status",
+      "location": {
+        "file": "packages/ontology/tests/test_ontology.py",
+        "line": 54
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/cli/tests/test_cli.py::test_hash_known_value",
+      "location": {
+        "file": "packages/cli/tests/test_cli.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/cli/tests/test_cli.py::test_no_args",
+      "location": {
+        "file": "packages/cli/tests/test_cli.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/protocol/tests/test_protocol.py::test_register_and_encode",
+      "location": {
+        "file": "packages/protocol/tests/test_protocol.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/protocol/tests/test_protocol.py::test_unregistered_kind",
+      "location": {
+        "file": "packages/protocol/tests/test_protocol.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/protocol/tests/test_protocol.py::test_roundtrip",
+      "location": {
+        "file": "packages/protocol/tests/test_protocol.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/protocol/tests/test_protocol.py::test_tamper_detected",
+      "location": {
+        "file": "packages/protocol/tests/test_protocol.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/protocol/tests/test_protocol.py::test_version_mismatch",
+      "location": {
+        "file": "packages/protocol/tests/test_protocol.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/attest/tests/test_attest.py::test_subject_digest",
+      "location": {
+        "file": "packages/attest/tests/test_attest.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/attest/tests/test_attest.py::test_build_statement",
+      "location": {
+        "file": "packages/attest/tests/test_attest.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/attest/tests/test_attest.py::test_statement_hash_stable",
+      "location": {
+        "file": "packages/attest/tests/test_attest.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/attest/tests/test_attest.py::test_sbom_cyclonedx_shape",
+      "location": {
+        "file": "packages/attest/tests/test_attest.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/attest/tests/test_attest.py::test_generate_sbom_returns_dict",
+      "location": {
+        "file": "packages/attest/tests/test_attest.py",
+        "line": 36
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hats/tests/test_hats.py::test_hats_nonempty",
+      "location": {
+        "file": "packages/hats/tests/test_hats.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hats/tests/test_hats.py::test_is_hat",
+      "location": {
+        "file": "packages/hats/tests/test_hats.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hats/tests/test_hats.py::test_hat_can",
+      "location": {
+        "file": "packages/hats/tests/test_hats.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hats/tests/test_hats.py::test_disciplines",
+      "location": {
+        "file": "packages/hats/tests/test_hats.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_classes_nonempty",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_class_bad_name",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_dominates_reflexive",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_dominates_transitive",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_does_not_dominate",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/complexity/tests/test_complexity.py::test_is_class",
+      "location": {
+        "file": "packages/complexity/tests/test_complexity.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_targets_closed",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_arches_closed",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 15
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_properties_closed",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_detect_os",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_detect_arch",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_toolchain_linux_windows",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_extensions_os",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 38
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_paths_os",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 45
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_shell_os",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 51
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_matrix_validates",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 57
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_matrix_six_rows",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 61
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_classify_host_shape",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 65
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_canonical_and_fingerprint_stable",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 70
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_idempotent_builder",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 77
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_airgapped_check",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 81
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_sovereign_check",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 88
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_compose_matrices",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 92
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_interoperable_check",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 100
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/portable/tests/test_portable.py::test_build_all",
+      "location": {
+        "file": "packages/portable/tests/test_portable.py",
+        "line": 105
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/agent_data/tests/test_agent_data.py::test_analyze_schema",
+      "location": {
+        "file": "packages/agent_data/tests/test_agent_data.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/agent_data/tests/test_agent_data.py::test_empty_column_detected",
+      "location": {
+        "file": "packages/agent_data/tests/test_agent_data.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/agent_data/tests/test_agent_data.py::test_source_hash_stable",
+      "location": {
+        "file": "packages/agent_data/tests/test_agent_data.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/agent_data/tests/test_agent_data.py::test_evidence_scoped",
+      "location": {
+        "file": "packages/agent_data/tests/test_agent_data.py",
+        "line": 25
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/agent_data/tests/test_agent_data.py::test_run_writes",
+      "location": {
+        "file": "packages/agent_data/tests/test_agent_data.py",
+        "line": 31
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_canonical_deterministic",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_parse",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_schema_ok",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_schema_missing",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_schema_bad_type",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/serialization/tests/test_serialization.py::test_schema_not_dict",
+      "location": {
+        "file": "packages/serialization/tests/test_serialization.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dag/tests/test_dag.py::test_empty",
+      "location": {
+        "file": "packages/dag/tests/test_dag.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dag/tests/test_dag.py::test_linear",
+      "location": {
+        "file": "packages/dag/tests/test_dag.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dag/tests/test_dag.py::test_diamond",
+      "location": {
+        "file": "packages/dag/tests/test_dag.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dag/tests/test_dag.py::test_cycle_detected",
+      "location": {
+        "file": "packages/dag/tests/test_dag.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dag/tests/test_dag.py::test_no_cycle",
+      "location": {
+        "file": "packages/dag/tests/test_dag.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dataset/tests/test_dataset.py::test_add_record",
+      "location": {
+        "file": "packages/dataset/tests/test_dataset.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dataset/tests/test_dataset.py::test_deduplicate",
+      "location": {
+        "file": "packages/dataset/tests/test_dataset.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dataset/tests/test_dataset.py::test_fingerprint_stable",
+      "location": {
+        "file": "packages/dataset/tests/test_dataset.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dataset/tests/test_dataset.py::test_lineage",
+      "location": {
+        "file": "packages/dataset/tests/test_dataset.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/dataset/tests/test_dataset.py::test_to_dict",
+      "location": {
+        "file": "packages/dataset/tests/test_dataset.py",
+        "line": 29
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_initial",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_simple_transition",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_unknown_event",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_guard_blocks",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_guard_allows",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 22
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_effect_runs",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/state_machine/tests/test_state_machine.py::test_history",
+      "location": {
+        "file": "packages/state_machine/tests/test_state_machine.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_valid_handoff",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_bad_mode",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_accept",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 12
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_accept_twice_fails",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_reject",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/handoff/tests/test_handoff.py::test_modes_closed",
+      "location": {
+        "file": "packages/handoff/tests/test_handoff.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_register_tenant",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_duplicate_tenant",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_evaluate_unknown_tenant",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_evaluate_records_audit",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_audit_report",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/policyplat/tests/test_policyplat.py::test_drift_detected",
+      "location": {
+        "file": "packages/policyplat/tests/test_policyplat.py",
+        "line": 42
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/certificate/tests/test_certificate.py::test_construct",
+      "location": {
+        "file": "packages/certificate/tests/test_certificate.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/certificate/tests/test_certificate.py::test_sign",
+      "location": {
+        "file": "packages/certificate/tests/test_certificate.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/certificate/tests/test_certificate.py::test_no_conformance",
+      "location": {
+        "file": "packages/certificate/tests/test_certificate.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/certificate/tests/test_certificate.py::test_no_signer",
+      "location": {
+        "file": "packages/certificate/tests/test_certificate.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/certificate/tests/test_certificate.py::test_role_closed",
+      "location": {
+        "file": "packages/certificate/tests/test_certificate.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/evidence/tests/test_evidence.py::test_hash_bytes_stable",
+      "location": {
+        "file": "packages/evidence/tests/test_evidence.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/evidence/tests/test_evidence.py::test_hash_file",
+      "location": {
+        "file": "packages/evidence/tests/test_evidence.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/evidence/tests/test_evidence.py::test_evidence_ref",
+      "location": {
+        "file": "packages/evidence/tests/test_evidence.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/evidence/tests/test_evidence.py::test_provenance_chain",
+      "location": {
+        "file": "packages/evidence/tests/test_evidence.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/evidence/tests/test_evidence.py::test_provenance_validate",
+      "location": {
+        "file": "packages/evidence/tests/test_evidence.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_leaderboard_nonempty",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_claim_1_real",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_claim_2_not_agi",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_claim_3_no_agi_benchmark",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_guard_rejects_agi_claim",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 38
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_guard_accepts_honest_text",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 45
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_harness_runs_on_small_set",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_harness_report_carries_refusal",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 65
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_harness_report_forbidden_token_would_raise",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 71
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_compare_to_leaderboard",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 80
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_build_all",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 88
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/hle/tests/test_hle.py::test_assertions_closed_set",
+      "location": {
+        "file": "packages/hle/tests/test_hle.py",
+        "line": 97
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/core/tests/test_core.py::test_sha256_stable",
+      "location": {
+        "file": "packages/core/tests/test_core.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/core/tests/test_core.py::test_canonical_json_sorted",
+      "location": {
+        "file": "packages/core/tests/test_core.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_all_42_categories",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 6
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_coverage_sums_to_42",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_every_allocation_legal",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_software_is_agent_executed",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 20
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_legal_is_human_only",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 23
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_agent_capable_lists",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_human_required_lists",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_scope_variants_15x26",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 34
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_schema_enum",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 39
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ax/tests/test_ax.py::test_build_all",
+      "location": {
+        "file": "packages/ax/tests/test_ax.py",
+        "line": 43
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_chain_starts_empty",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 5
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_chain_append_and_verify",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_chain_tamper_detected",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_chain_save_load",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_claim_validate",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 32
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_claim_bad_id",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 36
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_evidence_validate",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 40
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_link_validate",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 44
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/ledger/tests/test_ledger.py::test_link_unknown_refs",
+      "location": {
+        "file": "packages/ledger/tests/test_ledger.py",
+        "line": 49
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_empty",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_set_returns_new",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_get",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_remove",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_keys_and_size",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 25
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/pmap/tests/test_map.py::test_merge",
+      "location": {
+        "file": "packages/pmap/tests/test_map.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_dot",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_dot_mismatch",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 7
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_axpy",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 11
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_relu",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_sigmoid",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_softmax_sums_to_one",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_matmul",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 25
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/kernels/tests/test_kernels.py::test_matmul_shape_mismatch",
+      "location": {
+        "file": "packages/kernels/tests/test_kernels.py",
+        "line": 30
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/queuekit/tests/test_queue.py::test_push_pop",
+      "location": {
+        "file": "packages/queuekit/tests/test_queue.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/queuekit/tests/test_queue.py::test_full",
+      "location": {
+        "file": "packages/queuekit/tests/test_queue.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/queuekit/tests/test_queue.py::test_empty",
+      "location": {
+        "file": "packages/queuekit/tests/test_queue.py",
+        "line": 16
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/queuekit/tests/test_queue.py::test_capacity_must_be_positive",
+      "location": {
+        "file": "packages/queuekit/tests/test_queue.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/queuekit/tests/test_queue.py::test_is_full_and_empty",
+      "location": {
+        "file": "packages/queuekit/tests/test_queue.py",
+        "line": 27
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_scalar_roundtrip",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_scalar_bounds",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 9
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_bits_validation",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 13
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_quantization_error",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 17
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_tensor_roundtrip",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 21
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/quantize/tests/test_quantize.py::test_tensor_empty",
+      "location": {
+        "file": "packages/quantize/tests/test_quantize.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/tree/tests/test_tree.py::test_single_node",
+      "location": {
+        "file": "packages/tree/tests/test_tree.py",
+        "line": 3
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/tree/tests/test_tree.py::test_two_level",
+      "location": {
+        "file": "packages/tree/tests/test_tree.py",
+        "line": 10
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/tree/tests/test_tree.py::test_preorder_order",
+      "location": {
+        "file": "packages/tree/tests/test_tree.py",
+        "line": 18
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/tree/tests/test_tree.py::test_postorder",
+      "location": {
+        "file": "packages/tree/tests/test_tree.py",
+        "line": 26
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/citation/tests/test_citation.py::test_citation_construct",
+      "location": {
+        "file": "packages/citation/tests/test_citation.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/citation/tests/test_citation.py::test_verify_sets_fields",
+      "location": {
+        "file": "packages/citation/tests/test_citation.py",
+        "line": 8
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/citation/tests/test_citation.py::test_verify_rejects_bad_confidence",
+      "location": {
+        "file": "packages/citation/tests/test_citation.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/citation/tests/test_citation.py::test_verify_requires_name",
+      "location": {
+        "file": "packages/citation/tests/test_citation.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fusion/tests/test_fusion.py::test_add_and_fuse",
+      "location": {
+        "file": "packages/fusion/tests/test_fusion.py",
+        "line": 4
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fusion/tests/test_fusion.py::test_bad_modality",
+      "location": {
+        "file": "packages/fusion/tests/test_fusion.py",
+        "line": 14
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fusion/tests/test_fusion.py::test_bad_weight",
+      "location": {
+        "file": "packages/fusion/tests/test_fusion.py",
+        "line": 19
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fusion/tests/test_fusion.py::test_fuse_convenience",
+      "location": {
+        "file": "packages/fusion/tests/test_fusion.py",
+        "line": 24
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/fusion/tests/test_fusion.py::test_hash_stable",
+      "location": {
+        "file": "packages/fusion/tests/test_fusion.py",
+        "line": 28
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    }
+  ]
+}
