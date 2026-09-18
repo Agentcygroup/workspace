@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "e5bff7d6b8699280fa4afbfc9a1e5873b6f86979",
-  "commit_count": 50,
+  "head": "f0aacd0abac86672bd9c973b2674720e1a60b187",
+  "commit_count": 51,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:f0aacd0abac8",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:44:53 -0400",
+      "used": "repo",
+      "generated": "commit:f0aacd0abac8",
+      "label": "feat(gaps): enumerate claims, attest, save baseline, diff"
+    },
     {
       "id": "commit:e5bff7d6b869",
       "type": "prov:Activity",

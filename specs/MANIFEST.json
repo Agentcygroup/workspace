@@ -1,0 +1,70 @@
+{
+  "specs": [
+    "ames_aims.md",
+    "bridge_refresh.md",
+    "central_corpus.md",
+    "ci_workflow.md",
+    "classification_audit.md",
+    "cross_machine_determinism.md",
+    "cross_spec_schema.md",
+    "decision_revocation.md",
+    "distance_metric.md",
+    "factory_gate.md",
+    "gap_history.md",
+    "learning_curriculum.md",
+    "lock_file.md",
+    "model_binding.md",
+    "model_selection.md",
+    "namespace_isolation.md",
+    "omnitech.md",
+    "package_install.md",
+    "partial_diagnostics.md",
+    "precommit_install.md",
+    "recursive_framework.md",
+    "seed_output_capture.md",
+    "spec_versioning.md",
+    "substrate_extension.md",
+    "test_runner.md",
+    "web_crawler.md"
+  ],
+  "count": 26,
+  "categories": {
+    "infrastructure": [
+      "factory_gate.md",
+      "package_install.md",
+      "test_runner.md",
+      "ci_workflow.md",
+      "cross_machine_determinism.md",
+      "bridge_refresh.md",
+      "lock_file.md",
+      "precommit_install.md",
+      "seed_output_capture.md"
+    ],
+    "methodology": [
+      "distance_metric.md",
+      "partial_diagnostics.md",
+      "gap_history.md",
+      "substrate_extension.md",
+      "central_corpus.md"
+    ],
+    "domain": [
+      "recursive_framework.md",
+      "ames_aims.md",
+      "web_crawler.md",
+      "learning_curriculum.md",
+      "omnitech.md",
+      "namespace_isolation.md"
+    ],
+    "model": [
+      "model_binding.md",
+      "model_selection.md"
+    ],
+    "structural": [
+      "cross_spec_schema.md",
+      "namespace_isolation.md",
+      "spec_versioning.md",
+      "decision_revocation.md",
+      "classification_audit.md"
+    ]
+  }
+}

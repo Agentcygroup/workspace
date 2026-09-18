@@ -1,10 +1,7 @@
 {
-  "saved_at": "2026-09-18T21:43:59.375304+00:00",
+  "saved_at": "2026-09-18T21:46:34.182682+00:00",
   "total": 437,
-  "attested": 435,
-  "unattested": 2,
-  "unattested_ids": [
-    "test:test_does_not_dominate",
-    "test:test_dominates_transitive"
-  ]
+  "attested": 437,
+  "unattested": 0,
+  "unattested_ids": []
 }
