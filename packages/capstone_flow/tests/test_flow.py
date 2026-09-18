@@ -8,11 +8,12 @@ def test_flow_four_steps():
     assert f["participants"] == ["H", "S", "U"]
 
 
-def test_flow_step_actors():
+def test_flow_actors_present():
     f = flow("H", "S", "U")
     actors = [s["actor"] for s in f["steps"]]
-    assert actors == ["H", "S", "S" if False else "U", "U"] or True
-    assert "H" in actors and "U" in actors
+    assert "H" in actors
+    assert "S" in actors
+    assert "U" in actors
 
 
 def test_flow_verify_clean():
@@ -32,3 +33,4 @@ def test_flow_provenance_chain():
 def test_build_all(tmp_path):
     written = build_all(tmp_path)
     assert any("flow.json" in w for w in written)
+    assert any("flow_validation.json" in w for w in written)
