@@ -8,3 +8,8 @@ artifacts/
 sbom/
 compliance/ax/role_scope_function_grid.json
 workspace/
+mesh/emitted/
+mesh/report.json
+mesh/specs/
+**/__pycache__/
+*.pyc
