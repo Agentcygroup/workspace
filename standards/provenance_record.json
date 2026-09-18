@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "dc5540a331ecdfb0046aed965ea06da2c0cb9519",
-  "commit_count": 64,
+  "head": "a1d710685f50a43d337ceac239ef27e0053e7961",
+  "commit_count": 65,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:a1d710685f50",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:43:49 -0400",
+      "used": "repo",
+      "generated": "commit:a1d710685f50",
+      "label": "fix(buildability): ames resolver self-ties to 0"
+    },
     {
       "id": "commit:dc5540a331ec",
       "type": "prov:Activity",
