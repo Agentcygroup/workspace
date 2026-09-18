@@ -1,0 +1,12 @@
+[
+  "human_only",
+  "assisted",
+  "human_approved",
+  "human_supervised",
+  "exception_supervised",
+  "dual_control",
+  "agent_executed",
+  "machine_executed",
+  "multi_agent",
+  "prohibited"
+]

@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Work Assignment (All Hands)",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "purpose",
+    "outcome",
+    "beneficiary_refs",
+    "originator_ref",
+    "accountable_owner_ref",
+    "performer_refs",
+    "domain",
+    "scope",
+    "jurisdictions",
+    "functions",
+    "authority",
+    "accountability",
+    "required_competencies",
+    "required_qualifications",
+    "inputs",
+    "assumptions",
+    "constraints",
+    "dependencies",
+    "resources",
+    "controls",
+    "evidence_requirements",
+    "acceptance_criteria",
+    "measures",
+    "risks",
+    "stop_conditions",
+    "escalation_paths",
+    "state"
+  ],
+  "properties": {
+    "state": {
+      "enum": [
+        "observed",
+        "captured",
+        "interpreted",
+        "reconciled",
+        "proposed",
+        "authorized",
+        "planned",
+        "resourced",
+        "ready",
+        "executing",
+        "reviewed",
+        "verified",
+        "validated",
+        "accepted",
+        "released",
+        "operated",
+        "monitored",
+        "sustained",
+        "retired",
+        "archived",
+        "ambiguous",
+        "contested",
+        "waiting",
+        "blocked",
+        "paused",
+        "escalated",
+        "rejected",
+        "failed",
+        "degraded",
+        "quarantined",
+        "revoked",
+        "recalled",
+        "cancelled",
+        "superseded"
+      ]
+    },
+    "functions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "purpose_and_direction",
+          "governance_and_authority",
+          "discovery_and_intelligence",
+          "definition_and_design",
+          "creation_and_transformation",
+          "acquisition_and_provisioning",
+          "delivery_and_service",
+          "operations",
+          "protection",
+          "assurance",
+          "sustainment_and_change",
+          "learning_and_regeneration"
+        ]
+      }
+    },
+    "actor_modes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "originator",
+          "beneficiary",
+          "sponsor",
+          "owner",
+          "governor",
+          "strategist",
+          "funder",
+          "architect",
+          "planner",
+          "designer",
+          "researcher",
+          "engineer",
+          "builder",
+          "integrator",
+          "implementer",
+          "operator",
+          "maintainer",
+          "responder",
+          "provider",
+          "coordinator",
+          "communicator",
+          "educator",
+          "analyst",
+          "advisor",
+          "approver",
+          "reviewer",
+          "challenger",
+          "verifier",
+          "validator",
+          "qualifier",
+          "certifier",
+          "auditor",
+          "regulator",
+          "steward",
+          "custodian",
+          "representative",
+          "consumer",
+          "affected_party"
+        ]
+      }
+    },
+    "allocation": {
+      "enum": [
+        "human_only",
+        "assisted",
+        "human_approved",
+        "human_supervised",
+        "exception_supervised",
+        "dual_control",
+        "agent_executed",
+        "machine_executed",
+        "multi_agent",
+        "prohibited"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "grants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "form": {
+                "enum": [
+                  "constitutional",
+                  "ownership",
+                  "fiduciary",
+                  "statutory",
+                  "contractual",
+                  "executive",
+                  "managerial",
+                  "professional",
+                  "technical",
+                  "operational",
+                  "financial",
+                  "data",
+                  "access",
+                  "emergency",
+                  "delegated_agent"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

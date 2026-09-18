@@ -1,0 +1,13 @@
+[
+  "human_with_decision_support",
+  "human_with_automation",
+  "human_supervised_agent",
+  "human_approved_agent",
+  "exception_supervised_autonomous",
+  "dual_control_pair",
+  "human_agent_team",
+  "multi_agent_team_with_commander",
+  "remote_operator_and_robot",
+  "clinician_and_diagnostic",
+  "engineer_and_generative_dev"
+]

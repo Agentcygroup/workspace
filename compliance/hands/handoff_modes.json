@@ -1,0 +1,17 @@
+[
+  "assignment",
+  "delegation",
+  "referral",
+  "consultation",
+  "escalation",
+  "approval_request",
+  "review_request",
+  "service_request",
+  "incident_transfer",
+  "shift_turnover",
+  "custody_transfer",
+  "data_exchange",
+  "asset_transfer",
+  "contractual_delivery",
+  "federation_routing"
+]
