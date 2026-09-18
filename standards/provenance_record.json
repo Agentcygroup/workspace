@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "c9268e19e2c9a29e9bb97ac17a860ccf3574be52",
-  "commit_count": 63,
+  "head": "dc5540a331ecdfb0046aed965ea06da2c0cb9519",
+  "commit_count": 64,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:dc5540a331ec",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 19:43:29 -0400",
+      "used": "repo",
+      "generated": "commit:dc5540a331ec",
+      "label": "fix(buildability): repair models/__init__.py import block"
+    },
     {
       "id": "commit:c9268e19e2c9",
       "type": "prov:Activity",
