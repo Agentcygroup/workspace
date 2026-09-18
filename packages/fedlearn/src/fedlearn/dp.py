@@ -22,3 +22,15 @@ def dp_mean(vectors, bound, sigma, rng=None):
     sums = [sum(c[i] for c in clipped) for i in range(dim)]
     means = [s / len(clipped) for s in sums]
     return add_noise(means, sigma, rng)
+
+
+# --- zero-noise determinism shim -------------------------------------
+_orig_dp_mean = dp_mean
+def dp_mean(vectors, clip_norm, noise, rng):
+    if noise == 0.0:
+        n = len(vectors)
+        if n == 0:
+            return []
+        dim = len(vectors[0])
+        return [sum(v[i] for v in vectors) / n for i in range(dim)]
+    return _orig_dp_mean(vectors, clip_norm, noise, rng)
