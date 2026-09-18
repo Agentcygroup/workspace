@@ -7,3 +7,4 @@ build/
 artifacts/
 sbom/
 compliance/ax/role_scope_function_grid.json
+workspace/
