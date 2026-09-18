@@ -9,6 +9,12 @@ MAPPINGS = {
         "preserved": ["units", "provenance", "source_hash"],
         "rationale": "quantities and provenance carry; semantics do not",
     },
+    "biology_to_medicine": {
+        "from": "biology",
+        "to": "medicine",
+        "preserved": ["provenance", "source_hash"],
+        "rationale": "lineage carries; biological meaning does not become clinical meaning without human interpretation",
+    },
     "medicine_to_enterprise": {
         "from": "medicine",
         "to": "enterprise",

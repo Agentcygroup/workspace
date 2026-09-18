@@ -40,8 +40,8 @@ def test_axioms_satisfied_on_good_envelope():
     assert len(r["satisfied"]) == 8
     assert r["violated"] == {}
 
-def test_mappings_three():
-    assert len(MAPPINGS) == 3
+def test_mappings_four():
+    assert len(MAPPINGS) == 4
     for name, m in MAPPINGS.items():
         assert m["preserved"]
         assert m["rationale"]
@@ -82,3 +82,11 @@ def test_biology_adapter():
     e = biology.emit("B-1","Homo sapiens","height_cm",175.0,provenance=["field"])
     assert e.domain == "biology"
     assert verify_envelope(e) == []
+
+
+def test_map_biology_to_medicine():
+    e = biology.emit("B-2", "Homo sapiens", "height_cm", 175.0, provenance=["field"])
+    m = map_envelope(e, "biology_to_medicine")
+    assert m.domain == "medicine"
+    assert "provenance" in m.preserved
+    assert "mapped:biology_to_medicine" in m.provenance
