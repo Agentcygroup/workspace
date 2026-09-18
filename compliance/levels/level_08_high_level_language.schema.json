@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 8 HIGH_LEVEL_LANGUAGE",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "HIGH_LEVEL_LANGUAGE"
+    },
+    "kind": {
+      "enum": [
+        "VARIABLE",
+        "CONSTANT",
+        "TYPE",
+        "STRUCT",
+        "UNION",
+        "ENUM",
+        "INTERFACE",
+        "CLASS",
+        "OBJECT",
+        "FUNCTION",
+        "METHOD",
+        "CLOSURE",
+        "LAMBDA",
+        "GENERATOR",
+        "COROUTINE",
+        "MODULE",
+        "PACKAGE",
+        "NAMESPACE",
+        "IMPORT",
+        "EXPORT",
+        "IF",
+        "ELSE",
+        "ELIF",
+        "SWITCH",
+        "CASE",
+        "DEFAULT",
+        "WHILE",
+        "DO",
+        "FOR",
+        "FOREACH",
+        "BREAK",
+        "CONTINUE",
+        "RETURN",
+        "YIELD",
+        "AWAIT",
+        "ASYNC",
+        "TRY",
+        "CATCH",
+        "FINALLY",
+        "THROW",
+        "RAISE",
+        "ASSERT",
+        "WITH",
+        "USING",
+        "MATCH",
+        "PATTERN",
+        "GUARD",
+        "DEFER",
+        "GO",
+        "CHAN",
+        "SELECT"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "ASSEMBLY"
+    },
+    "defines_terms_for_level": {
+      "const": "APPLICATION"
+    }
+  },
+  "additionalProperties": true
+}

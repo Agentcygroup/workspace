@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 12 LEDGER",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "LEDGER"
+    },
+    "kind": {
+      "enum": [
+        "PU",
+        "OBJECTIVE",
+        "SCOPE",
+        "CONSTRAINT",
+        "ASSUMPTION",
+        "CLAIM",
+        "EVIDENCE",
+        "LINK",
+        "TRACEABILITY",
+        "GATE",
+        "CRITERION",
+        "METRIC",
+        "AUDIENCE",
+        "DECISION",
+        "RISK",
+        "CONTROL",
+        "TEST",
+        "RESULT",
+        "FINDING",
+        "REMEDIATION",
+        "RETEST",
+        "SIGN_OFF",
+        "OWNER",
+        "VERSION",
+        "SNAPSHOT_REF"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "REGISTRY"
+    },
+    "defines_terms_for_level": {
+      "const": "ARTIFACT"
+    }
+  },
+  "additionalProperties": true
+}

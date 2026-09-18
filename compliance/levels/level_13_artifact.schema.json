@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 13 ARTIFACT",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "ARTIFACT"
+    },
+    "kind": {
+      "enum": [
+        "DOSSIER",
+        "DECK",
+        "WORKBOOK",
+        "MANIFEST",
+        "CERTIFICATE",
+        "COVERAGE",
+        "GAP_REGISTER",
+        "CLOSURE_LOG",
+        "SNAPSHOT",
+        "CHAIN",
+        "ATTESTATION",
+        "SIGNATURE",
+        "PROVENANCE",
+        "LINEAGE",
+        "INDEX",
+        "CATALOG",
+        "REPORT",
+        "SUMMARY",
+        "BRIEF",
+        "MATRIX",
+        "REGISTER",
+        "JOURNAL",
+        "TRACE",
+        "AUDIT"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "LEDGER"
+    },
+    "defines_terms_for_level": {
+      "const": "GOVERNANCE"
+    }
+  },
+  "additionalProperties": true
+}

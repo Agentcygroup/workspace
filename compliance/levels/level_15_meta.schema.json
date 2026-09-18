@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 15 META",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "META"
+    },
+    "kind": {
+      "enum": [
+        "FRAMEWORK",
+        "META_FRAMEWORK",
+        "META_MODEL",
+        "META_LANGUAGE",
+        "META_SEMANTICS",
+        "META_THEORY",
+        "META_LOGIC",
+        "META_MATHEMATICS",
+        "META_ONTOLOGY",
+        "META_EPISTEMOLOGY",
+        "META_AXIOM",
+        "META_POSTULATE",
+        "META_PRIMITIVE",
+        "META_GRAMMAR",
+        "META_LEXICON",
+        "META_SORT",
+        "META_JUDGMENT",
+        "META_PROOF",
+        "META_MODEL",
+        "META_INTERPRETATION",
+        "META_COMPLETENESS",
+        "META_SOUNDNESS",
+        "META_CONSISTENCY",
+        "META_DECIDABILITY",
+        "META_EXPRESSIVENESS",
+        "META_COMPOSITIONALITY",
+        "META_REFLEXIVITY",
+        "META_RECURSION",
+        "META_COINDUCTION",
+        "META_FIXED_POINT",
+        "META_INVARIANT",
+        "META_CONTRACT",
+        "META_REFINEMENT",
+        "META_ABSTRACTION",
+        "META_EMERGENCE"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "GOVERNANCE"
+    },
+    "defines_terms_for_level": {
+      "const": null
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 7 ASSEMBLY",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "ASSEMBLY"
+    },
+    "kind": {
+      "enum": [
+        "SECTION",
+        "GLOBAL",
+        "EXTERN",
+        "ALIGN",
+        "BYTE",
+        "WORD",
+        "DWORD",
+        "QWORD",
+        "ASCII",
+        "ASCIZ",
+        "SPACE",
+        "EQU",
+        "SET",
+        "MACRO",
+        "ENDMACRO",
+        "INCLUDE",
+        "IF",
+        "IFDEF",
+        "IFNDEF",
+        "ELSE",
+        "ENDIF",
+        "REPT",
+        "ENDR",
+        "ORG",
+        "BITS",
+        "DEFAULT",
+        "COMMON",
+        "LOCAL",
+        "STRUCT",
+        "ENDSTRUCT",
+        "UNION",
+        "ENDUNION",
+        "TYPEDEF",
+        "LABEL",
+        "PROC",
+        "ENDPROC",
+        "IMPORT",
+        "EXPORT"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "OPERATING_SYSTEM"
+    },
+    "defines_terms_for_level": {
+      "const": "HIGH_LEVEL_LANGUAGE"
+    }
+  },
+  "additionalProperties": true
+}

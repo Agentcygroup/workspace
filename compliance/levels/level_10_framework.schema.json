@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 10 FRAMEWORK",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "FRAMEWORK"
+    },
+    "kind": {
+      "enum": [
+        "RUNTIME",
+        "LIBRARY",
+        "SDK",
+        "TOOLKIT",
+        "PLATFORM",
+        "ENGINE",
+        "VM",
+        "CONTAINER",
+        "ORCHESTRATOR",
+        "MESH",
+        "BUS",
+        "GATEWAY",
+        "PROXY",
+        "REGISTRY",
+        "CONFIG",
+        "SECRETS",
+        "IDENTITY",
+        "POLICY",
+        "OBSERVABILITY",
+        "TRACING",
+        "METRICS",
+        "LOGGING",
+        "ALERTING",
+        "CI",
+        "CD",
+        "GITOPS",
+        "IAC",
+        "PAAS",
+        "IAAS",
+        "FAAS",
+        "CAAS",
+        "SAAS",
+        "BAAS",
+        "DAAS",
+        "SECAAS"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "APPLICATION"
+    },
+    "defines_terms_for_level": {
+      "const": "REGISTRY"
+    }
+  },
+  "additionalProperties": true
+}

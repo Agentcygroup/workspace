@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 6 OPERATING_SYSTEM",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "OPERATING_SYSTEM"
+    },
+    "kind": {
+      "enum": [
+        "FORK",
+        "EXEC",
+        "WAIT",
+        "EXIT",
+        "OPEN",
+        "CLOSE",
+        "READ",
+        "WRITE",
+        "SEEK",
+        "STAT",
+        "FSTAT",
+        "LSTAT",
+        "POLL",
+        "SELECT",
+        "PIPE",
+        "SOCKET",
+        "BIND",
+        "LISTEN",
+        "ACCEPT",
+        "CONNECT",
+        "SEND",
+        "RECV",
+        "SHUTDOWN",
+        "MMAP",
+        "MUNMAP",
+        "MPROTECT",
+        "BRK",
+        "SBRK",
+        "CLONE",
+        "UNAME",
+        "GETPID",
+        "GETPPID",
+        "GETUID",
+        "GETGID",
+        "SETUID",
+        "SETGID",
+        "CHDIR",
+        "CHROOT",
+        "CHMOD",
+        "CHOWN",
+        "KILL",
+        "SIGACTION",
+        "SIGPROCMASK",
+        "SIGRETURN",
+        "NANOSLEEP",
+        "CLOCK_GETTIME",
+        "GETRANDOM",
+        "MOUNT",
+        "UMOUNT",
+        "PTRACE",
+        "SECCOMP",
+        "CAPGET",
+        "CAPSET"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "INSTRUCTION_SET_ARCHITECTURE"
+    },
+    "defines_terms_for_level": {
+      "const": "ASSEMBLY"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 5 INSTRUCTION_SET_ARCHITECTURE",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "INSTRUCTION_SET_ARCHITECTURE"
+    },
+    "kind": {
+      "enum": [
+        "NOP",
+        "LOAD",
+        "STORE",
+        "MOVE",
+        "ADD",
+        "SUB",
+        "MUL",
+        "DIV",
+        "MOD",
+        "AND",
+        "OR",
+        "XOR",
+        "NOT",
+        "SHL",
+        "SHR",
+        "CMP",
+        "JMP",
+        "JE",
+        "JNE",
+        "JL",
+        "JLE",
+        "JG",
+        "JGE",
+        "CALL",
+        "RET",
+        "PUSH",
+        "POP",
+        "ENTER",
+        "LEAVE",
+        "INT",
+        "IRET",
+        "HLT",
+        "WAIT",
+        "YIELD",
+        "SPWN",
+        "JOIN",
+        "LOCK",
+        "UNLOCK",
+        "ATOMIC",
+        "BARRIER",
+        "FENCE",
+        "DMA",
+        "MMAP",
+        "MUNMAP",
+        "PROTECT",
+        "UNPROTECT",
+        "TRAP",
+        "SIGNAL",
+        "MASK",
+        "UNMASK"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "MICROARCHITECTURE"
+    },
+    "defines_terms_for_level": {
+      "const": "OPERATING_SYSTEM"
+    }
+  },
+  "additionalProperties": true
+}

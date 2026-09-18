@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 14 GOVERNANCE",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "GOVERNANCE"
+    },
+    "kind": {
+      "enum": [
+        "POLICY",
+        "STANDARD",
+        "CONTROL",
+        "FRAMEWORK",
+        "REGULATION",
+        "DIRECTIVE",
+        "GUIDELINE",
+        "PROCEDURE",
+        "PROCESS",
+        "GATE",
+        "APPROVAL",
+        "SIGN_OFF",
+        "REVIEW",
+        "AUDIT",
+        "ATTESTATION",
+        "CERTIFICATION",
+        "ACCREDITATION",
+        "ASSESSMENT",
+        "EVALUATION",
+        "MATURITY",
+        "CAPABILITY",
+        "COMPETENCY",
+        "ROLE",
+        "RESPONSIBILITY",
+        "ACCOUNTABILITY",
+        "AUTHORITY",
+        "DELEGATION",
+        "ESCALATION",
+        "EXCEPTION",
+        "WAIVER",
+        "REMEDIATION",
+        "SANCTION"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "ARTIFACT"
+    },
+    "defines_terms_for_level": {
+      "const": "META"
+    }
+  },
+  "additionalProperties": true
+}

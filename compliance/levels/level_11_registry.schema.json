@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 11 REGISTRY",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "REGISTRY"
+    },
+    "kind": {
+      "enum": [
+        "SOURCE",
+        "AUTHORITY",
+        "PUBLICATION",
+        "LOCATOR",
+        "ENTRY",
+        "AXIS",
+        "SNAPSHOT",
+        "VERSION",
+        "CHANGELOG",
+        "DEPRECATION",
+        "ALIAS",
+        "RELATION",
+        "TRIANGULATION",
+        "COVERAGE",
+        "GAP",
+        "CLOSURE",
+        "RESIDUAL",
+        "INDEX",
+        "CATALOG",
+        "MANIFEST",
+        "ATTESTATION",
+        "SIGNATURE",
+        "PROVENANCE",
+        "LINEAGE"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "FRAMEWORK"
+    },
+    "defines_terms_for_level": {
+      "const": "LEDGER"
+    }
+  },
+  "additionalProperties": true
+}

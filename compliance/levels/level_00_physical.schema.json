@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 0 PHYSICAL",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "PHYSICAL"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": null
+    },
+    "defines_terms_for_level": {
+      "const": "GATE"
+    }
+  },
+  "additionalProperties": true
+}

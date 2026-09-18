@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 1 GATE",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "GATE"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "PHYSICAL"
+    },
+    "defines_terms_for_level": {
+      "const": "TRANSISTOR"
+    }
+  },
+  "additionalProperties": true
+}

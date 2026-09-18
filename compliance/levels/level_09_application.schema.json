@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Level 9 APPLICATION",
+  "type": "object",
+  "required": [
+    "level",
+    "kind"
+  ],
+  "properties": {
+    "level": {
+      "const": "APPLICATION"
+    },
+    "kind": {
+      "enum": [
+        "CLI",
+        "GUI",
+        "TUI",
+        "WEB",
+        "MOBILE",
+        "DESKTOP",
+        "SERVER",
+        "DAEMON",
+        "SERVICE",
+        "WORKER",
+        "SCHEDULER",
+        "PROXY",
+        "GATEWAY",
+        "ROUTER",
+        "BROKER",
+        "QUEUE",
+        "CACHE",
+        "STORE",
+        "INDEX",
+        "REGISTRY",
+        "REPOSITORY",
+        "PIPELINE",
+        "ORCHESTRATOR",
+        "CONTROLLER",
+        "OPERATOR",
+        "AGENT",
+        "SIDECAR",
+        "ADAPTER",
+        "CONNECTOR",
+        "PLUGIN",
+        "EXTENSION",
+        "MIGRATOR",
+        "SEEDER",
+        "PARSER",
+        "COMPILER",
+        "INTERPRETER",
+        "TRANSPILER",
+        "LINTER",
+        "FORMATTER",
+        "BUNDLER",
+        "MINIFIER",
+        "TESTER",
+        "BENCHMARK",
+        "PROFILER",
+        "DEBUGGER",
+        "TRACER",
+        "LOGGER",
+        "METRICS",
+        "ALERTER"
+      ]
+    },
+    "scoped": {
+      "const": true
+    },
+    "bound": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "depends_on_level": {
+      "const": "HIGH_LEVEL_LANGUAGE"
+    },
+    "defines_terms_for_level": {
+      "const": "FRAMEWORK"
+    }
+  },
+  "additionalProperties": true
+}
