@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "5c72631368c7af92b1381154d289453e1f4d4db5",
-  "commit_count": 45,
+  "head": "cf1db86c8939442f59249e20a8b20524814071ef",
+  "commit_count": 49,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,38 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:cf1db86c8939",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:36:27 -0400",
+      "used": "repo",
+      "generated": "commit:cf1db86c8939",
+      "label": "feat(seeds): bridge report refresh, composition check, determinism test"
+    },
+    {
+      "id": "commit:bdb2118d3ba9",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:36:02 -0400",
+      "used": "repo",
+      "generated": "commit:bdb2118d3ba9",
+      "label": "feat(seeds): extend graph to 592 nodes; render 15 mermaids to docs/"
+    },
+    {
+      "id": "commit:b09f04dfb52e",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:35:07 -0400",
+      "used": "repo",
+      "generated": "commit:b09f04dfb52e",
+      "label": "fix(seeds): argv parsing; six per-term mermaids derived from seed graph"
+    },
+    {
+      "id": "commit:07a1de6c9a71",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:32:31 -0400",
+      "used": "repo",
+      "generated": "commit:07a1de6c9a71",
+      "label": "feat(decisions): declare AI RMF, SQA, and quality model; all 10 standards artifacts generated"
+    },
     {
       "id": "commit:5c72631368c7",
       "type": "prov:Activity",

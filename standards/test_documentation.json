@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 411,
+  "count": 412,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1629,6 +1629,15 @@
         "line": 51
       },
       "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/seeds/tests/test_seed_determinism.py::test_seed_stats_are_deterministic",
+      "location": {
+        "file": "packages/seeds/tests/test_seed_determinism.py",
+        "line": 8
+      },
+      "purpose": "Two consecutive runs of the seed seeder produce identical output.",
       "type": "unit"
     },
     {

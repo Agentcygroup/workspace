@@ -1,0 +1,104 @@
+{
+  "total_claims": 437,
+  "attested": 426,
+  "unattested": [
+    {
+      "id": "test:test_subject_digest",
+      "source": "packages/attest/tests/test_attest.py",
+      "kind": "tested",
+      "text": "test_subject_digest asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_build_statement",
+      "source": "packages/attest/tests/test_attest.py",
+      "kind": "tested",
+      "text": "test_build_statement asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_statement_hash_stable",
+      "source": "packages/attest/tests/test_attest.py",
+      "kind": "tested",
+      "text": "test_statement_hash_stable asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_sbom_cyclonedx_shape",
+      "source": "packages/attest/tests/test_attest.py",
+      "kind": "tested",
+      "text": "test_sbom_cyclonedx_shape asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_generate_sbom_returns_dict",
+      "source": "packages/attest/tests/test_attest.py",
+      "kind": "tested",
+      "text": "test_generate_sbom_returns_dict asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_classes_nonempty",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_classes_nonempty asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_class_bad_name",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_class_bad_name asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_dominates_reflexive",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_dominates_reflexive asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_dominates_transitive",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_dominates_transitive asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_does_not_dominate",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_does_not_dominate asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    },
+    {
+      "id": "test:test_is_class",
+      "source": "packages/complexity/tests/test_complexity.py",
+      "kind": "tested",
+      "text": "test_is_class asserts a property",
+      "evidence_needed": "pytest -k matches and passes",
+      "reason": "pytest rc=2"
+    }
+  ],
+  "by_kind": {
+    "positive": 17,
+    "conformant": 3,
+    "declared": 4,
+    "refused": 1,
+    "tested": 412
+  },
+  "unattested_by_kind": {
+    "tested": 11
+  }
+}

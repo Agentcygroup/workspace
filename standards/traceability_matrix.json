@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "count": 411,
+  "count": 412,
   "traced": 21,
-  "untraced": 390,
+  "untraced": 391,
   "rows": [
     {
       "test": "test_construct",
@@ -1002,14 +1002,14 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G2",
+      "requirement": "REQ-G1",
       "traced": true
     },
     {
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G3",
+      "requirement": "REQ-G5",
       "traced": true
     },
     {
@@ -1268,6 +1268,13 @@
       "test": "test_invariants_closed",
       "file": "packages/taxonomy/tests/test_taxonomy.py",
       "line": 51,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_seed_stats_are_deterministic",
+      "file": "packages/seeds/tests/test_seed_determinism.py",
+      "line": 8,
       "requirement": null,
       "traced": false
     },
