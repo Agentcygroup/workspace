@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "3bce2ac388b239e9d1eb9c3d8a8a278e6221ef8f",
-  "commit_count": 42,
+  "head": "4ed7b880bbd8dda2c9036f8714bfe91a51c08cd4",
+  "commit_count": 43,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,14 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:4ed7b880bbd8",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 17:29:48 -0400",
+      "used": "repo",
+      "generated": "commit:4ed7b880bbd8",
+      "label": "fix(attest): word-boundary gate matcher; add G0 and G1.5 tests; conformance true"
+    },
     {
       "id": "commit:3bce2ac388b2",
       "type": "prov:Activity",

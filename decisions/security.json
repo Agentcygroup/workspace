@@ -1,0 +1,11 @@
+{
+  "declared_by": "unset",
+  "declared_at": "unset",
+  "status": "pending",
+  "threat_model": {
+    "assets": [],
+    "adversaries": [],
+    "worst_outcomes": []
+  },
+  "controls_applied": []
+}

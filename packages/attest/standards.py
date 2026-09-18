@@ -5,11 +5,16 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "src"))
 
-from attest import collect, generate_all, write_report
+from attest import (
+    collect, generate_all, write_report,
+    load_decisions, generate_declared,
+)
 
 root = HERE.parent.parent
 ev = collect(root)
 artifacts = generate_all(ev)
+decisions = load_decisions(root)
+artifacts.update(generate_declared(decisions))
 index = write_report(root, artifacts)
 
 print(f"wrote {len(artifacts)} artifacts to {root / 'standards'}")

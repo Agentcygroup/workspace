@@ -7,6 +7,23 @@
     "configuration_management",
     "gate_conformance"
   ],
-  "omitted_or_error": [],
-  "count": 6
+  "omitted_or_error": [
+    {
+      "artifact": "security_controls",
+      "reason": "declared_by is 'unset'; threat_model.assets empty; threat_model.adversaries empty; threat_model.worst_outcomes empty"
+    },
+    {
+      "artifact": "ai_rmf_profile",
+      "reason": "declared_by is 'unset'; is_ai_system_eu_ai_act absent; risk_tier absent"
+    },
+    {
+      "artifact": "sqa_plan",
+      "reason": "declared_by is 'unset'; roles empty; review_cadence absent"
+    },
+    {
+      "artifact": "quality_model",
+      "reason": "declared_by is 'unset'; purpose_statement empty; iso_25010_characteristics empty"
+    }
+  ],
+  "count": 10
 }

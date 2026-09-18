@@ -1,0 +1,4 @@
+{
+  "status": "omitted",
+  "reason": "declared_by is 'unset'; threat_model.assets empty; threat_model.adversaries empty; threat_model.worst_outcomes empty"
+}
