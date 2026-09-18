@@ -1,0 +1,187 @@
+graph TD
+  adversary_spec author who declares duplicate responsibilities without noticing[/"spec author who declares duplicate responsibilities without noticing"/]
+  adversary_spec author who omits interfaces by accident[/"spec author who omits interfaces by accident"/]
+  artifact_INDEX[["INDEX"]]
+  artifact_ai_rmf_profile[["ai_rmf_profile"]]
+  artifact_configuration_management[["configuration_management"]]
+  artifact_gate_conformance[["gate_conformance"]]
+  artifact_provenance_record[["provenance_record"]]
+  artifact_quality_model[["quality_model"]]
+  artifact_requirements_specification[["requirements_specification"]]
+  artifact_security_controls[["security_controls"]]
+  artifact_sqa_plan[["sqa_plan"]]
+  artifact_test_documentation[["test_documentation"]]
+  artifact_traceability_matrix[["traceability_matrix"]]
+  cadence_every commit["every commit"]
+  characteristic_compatibility("compatibility")
+  characteristic_functional_suitability("functional_suitability")
+  characteristic_maintainability("maintainability")
+  characteristic_reliability("reliability")
+  characteristic_security("security")
+  commit_commit_0258cef40cd9>"commit:0258cef40cd9"]
+  commit_commit_14a0515ad06a>"commit:14a0515ad06a"]
+  commit_commit_2e109df113b3>"commit:2e109df113b3"]
+  commit_commit_47018fe8dcfa>"commit:47018fe8dcfa"]
+  commit_commit_58665971091e>"commit:58665971091e"]
+  commit_commit_5cdc31680cac>"commit:5cdc31680cac"]
+  commit_commit_68f8a3c4fd76>"commit:68f8a3c4fd76"]
+  commit_commit_6dbedd68a048>"commit:6dbedd68a048"]
+  commit_commit_904ae43c71d1>"commit:904ae43c71d1"]
+  commit_commit_bb4834da10df>"commit:bb4834da10df"]
+  control_audit_log["audit_log"]
+  control_input_validation["input_validation"]
+  control_integrity["integrity"]
+  decision_ai_rmf>"ai_rmf"]
+  decision_quality_model>"quality_model"]
+  decision_security>"security"]
+  decision_sqa>"sqa"]
+  requirement_REQ_G0(("REQ-G0"))
+  requirement_REQ_G1(("REQ-G1"))
+  requirement_REQ_G1_5(("REQ-G1_5"))
+  requirement_REQ_G2(("REQ-G2"))
+  requirement_REQ_G3(("REQ-G3"))
+  requirement_REQ_G4(("REQ-G4"))
+  requirement_REQ_G5(("REQ-G5"))
+  role_maintainer("maintainer")
+  role_release_authority("release_authority")
+  role_reviewer("reviewer")
+  test_test_central_claim_g1_failing_fails["test_central_claim_g1_failing_fails"]
+  test_test_central_claim_g1_passing_builds["test_central_claim_g1_passing_builds"]
+  test_test_claim_g1_and_g2_are_implemented["test_claim_g1_and_g2_are_implemented"]
+  test_test_claim_g3_g4_g5_are_stubs_not_generators["test_claim_g3_g4_g5_are_stubs_not_generators"]
+  test_test_g0_convergent_passes["test_g0_convergent_passes"]
+  test_test_g0_divergent_fails["test_g0_divergent_fails"]
+  test_test_g0_no_history_passes["test_g0_no_history_passes"]
+  test_test_g1_5_clean_spec_passes["test_g1_5_clean_spec_passes"]
+  test_test_g1_5_duplicate_responsibility_detected["test_g1_5_duplicate_responsibility_detected"]
+  test_test_g1_complete["test_g1_complete"]
+  test_test_g1_missing_component["test_g1_missing_component"]
+  test_test_g1_open_gap_blocks["test_g1_open_gap_blocks"]
+  test_test_g2_flag_ignored_when_probe_succeeds["test_g2_flag_ignored_when_probe_succeeds"]
+  test_test_g2_missing_substrate["test_g2_missing_substrate"]
+  test_test_g3_no_solver["test_g3_no_solver"]
+  test_test_g3_solver_returns_candidate["test_g3_solver_returns_candidate"]
+  test_test_g4_falsifiable_prover["test_g4_falsifiable_prover"]
+  test_test_g4_no_prover["test_g4_no_prover"]
+  test_test_g4_unfalsifiable_prover_rejected["test_g4_unfalsifiable_prover_rejected"]
+  test_test_g5_no_resolver["test_g5_no_resolver"]
+  test_test_g5_self_tie_ok["test_g5_self_tie_ok"]
+  threshold_compatibility["compatibility"]
+  threshold_functional_suitability["functional_suitability"]
+  threshold_maintainability["maintainability"]
+  threshold_reliability["reliability"]
+  threshold_security["security"]
+  artifact_INDEX -->|generated| artifact_requirements_specification
+  artifact_INDEX -->|generated| artifact_traceability_matrix
+  artifact_INDEX -->|generated| artifact_test_documentation
+  artifact_INDEX -->|generated| artifact_provenance_record
+  artifact_INDEX -->|generated| artifact_configuration_management
+  artifact_INDEX -->|generated| artifact_gate_conformance
+  artifact_INDEX -->|generated| artifact_security_controls
+  artifact_INDEX -->|generated| artifact_ai_rmf_profile
+  artifact_INDEX -->|generated| artifact_sqa_plan
+  artifact_INDEX -->|generated| artifact_quality_model
+  artifact_requirements_specification -->|contains| requirement_REQ_G0
+  test_test_g0_no_history_passes -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_no_history_passes
+  test_test_g0_divergent_fails -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_divergent_fails
+  test_test_g0_convergent_passes -->|verifies| requirement_REQ_G0
+  artifact_traceability_matrix -->|contains| test_test_g0_convergent_passes
+  artifact_requirements_specification -->|contains| requirement_REQ_G1
+  test_test_g1_complete -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_complete
+  test_test_g1_missing_component -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_missing_component
+  test_test_g1_open_gap_blocks -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_g1_open_gap_blocks
+  test_test_claim_g1_and_g2_are_implemented -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_claim_g1_and_g2_are_implemented
+  test_test_central_claim_g1_passing_builds -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_central_claim_g1_passing_builds
+  test_test_central_claim_g1_failing_fails -->|verifies| requirement_REQ_G1
+  artifact_traceability_matrix -->|contains| test_test_central_claim_g1_failing_fails
+  artifact_requirements_specification -->|contains| requirement_REQ_G1_5
+  test_test_g1_5_duplicate_responsibility_detected -->|verifies| requirement_REQ_G1_5
+  artifact_traceability_matrix -->|contains| test_test_g1_5_duplicate_responsibility_detected
+  test_test_g1_5_clean_spec_passes -->|verifies| requirement_REQ_G1_5
+  artifact_traceability_matrix -->|contains| test_test_g1_5_clean_spec_passes
+  artifact_requirements_specification -->|contains| requirement_REQ_G2
+  test_test_g2_missing_substrate -->|verifies| requirement_REQ_G2
+  artifact_traceability_matrix -->|contains| test_test_g2_missing_substrate
+  test_test_g2_flag_ignored_when_probe_succeeds -->|verifies| requirement_REQ_G2
+  artifact_traceability_matrix -->|contains| test_test_g2_flag_ignored_when_probe_succeeds
+  artifact_requirements_specification -->|contains| requirement_REQ_G3
+  test_test_g3_no_solver -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_g3_no_solver
+  test_test_g3_solver_returns_candidate -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_g3_solver_returns_candidate
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|verifies| requirement_REQ_G3
+  artifact_traceability_matrix -->|contains| test_test_claim_g3_g4_g5_are_stubs_not_generators
+  artifact_requirements_specification -->|contains| requirement_REQ_G4
+  test_test_g4_no_prover -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_no_prover
+  test_test_g4_falsifiable_prover -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_falsifiable_prover
+  test_test_g4_unfalsifiable_prover_rejected -->|verifies| requirement_REQ_G4
+  artifact_traceability_matrix -->|contains| test_test_g4_unfalsifiable_prover_rejected
+  artifact_requirements_specification -->|contains| requirement_REQ_G5
+  test_test_g5_no_resolver -->|verifies| requirement_REQ_G5
+  artifact_traceability_matrix -->|contains| test_test_g5_no_resolver
+  test_test_g5_self_tie_ok -->|verifies| requirement_REQ_G5
+  artifact_traceability_matrix -->|contains| test_test_g5_self_tie_ok
+  test_test_g1_complete -->|traces_to| requirement_REQ_G1
+  test_test_g1_missing_component -->|traces_to| requirement_REQ_G1
+  test_test_g1_open_gap_blocks -->|traces_to| requirement_REQ_G1
+  test_test_g2_missing_substrate -->|traces_to| requirement_REQ_G2
+  test_test_g2_flag_ignored_when_probe_succeeds -->|traces_to| requirement_REQ_G2
+  test_test_g3_no_solver -->|traces_to| requirement_REQ_G3
+  test_test_g3_solver_returns_candidate -->|traces_to| requirement_REQ_G3
+  test_test_g4_no_prover -->|traces_to| requirement_REQ_G4
+  test_test_g4_falsifiable_prover -->|traces_to| requirement_REQ_G4
+  test_test_g4_unfalsifiable_prover_rejected -->|traces_to| requirement_REQ_G4
+  test_test_g5_no_resolver -->|traces_to| requirement_REQ_G5
+  test_test_g5_self_tie_ok -->|traces_to| requirement_REQ_G5
+  test_test_g0_no_history_passes -->|traces_to| requirement_REQ_G0
+  test_test_g0_divergent_fails -->|traces_to| requirement_REQ_G0
+  test_test_g0_convergent_passes -->|traces_to| requirement_REQ_G0
+  test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
+  test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
+  test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G2
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
+  test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
+  artifact_security_controls -->|contains| control_input_validation
+  artifact_security_controls -->|contains| control_integrity
+  artifact_security_controls -->|contains| control_audit_log
+  artifact_security_controls -.->|considers| adversary_spec author who omits interfaces by accident
+  artifact_security_controls -.->|considers| adversary_spec author who declares duplicate responsibilities without noticing
+  artifact_quality_model -->|declares| characteristic_functional_suitability
+  characteristic_functional_suitability -->|bounded_by| threshold_functional_suitability
+  artifact_quality_model -->|declares| characteristic_reliability
+  characteristic_reliability -->|bounded_by| threshold_reliability
+  artifact_quality_model -->|declares| characteristic_maintainability
+  characteristic_maintainability -->|bounded_by| threshold_maintainability
+  artifact_quality_model -->|declares| characteristic_security
+  characteristic_security -->|bounded_by| threshold_security
+  artifact_quality_model -->|declares| characteristic_compatibility
+  characteristic_compatibility -->|bounded_by| threshold_compatibility
+  artifact_sqa_plan -->|assigns| role_maintainer
+  artifact_sqa_plan -->|assigns| role_reviewer
+  artifact_sqa_plan -->|assigns| role_release_authority
+  artifact_sqa_plan -->|declares| cadence_every commit
+  artifact_ai_rmf_profile -->|declares| decision_ai_rmf
+  decision_ai_rmf ==>|unlocks| artifact_ai_rmf_profile
+  decision_quality_model ==>|unlocks| artifact_quality_model
+  decision_security ==>|unlocks| artifact_security_controls
+  decision_sqa ==>|unlocks| artifact_sqa_plan
+  commit_commit_68f8a3c4fd76 -.->|recorded_in| artifact_provenance_record
+  commit_commit_0258cef40cd9 -.->|recorded_in| artifact_provenance_record
+  commit_commit_14a0515ad06a -.->|recorded_in| artifact_provenance_record
+  commit_commit_6dbedd68a048 -.->|recorded_in| artifact_provenance_record
+  commit_commit_904ae43c71d1 -.->|recorded_in| artifact_provenance_record
+  commit_commit_47018fe8dcfa -.->|recorded_in| artifact_provenance_record
+  commit_commit_bb4834da10df -.->|recorded_in| artifact_provenance_record
+  commit_commit_58665971091e -.->|recorded_in| artifact_provenance_record
+  commit_commit_2e109df113b3 -.->|recorded_in| artifact_provenance_record
+  commit_commit_5cdc31680cac -.->|recorded_in| artifact_provenance_record
