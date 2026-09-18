@@ -1184,7 +1184,7 @@
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G5",
+      "requirement": "REQ-G4",
       "traced": true
     },
     {
