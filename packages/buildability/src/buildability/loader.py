@@ -12,8 +12,8 @@ def spec_from_dict(raw: dict, *, name: str | None = None) -> Spec:
         interfaces=[Interface(**i) for i in raw.get("interfaces", [])],
         invariants=[Invariant(**v) for v in raw.get("invariants", [])],
         lifecycle=Lifecycle(**raw["lifecycle"]) if raw.get("lifecycle") else None,
-        substrate=raw.get("level") or raw.get("substrate"),
-        substrate_available=bool(raw.get("level") or raw.get("substrate")),
+        substrate=raw.get("substrate") or raw.get("level"),
+        substrate_available=bool(raw.get("substrate") or raw.get("level")),
         gaps=[Gap(**g) for g in raw.get("gaps", [])],
     )
 

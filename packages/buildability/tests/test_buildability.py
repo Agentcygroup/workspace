@@ -131,3 +131,23 @@ def test_fixed_point():
         lambda s: Spec(**{**s.__dict__, "substrate": (s.substrate or "") + "-y"}),
     ]
     assert is_fixed_point(spec, perturbs)
+
+
+def test_l1_no_substrate_routes_to_engineering():
+    """A spec with no substrate must fail G2, not silently pass to G3."""
+    from buildability.loader import spec_from_dict
+    raw = {
+        "kind_id": "NO-SUB",
+        "components": [{"name": "api", "responsibility": "serve"}],
+        "interfaces": [{"name": "rest", "schema": "openapi", "protocol": "http",
+                        "version": "v1", "failure_semantics": "5xx"}],
+        "invariants": [{"name": "latency", "predicate": "p99<200ms"}],
+        "lifecycle": {"create": "a", "update": "b", "migrate": "c",
+                      "delete": "d", "rollback": "e"},
+        # no 'level', no 'substrate'
+    }
+    spec = spec_from_dict(raw)
+    assert spec.substrate is None
+    assert spec.substrate_available is False
+    v = evaluate(spec)
+    assert v.regime == Regime.ENGINEERING, v

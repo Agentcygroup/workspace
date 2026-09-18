@@ -13,8 +13,9 @@ def classify_dir(d: Path, gap_history: list[int] | None = None) -> dict:
         if p.name.startswith("_"):
             continue
         v = evaluate(spec_from_file(p), gap_history=gap_history)
-        rows.append((p.stem, v.regime))
-        dist[v.regime] += 1
+        regime = v.regime if isinstance(v.regime, str) else v.regime.value
+        rows.append((p.stem, regime))
+        dist[regime] += 1
     return {"rows": rows, "distribution": dict(dist)}
 
 
