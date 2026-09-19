@@ -1,0 +1,198 @@
+{
+  "stages": [
+    {
+      "name": "plan",
+      "passed": true,
+      "reason": "30 specs, 4 decisions",
+      "evidence": {
+        "spec_count": 30,
+        "decision_count": 4,
+        "security_requirements": [
+          "every spec declares six elements",
+          "every invariant names only declared components",
+          "every substrate must be probeable"
+        ],
+        "standards": [
+          "NIST 800-207",
+          "NIST CSF",
+          "W3C DID/VC"
+        ]
+      }
+    },
+    {
+      "name": "code",
+      "passed": true,
+      "reason": "classifier ran on 4 corpora",
+      "evidence": {
+        "specs_uci": {
+          "rc": 0,
+          "tail": [
+            "UCI-TMS              BUILDABLE      [ ]",
+            "UCI-VOICE-CM         BUILDABLE      [ ]",
+            "UCI-WCM              BUILDABLE      [ ]",
+            "",
+            "distribution:",
+            "  BUILDABLE      40"
+          ]
+        },
+        "specs_expanded": {
+          "rc": 0,
+          "tail": [
+            "EXPAND-L3-GAP-2                   RESEARCH       [ ]",
+            "EXPAND-L4-MULTI-GAP               RESEARCH       [ ]",
+            "",
+            "distribution:",
+            "  BUILDABLE      2",
+            "  RESEARCH       12"
+          ]
+        },
+        "specs_counterexample": {
+          "rc": 0,
+          "tail": [
+            "COUNTEREXAMPLE-DUPLICATE-OWNER  INCOHERENT     [ ]",
+            "",
+            "distribution:",
+            "  INCOHERENT     1"
+          ]
+        },
+        "specs_outside": {
+          "rc": 0,
+          "tail": [
+            "TASK-QUEUE      INCOHERENT     [ ]",
+            "URL-SHORTENER   INCOHERENT     [ ]",
+            "",
+            "distribution:",
+            "  CONSTRUCTION   3",
+            "  INCOHERENT     2"
+          ]
+        }
+      }
+    },
+    {
+      "name": "build",
+      "passed": false,
+      "reason": "                                                                                                                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'buildability' has no attribute 'REGISTRY'\n",
+      "evidence": {
+        "rc": 1
+      }
+    },
+    {
+      "name": "feedback",
+      "passed": true,
+      "reason": "see aggregate",
+      "evidence": {
+        "stages_run": [
+          "plan",
+          "code",
+          "build"
+        ],
+        "stages_passed": 2,
+        "stages_failed": 1,
+        "domains": {
+          "devsecops": [
+            "plan",
+            "code",
+            "build",
+            "test",
+            "release",
+            "deploy",
+            "operate",
+            "monitor",
+            "feedback"
+          ],
+          "it_security": [
+            "identity",
+            "endpoint",
+            "network",
+            "data",
+            "app",
+            "cloud",
+            "monitoring",
+            "ir",
+            "grc"
+          ],
+          "kill_chain": [
+            "recon",
+            "weaponization",
+            "delivery",
+            "exploitation",
+            "installation",
+            "c2",
+            "actions"
+          ],
+          "mitre_attack": [
+            "initial_access",
+            "execution",
+            "persistence",
+            "privilege_escalation",
+            "defense_evasion",
+            "credential_access",
+            "discovery",
+            "lateral_movement",
+            "collection",
+            "c2",
+            "exfiltration",
+            "impact"
+          ],
+          "zero_trust": [
+            "verify_explicitly",
+            "least_privilege",
+            "assume_breach"
+          ],
+          "nist_csf": [
+            "identify",
+            "protect",
+            "detect",
+            "respond",
+            "recover"
+          ]
+        },
+        "stage_to_domains": {
+          "plan": [
+            "devsecops",
+            "it_security.identity",
+            "zero_trust.verify_explicitly",
+            "nist_csf.identify"
+          ],
+          "code": [
+            "devsecops",
+            "it_security.app",
+            "nist_csf.protect"
+          ],
+          "build": [
+            "devsecops",
+            "it_security.endpoint",
+            "nist_csf.protect"
+          ],
+          "test": [
+            "devsecops",
+            "it_security.app",
+            "nist_csf.detect"
+          ],
+          "release": [
+            "devsecops",
+            "it_security.grc",
+            "nist_csf.protect"
+          ],
+          "deploy": [
+            "devsecops",
+            "it_security.cloud",
+            "zero_trust.least_privilege"
+          ],
+          "operate": [
+            "devsecops",
+            "it_security.ir",
+            "nist_csf.respond"
+          ],
+          "monitor": [
+            "devsecops",
+            "it_security.monitoring",
+            "nist_csf.detect"
+          ]
+        },
+        "refusal_reason": "                                                                                                                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'buildability' has no attribute 'REGISTRY'\n"
+      }
+    }
+  ],
+  "passed": false
+}
