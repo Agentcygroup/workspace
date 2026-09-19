@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>sovereign dashboard</title>
+<style>
+:root { color-scheme: dark; }
+body { font: 14px/1.5 ui-monospace, Menlo, Consolas, monospace;
+       background: #0e0e10; color: #d0d0d0; margin: 0; padding: 24px; }
+h1, h2 { color: #f0f0f0; font-weight: 500; }
+h1 { font-size: 18px; margin: 0 0 4px; }
+h2 { font-size: 14px; margin: 24px 0 8px; color: #909090; text-transform: uppercase; letter-spacing: 0.1em; }
+table { border-collapse: collapse; width: 100%; max-width: 720px; }
+th, td { text-align: left; padding: 4px 12px 4px 0; border-bottom: 1px solid #1c1c1e; }
+th { color: #707070; font-weight: 400; }
+.pass { color: #4ade80; }
+.fail { color: #f87171; }
+.regime-BUILDABLE { color: #4ade80; }
+.regime-CONSTRUCTION { color: #60a5fa; }
+.regime-RESEARCH { color: #facc15; }
+.regime-INCOHERENT { color: #f87171; }
+.when { color: #606060; font-size: 12px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<h1>sovereign dashboard</h1>
+<div class="when">rendered from pipe/outcome.json and standards/INDEX.json</div>
+
+<h2>pipe stages</h2>
+<table id="pipe"><thead><tr><th>stage</th><th>state</th><th>reason</th></tr></thead><tbody></tbody></table>
+
+<h2>corpora</h2>
+<table id="corpora"><thead><tr><th>corpus</th><th>regime</th><th>count</th></tr></thead><tbody></tbody></table>
+
+<h2>standards</h2>
+<table id="standards"><thead><tr><th>artifact</th><th>state</th></tr></thead><tbody></tbody></table>
+
+<script>
+async function loadJSON(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`${path}: ${r.status}`);
+  return r.json();
+}
+
+function row(cells, className = "") {
+  const tr = document.createElement("tr");
+  for (const [i, c] of cells.entries()) {
+    const td = document.createElement("td");
+    if (i === 1 && typeof c === "boolean") {
+      td.textContent = c ? "PASS" : "FAIL";
+      td.className = c ? "pass" : "fail";
+    } else {
+      td.textContent = String(c);
+    }
+    tr.appendChild(td);
+  }
+  if (className) tr.className = className;
+  return tr;
+}
+
+async function renderPipe() {
+  try {
+    const d = await loadJSON("../pipe/outcome.json");
+    const body = document.querySelector("#pipe tbody");
+    for (const s of d.stages || []) {
+      body.appendChild(row([s.name, s.passed, s.reason || ""]));
+    }
+  } catch (e) {
+    document.querySelector("#pipe tbody").appendChild(row(["pipe", false, e.message]));
+  }
+}
+
+async function renderCorpora() {
+  const corpora = ["specs_uci", "specs_expanded", "specs_counterexample", "specs_outside"];
+  const body = document.querySelector("#corpora tbody");
+  for (const c of corpora) {
+    body.appendChild(row([c, "—", "see classifier"]));
+  }
+  // If a per-corpus report exists, load it.
+  try {
+    const d = await loadJSON("../standards/composition_report.json");
+    if (Array.isArray(d.corpora)) {
+      body.innerHTML = "";
+      for (const c of d.corpora) {
+        body.appendChild(row([c.name, "—", c.count]));
+      }
+    }
+  } catch (_) {
+    // not present; leave the placeholder rows
+  }
+}
+
+async function renderStandards() {
+  try {
+    const d = await loadJSON("../standards/INDEX.json");
+    const body = document.querySelector("#standards tbody");
+    for (const a of d.generated || []) {
+      body.appendChild(row([a, true]));
+    }
+    for (const o of d.omitted_or_error || []) {
+      body.appendChild(row([o, false]));
+    }
+  } catch (e) {
+    document.querySelector("#standards tbody").appendChild(row(["standards", false, e.message]));
+  }
+}
+
+renderPipe();
+renderCorpora();
+renderStandards();
+</script>
+</body>
+</html>

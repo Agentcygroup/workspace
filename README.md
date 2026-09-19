@@ -40,3 +40,15 @@ action classes are authorized and under what conditions.
 ## License
 
 Unspecified.
+
+## Classifier
+
+Run `python -m buildability.classify mesh/specs_uci` to classify the UCI corpus.
+
+## Autonomous pipe
+
+Run `python pipe/autonomous_pipe.py` to execute the eight-stage DevSecOps pipe.
+
+## Standards
+
+The standards artifacts live in `standards/`, indexed at `standards/INDEX.json`.

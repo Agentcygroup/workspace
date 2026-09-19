@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# sovereign: single entry point for the five layers.
+#
+# Usage:
+#   sovereign classify <corpus>       # UI: run the classifier
+#   sovereign verify                  # UX: full verification
+#   sovereign pipe                    # AX: run the autonomous pipe
+#   sovereign standards               # read standards/INDEX.json
+#   sovereign dashboard               # DXP: open dxp/dashboard.html
+#   sovereign steps                   # UX: print step counts
+#   sovereign coldstart               # CX: run the cold-start test
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+. .venv/bin/activate 2>/dev/null || true
+
+cmd="${1:-help}"
+shift || true
+
+case "$cmd" in
+  classify)
+    corpus="${1:-mesh/specs_uci}"
+    python -m buildability.classify "$corpus"
+    ;;
+  verify)
+    ./scripts/verify.sh
+    ;;
+  pipe)
+    python pipe/autonomous_pipe.py
+    ;;
+  standards)
+    python -c "
+import json
+d = json.load(open('standards/INDEX.json'))
+print('generated:', len(d.get('generated', [])))
+print('omitted: ', len(d.get('omitted_or_error', [])))
+for a in d.get('generated', []):
+    print(' ', a)
+"
+    ;;
+  dashboard)
+    echo "open dxp/dashboard.html in a browser"
+    command -v open >/dev/null && open dxp/dashboard.html || true
+    ;;
+  steps)
+    cat docs/runbook.md | grep -E '^### Task' | sed 's/^### Task/  step /'
+    ;;
+  coldstart)
+    bash tests/coldstart.sh
+    ;;
+  *)
+    cat <<HELP
+sovereign <command>
+
+  classify <corpus>   classify a corpus (default mesh/specs_uci)
+  verify              run scripts/verify.sh
+  pipe                run pipe/autonomous_pipe.py
+  standards           read standards/INDEX.json
+  dashboard           open dxp/dashboard.html
+  steps               print task step counts
+  coldstart           run the cold-start test
+HELP
+    ;;
+esac

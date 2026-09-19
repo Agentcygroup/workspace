@@ -1177,14 +1177,14 @@
       "test": "test_claim_g1_and_g2_are_implemented",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 52,
-      "requirement": "REQ-G1",
+      "requirement": "REQ-G2",
       "traced": true
     },
     {
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G3",
+      "requirement": "REQ-G4",
       "traced": true
     },
     {

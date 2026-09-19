@@ -25,8 +25,10 @@ graph TD
   commit_07a1de6c9a71>"07a1de6c9a71"]
   commit_0c51328b0d6f>"0c51328b0d6f"]
   commit_0d349cafcec7>"0d349cafcec7"]
+  commit_13167c63953b>"13167c63953b"]
   commit_1438bb25ef4f>"1438bb25ef4f"]
   commit_14a0515ad06a>"14a0515ad06a"]
+  commit_1597535a33a6>"1597535a33a6"]
   commit_212e5c5e5f5c>"212e5c5e5f5c"]
   commit_2aee866b47f4>"2aee866b47f4"]
   commit_2e109df113b3>"2e109df113b3"]
@@ -34,6 +36,7 @@ graph TD
   commit_2edf5141a29e>"2edf5141a29e"]
   commit_30b81352e2fe>"30b81352e2fe"]
   commit_33f842b6a444>"33f842b6a444"]
+  commit_35510107d30f>"35510107d30f"]
   commit_3bce2ac388b2>"3bce2ac388b2"]
   commit_3c2f9b038961>"3c2f9b038961"]
   commit_47018fe8dcfa>"47018fe8dcfa"]
@@ -68,6 +71,7 @@ graph TD
   commit_bed759aa8eee>"bed759aa8eee"]
   commit_bf6694cb9d5c>"bf6694cb9d5c"]
   commit_c9268e19e2c9>"c9268e19e2c9"]
+  commit_ca627957b8d0>"ca627957b8d0"]
   commit_cb2ae80a455c>"cb2ae80a455c"]
   commit_cd79a01f9129>"cd79a01f9129"]
   commit_ce03b07b9c0d>"ce03b07b9c0d"]
@@ -97,6 +101,7 @@ graph TD
   commit_f587d1348979>"f587d1348979"]
   commit_f7a4ce747316>"f7a4ce747316"]
   commit_f9ab55760db5>"f9ab55760db5"]
+  commit_fce29032d6ba>"fce29032d6ba"]
   control_audit_log["audit_log"]
   control_input_validation["input_validation"]
   control_integrity["integrity"]
@@ -237,7 +242,7 @@ graph TD
   test_test_g1_5_duplicate_responsibility_detected -->|traces_to| requirement_REQ_G1_5
   test_test_g1_5_clean_spec_passes -->|traces_to| requirement_REQ_G1_5
   test_test_claim_g1_and_g2_are_implemented -->|traces_to| requirement_REQ_G2
-  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G3
+  test_test_claim_g3_g4_g5_are_stubs_not_generators -->|traces_to| requirement_REQ_G4
   test_test_central_claim_g1_passing_builds -->|traces_to| requirement_REQ_G1
   test_test_central_claim_g1_failing_fails -->|traces_to| requirement_REQ_G1
   artifact_security_controls -->|contains| control_input_validation
@@ -304,6 +309,11 @@ graph TD
   standards_artifact_test_documentation -->|materializes| artifact_test_documentation
   artifact_INDEX -->|lists| standards_artifact_traceability_matrix
   standards_artifact_traceability_matrix -->|materializes| artifact_traceability_matrix
+  commit_ca627957b8d0 -.->|recorded_in| artifact_provenance_record
+  commit_35510107d30f -.->|recorded_in| artifact_provenance_record
+  commit_fce29032d6ba -.->|recorded_in| artifact_provenance_record
+  commit_1597535a33a6 -.->|recorded_in| artifact_provenance_record
+  commit_13167c63953b -.->|recorded_in| artifact_provenance_record
   commit_deba0c424350 -.->|recorded_in| artifact_provenance_record
   commit_2e365540e9f7 -.->|recorded_in| artifact_provenance_record
   commit_a1d710685f50 -.->|recorded_in| artifact_provenance_record
