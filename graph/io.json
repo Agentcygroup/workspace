@@ -1,0 +1,970 @@
+{
+  "engineering": {
+    "files": [
+      {
+        "file": "infra/topology.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_run",
+            "signature": "(cmd, timeout)",
+            "line": 14
+          },
+          {
+            "name": "find_databases",
+            "signature": "() -> list[dict]",
+            "line": 22
+          },
+          {
+            "name": "find_stores",
+            "signature": "() -> list[dict]",
+            "line": 39
+          },
+          {
+            "name": "find_listening",
+            "signature": "() -> list[dict]",
+            "line": 67
+          },
+          {
+            "name": "find_servers",
+            "signature": "() -> list[dict]",
+            "line": 81
+          },
+          {
+            "name": "find_connections",
+            "signature": "() -> list[dict]",
+            "line": 90
+          },
+          {
+            "name": "verify_connection",
+            "signature": "(c:dict, dbs, stores, listening, servers) -> dict",
+            "line": 96
+          },
+          {
+            "name": "main",
+            "signature": "() -> int",
+            "line": 132
+          }
+        ]
+      },
+      {
+        "file": "infra/endpoints.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "http_endpoints",
+            "signature": "() -> list[dict]",
+            "line": 19
+          },
+          {
+            "name": "cli_endpoints",
+            "signature": "() -> list[dict]",
+            "line": 34
+          },
+          {
+            "name": "selftest_endpoints",
+            "signature": "() -> list[dict]",
+            "line": 42
+          },
+          {
+            "name": "main",
+            "signature": "() -> int",
+            "line": 55
+          }
+        ]
+      },
+      {
+        "file": "infra/plan.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "machine",
+            "signature": "(name:str, cpu:int, mem_mb:int, disk_gb:int, services:list[str]) -> dict",
+            "line": 9
+          },
+          {
+            "name": "apply",
+            "signature": "(resources:list[dict]) -> dict",
+            "line": 15
+          },
+          {
+            "name": "read",
+            "signature": "() -> dict",
+            "line": 21
+          }
+        ]
+      }
+    ],
+    "ingress_count": 0,
+    "egress_count": 15
+  },
+  "codegen": {
+    "files": [
+      {
+        "file": "cogdsl/compiler.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_apply_constraints",
+            "signature": "(ops:list[str], constraints:dict) -> list[str]",
+            "line": 18
+          },
+          {
+            "name": "auto_link",
+            "signature": "(nodes:list[ExecNode]) -> list[ExecEdge]",
+            "line": 37
+          },
+          {
+            "name": "build_graph",
+            "signature": "(operators:list[str]) -> ExecGraph",
+            "line": 45
+          },
+          {
+            "name": "bind_defaults",
+            "signature": "(graph:ExecGraph, defaults:dict) -> ExecGraph",
+            "line": 55
+          },
+          {
+            "name": "compile_intent",
+            "signature": "(intent:Intent) -> ExecGraph",
+            "line": 62
+          }
+        ]
+      },
+      {
+        "file": "cogdsl/symbols.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "register_symbol",
+            "signature": "(symbol:Symbol) -> None",
+            "line": 6
+          }
+        ],
+        "egress": [
+          {
+            "name": "resolve_symbols",
+            "signature": "(symbol_ids:tuple[str, ...] | list[str]) -> list[Symbol]",
+            "line": 13
+          },
+          {
+            "name": "flatten_operators",
+            "signature": "(symbols:list[Symbol]) -> list[str]",
+            "line": 24
+          },
+          {
+            "name": "merge_constraints",
+            "signature": "(symbols:list[Symbol]) -> dict",
+            "line": 31
+          },
+          {
+            "name": "merge_defaults",
+            "signature": "(symbols:list[Symbol]) -> dict",
+            "line": 39
+          }
+        ]
+      },
+      {
+        "file": "omni/generate/scraper.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "generate",
+            "signature": "(raw:RawInput) -> Generated",
+            "line": 27
+          },
+          {
+            "name": "to_files",
+            "signature": "(raw:RawInput, records:list[dict]) -> tuple[tuple[str, str], ...]",
+            "line": 62
+          }
+        ]
+      }
+    ],
+    "ingress_count": 1,
+    "egress_count": 11
+  },
+  "ai": {
+    "files": [
+      {
+        "file": "cogdsl/engine.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "check_preconditions",
+            "signature": "(node:ExecNode, ctx:Context) -> tuple[bool, str]",
+            "line": 22
+          },
+          {
+            "name": "run_operator",
+            "signature": "(op_id:str, inputs:dict, ctx:Context) -> dict",
+            "line": 35
+          },
+          {
+            "name": "execute",
+            "signature": "(graph:ExecGraph, ctx:Context) -> ExecTrace",
+            "line": 42
+          }
+        ]
+      },
+      {
+        "file": "cogdsl/tracking.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_cos",
+            "signature": "(a:list[float], b:list[float]) -> float",
+            "line": 15
+          },
+          {
+            "name": "_normalize",
+            "signature": "(x:float) -> float",
+            "line": 24
+          },
+          {
+            "name": "estimate_continuity",
+            "signature": "(observations:list[Observation]) -> float",
+            "line": 28
+          },
+          {
+            "name": "update_track",
+            "signature": "(track:Track, obs:Observation) -> Track",
+            "line": 36
+          }
+        ]
+      },
+      {
+        "file": "cogdsl/compression.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_dist",
+            "signature": "(a:list[float], b:list[float]) -> float",
+            "line": 12
+          },
+          {
+            "name": "find_symbol_for",
+            "signature": "(state_embedding:list[float], eps:float) -> Symbol | None",
+            "line": 18
+          },
+          {
+            "name": "decompose",
+            "signature": "(state:dict) -> Expansion",
+            "line": 29
+          },
+          {
+            "name": "compress",
+            "signature": "(state_id:str, state_embedding:list[float], state:dict, eps:float) -> Symbol",
+            "line": 37
+          }
+        ]
+      }
+    ],
+    "ingress_count": 0,
+    "egress_count": 11
+  },
+  "automation": {
+    "files": [
+      {
+        "file": "pipe/autonomous_pipe.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_run",
+            "signature": "(cmd, cwd, timeout)",
+            "line": 34
+          },
+          {
+            "name": "plan",
+            "signature": "() -> StageResult",
+            "line": 43
+          },
+          {
+            "name": "code",
+            "signature": "() -> StageResult",
+            "line": 64
+          },
+          {
+            "name": "build",
+            "signature": "() -> StageResult",
+            "line": 89
+          },
+          {
+            "name": "test",
+            "signature": "() -> StageResult",
+            "line": 107
+          },
+          {
+            "name": "release",
+            "signature": "() -> StageResult",
+            "line": 129
+          },
+          {
+            "name": "deploy",
+            "signature": "() -> StageResult",
+            "line": 149
+          },
+          {
+            "name": "operate",
+            "signature": "() -> StageResult",
+            "line": 171
+          },
+          {
+            "name": "monitor",
+            "signature": "() -> StageResult",
+            "line": 187
+          },
+          {
+            "name": "mirror",
+            "signature": "() -> StageResult",
+            "line": 208
+          },
+          {
+            "name": "mastery",
+            "signature": "() -> StageResult",
+            "line": 241
+          },
+          {
+            "name": "cognitive",
+            "signature": "() -> StageResult",
+            "line": 254
+          },
+          {
+            "name": "feedback",
+            "signature": "() -> StageResult",
+            "line": 269
+          },
+          {
+            "name": "main",
+            "signature": "() -> int",
+            "line": 320
+          }
+        ]
+      },
+      {
+        "file": "infra/sqs.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_q",
+            "signature": "(name:str) -> Path",
+            "line": 11
+          },
+          {
+            "name": "send",
+            "signature": "(name:str, body:dict) -> str",
+            "line": 15
+          },
+          {
+            "name": "receive",
+            "signature": "(name:str, n:int) -> list[dict]",
+            "line": 22
+          }
+        ]
+      },
+      {
+        "file": "infra/metrics.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "inc",
+            "signature": "(name:str, by:float, labels:dict | None) -> None",
+            "line": 12
+          },
+          {
+            "name": "gauge",
+            "signature": "(name:str, value:float, labels:dict | None) -> None",
+            "line": 17
+          },
+          {
+            "name": "_emit",
+            "signature": "(kind:str, name:str, value:float, labels:dict) -> None",
+            "line": 22
+          }
+        ],
+        "egress": [
+          {
+            "name": "read_all",
+            "signature": "() -> list[dict]",
+            "line": 29
+          }
+        ]
+      }
+    ],
+    "ingress_count": 3,
+    "egress_count": 18
+  },
+  "erp": {
+    "files": [
+      {
+        "file": "subs/erp.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "post",
+            "signature": "(kind:str, payload:dict) -> str",
+            "line": 9
+          }
+        ]
+      },
+      {
+        "file": "subs/ledger.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "post",
+            "signature": "(debit:str, credit:str, amount:float, memo:str) -> str",
+            "line": 9
+          },
+          {
+            "name": "balance",
+            "signature": "(account:str) -> float",
+            "line": 19
+          }
+        ]
+      },
+      {
+        "file": "subs/expenses.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "approve",
+            "signature": "(eid:str) -> None",
+            "line": 22
+          }
+        ],
+        "egress": [
+          {
+            "name": "submit",
+            "signature": "(employee:str, amount:float, category:str) -> str",
+            "line": 13
+          }
+        ]
+      }
+    ],
+    "ingress_count": 1,
+    "egress_count": 4
+  },
+  "crm": {
+    "files": [
+      {
+        "file": "subs/crm.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "upsert",
+            "signature": "(kind:str, name:str, fields:dict) -> str",
+            "line": 9
+          },
+          {
+            "name": "get",
+            "signature": "(kind:str) -> list[dict]",
+            "line": 17
+          }
+        ]
+      },
+      {
+        "file": "subs/crm_lead.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "add",
+            "signature": "(name:str, org:str, source:str) -> str",
+            "line": 13
+          },
+          {
+            "name": "all_leads",
+            "signature": "() -> list[dict]",
+            "line": 21
+          }
+        ]
+      },
+      {
+        "file": "subs/support_chat.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "say",
+            "signature": "(cid:str, who:str, text:str) -> None",
+            "line": 17
+          }
+        ],
+        "egress": [
+          {
+            "name": "open_",
+            "signature": "(user:str) -> str",
+            "line": 9
+          }
+        ]
+      }
+    ],
+    "ingress_count": 1,
+    "egress_count": 5
+  },
+  "hr": {
+    "files": [
+      {
+        "file": "subs/hr.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "terminate",
+            "signature": "(eid:str) -> None",
+            "line": 18
+          }
+        ],
+        "egress": [
+          {
+            "name": "hire",
+            "signature": "(name:str, role:str, salary:float) -> str",
+            "line": 9
+          },
+          {
+            "name": "active",
+            "signature": "() -> list[dict]",
+            "line": 24
+          }
+        ]
+      },
+      {
+        "file": "subs/ats.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "advance",
+            "signature": "(aid:str, stage:str) -> None",
+            "line": 18
+          }
+        ],
+        "egress": [
+          {
+            "name": "apply",
+            "signature": "(name:str, role:str) -> str",
+            "line": 10
+          },
+          {
+            "name": "by_stage",
+            "signature": "(stage:str) -> list[dict]",
+            "line": 25
+          }
+        ]
+      }
+    ],
+    "ingress_count": 2,
+    "egress_count": 4
+  },
+  "finance": {
+    "files": [
+      {
+        "file": "subs/ledger.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "post",
+            "signature": "(debit:str, credit:str, amount:float, memo:str) -> str",
+            "line": 9
+          },
+          {
+            "name": "balance",
+            "signature": "(account:str) -> float",
+            "line": 19
+          }
+        ]
+      },
+      {
+        "file": "subs/payments.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "charge",
+            "signature": "(customer:str, amount_cents:int, currency:str) -> str",
+            "line": 13
+          }
+        ]
+      },
+      {
+        "file": "subs/expenses.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "approve",
+            "signature": "(eid:str) -> None",
+            "line": 22
+          }
+        ],
+        "egress": [
+          {
+            "name": "submit",
+            "signature": "(employee:str, amount:float, category:str) -> str",
+            "line": 13
+          }
+        ]
+      }
+    ],
+    "ingress_count": 1,
+    "egress_count": 4
+  },
+  "devops": {
+    "files": [
+      {
+        "file": "infra/kv.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "set_",
+            "signature": "(k:str, v:object, ttl:float | None) -> None",
+            "line": 11
+          },
+          {
+            "name": "publish",
+            "signature": "(channel:str, msg:object) -> None",
+            "line": 28
+          }
+        ],
+        "egress": [
+          {
+            "name": "get_",
+            "signature": "(k:str)",
+            "line": 18
+          }
+        ]
+      },
+      {
+        "file": "infra/s3.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_key",
+            "signature": "(bucket:str, name:str) -> Path",
+            "line": 11
+          },
+          {
+            "name": "put",
+            "signature": "(bucket:str, name:str, body:bytes) -> dict",
+            "line": 17
+          },
+          {
+            "name": "get",
+            "signature": "(bucket:str, name:str) -> bytes | None",
+            "line": 27
+          },
+          {
+            "name": "list_objects",
+            "signature": "(bucket:str) -> list[str]",
+            "line": 32
+          }
+        ]
+      },
+      {
+        "file": "infra/sqs.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_q",
+            "signature": "(name:str) -> Path",
+            "line": 11
+          },
+          {
+            "name": "send",
+            "signature": "(name:str, body:dict) -> str",
+            "line": 15
+          },
+          {
+            "name": "receive",
+            "signature": "(name:str, n:int) -> list[dict]",
+            "line": 22
+          }
+        ]
+      },
+      {
+        "file": "infra/iam.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "_save",
+            "signature": "(d:dict) -> None",
+            "line": 18
+          },
+          {
+            "name": "grant_role",
+            "signature": "(user:str, role:str) -> None",
+            "line": 43
+          }
+        ],
+        "egress": [
+          {
+            "name": "_load",
+            "signature": "() -> dict",
+            "line": 12
+          },
+          {
+            "name": "create_user",
+            "signature": "(name:str, password:str) -> dict",
+            "line": 22
+          },
+          {
+            "name": "login",
+            "signature": "(name:str, password:str) -> str | None",
+            "line": 30
+          },
+          {
+            "name": "whoami",
+            "signature": "(token:str) -> str | None",
+            "line": 50
+          },
+          {
+            "name": "roles_of",
+            "signature": "(user:str) -> list[str]",
+            "line": 54
+          }
+        ]
+      },
+      {
+        "file": "infra/vault.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "put",
+            "signature": "(name:str, value:str) -> None",
+            "line": 15
+          }
+        ],
+        "egress": [
+          {
+            "name": "_xor",
+            "signature": "(b:bytes) -> bytes",
+            "line": 11
+          },
+          {
+            "name": "get",
+            "signature": "(name:str) -> str | None",
+            "line": 21
+          }
+        ]
+      },
+      {
+        "file": "infra/metrics.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "inc",
+            "signature": "(name:str, by:float, labels:dict | None) -> None",
+            "line": 12
+          },
+          {
+            "name": "gauge",
+            "signature": "(name:str, value:float, labels:dict | None) -> None",
+            "line": 17
+          },
+          {
+            "name": "_emit",
+            "signature": "(kind:str, name:str, value:float, labels:dict) -> None",
+            "line": 22
+          }
+        ],
+        "egress": [
+          {
+            "name": "read_all",
+            "signature": "() -> list[dict]",
+            "line": 29
+          }
+        ]
+      },
+      {
+        "file": "infra/alerts.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "fire",
+            "signature": "(name:str, reason:str, severity:str) -> dict",
+            "line": 11
+          },
+          {
+            "name": "read_all",
+            "signature": "() -> list[dict]",
+            "line": 20
+          }
+        ]
+      },
+      {
+        "file": "infra/dns_local.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "register",
+            "signature": "(name:str, ip:str) -> None",
+            "line": 15
+          }
+        ],
+        "egress": [
+          {
+            "name": "resolve",
+            "signature": "(name:str) -> str | None",
+            "line": 9
+          }
+        ]
+      }
+    ],
+    "ingress_count": 9,
+    "egress_count": 19
+  },
+  "security": {
+    "files": [
+      {
+        "file": "infra/iam.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "_save",
+            "signature": "(d:dict) -> None",
+            "line": 18
+          },
+          {
+            "name": "grant_role",
+            "signature": "(user:str, role:str) -> None",
+            "line": 43
+          }
+        ],
+        "egress": [
+          {
+            "name": "_load",
+            "signature": "() -> dict",
+            "line": 12
+          },
+          {
+            "name": "create_user",
+            "signature": "(name:str, password:str) -> dict",
+            "line": 22
+          },
+          {
+            "name": "login",
+            "signature": "(name:str, password:str) -> str | None",
+            "line": 30
+          },
+          {
+            "name": "whoami",
+            "signature": "(token:str) -> str | None",
+            "line": 50
+          },
+          {
+            "name": "roles_of",
+            "signature": "(user:str) -> list[str]",
+            "line": 54
+          }
+        ]
+      },
+      {
+        "file": "infra/vault.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "put",
+            "signature": "(name:str, value:str) -> None",
+            "line": 15
+          }
+        ],
+        "egress": [
+          {
+            "name": "_xor",
+            "signature": "(b:bytes) -> bytes",
+            "line": 11
+          },
+          {
+            "name": "get",
+            "signature": "(name:str) -> str | None",
+            "line": 21
+          }
+        ]
+      },
+      {
+        "file": "packages/autonomy/src/autonomy/evaluator.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "_eval_condition",
+            "signature": "(cond:str, ctx:Context) -> tuple[bool, str]",
+            "line": 51
+          },
+          {
+            "name": "evaluate",
+            "signature": "(action:Action, ctx:Context, contract:Contract, audit:AuditLog | None) -> Decision",
+            "line": 84
+          }
+        ]
+      }
+    ],
+    "ingress_count": 3,
+    "egress_count": 9
+  },
+  "manufacturing": {
+    "files": [],
+    "ingress_count": 0,
+    "egress_count": 0
+  },
+  "logistics": {
+    "files": [],
+    "ingress_count": 0,
+    "egress_count": 0
+  },
+  "governance": {
+    "files": [
+      {
+        "file": "mastery/check.py",
+        "exists": true,
+        "ingress": [],
+        "egress": [
+          {
+            "name": "main",
+            "signature": "(argv) -> int",
+            "line": 22
+          }
+        ]
+      },
+      {
+        "file": "packages/buildability/src/buildability/audit.py",
+        "exists": true,
+        "ingress": [
+          {
+            "name": "record",
+            "signature": "(spec_name:str, regime:str, path:Path | None) -> None",
+            "line": 17
+          }
+        ],
+        "egress": [
+          {
+            "name": "log_path",
+            "signature": "(root:Path | None) -> Path",
+            "line": 9
+          },
+          {
+            "name": "query",
+            "signature": "(regime:str | None, since:float | None, path:Path | None) -> list[dict]",
+            "line": 31
+          }
+        ]
+      }
+    ],
+    "ingress_count": 1,
+    "egress_count": 3
+  }
+}

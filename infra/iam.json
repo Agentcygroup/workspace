@@ -5,6 +5,10 @@
       "roles": [
         "admin"
       ]
+    },
+    "bob": {
+      "pw_hash": "30c952fab122c3f9759f02a6d95c3758b246b4fee239957b2d4fee46e26170c4",
+      "roles": []
     }
   },
   "tokens": {
@@ -12,6 +16,7 @@
     "3NIx498X0m9cjMiqskqtRg": "alice",
     "VNUsG7TwkNtSzFrXBTYTTQ": "alice",
     "IUyopbQSD8D3OyXbHmmBvQ": "alice",
-    "mQyyHK60NsRACFlh3U5BDQ": "alice"
+    "mQyyHK60NsRACFlh3U5BDQ": "alice",
+    "tdL8NNgrqaKwJZ3BpUGLVQ": "bob"
   }
 }

@@ -6,3 +6,4 @@
 {"id": "deal_1789783441153", "kind": "deal", "name": "acme-2026", "fields": {"amount": 50000}, "at": 1789783441.153843}
 {"id": "contact_1789783506304", "kind": "contact", "name": "alice", "fields": {"org": "acme"}, "at": 1789783506.304443}
 {"id": "deal_1789783506304", "kind": "deal", "name": "acme-2026", "fields": {"amount": 50000}, "at": 1789783506.304503}
+{"id": "contact_1789784147307", "kind": "contact", "name": "alice", "fields": {"org": "acme"}, "at": 1789784147.307049}

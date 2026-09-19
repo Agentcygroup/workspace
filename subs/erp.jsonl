@@ -6,3 +6,4 @@
 {"id": "invoice_1789783441258", "kind": "invoice", "payload": {"order": "order_1789783441258", "total": 1000}, "at": 1789783441.2583392}
 {"id": "order_1789783506410", "kind": "order", "payload": {"customer": "acme", "total": 1000}, "at": 1789783506.41026}
 {"id": "invoice_1789783506410", "kind": "invoice", "payload": {"order": "order_1789783506410", "total": 1000}, "at": 1789783506.410335}
+{"id": "order_1789784147306", "kind": "order", "payload": {"customer": "acme", "total": 1000}, "at": 1789784147.306379}

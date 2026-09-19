@@ -6,3 +6,4 @@
 {"id": "e_1789783441445", "debit": "cash", "credit": "revenue", "amount": 50.0, "memo": "second sale", "at": 1789783441.4452732}
 {"id": "e_1789783506598", "debit": "cash", "credit": "revenue", "amount": 100.0, "memo": "first sale", "at": 1789783506.598089}
 {"id": "e_1789783506598", "debit": "cash", "credit": "revenue", "amount": 50.0, "memo": "second sale", "at": 1789783506.598154}
+{"id": "e_1789784147308", "debit": "cash", "credit": "revenue", "amount": 100.0, "memo": "", "at": 1789784147.30872}
