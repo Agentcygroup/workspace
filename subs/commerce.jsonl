@@ -1,0 +1,6 @@
+{"op": "product", "sku": "sku-1", "name": "widget", "price": 9.99, "at": 1789783313.4636679}
+{"op": "order", "id": "o_1789783313463", "sku": "sku-1", "qty": 2, "at": 1789783313.463735}
+{"op": "product", "sku": "sku-1", "name": "widget", "price": 9.99, "at": 1789783400.3230379}
+{"op": "order", "id": "o_1789783400323", "sku": "sku-1", "qty": 2, "at": 1789783400.323101}
+{"op": "product", "sku": "sku-1", "name": "widget", "price": 9.99, "at": 1789783441.130121}
+{"op": "order", "id": "o_1789783441130", "sku": "sku-1", "qty": 2, "at": 1789783441.130185}

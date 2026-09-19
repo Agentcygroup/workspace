@@ -81,7 +81,7 @@
       "passed": true,
       "reason": "buildability rc=0, autonomy rc=0",
       "evidence": {
-        "buildability": "154 passed in 0.31s",
+        "buildability": "157 passed in 0.32s",
         "autonomy": "15 passed in 0.10s",
         "sast": [
           "pre-commit hooks",
@@ -140,6 +140,178 @@
       }
     },
     {
+      "name": "mirror",
+      "passed": true,
+      "reason": "27/31 substitutes pass self-test",
+      "evidence": {
+        "outcomes": [
+          {
+            "file": "analytics.py",
+            "ok": true,
+            "tail": "analytics ok: 6 page_views"
+          },
+          {
+            "file": "ats.py",
+            "ok": true,
+            "tail": "ats ok"
+          },
+          {
+            "file": "bi.py",
+            "ok": false,
+            "tail": "ImportError: attempted relative import with no known parent package"
+          },
+          {
+            "file": "chat.py",
+            "ok": false,
+            "tail": "AssertionError"
+          },
+          {
+            "file": "commerce.py",
+            "ok": true,
+            "tail": "commerce ok: o_1789783441130"
+          },
+          {
+            "file": "crm.py",
+            "ok": true,
+            "tail": "crm ok"
+          },
+          {
+            "file": "crm_lead.py",
+            "ok": true,
+            "tail": "crm_lead ok: 3 leads"
+          },
+          {
+            "file": "design.py",
+            "ok": true,
+            "tail": "design ok: a7f57cde-9ff6-4e91-bcec-2946fbbb0d08"
+          },
+          {
+            "file": "dialer.py",
+            "ok": true,
+            "tail": "dialer ok"
+          },
+          {
+            "file": "enrichment.py",
+            "ok": true,
+            "tail": "enrichment ok: alice@acme.com"
+          },
+          {
+            "file": "erp.py",
+            "ok": true,
+            "tail": "erp ok: order_1789783441258"
+          },
+          {
+            "file": "esign.py",
+            "ok": true,
+            "tail": "esign ok"
+          },
+          {
+            "file": "expenses.py",
+            "ok": true,
+            "tail": "expenses ok: x_1789783441303"
+          },
+          {
+            "file": "files.py",
+            "ok": true,
+            "tail": "files ok"
+          },
+          {
+            "file": "git_host.py",
+            "ok": true,
+            "tail": "git_host ok"
+          },
+          {
+            "file": "hr.py",
+            "ok": true,
+            "tail": "hr ok"
+          },
+          {
+            "file": "issues.py",
+            "ok": true,
+            "tail": "issues ok: i_1789783441394"
+          },
+          {
+            "file": "lakehouse.py",
+            "ok": false,
+            "tail": "AssertionError"
+          },
+          {
+            "file": "ledger.py",
+            "ok": false,
+            "tail": "AssertionError"
+          },
+          {
+            "file": "mailer.py",
+            "ok": true,
+            "tail": "mailer ok: c_1789783441473"
+          },
+          {
+            "file": "notebook.py",
+            "ok": true,
+            "tail": "notebook ok"
+          },
+          {
+            "file": "office.py",
+            "ok": true,
+            "tail": "office ok"
+          },
+          {
+            "file": "payments.py",
+            "ok": true,
+            "tail": "payments ok: ch_1789783441541"
+          },
+          {
+            "file": "scheduler.py",
+            "ok": true,
+            "tail": "scheduler ok"
+          },
+          {
+            "file": "screencast.py",
+            "ok": true,
+            "tail": "screencast ok"
+          },
+          {
+            "file": "sequences.py",
+            "ok": true,
+            "tail": "sequences ok: seq_1789783441607"
+          },
+          {
+            "file": "support_chat.py",
+            "ok": true,
+            "tail": "support_chat ok: c_1789783441629"
+          },
+          {
+            "file": "tasks.py",
+            "ok": true,
+            "tail": "tasks ok"
+          },
+          {
+            "file": "tickets.py",
+            "ok": true,
+            "tail": "tickets ok"
+          },
+          {
+            "file": "video.py",
+            "ok": true,
+            "tail": "video ok"
+          },
+          {
+            "file": "wiki.py",
+            "ok": true,
+            "tail": "wiki ok: p_1789783441718"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mastery",
+      "passed": true,
+      "reason": "masteries: 32  hold: 0  withheld: 0",
+      "evidence": {
+        "summary": "masteries: 32  hold: 0  withheld: 0"
+      }
+    },
+    {
       "name": "monitor",
       "passed": true,
       "reason": "baseline stable",
@@ -147,7 +319,7 @@
         "new_unattested": [],
         "newly_attested": [],
         "baseline_total": 467,
-        "current_total": 467,
+        "current_total": 470,
         "baseline_unattested": 0,
         "current_unattested": 0
       }
@@ -165,9 +337,11 @@
           "release",
           "deploy",
           "operate",
+          "mirror",
+          "mastery",
           "monitor"
         ],
-        "stages_passed": 8,
+        "stages_passed": 10,
         "stages_failed": 0,
         "domains": {
           "devsecops": [

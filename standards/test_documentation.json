@@ -1,6 +1,6 @@
 {
   "status": "generated",
-  "count": 442,
+  "count": 445,
   "cases": [
     {
       "test_id": "packages/conformance/tests/test_conformance.py::test_construct",
@@ -1051,6 +1051,33 @@
       "location": {
         "file": "packages/buildability/tests/test_distance.py",
         "line": 47
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_cross_spec.py::test_compose_accepts_matching",
+      "location": {
+        "file": "packages/buildability/tests/test_cross_spec.py",
+        "line": 31
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_cross_spec.py::test_compose_refuses_conflicting_schema",
+      "location": {
+        "file": "packages/buildability/tests/test_cross_spec.py",
+        "line": 38
+      },
+      "purpose": "(no docstring)",
+      "type": "unit"
+    },
+    {
+      "test_id": "packages/buildability/tests/test_cross_spec.py::test_compose_ignores_single_spec",
+      "location": {
+        "file": "packages/buildability/tests/test_cross_spec.py",
+        "line": 46
       },
       "purpose": "(no docstring)",
       "type": "unit"

@@ -1,0 +1,6 @@
+{"id": "x_1789783313635", "employee": "alice", "amount": 42.0, "category": "travel", "status": "submitted", "at": 1789783313.636024}
+{"id": "x_1789783313635", "status": "approved", "at": 1789783313.636091}
+{"id": "x_1789783400503", "employee": "alice", "amount": 42.0, "category": "travel", "status": "submitted", "at": 1789783400.503299}
+{"id": "x_1789783400503", "status": "approved", "at": 1789783400.503381}
+{"id": "x_1789783441303", "employee": "alice", "amount": 42.0, "category": "travel", "status": "submitted", "at": 1789783441.303736}
+{"id": "x_1789783441303", "status": "approved", "at": 1789783441.3038}

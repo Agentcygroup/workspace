@@ -205,6 +205,52 @@ def monitor() -> StageResult:
     )
 
 
+def mirror() -> StageResult:
+    """Mirror: run every substitute's self-test, report pass/fail count.
+
+    This stage does not gate the pipe. A failing substitute is reported
+    with its name and reason; the pipe continues. The stage exists so
+    every cloud-product substitute is exercised once per pipe run.
+    """
+    subs_dir = ROOT / "subs"
+    if not subs_dir.exists():
+        return StageResult(
+            name="mirror",
+            passed=True,
+            reason="no substitutes directory",
+            evidence={"present": False},
+        )
+    outcomes = []
+    for f in sorted(subs_dir.glob("*.py")):
+        rc, out, err = _run([sys.executable, str(f)], timeout=30)
+        outcomes.append({
+            "file": f.name,
+            "ok": rc == 0,
+            "tail": (out.strip().splitlines() or [err.strip().splitlines()[-1] if err.strip() else ""])[-1],
+        })
+    ok = sum(1 for o in outcomes if o["ok"])
+    total = len(outcomes)
+    return StageResult(
+        name="mirror",
+        passed=True,  # non-blocking
+        reason=f"{ok}/{total} substitutes pass self-test",
+        evidence={"outcomes": outcomes},
+    )
+
+
+def mastery() -> StageResult:
+    """Mastery: check every cycle node's mastery holds against the repo."""
+    rc, out, err = _run([sys.executable, "mastery/check.py", "--summary"])
+    if rc != 0:
+        return StageResult("mastery", False, err[-200:] or "check failed")
+    return StageResult(
+        name="mastery",
+        passed=True,
+        reason=out.strip().splitlines()[-1] if out else "",
+        evidence={"summary": out.strip()},
+    )
+
+
 def feedback() -> StageResult:
     """Feedback: aggregate outcomes into a single recommendation."""
     # This stage runs after the others and is filled in by main().
@@ -213,7 +259,7 @@ def feedback() -> StageResult:
 
 # --- the pipe --------------------------------------------------------------
 
-ORDER = [plan, code, build, test, release, deploy, operate, monitor]
+ORDER = [plan, code, build, test, release, deploy, operate, mirror, mastery, monitor]
 
 
 # Domain mapping: DevSecOps / IT security / kill chain / zero trust.

@@ -1,0 +1,6 @@
+{"id": "e_1789783313769", "debit": "cash", "credit": "revenue", "amount": 100.0, "memo": "first sale", "at": 1789783313.76971}
+{"id": "e_1789783313769", "debit": "cash", "credit": "revenue", "amount": 50.0, "memo": "second sale", "at": 1789783313.769776}
+{"id": "e_1789783400641", "debit": "cash", "credit": "revenue", "amount": 100.0, "memo": "first sale", "at": 1789783400.641889}
+{"id": "e_1789783400641", "debit": "cash", "credit": "revenue", "amount": 50.0, "memo": "second sale", "at": 1789783400.641956}
+{"id": "e_1789783441445", "debit": "cash", "credit": "revenue", "amount": 100.0, "memo": "first sale", "at": 1789783441.445206}
+{"id": "e_1789783441445", "debit": "cash", "credit": "revenue", "amount": 50.0, "memo": "second sale", "at": 1789783441.4452732}

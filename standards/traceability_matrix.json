@@ -1,8 +1,8 @@
 {
   "status": "generated",
-  "count": 442,
+  "count": 445,
   "traced": 21,
-  "untraced": 421,
+  "untraced": 424,
   "rows": [
     {
       "test": "test_construct",
@@ -824,6 +824,27 @@
       "traced": false
     },
     {
+      "test": "test_compose_accepts_matching",
+      "file": "packages/buildability/tests/test_cross_spec.py",
+      "line": 31,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compose_refuses_conflicting_schema",
+      "file": "packages/buildability/tests/test_cross_spec.py",
+      "line": 38,
+      "requirement": null,
+      "traced": false
+    },
+    {
+      "test": "test_compose_ignores_single_spec",
+      "file": "packages/buildability/tests/test_cross_spec.py",
+      "line": 46,
+      "requirement": null,
+      "traced": false
+    },
+    {
       "test": "test_ames_registered",
       "file": "packages/buildability/tests/test_model_ames.py",
       "line": 8,
@@ -1184,7 +1205,7 @@
       "test": "test_claim_g3_g4_g5_are_stubs_not_generators",
       "file": "packages/buildability/tests/test_claims.py",
       "line": 65,
-      "requirement": "REQ-G3",
+      "requirement": "REQ-G4",
       "traced": true
     },
     {

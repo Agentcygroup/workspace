@@ -1,0 +1,6 @@
+{"id": "contact_1789783313485", "kind": "contact", "name": "alice", "fields": {"org": "acme"}, "at": 1789783313.4853709}
+{"id": "deal_1789783313485", "kind": "deal", "name": "acme-2026", "fields": {"amount": 50000}, "at": 1789783313.485439}
+{"id": "contact_1789783400345", "kind": "contact", "name": "alice", "fields": {"org": "acme"}, "at": 1789783400.3452291}
+{"id": "deal_1789783400345", "kind": "deal", "name": "acme-2026", "fields": {"amount": 50000}, "at": 1789783400.3453052}
+{"id": "contact_1789783441153", "kind": "contact", "name": "alice", "fields": {"org": "acme"}, "at": 1789783441.153784}
+{"id": "deal_1789783441153", "kind": "deal", "name": "acme-2026", "fields": {"amount": 50000}, "at": 1789783441.153843}

@@ -1,7 +1,7 @@
 {
   "status": "generated",
-  "head": "e50a57ecd8b065269f941c9deb55fe7d0e603fa3",
-  "commit_count": 73,
+  "head": "a2cc36295e0385098a49788c0d7043975ea55045",
+  "commit_count": 75,
   "dirty": true,
   "entities": [
     {
@@ -10,6 +10,22 @@
     }
   ],
   "activities": [
+    {
+      "id": "commit:a2cc36295e03",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 22:00:32 -0400",
+      "used": "repo",
+      "generated": "commit:a2cc36295e03",
+      "label": "feat(infra): enumerate every surface net endpoint"
+    },
+    {
+      "id": "commit:311c16343fcd",
+      "type": "prov:Activity",
+      "startedAtTime": "2026-09-18 22:00:08 -0400",
+      "used": "repo",
+      "generated": "commit:311c16343fcd",
+      "label": "feat(infra): cms, vec, pin, search substitutes; rename secrets to vault; fix s3 versioning"
+    },
     {
       "id": "commit:e50a57ecd8b0",
       "type": "prov:Activity",
