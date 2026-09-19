@@ -1,0 +1,4 @@
+{"at": 1789783163.314942, "kind": "counter", "name": "requests", "value": 1.0, "labels": {"path": "/api/health"}}
+{"at": 1789783163.3150249, "kind": "gauge", "name": "queue_depth", "value": 3, "labels": {}}
+{"at": 1789783200.4157708, "kind": "counter", "name": "requests", "value": 1.0, "labels": {"path": "/api/health"}}
+{"at": 1789783200.4158442, "kind": "gauge", "name": "queue_depth", "value": 3, "labels": {}}

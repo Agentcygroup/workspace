@@ -1,0 +1,380 @@
+{
+  "databases": [
+    {
+      "path": "vec/vectors.db",
+      "kind": "sqlite",
+      "size": 12288
+    },
+    {
+      "path": "cms/cms.db",
+      "kind": "sqlite",
+      "size": 45056
+    }
+  ],
+  "stores": [
+    {
+      "path": "infra/objects",
+      "kind": "object-store",
+      "present": true,
+      "size": 96
+    },
+    {
+      "path": "infra/queues",
+      "kind": "queue",
+      "present": true,
+      "size": 96
+    },
+    {
+      "path": "infra/metrics.jsonl",
+      "kind": "metrics",
+      "present": true,
+      "size": 415
+    },
+    {
+      "path": "infra/alerts.jsonl",
+      "kind": "alerts",
+      "present": true,
+      "size": 189
+    },
+    {
+      "path": "infra/kv.jsonl",
+      "kind": "kv",
+      "present": true,
+      "size": 355
+    },
+    {
+      "path": "infra/iam.json",
+      "kind": "identity",
+      "present": true,
+      "size": 224
+    },
+    {
+      "path": "infra/plan.json",
+      "kind": "iac",
+      "present": true,
+      "size": 387
+    },
+    {
+      "path": "infra/dns.json",
+      "kind": "dns",
+      "present": true,
+      "size": 65
+    },
+    {
+      "path": "infra/secrets.json",
+      "kind": "secrets",
+      "present": true,
+      "size": 27
+    },
+    {
+      "path": "pin/pins",
+      "kind": "pin-store",
+      "present": true,
+      "size": 128
+    },
+    {
+      "path": "search/index.json",
+      "kind": "search-index",
+      "present": true,
+      "size": 199904
+    },
+    {
+      "path": "standards/http_log.jsonl",
+      "kind": "http-log",
+      "present": true,
+      "size": 634
+    },
+    {
+      "path": "standards/classification_log.jsonl",
+      "kind": "classify-log",
+      "present": false,
+      "size": 0
+    },
+    {
+      "path": "standards/attestation_gaps.json",
+      "kind": "gap-report",
+      "present": true,
+      "size": 209
+    },
+    {
+      "path": "standards/INDEX.json",
+      "kind": "standards-index",
+      "present": true,
+      "size": 317
+    },
+    {
+      "path": "packages/gaps/baseline/attestation_baseline.json",
+      "kind": "baseline",
+      "present": true,
+      "size": 131
+    }
+  ],
+  "listening": [
+    {
+      "proc": "rapportd",
+      "pid": "468",
+      "user": "metadusa",
+      "addr": "*:50284"
+    },
+    {
+      "proc": "rapportd",
+      "pid": "468",
+      "user": "metadusa",
+      "addr": "*:50284"
+    },
+    {
+      "proc": "ControlCe",
+      "pid": "516",
+      "user": "metadusa",
+      "addr": "*:7000"
+    },
+    {
+      "proc": "ControlCe",
+      "pid": "516",
+      "user": "metadusa",
+      "addr": "*:7000"
+    },
+    {
+      "proc": "ControlCe",
+      "pid": "516",
+      "user": "metadusa",
+      "addr": "*:5000"
+    },
+    {
+      "proc": "ControlCe",
+      "pid": "516",
+      "user": "metadusa",
+      "addr": "*:5000"
+    },
+    {
+      "proc": "Dropbox",
+      "pid": "734",
+      "user": "metadusa",
+      "addr": "127.0.0.1:17603"
+    },
+    {
+      "proc": "Dropbox",
+      "pid": "734",
+      "user": "metadusa",
+      "addr": "127.0.0.1:17600"
+    },
+    {
+      "proc": "OneDrive",
+      "pid": "774",
+      "user": "metadusa",
+      "addr": "[::1]:42050"
+    },
+    {
+      "proc": "DropboxFi",
+      "pid": "804",
+      "user": "metadusa",
+      "addr": "*:17500"
+    }
+  ],
+  "servers": [
+    {
+      "file": "web/serve.py",
+      "kind": "http",
+      "ports": [
+        8765,
+        8766
+      ]
+    },
+    {
+      "file": "web/backend.py",
+      "kind": "http",
+      "ports": [
+        8765
+      ]
+    },
+    {
+      "file": "dxp/dashboard.html",
+      "kind": "static",
+      "ports": []
+    }
+  ],
+  "connections": [
+    {
+      "from": "web/serve.py",
+      "to": "web/backend.py",
+      "via": "import",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "web/backend.py",
+      "to": "web/middleware.py",
+      "via": "import",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "web/backend.py",
+      "to": "standards/http_log.jsonl",
+      "via": "append",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "web/backend.py",
+      "to": "packages/buildability",
+      "via": "subprocess",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "web/backend.py",
+      "to": "pipe/autonomous_pipe.py",
+      "via": "subprocess",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "web/backend.py",
+      "to": "standards/INDEX.json",
+      "via": "read",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "pipe/autonomous_pipe.py",
+      "to": "packages/buildability",
+      "via": "subprocess",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "pipe/autonomous_pipe.py",
+      "to": "packages/gaps",
+      "via": "subprocess",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "pipe/autonomous_pipe.py",
+      "to": "packages/autonomy",
+      "via": "subprocess",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "pipe/autonomous_pipe.py",
+      "to": "standards/INDEX.json",
+      "via": "read",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "cli/sovereign",
+      "to": "scripts/verify.sh",
+      "via": "exec",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "cli/sovereign",
+      "to": "pipe/autonomous_pipe.py",
+      "via": "exec",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "cli/sovereign",
+      "to": "packages/buildability",
+      "via": "exec",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "cms/store.py",
+      "to": "cms/cms.db",
+      "via": "sqlite",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "vec/store.py",
+      "to": "vec/vectors.db",
+      "via": "sqlite",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "pin/pinata_local.py",
+      "to": "pin/pins",
+      "via": "filesystem",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "search/index.py",
+      "to": "search/index.json",
+      "via": "filesystem",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/kv.py",
+      "to": "infra/kv.jsonl",
+      "via": "append",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/s3.py",
+      "to": "infra/objects",
+      "via": "filesystem",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/sqs.py",
+      "to": "infra/queues",
+      "via": "append",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/iam.py",
+      "to": "infra/iam.json",
+      "via": "read-write",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/metrics.py",
+      "to": "infra/metrics.jsonl",
+      "via": "append",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/alerts.py",
+      "to": "infra/alerts.jsonl",
+      "via": "append",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/plan.py",
+      "to": "infra/plan.json",
+      "via": "write",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/dns_local.py",
+      "to": "infra/dns.json",
+      "via": "write",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    },
+    {
+      "from": "infra/vault.py",
+      "to": "infra/secrets.json",
+      "via": "read-write",
+      "satisfied": true,
+      "reason": "both endpoints declared"
+    }
+  ]
+}

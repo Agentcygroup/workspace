@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>sovereign console</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>sovereign console</h1>
+  <p class="sub">front / back / middleware / localhost</p>
+</header>
+
+<main>
+  <section class="card" aria-labelledby="health-h">
+    <h2 id="health-h">health</h2>
+    <p class="status" id="health-status">checking…</p>
+  </section>
+
+  <section class="card" aria-labelledby="classify-h">
+    <h2 id="classify-h">classifier</h2>
+    <label for="corpus">corpus</label>
+    <select id="corpus">
+      <option value="mesh/specs_uci">specs_uci</option>
+      <option value="mesh/specs_expanded">specs_expanded</option>
+      <option value="mesh/specs_counterexample">specs_counterexample</option>
+      <option value="mesh/specs_outside">specs_outside</option>
+    </select>
+    <button id="run-classify">classify</button>
+    <table id="classify-table">
+      <thead><tr><th>regime</th><th>count</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="card" aria-labelledby="pipe-h">
+    <h2 id="pipe-h">pipe</h2>
+    <button id="run-pipe">run pipe</button>
+    <table id="pipe-table">
+      <thead><tr><th>stage</th><th>state</th><th>reason</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="card" aria-labelledby="standards-h">
+    <h2 id="standards-h">standards</h2>
+    <button id="load-standards">load</button>
+    <table id="standards-table">
+      <thead><tr><th>artifact</th><th>state</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p>token: <code>dev-token</code></p>
+  <p>endpoints: <code>/api/health</code> <code>/api/classify</code> <code>/api/pipe</code> <code>/api/standards</code></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

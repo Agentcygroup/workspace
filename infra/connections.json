@@ -1,0 +1,30 @@
+{
+  "connections": [
+    {"from": "web/serve.py",          "to": "web/backend.py",           "via": "import"},
+    {"from": "web/backend.py",        "to": "web/middleware.py",        "via": "import"},
+    {"from": "web/backend.py",        "to": "standards/http_log.jsonl", "via": "append"},
+    {"from": "web/backend.py",        "to": "packages/buildability",    "via": "subprocess"},
+    {"from": "web/backend.py",        "to": "pipe/autonomous_pipe.py",  "via": "subprocess"},
+    {"from": "web/backend.py",        "to": "standards/INDEX.json",     "via": "read"},
+    {"from": "pipe/autonomous_pipe.py", "to": "packages/buildability",  "via": "subprocess"},
+    {"from": "pipe/autonomous_pipe.py", "to": "packages/gaps",          "via": "subprocess"},
+    {"from": "pipe/autonomous_pipe.py", "to": "packages/autonomy",      "via": "subprocess"},
+    {"from": "pipe/autonomous_pipe.py", "to": "standards/INDEX.json",   "via": "read"},
+    {"from": "cli/sovereign",         "to": "scripts/verify.sh",        "via": "exec"},
+    {"from": "cli/sovereign",         "to": "pipe/autonomous_pipe.py",  "via": "exec"},
+    {"from": "cli/sovereign",         "to": "packages/buildability",    "via": "exec"},
+    {"from": "cms/store.py",          "to": "cms/cms.db",               "via": "sqlite"},
+    {"from": "vec/store.py",          "to": "vec/vectors.db",           "via": "sqlite"},
+    {"from": "pin/pinata_local.py",   "to": "pin/pins",                 "via": "filesystem"},
+    {"from": "search/index.py",       "to": "search/index.json",        "via": "filesystem"},
+    {"from": "infra/kv.py",           "to": "infra/kv.jsonl",           "via": "append"},
+    {"from": "infra/s3.py",           "to": "infra/objects",            "via": "filesystem"},
+    {"from": "infra/sqs.py",          "to": "infra/queues",             "via": "append"},
+    {"from": "infra/iam.py",          "to": "infra/iam.json",           "via": "read-write"},
+    {"from": "infra/metrics.py",      "to": "infra/metrics.jsonl",      "via": "append"},
+    {"from": "infra/alerts.py",       "to": "infra/alerts.jsonl",       "via": "append"},
+    {"from": "infra/plan.py",         "to": "infra/plan.json",          "via": "write"},
+    {"from": "infra/dns_local.py",    "to": "infra/dns.json",           "via": "write"},
+    {"from": "infra/vault.py",        "to": "infra/secrets.json",       "via": "read-write"}
+  ]
+}

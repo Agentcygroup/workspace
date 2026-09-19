@@ -32,3 +32,5 @@
 {"action": "report", "allowed": false, "at": 1789782889.6845481, "failed": "authorized", "level": "medium", "reason": "action 'report' not authorized at org/medium (\"no autonomous org decisions permitted\")", "scope": "org"}
 {"action": "report", "allowed": false, "at": 1789782960.675254, "failed": "authorized", "level": "medium", "reason": "action 'report' not authorized at org/medium (\"no autonomous org decisions permitted\")", "scope": "org"}
 {"action": "report", "allowed": false, "at": 1789782961.558204, "failed": "authorized", "level": "medium", "reason": "action 'report' not authorized at org/medium (\"no autonomous org decisions permitted\")", "scope": "org"}
+{"action": "report", "allowed": false, "at": 1789783073.326676, "failed": "authorized", "level": "medium", "reason": "action 'report' not authorized at org/medium (\"no autonomous org decisions permitted\")", "scope": "org"}
+{"action": "report", "allowed": false, "at": 1789783074.196895, "failed": "authorized", "level": "medium", "reason": "action 'report' not authorized at org/medium (\"no autonomous org decisions permitted\")", "scope": "org"}
