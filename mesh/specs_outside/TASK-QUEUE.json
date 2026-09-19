@@ -1,0 +1,27 @@
+{
+  "name": "TASK-QUEUE",
+  "components": [
+    {"name": "queue.api", "responsibility": "accept tasks and dispatch them to workers"},
+    {"name": "queue.worker", "responsibility": "execute a task and record its outcome"},
+    {"name": "queue.log", "responsibility": "record every task state transition"}
+  ],
+  "interfaces": [
+    {"name": "enqueue", "schema": "openapi", "protocol": "http", "version": "v1", "failure_semantics": "5xx"},
+    {"name": "dequeue", "schema": "openapi", "protocol": "internal", "version": "v1", "failure_semantics": "retry"},
+    {"name": "ack", "schema": "openapi", "protocol": "internal", "version": "v1", "failure_semantics": "retry"}
+  ],
+  "invariants": [
+    {"name": "at_most_once_ack", "predicate": "each task is acked at most once"},
+    {"name": "log_monotone", "predicate": "log timestamps are non-decreasing"}
+  ],
+  "lifecycle": {
+    "create": "enqueue",
+    "update": "retry",
+    "migrate": "drain and requeue",
+    "delete": "purge completed",
+    "rollback": "dead-letter and restart"
+  },
+  "substrate": "python",
+  "substrate_available": true,
+  "gaps": []
+}

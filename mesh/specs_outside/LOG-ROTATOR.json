@@ -1,0 +1,25 @@
+{
+  "name": "LOG-ROTATOR",
+  "components": [
+    {"name": "rotator.watcher", "responsibility": "watch log files for size thresholds"},
+    {"name": "rotator.writer", "responsibility": "write rotated segments to cold storage"}
+  ],
+  "interfaces": [
+    {"name": "rotate", "schema": "internal", "protocol": "internal", "version": "v1", "failure_semantics": "retry"},
+    {"name": "list_segments", "schema": "internal", "protocol": "internal", "version": "v1", "failure_semantics": "raise"}
+  ],
+  "invariants": [
+    {"name": "no_data_loss", "predicate": "every byte written by the app is present in some segment"},
+    {"name": "ordering", "predicate": "segments are ordered by write time"}
+  ],
+  "lifecycle": {
+    "create": "start watcher",
+    "update": "rotate on threshold",
+    "migrate": "concatenate old segments",
+    "delete": "expire by retention policy",
+    "rollback": "restore previous segment"
+  },
+  "substrate": "python",
+  "substrate_available": true,
+  "gaps": []
+}

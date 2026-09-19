@@ -1,0 +1,25 @@
+{
+  "name": "URL-SHORTENER",
+  "components": [
+    {"name": "shortener.api", "responsibility": "accept a long URL and return a short code"},
+    {"name": "shortener.store", "responsibility": "persist the mapping from short code to long URL"}
+  ],
+  "interfaces": [
+    {"name": "shorten", "schema": "openapi", "protocol": "http", "version": "v1", "failure_semantics": "5xx"},
+    {"name": "resolve", "schema": "openapi", "protocol": "http", "version": "v1", "failure_semantics": "4xx"}
+  ],
+  "invariants": [
+    {"name": "code_unique", "predicate": "for all codes: store has at most one long_url"},
+    {"name": "resolve_total", "predicate": "for every stored code: resolve returns a long_url"}
+  ],
+  "lifecycle": {
+    "create": "shorten",
+    "update": "none",
+    "migrate": "rebuild index",
+    "delete": "expire by TTL",
+    "rollback": "restore from snapshot"
+  },
+  "substrate": "python",
+  "substrate_available": true,
+  "gaps": []
+}

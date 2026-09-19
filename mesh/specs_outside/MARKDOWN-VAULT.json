@@ -1,0 +1,25 @@
+{
+  "name": "MARKDOWN-VAULT",
+  "components": [
+    {"name": "vault.reader", "responsibility": "parse markdown files and extract frontmatter"},
+    {"name": "vault.index", "responsibility": "build a searchable index over frontmatter fields"}
+  ],
+  "interfaces": [
+    {"name": "read_file", "schema": "internal", "protocol": "internal", "version": "v1", "failure_semantics": "raise"},
+    {"name": "search", "schema": "internal", "protocol": "internal", "version": "v1", "failure_semantics": "empty result"}
+  ],
+  "invariants": [
+    {"name": "index_fresh", "predicate": "index reflects every file read since last scan"},
+    {"name": "parse_never_crashes", "predicate": "parse returns a document or a diagnostic, never raises"}
+  ],
+  "lifecycle": {
+    "create": "scan directory",
+    "update": "rescan changed files",
+    "migrate": "rebuild from scratch",
+    "delete": "drop file from index",
+    "rollback": "keep prior index version"
+  },
+  "substrate": "python",
+  "substrate_available": true,
+  "gaps": []
+}

@@ -6,7 +6,9 @@ names all six elements but the elements contradict each other.
 
 Checks performed:
   C1  no two components share the same responsibility
-  C2  every invariant references a declared component name
+  C2  every identifier-like token in an invariant predicate must be
+      a declared component name. Invariants with no identifier-like
+      tokens (numeric bounds, prose) are not checked.
   C3  every interface is claimed by at least one component
   C4  lifecycle fields are non-empty strings (already checked by G1)
 """
@@ -19,6 +21,20 @@ from .model import Spec
 class Incoherence:
     rule: str
     reason: str
+
+
+def _component_names(spec: Spec) -> list[str]:
+    return [c.name for c in spec.components]
+
+
+def _identifier_tokens(text: str) -> set[str]:
+    """Tokens containing '_' or '-' are treated as identifier-like."""
+    tokens = set()
+    for word in text.replace(",", " ").replace(".", " ").split():
+        w = word.strip("()[]<>{};:")
+        if "_" in w or "-" in w:
+            tokens.add(w)
+    return tokens
 
 
 def check_consistency(spec: Spec) -> tuple[Incoherence, ...]:
@@ -39,41 +55,31 @@ def check_consistency(spec: Spec) -> tuple[Incoherence, ...]:
         else:
             seen[resp] = comp.name
 
-    # C2: invariants must reference a declared component name if they
-    # name one at all. We look for any component name as a substring.
-    comp_names = [c.name for c in spec.components]
+    # C2: every identifier-like token in an invariant predicate must be
+    # a declared component name. Predicates with no identifier-like
+    # tokens (numeric bounds, prose without underscores or hyphens) are
+    # not checked; there is nothing for them to reference.
+    comp_names = _component_names(spec)
     for inv in spec.invariants:
-        # If the invariant text mentions any component-like identifier
-        # that is not declared, flag it. We only flag when the invariant
-        # clearly references a name (contains a dot or underscore token).
-        tokens = set()
-        for word in inv.predicate.replace(",", " ").replace(".", " ").split():
-            if "_" in word or "-" in word:
-                tokens.add(word.strip("()[]<>"))
+        tokens = _identifier_tokens(inv.predicate)
         for t in tokens:
-            # If the token looks like a component reference and isn't
-            # declared, flag it.
-            if t and t not in comp_names:
-                # Only flag when we have at least one component declared;
-                # a spec with zero components is already caught by G1.
-                if comp_names:
-                    findings.append(Incoherence(
-                        rule="C2.dangling-reference",
-                        reason=(
-                            f"invariant {inv.name!r} references {t!r} "
-                            f"which is not a declared component"
-                        ),
-                    ))
+            if t not in comp_names:
+                findings.append(Incoherence(
+                    rule="C2.dangling-reference",
+                    reason=(
+                        f"invariant {inv.name!r} references {t!r} "
+                        f"which is not a declared component"
+                    ),
+                ))
 
     # C3: every interface must be claimed by at least one component.
-    # An interface with no producer is a contract nothing fulfills.
     if spec.interfaces and not spec.components:
         findings.append(Incoherence(
             rule="C3.orphan-interface",
             reason="interfaces declared but no components to produce them",
         ))
 
-    # Deduplicate findings by (rule, reason).
+    # Deduplicate.
     unique = []
     seen_findings = set()
     for f in findings:

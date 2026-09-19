@@ -1,0 +1,25 @@
+{
+  "name": "INCIDENT-LOG",
+  "components": [
+    {"name": "incident.api", "responsibility": "record incident events with timestamps and actors"},
+    {"name": "incident.timeline", "responsibility": "render a chronological view of one incident"}
+  ],
+  "interfaces": [
+    {"name": "record_event", "schema": "openapi", "protocol": "http", "version": "v1", "failure_semantics": "5xx"},
+    {"name": "render_timeline", "schema": "internal", "protocol": "internal", "version": "v1", "failure_semantics": "empty result"}
+  ],
+  "invariants": [
+    {"name": "immutable_events", "predicate": "once recorded, an event cannot be altered"},
+    {"name": "total_order", "predicate": "events in a timeline have distinct timestamps"}
+  ],
+  "lifecycle": {
+    "create": "open incident",
+    "update": "record event",
+    "migrate": "reconcile clock skew",
+    "delete": "archive after retention",
+    "rollback": "restore from archive"
+  },
+  "substrate": "python",
+  "substrate_available": true,
+  "gaps": []
+}
