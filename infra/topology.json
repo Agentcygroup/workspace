@@ -28,13 +28,13 @@
       "path": "infra/metrics.jsonl",
       "kind": "metrics",
       "present": true,
-      "size": 828
+      "size": 1034
     },
     {
       "path": "infra/alerts.jsonl",
       "kind": "alerts",
       "present": true,
-      "size": 378
+      "size": 472
     },
     {
       "path": "infra/kv.jsonl",
@@ -46,7 +46,7 @@
       "path": "infra/iam.json",
       "kind": "identity",
       "present": true,
-      "size": 302
+      "size": 341
     },
     {
       "path": "infra/plan.json",
