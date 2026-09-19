@@ -1,0 +1,3662 @@
+{
+  "workspace": {
+    "project": "workspace",
+    "root": "/Users/metadusa/workspace",
+    "tests_dirs": [
+      "tests",
+      "mesh/tests",
+      "web/tests",
+      "cogdsl/tests",
+      "factory/tests",
+      "packages/fusion/tests",
+      "packages/citation/tests",
+      "packages/tree/tests",
+      "packages/quantize/tests",
+      "packages/queuekit/tests",
+      "packages/kernels/tests",
+      "packages/pmap/tests",
+      "packages/ledger/tests",
+      "packages/ax/tests",
+      "packages/core/tests",
+      "packages/hle/tests",
+      "packages/evidence/tests",
+      "packages/certificate/tests",
+      "packages/policyplat/tests",
+      "packages/handoff/tests",
+      "packages/state_machine/tests",
+      "packages/dataset/tests",
+      "packages/dag/tests",
+      "packages/serialization/tests",
+      "packages/agent_data/tests",
+      "packages/portable/tests",
+      "packages/complexity/tests",
+      "packages/hats/tests",
+      "packages/attest/tests",
+      "packages/protocol/tests",
+      "packages/cli/tests",
+      "packages/ontology/tests",
+      "packages/dispute/tests",
+      "packages/standard/tests",
+      "packages/primitives/tests",
+      "packages/capstone/tests",
+      "packages/heal/tests",
+      "packages/autonomy/tests",
+      "packages/provenance/tests",
+      "packages/audit/tests",
+      "packages/seeds/tests",
+      "packages/taxonomy/tests",
+      "packages/sdk/tests",
+      "packages/buildability/tests",
+      "packages/registry/tests",
+      "packages/gate/tests",
+      "packages/hands/tests",
+      "packages/isa_vm/tests",
+      "packages/lexicon/tests",
+      "packages/sovereignty/tests",
+      "packages/fedlearn/tests",
+      "packages/hands_cs/tests",
+      "packages/pattern/tests",
+      "packages/metric/tests",
+      "packages/capstone_flow/tests",
+      "packages/coverage/tests",
+      "packages/dsl/tests",
+      "packages/lenses/tests",
+      "packages/kernel/tests",
+      "packages/policy/tests",
+      "packages/conformance/tests",
+      "substrate",
+      "homeostasis"
+    ],
+    "node_ids_collected": 540,
+    "modules": [
+      {
+        "project": "workspace",
+        "module": "architecture/ledger.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cms/store.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/compiler.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/compression.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/engine.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/example_turtle.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/invariants.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/symbols.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "cogdsl/tracking.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "compliance/enumerate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/central/build_counterexample.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/central/build_uci_cms.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/glossary/activate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/glossary/parse.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/ground_truth/build_and_record.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/lineages/activate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/lineages/parse.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/omnitech/activate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "experiments/omnitech/parse.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_controller.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_engines.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_scaffold.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_specs.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_tests.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/engines/engine_wire.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "factory/factory.py",
+        "tests": [
+          {
+            "tests_file": "factory/tests/test_factory.py",
+            "node_ids": [
+              "factory/tests/test_factory.py::test_blueprint_loads",
+              "factory/tests/test_factory.py::test_run_completes",
+              "factory/tests/test_factory.py::test_report_written"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "graph/io.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "graph/surface.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "homeostasis/__init__.py",
+        "tests": [
+          {
+            "tests_file": "homeostasis/tests_regulate.py",
+            "node_ids": []
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "homeostasis/regulate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/alerts.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/dns_local.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/endpoints.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/iam.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/kv.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/metrics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/plan.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/s3.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/sqs.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/topology.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "infra/vault.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/E.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/ENE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/ESE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/E_by_N.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/E_by_S.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/N.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NE_by_E.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NE_by_N.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NNE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NNW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NW_by_N.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/NW_by_W.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/N_by_E.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/N_by_W.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/S.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SE_by_E.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SE_by_S.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SSE.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SSW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SW_by_S.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/SW_by_W.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/S_by_E.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/S_by_W.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/W.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/WNW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/WSW.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/W_by_N.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/W_by_S.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/_cycle.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/_schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mastery/check.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/attestation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/audit.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/brief.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/catalog.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/certificate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/chain.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/closure_log.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/coverage.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/deck.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/dossier.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/gap_register.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/index.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/journal.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/lineage.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/manifest.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/matrix.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/provenance.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/register.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/report.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/signature.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/snapshot.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/summary.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/trace.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/artifact/workbook.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/accountability.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/accreditation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/approval.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/assessment.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/attestation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/audit.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/authority.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/capability.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/certification.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/competency.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/control.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/delegation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/directive.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/escalation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/evaluation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/exception.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/framework.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/gate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/guideline.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/maturity.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/policy.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/procedure.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/process.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/regulation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/remediation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/responsibility.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/review.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/role.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/sanction.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/sign_off.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/standard.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/governance/waiver.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/assumption.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/audience.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/claim.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/constraint.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/control.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/criterion.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/decision.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/evidence.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/finding.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/gate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/link.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/metric.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/objective.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/owner.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/pu.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/remediation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/result.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/retest.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/risk.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/scope.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/sign_off.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/snapshot_ref.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/test.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/traceability.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/ledger/version.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/framework.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_abstraction.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_axiom.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_coinduction.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_completeness.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_compositionality.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_consistency.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_contract.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_decidability.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_emergence.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_epistemology.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_expressiveness.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_fixed_point.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_framework.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_grammar.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_interpretation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_invariant.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_judgment.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_language.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_lexicon.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_logic.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_mathematics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_model.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_ontology.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_postulate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_primitive.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_proof.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_recursion.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_refinement.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_reflexivity.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_semantics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_sort.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_soundness.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/meta/meta_theory.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/alias.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/attestation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/authority.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/axis.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/catalog.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/changelog.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/closure.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/coverage.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/deprecation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/entry.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/full.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/gap.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/index.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/lineage.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/locator.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/manifest.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/provenance.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/publication.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/relation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/residual.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/signature.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/snapshot.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/source.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/triangulation.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/emitted/registry/version.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/kinds/__init__.py",
+        "tests": [
+          {
+            "tests_file": "mesh/tests/test_mesh.py",
+            "node_ids": [
+              "mesh/tests/test_mesh.py::test_specs_dir_exists",
+              "mesh/tests/test_mesh.py::test_engine_for_declarative",
+              "mesh/tests/test_mesh.py::test_engine_for_stub_returns_none",
+              "mesh/tests/test_mesh.py::test_record_emits_file",
+              "mesh/tests/test_mesh.py::test_run_writes_report"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/kinds/engine_record.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/kinds/engine_stub.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "mesh/mesh.py",
+        "tests": [
+          {
+            "tests_file": "mesh/tests/test_mesh.py",
+            "node_ids": [
+              "mesh/tests/test_mesh.py::test_specs_dir_exists",
+              "mesh/tests/test_mesh.py::test_engine_for_declarative",
+              "mesh/tests/test_mesh.py::test_engine_for_stub_returns_none",
+              "mesh/tests/test_mesh.py::test_record_emits_file",
+              "mesh/tests/test_mesh.py::test_run_writes_report"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "omni/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/__main__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/audit/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/audit/tests/test_audit.py",
+            "node_ids": [
+              "packages/audit/tests/test_audit.py::test_append_event",
+              "packages/audit/tests/test_audit.py::test_verify_clean",
+              "packages/audit/tests/test_audit.py::test_tamper_detected",
+              "packages/audit/tests/test_audit.py::test_save_load",
+              "packages/audit/tests/test_audit.py::test_non_implication_carried"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "omni/cli.py",
+        "tests": [
+          {
+            "tests_file": "packages/cli/tests/test_cli.py",
+            "node_ids": [
+              "packages/cli/tests/test_cli.py::test_hash_known_value",
+              "packages/cli/tests/test_cli.py::test_no_args"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "omni/deploy/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/generate/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/generate/scraper.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/legacy.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/sketch.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/url.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/voice.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "omni/input/walkthrough.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/agent_data/src/agent_data/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/agent_data/tests/test_agent_data.py",
+            "node_ids": [
+              "packages/agent_data/tests/test_agent_data.py::test_analyze_schema",
+              "packages/agent_data/tests/test_agent_data.py::test_empty_column_detected",
+              "packages/agent_data/tests/test_agent_data.py::test_source_hash_stable",
+              "packages/agent_data/tests/test_agent_data.py::test_evidence_scoped",
+              "packages/agent_data/tests/test_agent_data.py::test_run_writes"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/attest/tests/test_attest.py",
+            "node_ids": [
+              "packages/attest/tests/test_attest.py::test_subject_digest",
+              "packages/attest/tests/test_attest.py::test_build_statement",
+              "packages/attest/tests/test_attest.py::test_statement_hash_stable",
+              "packages/attest/tests/test_attest.py::test_sbom_cyclonedx_shape",
+              "packages/attest/tests/test_attest.py::test_generate_sbom_returns_dict"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/decide.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/decisions.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/declared.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/evidence.py",
+        "tests": [
+          {
+            "tests_file": "packages/evidence/tests/test_evidence.py",
+            "node_ids": [
+              "packages/evidence/tests/test_evidence.py::test_hash_bytes_stable",
+              "packages/evidence/tests/test_evidence.py::test_hash_file",
+              "packages/evidence/tests/test_evidence.py::test_evidence_ref",
+              "packages/evidence/tests/test_evidence.py::test_provenance_chain",
+              "packages/evidence/tests/test_evidence.py::test_provenance_validate"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/generate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/interview.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/report.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/sbom.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/src/attest/statement.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/attest/standards.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/audit/src/audit/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/audit/src/audit/log.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/autonomy/tests/test_production_path.py",
+            "node_ids": [
+              "packages/autonomy/tests/test_production_path.py::test_production_allows_low_ops",
+              "packages/autonomy/tests/test_production_path.py::test_production_refuses_high_ops_without_confidence",
+              "packages/autonomy/tests/test_production_path.py::test_production_allows_high_ops_with_full_evidence"
+            ]
+          },
+          {
+            "tests_file": "packages/autonomy/tests/test_contract.py",
+            "node_ids": [
+              "packages/autonomy/tests/test_contract.py::TestContractLoaded::test_scopes_present",
+              "packages/autonomy/tests/test_contract.py::TestContractLoaded::test_kill_switches_present",
+              "packages/autonomy/tests/test_contract.py::TestScopeRefusals::test_org_medium_refuses",
+              "packages/autonomy/tests/test_contract.py::TestScopeRefusals::test_infra_high_refuses",
+              "packages/autonomy/tests/test_contract.py::TestScopeRefusals::test_unknown_scope_refuses",
+              "packages/autonomy/tests/test_contract.py::TestAuthorized::test_ops_low_detect_authorized",
+              "packages/autonomy/tests/test_contract.py::TestAuthorized::test_ops_medium_rollback_with_conditions",
+              "packages/autonomy/tests/test_contract.py::TestKillSwitchFile::test_kill_switch_file_blocks",
+              "packages/autonomy/tests/test_contract.py::TestCLI::test_cli_org_medium_refuses",
+              "packages/autonomy/tests/test_contract.py::TestCLI::test_cli_kill_switch_blocks"
+            ]
+          },
+          {
+            "tests_file": "packages/autonomy/tests/test_coordinate.py",
+            "node_ids": [
+              "packages/autonomy/tests/test_coordinate.py::test_both_allowed_commits",
+              "packages/autonomy/tests/test_coordinate.py::test_one_refused_aborts"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/audit.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/blast.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/cli.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/contract.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/coordinate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/evaluator.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/killswitch.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/src/autonomy/signals.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/autonomy/tests/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ax/src/ax/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/ax/tests/test_ax.py",
+            "node_ids": [
+              "packages/ax/tests/test_ax.py::test_all_42_categories",
+              "packages/ax/tests/test_ax.py::test_coverage_sums_to_42",
+              "packages/ax/tests/test_ax.py::test_every_allocation_legal",
+              "packages/ax/tests/test_ax.py::test_software_is_agent_executed",
+              "packages/ax/tests/test_ax.py::test_legal_is_human_only",
+              "packages/ax/tests/test_ax.py::test_agent_capable_lists",
+              "packages/ax/tests/test_ax.py::test_human_required_lists",
+              "packages/ax/tests/test_ax.py::test_scope_variants_15x26",
+              "packages/ax/tests/test_ax.py::test_schema_enum",
+              "packages/ax/tests/test_ax.py::test_build_all"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ax/src/ax/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/buildability/tests/test_distance.py",
+            "node_ids": [
+              "packages/buildability/tests/test_distance.py::test_identity",
+              "packages/buildability/tests/test_distance.py::test_symmetry",
+              "packages/buildability/tests/test_distance.py::test_range",
+              "packages/buildability/tests/test_distance.py::test_triangle_inequality",
+              "packages/buildability/tests/test_distance.py::test_increasing_distance"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_cross_spec.py",
+            "node_ids": [
+              "packages/buildability/tests/test_cross_spec.py::test_compose_accepts_matching",
+              "packages/buildability/tests/test_cross_spec.py::test_compose_refuses_conflicting_schema",
+              "packages/buildability/tests/test_cross_spec.py::test_compose_ignores_single_spec"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_model_ames.py",
+            "node_ids": [
+              "packages/buildability/tests/test_model_ames.py::test_ames_registered",
+              "packages/buildability/tests/test_model_ames.py::test_ames_prover_rejects_non_ames"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_audit_log.py",
+            "node_ids": [
+              "packages/buildability/tests/test_audit_log.py::test_record_appends",
+              "packages/buildability/tests/test_audit_log.py::test_query_filters_by_regime"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_model_correctness.py",
+            "node_ids": [
+              "packages/buildability/tests/test_model_correctness.py::test_boolean_satisfiability",
+              "packages/buildability/tests/test_model_correctness.py::test_lambda_reduction",
+              "packages/buildability/tests/test_model_correctness.py::test_turing_halts",
+              "packages/buildability/tests/test_model_correctness.py::test_combinatory_identity"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_selection.py",
+            "node_ids": [
+              "packages/buildability/tests/test_selection.py::test_substrate_names_model",
+              "packages/buildability/tests/test_selection.py::test_internal_protocol_selects_pi",
+              "packages/buildability/tests/test_selection.py::test_state_machine_selects_general",
+              "packages/buildability/tests/test_selection.py::test_fallback_to_boolean",
+              "packages/buildability/tests/test_selection.py::test_no_discriminating_feature_raises",
+              "packages/buildability/tests/test_selection.py::test_every_selection_is_in_registry"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_crawl.py",
+            "node_ids": [
+              "packages/buildability/tests/test_crawl.py::test_fetch_unreachable_returns_dict"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_buildability.py",
+            "node_ids": [
+              "packages/buildability/tests/test_buildability.py::test_g1_complete",
+              "packages/buildability/tests/test_buildability.py::test_g1_missing_component",
+              "packages/buildability/tests/test_buildability.py::test_g1_open_gap_blocks",
+              "packages/buildability/tests/test_buildability.py::test_g2_missing_substrate",
+              "packages/buildability/tests/test_buildability.py::test_g2_flag_ignored_when_probe_succeeds",
+              "packages/buildability/tests/test_buildability.py::test_g3_no_solver",
+              "packages/buildability/tests/test_buildability.py::test_g3_solver_returns_candidate",
+              "packages/buildability/tests/test_buildability.py::test_g4_no_prover",
+              "packages/buildability/tests/test_buildability.py::test_g4_falsifiable_prover",
+              "packages/buildability/tests/test_buildability.py::test_g4_unfalsifiable_prover_rejected",
+              "packages/buildability/tests/test_buildability.py::test_g5_no_resolver",
+              "packages/buildability/tests/test_buildability.py::test_g5_self_tie_ok",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_buildable",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_divergent",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_research",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_engineering",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_construction",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_verification",
+              "packages/buildability/tests/test_buildability.py::test_evaluate_adjudication",
+              "packages/buildability/tests/test_buildability.py::test_fixed_point",
+              "packages/buildability/tests/test_buildability.py::test_no_substrate_is_research_not_engineering",
+              "packages/buildability/tests/test_buildability.py::test_declared_but_unavailable_substrate_is_engineering",
+              "packages/buildability/tests/test_buildability.py::test_spec_is_frozen",
+              "packages/buildability/tests/test_buildability.py::test_gap_is_frozen",
+              "packages/buildability/tests/test_buildability.py::test_closure_does_not_mutate_input",
+              "packages/buildability/tests/test_buildability.py::test_g0_no_history_passes",
+              "packages/buildability/tests/test_buildability.py::test_g0_divergent_fails",
+              "packages/buildability/tests/test_buildability.py::test_g0_convergent_passes",
+              "packages/buildability/tests/test_buildability.py::test_g1_5_duplicate_responsibility_detected",
+              "packages/buildability/tests/test_buildability.py::test_g1_5_clean_spec_passes"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_diagnose.py",
+            "node_ids": [
+              "packages/buildability/tests/test_diagnose.py::test_clean_spec_has_no_diagnostics",
+              "packages/buildability/tests/test_diagnose.py::test_missing_interfaces_diagnosed",
+              "packages/buildability/tests/test_diagnose.py::test_missing_components_diagnosed",
+              "packages/buildability/tests/test_diagnose.py::test_open_gap_diagnosed"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_strict.py",
+            "node_ids": [
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_spec_attribute_assignment_fails",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_spec_collection_is_tuple",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_spec_collection_has_no_append",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_component_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_interface_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_invariant_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_lifecycle_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_gap_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_verdict_frozen",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_verdict_has_value_eq",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_verdict_distinct_specs_unequal",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_verdict_to_dict_json_serializable",
+              "packages/buildability/tests/test_strict.py::TestFrozen::test_spec_replace_returns_new",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_passes_on_minimal",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_missing_components",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_missing_interfaces",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_missing_invariants",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_missing_lifecycle",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_missing_substrate",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_fails_on_open_gap",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_5_passes_on_minimal",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_5_fails_on_duplicate_responsibility",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g1_5_passes_on_distinct_responsibility",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g2_fails_on_no_substrate",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g2_fails_on_unavailable_unknown_substrate",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g2_passes_on_available_substrate",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g3_fails_without_solver",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g3_passes_with_solver",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g4_fails_without_prover",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g4_fails_on_unfalsifiable_prover",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g4_passes_on_falsifiable_prover",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g5_fails_without_resolver",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g5_fails_on_asymmetric_resolver",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g5_passes_on_antisymmetric_resolver",
+              "packages/buildability/tests/test_strict.py::TestGates::test_g5_passes_on_self_tie",
+              "packages/buildability/tests/test_strict.py::TestRegistryWalk::test_registry_is_ordered_list",
+              "packages/buildability/tests/test_strict.py::TestRegistryWalk::test_first_failure_short_circuits",
+              "packages/buildability/tests/test_strict.py::TestRegistryWalk::test_all_gates_run_when_all_pass",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_registry_has_at_least_one_model",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_has_solver",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_has_prover",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_has_resolver",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_solver_returns_non_none",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_prover_is_falsifiable",
+              "packages/buildability/tests/test_strict.py::TestModelContract::test_every_model_resolver_self_ties_to_zero_or_none",
+              "packages/buildability/tests/test_strict.py::TestSubstrate::test_python_probe_available",
+              "packages/buildability/tests/test_strict.py::TestSubstrate::test_unknown_substrate_reports_unknown",
+              "packages/buildability/tests/test_strict.py::TestSubstrate::test_substrate_flag_ignored_when_probe_succeeds",
+              "packages/buildability/tests/test_strict.py::TestSubstrate::test_declared_unavailable_with_unknown_probe",
+              "packages/buildability/tests/test_strict.py::TestSubstrate::test_declared_available_with_unknown_probe",
+              "packages/buildability/tests/test_strict.py::TestCoherence::test_c1_duplicate_responsibility_detected",
+              "packages/buildability/tests/test_strict.py::TestCoherence::test_c1_case_insensitive",
+              "packages/buildability/tests/test_strict.py::TestCoherence::test_c1_whitespace_insensitive",
+              "packages/buildability/tests/test_strict.py::TestCoherence::test_clean_spec_has_no_findings",
+              "packages/buildability/tests/test_strict.py::TestComposition::test_empty_corpus_is_ok",
+              "packages/buildability/tests/test_strict.py::TestComposition::test_single_spec_has_no_mismatch",
+              "packages/buildability/tests/test_strict.py::TestComposition::test_two_specs_with_matching_interface",
+              "packages/buildability/tests/test_strict.py::TestComposition::test_two_specs_with_conflicting_schema",
+              "packages/buildability/tests/test_strict.py::TestCounterexample::test_counterexample_still_refuses",
+              "packages/buildability/tests/test_strict.py::TestCounterexample::test_counterexample_has_duplicate_responsibility",
+              "packages/buildability/tests/test_strict.py::TestCounterexample::test_counterexample_fails_only_at_g1_5",
+              "packages/buildability/tests/test_strict.py::TestDeterminism::test_evaluate_is_deterministic",
+              "packages/buildability/tests/test_strict.py::TestDeterminism::test_evaluate_same_result_via_subprocess",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_research_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_incoherent_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_engineering_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_construction_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_verification_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_adjudication_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_buildable_reachable",
+              "packages/buildability/tests/test_strict.py::TestRegimes::test_divergent_reachable",
+              "packages/buildability/tests/test_strict.py::TestCLI::test_classify_runs",
+              "packages/buildability/tests/test_strict.py::TestCLI::test_classify_counterexample"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_prover_falsifiable.py",
+            "node_ids": [
+              "packages/buildability/tests/test_prover_falsifiable.py::test_prover_can_fail"
+            ]
+          },
+          {
+            "tests_file": "packages/buildability/tests/test_claims.py",
+            "node_ids": [
+              "packages/buildability/tests/test_claims.py::test_claim_g1_and_g2_are_implemented",
+              "packages/buildability/tests/test_claims.py::test_claim_g3_g4_g5_are_stubs_not_generators",
+              "packages/buildability/tests/test_claims.py::test_claim_no_builder_exists",
+              "packages/buildability/tests/test_claims.py::test_semantic_incompleteness_is_detected",
+              "packages/buildability/tests/test_claims.py::test_fail_no_distance_metric_between_specs",
+              "packages/buildability/tests/test_claims.py::test_fail_substrate_availability_not_probed",
+              "packages/buildability/tests/test_claims.py::test_fail_divergence_requires_external_history",
+              "packages/buildability/tests/test_claims.py::test_cross_spec_composition_exists",
+              "packages/buildability/tests/test_claims.py::test_cross_spec_composition_detects_mismatch",
+              "packages/buildability/tests/test_claims.py::test_cross_spec_composition_accepts_matching",
+              "packages/buildability/tests/test_claims.py::test_fail_no_partial_spec_handling",
+              "packages/buildability/tests/test_claims.py::test_fail_mesh_specs_remain_research",
+              "packages/buildability/tests/test_claims.py::test_factory_refuses_incomplete_specs",
+              "packages/buildability/tests/test_claims.py::test_fail_no_determinism_test_for_classifier",
+              "packages/buildability/tests/test_claims.py::test_intent_ratio_is_wired",
+              "packages/buildability/tests/test_claims.py::test_expanded_corpus_regimes_are_pinned",
+              "packages/buildability/tests/test_claims.py::test_verdict_is_frozen",
+              "packages/buildability/tests/test_claims.py::test_gate_result_is_frozen",
+              "packages/buildability/tests/test_claims.py::test_verdict_has_value_eq",
+              "packages/buildability/tests/test_claims.py::test_verdict_to_dict_is_json_serializable",
+              "packages/buildability/tests/test_claims.py::test_claim_closure_terminates_on_pathological_perturbation",
+              "packages/buildability/tests/test_claims.py::test_replace_validates_collection_types",
+              "packages/buildability/tests/test_claims.py::test_central_claim_has_ground_truth",
+              "packages/buildability/tests/test_claims.py::test_central_claim_g1_passing_builds",
+              "packages/buildability/tests/test_claims.py::test_central_claim_g1_failing_fails",
+              "packages/buildability/tests/test_claims.py::test_central_claim_has_counterexample"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/audit.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/classify.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/cli.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/compose.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/consistency.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/crawl.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/diagnose.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/distance.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/fixedpoint.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/gap_history.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/gates.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/intent.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/loader.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/model.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/ames.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/boolean.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/category.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/cellular.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/combinatory.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/compose.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/general.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/gerhardt.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/interaction.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/lambda_.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/pi.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/quantum.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/models/turing.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/procedure.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/selection.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/semver.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/buildability/src/buildability/substrate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/capstone/src/capstone/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/capstone/tests/test_capstone.py",
+            "node_ids": [
+              "packages/capstone/tests/test_capstone.py::test_archetypes_nonempty",
+              "packages/capstone/tests/test_capstone.py::test_jurisdictions",
+              "packages/capstone/tests/test_capstone.py::test_planes",
+              "packages/capstone/tests/test_capstone.py::test_institute_valid",
+              "packages/capstone/tests/test_capstone.py::test_institute_bad_archetype",
+              "packages/capstone/tests/test_capstone.py::test_institute_bad_jurisdiction",
+              "packages/capstone/tests/test_capstone.py::test_capstone_record_valid",
+              "packages/capstone/tests/test_capstone.py::test_capstone_record_bad_plane",
+              "packages/capstone/tests/test_capstone.py::test_interop_overlap_rejected",
+              "packages/capstone/tests/test_capstone.py::test_validate_duplicate_governor",
+              "packages/capstone/tests/test_capstone.py::test_build_all"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/capstone/src/capstone/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/capstone_flow/src/capstone_flow/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/capstone_flow/tests/test_flow.py",
+            "node_ids": [
+              "packages/capstone_flow/tests/test_flow.py::test_flow_four_steps",
+              "packages/capstone_flow/tests/test_flow.py::test_flow_actors_present",
+              "packages/capstone_flow/tests/test_flow.py::test_flow_verify_clean",
+              "packages/capstone_flow/tests/test_flow.py::test_flow_provenance_chain",
+              "packages/capstone_flow/tests/test_flow.py::test_build_all"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/capstone_flow/src/capstone_flow/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/certificate/src/certificate/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/certificate/tests/test_certificate.py",
+            "node_ids": [
+              "packages/certificate/tests/test_certificate.py::test_construct",
+              "packages/certificate/tests/test_certificate.py::test_sign",
+              "packages/certificate/tests/test_certificate.py::test_no_conformance",
+              "packages/certificate/tests/test_certificate.py::test_no_signer",
+              "packages/certificate/tests/test_certificate.py::test_role_closed"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/certificate/src/certificate/cert.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/citation/src/citation/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/citation/tests/test_citation.py",
+            "node_ids": [
+              "packages/citation/tests/test_citation.py::test_citation_construct",
+              "packages/citation/tests/test_citation.py::test_verify_sets_fields",
+              "packages/citation/tests/test_citation.py::test_verify_rejects_bad_confidence",
+              "packages/citation/tests/test_citation.py::test_verify_requires_name"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/citation/src/citation/record.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/cli/src/cli/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/cli/src/cli/main.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/complexity/src/complexity/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/complexity/tests/test_complexity.py",
+            "node_ids": [
+              "packages/complexity/tests/test_complexity.py::test_classes_nonempty",
+              "packages/complexity/tests/test_complexity.py::test_class_bad_name",
+              "packages/complexity/tests/test_complexity.py::test_dominates_reflexive",
+              "packages/complexity/tests/test_complexity.py::test_dominates_transitive",
+              "packages/complexity/tests/test_complexity.py::test_does_not_dominate",
+              "packages/complexity/tests/test_complexity.py::test_is_class"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/complexity/src/complexity/classes.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/conformance/src/conformance/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/conformance/tests/test_conformance.py",
+            "node_ids": [
+              "packages/conformance/tests/test_conformance.py::test_construct",
+              "packages/conformance/tests/test_conformance.py::test_assess_pass",
+              "packages/conformance/tests/test_conformance.py::test_assess_bad_verdict",
+              "packages/conformance/tests/test_conformance.py::test_assess_requires_evidence",
+              "packages/conformance/tests/test_conformance.py::test_assess_requires_name"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/conformance/src/conformance/record.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/core/src/core/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/coverage/src/coverage/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/coverage/tests/test_coverage.py",
+            "node_ids": [
+              "packages/coverage/tests/test_coverage.py::test_empty_report",
+              "packages/coverage/tests/test_coverage.py::test_ratio",
+              "packages/coverage/tests/test_coverage.py::test_gap_blocks_scoped",
+              "packages/coverage/tests/test_coverage.py::test_to_dict",
+              "packages/coverage/tests/test_coverage.py::test_unscoped_always_undefined"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/coverage/src/coverage/report.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dag/src/dag/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dag/src/dag/order.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dataset/src/dataset/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/dataset/tests/test_dataset.py",
+            "node_ids": [
+              "packages/dataset/tests/test_dataset.py::test_add_record",
+              "packages/dataset/tests/test_dataset.py::test_deduplicate",
+              "packages/dataset/tests/test_dataset.py::test_fingerprint_stable",
+              "packages/dataset/tests/test_dataset.py::test_lineage",
+              "packages/dataset/tests/test_dataset.py::test_to_dict"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dataset/src/dataset/corpus.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dispute/src/dispute/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/dispute/tests/test_dispute.py",
+            "node_ids": [
+              "packages/dispute/tests/test_dispute.py::test_file_construction",
+              "packages/dispute/tests/test_dispute.py::test_dispute_initial_state",
+              "packages/dispute/tests/test_dispute.py::test_legal_transition",
+              "packages/dispute/tests/test_dispute.py::test_illegal_transition",
+              "packages/dispute/tests/test_dispute.py::test_unknown_state",
+              "packages/dispute/tests/test_dispute.py::test_history_records"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dispute/src/dispute/case.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dsl/src/dsl/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/dsl/tests/test_dsl.py",
+            "node_ids": [
+              "packages/dsl/tests/test_dsl.py::test_tokenize_basic",
+              "packages/dsl/tests/test_dsl.py::test_comment_skipped",
+              "packages/dsl/tests/test_dsl.py::test_parse_program",
+              "packages/dsl/tests/test_dsl.py::test_parse_missing_brace",
+              "packages/dsl/tests/test_dsl.py::test_evaluate",
+              "packages/dsl/tests/test_dsl.py::test_unknown_op",
+              "packages/dsl/tests/test_dsl.py::test_lex_error"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dsl/src/dsl/interp.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dsl/src/dsl/lexer.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/dsl/src/dsl/parser.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/evidence/src/evidence/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/evidence/src/evidence/core.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/fedlearn/src/fedlearn/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/fedlearn/tests/test_fedlearn.py",
+            "node_ids": [
+              "packages/fedlearn/tests/test_fedlearn.py::test_clip_within_bound",
+              "packages/fedlearn/tests/test_fedlearn.py::test_clip_enforces_bound",
+              "packages/fedlearn/tests/test_fedlearn.py::test_clip_bad_bound",
+              "packages/fedlearn/tests/test_fedlearn.py::test_dp_mean_deterministic_with_rng",
+              "packages/fedlearn/tests/test_fedlearn.py::test_federated_round",
+              "packages/fedlearn/tests/test_fedlearn.py::test_federated_empty"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/fedlearn/src/fedlearn/dp.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/fedlearn/src/fedlearn/round.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/fusion/src/fusion/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/fusion/tests/test_fusion.py",
+            "node_ids": [
+              "packages/fusion/tests/test_fusion.py::test_add_and_fuse",
+              "packages/fusion/tests/test_fusion.py::test_bad_modality",
+              "packages/fusion/tests/test_fusion.py::test_bad_weight",
+              "packages/fusion/tests/test_fusion.py::test_fuse_convenience",
+              "packages/fusion/tests/test_fusion.py::test_hash_stable"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/fusion/src/fusion/braid.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/gaps.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/src/gaps/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/src/gaps/attest.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/src/gaps/baseline.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/src/gaps/claims.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gaps/src/gaps/report.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gate/src/gate/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/gate/tests/test_gate.py",
+            "node_ids": [
+              "packages/gate/tests/test_gate.py::test_gates_count",
+              "packages/gate/tests/test_gate.py::test_initial_state",
+              "packages/gate/tests/test_gate.py::test_full_chain",
+              "packages/gate/tests/test_gate.py::test_out_of_order_raises",
+              "packages/gate/tests/test_gate.py::test_unknown_gate_raises",
+              "packages/gate/tests/test_gate.py::test_revoke",
+              "packages/gate/tests/test_gate.py::test_history_length"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/gate/src/gate/machine.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/handoff/src/handoff/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/handoff/tests/test_handoff.py",
+            "node_ids": [
+              "packages/handoff/tests/test_handoff.py::test_valid_handoff",
+              "packages/handoff/tests/test_handoff.py::test_bad_mode",
+              "packages/handoff/tests/test_handoff.py::test_accept",
+              "packages/handoff/tests/test_handoff.py::test_accept_twice_fails",
+              "packages/handoff/tests/test_handoff.py::test_reject",
+              "packages/handoff/tests/test_handoff.py::test_modes_closed"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/handoff/src/handoff/transfer.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hands/src/hands/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/hands/tests/test_hands.py",
+            "node_ids": [
+              "packages/hands/tests/test_hands.py::test_all_hands_kinds_nonempty",
+              "packages/hands/tests/test_hands.py::test_is_hand",
+              "packages/hands/tests/test_hands.py::test_validate_minimal_ok",
+              "packages/hands/tests/test_hands.py::test_validate_missing_field",
+              "packages/hands/tests/test_hands.py::test_validate_bad_state",
+              "packages/hands/tests/test_hands.py::test_validate_bad_hand_kind",
+              "packages/hands/tests/test_hands.py::test_root_invariant_enforced",
+              "packages/hands/tests/test_hands.py::test_build_all"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hands/src/hands/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hands_cs/src/hands_cs/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/hands_cs/tests/test_hands_cs.py",
+            "node_ids": [
+              "packages/hands_cs/tests/test_hands_cs.py::test_hands_nonempty",
+              "packages/hands_cs/tests/test_hands_cs.py::test_is_hand",
+              "packages/hands_cs/tests/test_hands_cs.py::test_hand_upgrade",
+              "packages/hands_cs/tests/test_hands_cs.py::test_hand_bad_level",
+              "packages/hands_cs/tests/test_hands_cs.py::test_families"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hands_cs/src/hands_cs/skills.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hats/src/hats/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/hats/tests/test_hats.py",
+            "node_ids": [
+              "packages/hats/tests/test_hats.py::test_hats_nonempty",
+              "packages/hats/tests/test_hats.py::test_is_hat",
+              "packages/hats/tests/test_hats.py::test_hat_can",
+              "packages/hats/tests/test_hats.py::test_disciplines"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hats/src/hats/roles.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/heal/src/heal/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/heal/tests/test_heal.py",
+            "node_ids": [
+              "packages/heal/tests/test_heal.py::test_register",
+              "packages/heal/tests/test_heal.py::test_run_once_success",
+              "packages/heal/tests/test_heal.py::test_run_once_failure",
+              "packages/heal/tests/test_heal.py::test_heal_after_failure",
+              "packages/heal/tests/test_heal.py::test_heal_exhausts_attempts",
+              "packages/heal/tests/test_heal.py::test_history_records"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/heal/src/heal/supervisor.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hle/src/hle/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/hle/tests/test_hle.py",
+            "node_ids": [
+              "packages/hle/tests/test_hle.py::test_leaderboard_nonempty",
+              "packages/hle/tests/test_hle.py::test_claim_1_real",
+              "packages/hle/tests/test_hle.py::test_claim_2_not_agi",
+              "packages/hle/tests/test_hle.py::test_claim_3_no_agi_benchmark",
+              "packages/hle/tests/test_hle.py::test_guard_rejects_agi_claim",
+              "packages/hle/tests/test_hle.py::test_guard_accepts_honest_text",
+              "packages/hle/tests/test_hle.py::test_harness_runs_on_small_set",
+              "packages/hle/tests/test_hle.py::test_harness_report_carries_refusal",
+              "packages/hle/tests/test_hle.py::test_harness_report_forbidden_token_would_raise",
+              "packages/hle/tests/test_hle.py::test_compare_to_leaderboard",
+              "packages/hle/tests/test_hle.py::test_build_all",
+              "packages/hle/tests/test_hle.py::test_assertions_closed_set"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hle/src/hle/guard.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/hle/src/hle/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/isa_vm/src/isa_vm/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/isa_vm/tests/test_isa_vm.py",
+            "node_ids": [
+              "packages/isa_vm/tests/test_isa_vm.py::test_nop_hlt",
+              "packages/isa_vm/tests/test_isa_vm.py::test_add",
+              "packages/isa_vm/tests/test_isa_vm.py::test_sub_flags",
+              "packages/isa_vm/tests/test_isa_vm.py::test_jmp",
+              "packages/isa_vm/tests/test_isa_vm.py::test_je_taken",
+              "packages/isa_vm/tests/test_isa_vm.py::test_call_ret",
+              "packages/isa_vm/tests/test_isa_vm.py::test_unknown_opcode",
+              "packages/isa_vm/tests/test_isa_vm.py::test_load_store_roundtrip",
+              "packages/isa_vm/tests/test_isa_vm.py::test_step_limit",
+              "packages/isa_vm/tests/test_isa_vm.py::test_memory_bounds"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/isa_vm/src/isa_vm/machine.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/kernel/tests/test_kernel.py",
+            "node_ids": [
+              "packages/kernel/tests/test_kernel.py::test_ten_operators",
+              "packages/kernel/tests/test_kernel.py::test_operators_id_and_neg",
+              "packages/kernel/tests/test_kernel.py::test_operator_merge_split",
+              "packages/kernel/tests/test_kernel.py::test_operator_align",
+              "packages/kernel/tests/test_kernel.py::test_operator_project",
+              "packages/kernel/tests/test_kernel.py::test_eight_axioms",
+              "packages/kernel/tests/test_kernel.py::test_envelope_verify_ok",
+              "packages/kernel/tests/test_kernel.py::test_axioms_satisfied_on_good_envelope",
+              "packages/kernel/tests/test_kernel.py::test_mappings_four",
+              "packages/kernel/tests/test_kernel.py::test_map_physics_to_biology",
+              "packages/kernel/tests/test_kernel.py::test_map_wrong_domain_raises",
+              "packages/kernel/tests/test_kernel.py::test_sandbox_allows_known_operator",
+              "packages/kernel/tests/test_kernel.py::test_sandbox_rejects_unknown_operator",
+              "packages/kernel/tests/test_kernel.py::test_sandbox_rejects_oversized_payload",
+              "packages/kernel/tests/test_kernel.py::test_physics_adapter",
+              "packages/kernel/tests/test_kernel.py::test_biology_adapter",
+              "packages/kernel/tests/test_kernel.py::test_map_biology_to_medicine"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/axioms.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/domains/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/domains/biology.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/domains/enterprise.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/domains/medicine.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/domains/physics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/envelope.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/mappings.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/operators.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernel/src/kernel/sandbox.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernels/src/kernels/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/kernels/tests/test_kernels.py",
+            "node_ids": [
+              "packages/kernels/tests/test_kernels.py::test_dot",
+              "packages/kernels/tests/test_kernels.py::test_dot_mismatch",
+              "packages/kernels/tests/test_kernels.py::test_axpy",
+              "packages/kernels/tests/test_kernels.py::test_relu",
+              "packages/kernels/tests/test_kernels.py::test_sigmoid",
+              "packages/kernels/tests/test_kernels.py::test_softmax_sums_to_one",
+              "packages/kernels/tests/test_kernels.py::test_matmul",
+              "packages/kernels/tests/test_kernels.py::test_matmul_shape_mismatch"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernels/src/kernels/matrix.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/kernels/src/kernels/scalar.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ledger/src/ledger/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ledger/src/ledger/chain.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ledger/src/ledger/claims.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/lenses/src/lenses/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/lenses/tests/test_lenses.py",
+            "node_ids": [
+              "packages/lenses/tests/test_lenses.py::test_lenses_nonempty",
+              "packages/lenses/tests/test_lenses.py::test_is_lens",
+              "packages/lenses/tests/test_lenses.py::test_lens_questions_security",
+              "packages/lenses/tests/test_lenses.py::test_lens_default_question",
+              "packages/lenses/tests/test_lenses.py::test_lens_ask"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/lenses/src/lenses/set.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/lexicon/src/lexicon/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/lexicon/tests/test_lexicon.py",
+            "node_ids": [
+              "packages/lexicon/tests/test_lexicon.py::test_terms_nonempty",
+              "packages/lexicon/tests/test_lexicon.py::test_validate_all_clean",
+              "packages/lexicon/tests/test_lexicon.py::test_get_term",
+              "packages/lexicon/tests/test_lexicon.py::test_terms_by_source",
+              "packages/lexicon/tests/test_lexicon.py::test_terms_by_atom",
+              "packages/lexicon/tests/test_lexicon.py::test_sources",
+              "packages/lexicon/tests/test_lexicon.py::test_every_term_has_primitive",
+              "packages/lexicon/tests/test_lexicon.py::test_citable_and_emergent_coexist"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/lexicon/src/lexicon/terms.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/lexicon/src/lexicon/validate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/metric/src/metric/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/metric/tests/test_metric.py",
+            "node_ids": [
+              "packages/metric/tests/test_metric.py::test_sli_ratio",
+              "packages/metric/tests/test_metric.py::test_sli_empty",
+              "packages/metric/tests/test_metric.py::test_slo_bad_target",
+              "packages/metric/tests/test_metric.py::test_budget_consumed_zero",
+              "packages/metric/tests/test_metric.py::test_budget_consumed_full",
+              "packages/metric/tests/test_metric.py::test_burn_rate_positive"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/metric/src/metric/core.py",
+        "tests": [
+          {
+            "tests_file": "packages/core/tests/test_core.py",
+            "node_ids": [
+              "packages/core/tests/test_core.py::test_sha256_stable",
+              "packages/core/tests/test_core.py::test_canonical_json_sorted"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ontology/src/ontology/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/ontology/tests/test_ontology.py",
+            "node_ids": [
+              "packages/ontology/tests/test_ontology.py::test_sixteen_levels",
+              "packages/ontology/tests/test_ontology.py::test_validate_clean",
+              "packages/ontology/tests/test_ontology.py::test_binds_chain",
+              "packages/ontology/tests/test_ontology.py::test_fifteen_invariants",
+              "packages/ontology/tests/test_ontology.py::test_isa_opcodes_count",
+              "packages/ontology/tests/test_ontology.py::test_syscall_count",
+              "packages/ontology/tests/test_ontology.py::test_asm_directives_count",
+              "packages/ontology/tests/test_ontology.py::test_hll_constructs_count",
+              "packages/ontology/tests/test_ontology.py::test_app_types_count",
+              "packages/ontology/tests/test_ontology.py::test_framework_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_registry_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_ledger_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_artifact_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_governance_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_meta_kinds_count",
+              "packages/ontology/tests/test_ontology.py::test_gap_register_nonempty",
+              "packages/ontology/tests/test_ontology.py::test_implementation_status"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ontology/src/ontology/levels.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/ontology/src/ontology/validate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/pattern/src/pattern/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/pattern/tests/test_pattern.py",
+            "node_ids": [
+              "packages/pattern/tests/test_pattern.py::test_patterns_nonempty",
+              "packages/pattern/tests/test_pattern.py::test_is_pattern",
+              "packages/pattern/tests/test_pattern.py::test_by_category"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/pattern/src/pattern/catalog.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/pmap/src/pmap/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/pmap/tests/test_map.py",
+            "node_ids": [
+              "packages/pmap/tests/test_map.py::test_empty",
+              "packages/pmap/tests/test_map.py::test_set_returns_new",
+              "packages/pmap/tests/test_map.py::test_get",
+              "packages/pmap/tests/test_map.py::test_remove",
+              "packages/pmap/tests/test_map.py::test_keys_and_size",
+              "packages/pmap/tests/test_map.py::test_merge"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/pmap/src/pmap/persistent.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/policy/src/policy/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/policyplat/tests/test_policyplat.py",
+            "node_ids": [
+              "packages/policyplat/tests/test_policyplat.py::test_register_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_duplicate_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_evaluate_unknown_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_evaluate_records_audit",
+              "packages/policyplat/tests/test_policyplat.py::test_audit_report",
+              "packages/policyplat/tests/test_policyplat.py::test_drift_detected"
+            ]
+          },
+          {
+            "tests_file": "packages/policy/tests/test_policy.py",
+            "node_ids": [
+              "packages/policy/tests/test_policy.py::test_default_deny",
+              "packages/policy/tests/test_policy.py::test_allow_rule",
+              "packages/policy/tests/test_policy.py::test_priority",
+              "packages/policy/tests/test_policy.py::test_bad_effect",
+              "packages/policy/tests/test_policy.py::test_condition_error_denies"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/policy/src/policy/engine.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/policyplat/src/policyplat/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/policyplat/tests/test_policyplat.py",
+            "node_ids": [
+              "packages/policyplat/tests/test_policyplat.py::test_register_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_duplicate_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_evaluate_unknown_tenant",
+              "packages/policyplat/tests/test_policyplat.py::test_evaluate_records_audit",
+              "packages/policyplat/tests/test_policyplat.py::test_audit_report",
+              "packages/policyplat/tests/test_policyplat.py::test_drift_detected"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/policyplat/src/policyplat/drift.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/policyplat/src/policyplat/platform.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/portable/src/portable/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/portable/tests/test_portable.py",
+            "node_ids": [
+              "packages/portable/tests/test_portable.py::test_targets_closed",
+              "packages/portable/tests/test_portable.py::test_arches_closed",
+              "packages/portable/tests/test_portable.py::test_properties_closed",
+              "packages/portable/tests/test_portable.py::test_detect_os",
+              "packages/portable/tests/test_portable.py::test_detect_arch",
+              "packages/portable/tests/test_portable.py::test_toolchain_linux_windows",
+              "packages/portable/tests/test_portable.py::test_extensions_os",
+              "packages/portable/tests/test_portable.py::test_paths_os",
+              "packages/portable/tests/test_portable.py::test_shell_os",
+              "packages/portable/tests/test_portable.py::test_matrix_validates",
+              "packages/portable/tests/test_portable.py::test_matrix_six_rows",
+              "packages/portable/tests/test_portable.py::test_classify_host_shape",
+              "packages/portable/tests/test_portable.py::test_canonical_and_fingerprint_stable",
+              "packages/portable/tests/test_portable.py::test_idempotent_builder",
+              "packages/portable/tests/test_portable.py::test_airgapped_check",
+              "packages/portable/tests/test_portable.py::test_sovereign_check",
+              "packages/portable/tests/test_portable.py::test_compose_matrices",
+              "packages/portable/tests/test_portable.py::test_interoperable_check",
+              "packages/portable/tests/test_portable.py::test_build_all"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/portable/src/portable/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/primitives/src/primitives/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/primitives/tests/test_primitives.py",
+            "node_ids": [
+              "packages/primitives/tests/test_primitives.py::test_verbs_closed",
+              "packages/primitives/tests/test_primitives.py::test_kinds_closed",
+              "packages/primitives/tests/test_primitives.py::test_atoms_count",
+              "packages/primitives/tests/test_primitives.py::test_atom_shape",
+              "packages/primitives/tests/test_primitives.py::test_validate_all_clean",
+              "packages/primitives/tests/test_primitives.py::test_get_atom",
+              "packages/primitives/tests/test_primitives.py::test_atoms_by_verb",
+              "packages/primitives/tests/test_primitives.py::test_atoms_by_kind",
+              "packages/primitives/tests/test_primitives.py::test_atom_ids_unique",
+              "packages/primitives/tests/test_primitives.py::test_compose_all",
+              "packages/primitives/tests/test_primitives.py::test_compose_subset"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/primitives/src/primitives/atoms.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/primitives/src/primitives/compose.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/primitives/src/primitives/validate.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/primitives/src/primitives/verbs.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/protocol/src/protocol/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/protocol/tests/test_protocol.py",
+            "node_ids": [
+              "packages/protocol/tests/test_protocol.py::test_register_and_encode",
+              "packages/protocol/tests/test_protocol.py::test_unregistered_kind",
+              "packages/protocol/tests/test_protocol.py::test_roundtrip",
+              "packages/protocol/tests/test_protocol.py::test_tamper_detected",
+              "packages/protocol/tests/test_protocol.py::test_version_mismatch"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/protocol/src/protocol/core.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/provenance/src/provenance/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/provenance/tests/test_provenance.py",
+            "node_ids": [
+              "packages/provenance/tests/test_provenance.py::test_chain_empty",
+              "packages/provenance/tests/test_provenance.py::test_add_entity_agent_activity",
+              "packages/provenance/tests/test_provenance.py::test_unknown_used",
+              "packages/provenance/tests/test_provenance.py::test_unknown_agent",
+              "packages/provenance/tests/test_provenance.py::test_to_dict_shape"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/provenance/src/provenance/prov.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/quantize/src/quantize/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/quantize/tests/test_quantize.py",
+            "node_ids": [
+              "packages/quantize/tests/test_quantize.py::test_scalar_roundtrip",
+              "packages/quantize/tests/test_quantize.py::test_scalar_bounds",
+              "packages/quantize/tests/test_quantize.py::test_bits_validation",
+              "packages/quantize/tests/test_quantize.py::test_quantization_error",
+              "packages/quantize/tests/test_quantize.py::test_tensor_roundtrip",
+              "packages/quantize/tests/test_quantize.py::test_tensor_empty"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/quantize/src/quantize/scalar.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/quantize/src/quantize/tensor.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/queuekit/src/queuekit/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/queuekit/tests/test_queue.py",
+            "node_ids": [
+              "packages/queuekit/tests/test_queue.py::test_push_pop",
+              "packages/queuekit/tests/test_queue.py::test_full",
+              "packages/queuekit/tests/test_queue.py::test_empty",
+              "packages/queuekit/tests/test_queue.py::test_capacity_must_be_positive",
+              "packages/queuekit/tests/test_queue.py::test_is_full_and_empty"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/queuekit/src/queuekit/fifo.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/registry/src/registry/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/registry/src/registry/registry.py",
+        "tests": [
+          {
+            "tests_file": "packages/registry/tests/test_registry.py",
+            "node_ids": [
+              "packages/registry/tests/test_registry.py::test_source_add_publication",
+              "packages/registry/tests/test_registry.py::test_registry_add_and_count",
+              "packages/registry/tests/test_registry.py::test_freeze_snapshot_stable",
+              "packages/registry/tests/test_registry.py::test_snapshot_lists_sources"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/registry/src/registry/sources.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/sdk/src/sdk/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/sdk/tests/test_sdk.py",
+            "node_ids": [
+              "packages/sdk/tests/test_sdk.py::test_add_and_get",
+              "packages/sdk/tests/test_sdk.py::test_not_found",
+              "packages/sdk/tests/test_sdk.py::test_handler_error",
+              "packages/sdk/tests/test_sdk.py::test_post_body"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/sdk/src/sdk/client.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/sdk/src/sdk/server.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/render.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/seeds.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/mermaid.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/query.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/render.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/seed_extras.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/src/seeds/seeder.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/seeds/tests/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/serialization/src/serialization/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/serialization/tests/test_serialization.py",
+            "node_ids": [
+              "packages/serialization/tests/test_serialization.py::test_canonical_deterministic",
+              "packages/serialization/tests/test_serialization.py::test_parse",
+              "packages/serialization/tests/test_serialization.py::test_schema_ok",
+              "packages/serialization/tests/test_serialization.py::test_schema_missing",
+              "packages/serialization/tests/test_serialization.py::test_schema_bad_type",
+              "packages/serialization/tests/test_serialization.py::test_schema_not_dict"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/serialization/src/serialization/canon.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/serialization/src/serialization/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/sovereignty/src/sovereignty/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/sovereignty/tests/test_sovereignty.py",
+            "node_ids": [
+              "packages/sovereignty/tests/test_sovereignty.py::test_permit_default",
+              "packages/sovereignty/tests/test_sovereignty.py::test_permit_blocked",
+              "packages/sovereignty/tests/test_sovereignty.py::test_permit_allowlist",
+              "packages/sovereignty/tests/test_sovereignty.py::test_route_allow",
+              "packages/sovereignty/tests/test_sovereignty.py::test_route_blocked",
+              "packages/sovereignty/tests/test_sovereignty.py::test_residency_blocks_personal"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/sovereignty/src/sovereignty/boundary.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/standard/src/standard/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/standard/tests/test_standard.py",
+            "node_ids": [
+              "packages/standard/tests/test_standard.py::test_version",
+              "packages/standard/tests/test_standard.py::test_ten_articles",
+              "packages/standard/tests/test_standard.py::test_ten_moats",
+              "packages/standard/tests/test_standard.py::test_gap_names",
+              "packages/standard/tests/test_standard.py::test_refusals",
+              "packages/standard/tests/test_standard.py::test_articles_named",
+              "packages/standard/tests/test_standard.py::test_conformance_report"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/standard/src/standard/articles.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/standard/src/standard/conformance.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/standard/src/standard/gaps.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/standard/src/standard/refusals.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/state_machine/src/state_machine/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/state_machine/tests/test_state_machine.py",
+            "node_ids": [
+              "packages/state_machine/tests/test_state_machine.py::test_initial",
+              "packages/state_machine/tests/test_state_machine.py::test_simple_transition",
+              "packages/state_machine/tests/test_state_machine.py::test_unknown_event",
+              "packages/state_machine/tests/test_state_machine.py::test_guard_blocks",
+              "packages/state_machine/tests/test_state_machine.py::test_guard_allows",
+              "packages/state_machine/tests/test_state_machine.py::test_effect_runs",
+              "packages/state_machine/tests/test_state_machine.py::test_history"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/state_machine/src/state_machine/core.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/taxonomy/src/taxonomy/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/taxonomy/tests/test_taxonomy.py",
+            "node_ids": [
+              "packages/taxonomy/tests/test_taxonomy.py::test_levels_closed",
+              "packages/taxonomy/tests/test_taxonomy.py::test_opcodes_present",
+              "packages/taxonomy/tests/test_taxonomy.py::test_syscalls_present",
+              "packages/taxonomy/tests/test_taxonomy.py::test_scan_forbidden",
+              "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_ok",
+              "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_bad_kind",
+              "packages/taxonomy/tests/test_taxonomy.py::test_validate_instance_unscoped",
+              "packages/taxonomy/tests/test_taxonomy.py::test_schema_for_level",
+              "packages/taxonomy/tests/test_taxonomy.py::test_invariants_closed"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/taxonomy/src/taxonomy/schema.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "packages/tree/src/tree/__init__.py",
+        "tests": [
+          {
+            "tests_file": "packages/tree/tests/test_tree.py",
+            "node_ids": [
+              "packages/tree/tests/test_tree.py::test_single_node",
+              "packages/tree/tests/test_tree.py::test_two_level",
+              "packages/tree/tests/test_tree.py::test_preorder_order",
+              "packages/tree/tests/test_tree.py::test_postorder"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "packages/tree/src/tree/core.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "pin/pinata_local.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "pipe/autonomous_pipe.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "scripts/baseline_check.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "scripts/inventory.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "scripts/namespace_check.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "scripts/regime_sync.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "scripts/resolve_missing.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "search/index.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/analytics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/ats.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/bi.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/chat.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/commerce.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/crm.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/crm_lead.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/design.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/dialer.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/enrichment.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/erp.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/esign.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/expenses.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/files.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/git_host.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/hr.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/issues.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/lakehouse.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/ledger.py",
+        "tests": [
+          {
+            "tests_file": "packages/ledger/tests/test_ledger.py",
+            "node_ids": [
+              "packages/ledger/tests/test_ledger.py::test_chain_starts_empty",
+              "packages/ledger/tests/test_ledger.py::test_chain_append_and_verify",
+              "packages/ledger/tests/test_ledger.py::test_chain_tamper_detected",
+              "packages/ledger/tests/test_ledger.py::test_chain_save_load",
+              "packages/ledger/tests/test_ledger.py::test_claim_validate",
+              "packages/ledger/tests/test_ledger.py::test_claim_bad_id",
+              "packages/ledger/tests/test_ledger.py::test_evidence_validate",
+              "packages/ledger/tests/test_ledger.py::test_link_validate",
+              "packages/ledger/tests/test_ledger.py::test_link_unknown_refs"
+            ]
+          },
+          {
+            "tests_file": "packages/audit/tests/test_audit.py",
+            "node_ids": [
+              "packages/audit/tests/test_audit.py::test_append_event",
+              "packages/audit/tests/test_audit.py::test_verify_clean",
+              "packages/audit/tests/test_audit.py::test_tamper_detected",
+              "packages/audit/tests/test_audit.py::test_save_load",
+              "packages/audit/tests/test_audit.py::test_non_implication_carried"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "subs/mailer.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/notebook.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/office.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/payments.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/scheduler.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/screencast.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/sequences.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/support_chat.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/tasks.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/tickets.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/video.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "subs/wiki.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/__init__.py",
+        "tests": [
+          {
+            "tests_file": "substrate/tests_semantics.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_typesys.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_reduce.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_graphs.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_vocabulary.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_enterprise.py",
+            "node_ids": []
+          },
+          {
+            "tests_file": "substrate/tests_dag.py",
+            "node_ids": []
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/dag.py",
+        "tests": [
+          {
+            "tests_file": "packages/dag/tests/test_dag.py",
+            "node_ids": [
+              "packages/dag/tests/test_dag.py::test_empty",
+              "packages/dag/tests/test_dag.py::test_linear",
+              "packages/dag/tests/test_dag.py::test_diamond",
+              "packages/dag/tests/test_dag.py::test_cycle_detected",
+              "packages/dag/tests/test_dag.py::test_no_cycle"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/enterprise.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/graphs.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/reduce.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/semantics.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/tests.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/typesys.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "substrate/vocabulary.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "tools/dashboard.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "tools/gen_specs.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "tools/manifest.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "vec/store.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "web/backend.py",
+        "tests": [
+          {
+            "tests_file": "web/tests/test_backend.py",
+            "node_ids": [
+              "web/tests/test_backend.py::test_health_ok",
+              "web/tests/test_backend.py::test_classify_ucI",
+              "web/tests/test_backend.py::test_auth_refuses_without_token",
+              "web/tests/test_backend.py::test_standards_lists_generated"
+            ]
+          }
+        ]
+      },
+      {
+        "project": "workspace",
+        "module": "web/middleware.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "web/serve.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/capabilities.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/copyleft.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/engine_rooms.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/pi_agent.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/save.py",
+        "tests": []
+      },
+      {
+        "project": "workspace",
+        "module": "work/structure.py",
+        "tests": []
+      }
+    ]
+  },
+  "ominouscent": {
+    "project": "ominouscent",
+    "root": "/Users/metadusa/OMINOUSCENT",
+    "tests_dirs": [],
+    "node_ids_collected": 0,
+    "modules": [
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/anomaly.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/cli.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/db.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/fs_baseline.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/core/server.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/quantum/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/quantum/sim.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/sensors/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/sensors/filesystem.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/sensors/system.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/workers/__init__.py",
+        "tests": []
+      },
+      {
+        "project": "ominouscent",
+        "module": "ominouscent/workers/cluster.py",
+        "tests": []
+      }
+    ]
+  },
+  "total_modules": 512,
+  "with_tests": 61
+}

@@ -13,3 +13,7 @@ mesh/report.json
 mesh/specs/
 **/__pycache__/
 *.pyc
+node_modules/
+infra/alerts.jsonl
+infra/iam.json
+infra/metrics.jsonl

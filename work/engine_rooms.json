@@ -1,0 +1,730 @@
+{
+  "source": "work/engines.tsv",
+  "total": 103,
+  "present": 66,
+  "reachable": 16,
+  "absent": 37,
+  "rooms": [
+    {
+      "name": "ada",
+      "command": "gnatmake",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: gnatmake"
+    },
+    {
+      "name": "ansible",
+      "command": "ansible-playbook",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2:                         prompting)"
+    },
+    {
+      "name": "assembly",
+      "command": "nasm",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1:        nasm -h [run|topics|all|-option]"
+    },
+    {
+      "name": "autogen",
+      "command": "python3 -m autogen",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: No module named autogen"
+    },
+    {
+      "name": "bash",
+      "command": "bash",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "bazel",
+      "command": "bazel",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "c",
+      "command": "clang",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: clang: error: no input files"
+    },
+    {
+      "name": "clojure",
+      "command": "clj",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "cmake",
+      "command": "cmake",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "cobol",
+      "command": "cobc",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: cobc"
+    },
+    {
+      "name": "commonlisp",
+      "command": "sbcl",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: sbcl"
+    },
+    {
+      "name": "composer",
+      "command": "composer",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: composer"
+    },
+    {
+      "name": "conda",
+      "command": "conda",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: conda"
+    },
+    {
+      "name": "cpp",
+      "command": "clang++",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: clang++: error: no input files"
+    },
+    {
+      "name": "crystal",
+      "command": "crystal",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "cuda",
+      "command": "nvcc",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: nvcc"
+    },
+    {
+      "name": "dart",
+      "command": "dart",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: dart"
+    },
+    {
+      "name": "docker",
+      "command": "docker",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "dotnet",
+      "command": "dotnet",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=129:   --list-sdks [--arch <arch>]       Display the installed SDKs matching the host or specified architecture. Example architectures: arm64, x64, x86."
+    },
+    {
+      "name": "elixir",
+      "command": "elixirc",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: Options can be passed to the Erlang compiler using $ERL_COMPILER_OPTIONS."
+    },
+    {
+      "name": "erlang",
+      "command": "erlc",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "fortran",
+      "command": "gfortran",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: compilation terminated."
+    },
+    {
+      "name": "fsharp",
+      "command": "fsharpc",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: fsharpc"
+    },
+    {
+      "name": "go",
+      "command": "go",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2: Use \"go help <topic>\" for more information about that topic."
+    },
+    {
+      "name": "gradle",
+      "command": "gradle",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: gradle"
+    },
+    {
+      "name": "grafana",
+      "command": "grafana-server",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: grafana-server"
+    },
+    {
+      "name": "graphql",
+      "command": "graphql",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: graphql"
+    },
+    {
+      "name": "groovy",
+      "command": "groovyc",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "haskell",
+      "command": "ghc",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: Usage: For basic information, try the `--help' option."
+    },
+    {
+      "name": "helm",
+      "command": "helm",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "huggingface",
+      "command": "transformers-cli",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: transformers-cli"
+    },
+    {
+      "name": "influxdb",
+      "command": "influxd",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: influxd"
+    },
+    {
+      "name": "ipfs",
+      "command": "ipfs",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: ipfs"
+    },
+    {
+      "name": "java",
+      "command": "javac",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2:         Use --help-lint to see the supported keys."
+    },
+    {
+      "name": "jax",
+      "command": "python3 -c 'import jax;print(jax.__version__)'",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: ModuleNotFoundError: No module named 'jax'"
+    },
+    {
+      "name": "jsonnet",
+      "command": "jsonnet",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: jsonnet"
+    },
+    {
+      "name": "julia",
+      "command": "julia",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "kotlin",
+      "command": "kotlinc",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: error: Kotlin REPL is deprecated and should be enabled explicitly for now; please use the '-Xrepl' option"
+    },
+    {
+      "name": "kubernetes",
+      "command": "kubectl",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "langchain",
+      "command": "python3 -m langchain",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: No module named langchain"
+    },
+    {
+      "name": "lua",
+      "command": "lua",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "make",
+      "command": "make",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "matlab",
+      "command": "matlab",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: matlab"
+    },
+    {
+      "name": "maven",
+      "command": "mvn",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: mvn"
+    },
+    {
+      "name": "ml",
+      "command": "ocaml",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "mlflow",
+      "command": "mlflow",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: mlflow"
+    },
+    {
+      "name": "mongodb",
+      "command": "mongod",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: mongod"
+    },
+    {
+      "name": "mysql",
+      "command": "mysql",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: mysql"
+    },
+    {
+      "name": "nats",
+      "command": "nats-server",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: nats-server"
+    },
+    {
+      "name": "nim",
+      "command": "nim",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "nix",
+      "command": "nix-build",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: error: path '/Users/metadusa/workspace/default.nix' does not exist"
+    },
+    {
+      "name": "nltk",
+      "command": "python3 -m nltk.downloader punkt",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: Error while finding module specification for 'nltk.downloader' (ModuleNotFoundError: No module named 'nltk')"
+    },
+    {
+      "name": "node",
+      "command": "node",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "nosql",
+      "command": "mongo",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: mongo"
+    },
+    {
+      "name": "npm",
+      "command": "npm",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: npm@11.19.0 /opt/homebrew/lib/node_modules/npm"
+    },
+    {
+      "name": "objectivec",
+      "command": "clang",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: clang: error: no input files"
+    },
+    {
+      "name": "ocaml",
+      "command": "ocamlopt",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2: No input files"
+    },
+    {
+      "name": "onnx",
+      "command": "onnxruntime",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: onnxruntime"
+    },
+    {
+      "name": "openai",
+      "command": "openai",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: openai"
+    },
+    {
+      "name": "opencl",
+      "command": "clang",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: clang: error: no input files"
+    },
+    {
+      "name": "pascal",
+      "command": "fpc",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: fpc"
+    },
+    {
+      "name": "perl",
+      "command": "perl",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "php",
+      "command": "php",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "pip",
+      "command": "pip",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "pnpm",
+      "command": "pnpm",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2:           Print help (see more with '--help')"
+    },
+    {
+      "name": "poetry",
+      "command": "poetry",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "postgres",
+      "command": "psql",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2: \tIs the server running locally and accepting connections on that socket?"
+    },
+    {
+      "name": "powershell",
+      "command": "pwsh",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: pwsh"
+    },
+    {
+      "name": "prolog",
+      "command": "swipl",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: swipl"
+    },
+    {
+      "name": "prometheus",
+      "command": "prometheus",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2: time=2026-09-18T22:33:31.475-04:00 level=ERROR source=main.go:751 msg=\"Error loading config (--config.file=prometheus.yml)\" file=/Users/metadusa/workspace/prometheus.yml err=\"open prometheus.yml: no such file or directory\""
+    },
+    {
+      "name": "python",
+      "command": "python3",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "quantum_braket",
+      "command": "braket",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: braket"
+    },
+    {
+      "name": "quantum_cirq",
+      "command": "python3 -m cirq",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: No module named cirq"
+    },
+    {
+      "name": "quantum_ionq",
+      "command": "ionq",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: ionq"
+    },
+    {
+      "name": "quantum_qiskit",
+      "command": "python3 -m qiskit",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: No module named qiskit"
+    },
+    {
+      "name": "quantum_qsharp",
+      "command": "dotnet run --project qsharp",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: The provided file path does not exist: qsharp."
+    },
+    {
+      "name": "quantum_xanadu",
+      "command": "python3 -m pennylane",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: No module named pennylane"
+    },
+    {
+      "name": "r",
+      "command": "Rscript",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: See also  ?Rscript  from within R."
+    },
+    {
+      "name": "ray",
+      "command": "ray",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: ray"
+    },
+    {
+      "name": "reasonml",
+      "command": "rebuild",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: rebuild"
+    },
+    {
+      "name": "redis",
+      "command": "redis-server",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: redis-server"
+    },
+    {
+      "name": "ruby",
+      "command": "ruby",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "rust",
+      "command": "cargo",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "scala",
+      "command": "scalac",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "scheme",
+      "command": "guile",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: guile"
+    },
+    {
+      "name": "smalltalk",
+      "command": "gst",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: gst"
+    },
+    {
+      "name": "sql",
+      "command": "sqlite3",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "sqlite",
+      "command": "sqlite3",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "swift",
+      "command": "swiftc",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: error: no input files"
+    },
+    {
+      "name": "tcl",
+      "command": "tclsh",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    },
+    {
+      "name": "tensorflow",
+      "command": "python3 -c 'import tensorflow as tf;print(tf.__version__)'",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: ModuleNotFoundError: No module named 'tensorflow'"
+    },
+    {
+      "name": "tensors",
+      "command": "python3 -c 'import torch, tensorflow; print(\"tensors ok\")'",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: ModuleNotFoundError: No module named 'torch'"
+    },
+    {
+      "name": "terraform",
+      "command": "terraform",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=127:   -version      An alias for the \"version\" subcommand."
+    },
+    {
+      "name": "torch",
+      "command": "python3 -m torch.utils.collect_env",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: /Users/metadusa/workspace/.venv/bin/python3: Error while finding module specification for 'torch.utils.collect_env' (ModuleNotFoundError: No module named 'torch')"
+    },
+    {
+      "name": "typescript",
+      "command": "tsc",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: You can learn about all of the compiler options at https://aka.ms/tsc"
+    },
+    {
+      "name": "verilog",
+      "command": "iverilog",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: iverilog"
+    },
+    {
+      "name": "vhdl",
+      "command": "ghdl",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: ghdl"
+    },
+    {
+      "name": "wasm",
+      "command": "wasm-pack",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=2:   -V, --version                Print version"
+    },
+    {
+      "name": "wolfram",
+      "command": "wolframscript",
+      "present": false,
+      "reachable": false,
+      "reason": "not on PATH: wolframscript"
+    },
+    {
+      "name": "yaml",
+      "command": "yq",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "yarn",
+      "command": "yarn",
+      "present": true,
+      "reachable": true,
+      "reason": "ok"
+    },
+    {
+      "name": "zig",
+      "command": "zig",
+      "present": true,
+      "reachable": false,
+      "reason": "rc=1: error: expected command argument"
+    },
+    {
+      "name": "zsh",
+      "command": "zsh",
+      "present": true,
+      "reachable": false,
+      "reason": "timeout after 15s"
+    }
+  ]
+}

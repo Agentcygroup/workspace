@@ -1,0 +1,103 @@
+ada	gnatmake
+ansible	ansible-playbook
+assembly	nasm
+autogen	python3 -m autogen
+bash	bash
+bazel	bazel
+c	clang
+clojure	clj
+cmake	cmake
+cobol	cobc
+commonlisp	sbcl
+composer	composer
+conda	conda
+cpp	clang++
+crystal	crystal
+cuda	nvcc
+dart	dart
+docker	docker
+dotnet	dotnet
+elixir	elixirc
+erlang	erlc
+fortran	gfortran
+fsharp	fsharpc
+go	go
+gradle	gradle
+grafana	grafana-server
+graphql	graphql
+groovy	groovyc
+haskell	ghc
+helm	helm
+huggingface	transformers-cli
+influxdb	influxd
+ipfs	ipfs
+java	javac
+jax	python3 -c 'import jax;print(jax.__version__)'
+jsonnet	jsonnet
+julia	julia
+kotlin	kotlinc
+kubernetes	kubectl
+langchain	python3 -m langchain
+lua	lua
+make	make
+matlab	matlab
+maven	mvn
+ml	ocaml
+mlflow	mlflow
+mongodb	mongod
+mysql	mysql
+nats	nats-server
+nim	nim
+nix	nix-build
+nltk	python3 -m nltk.downloader punkt
+node	node
+nosql	mongo
+npm	npm
+objectivec	clang
+ocaml	ocamlopt
+onnx	onnxruntime
+openai	openai
+opencl	clang
+pascal	fpc
+perl	perl
+php	php
+pip	pip
+pnpm	pnpm
+poetry	poetry
+postgres	psql
+powershell	pwsh
+prolog	swipl
+prometheus	prometheus
+python	python3
+quantum_braket	braket
+quantum_cirq	python3 -m cirq
+quantum_ionq	ionq
+quantum_qiskit	python3 -m qiskit
+quantum_qsharp	dotnet run --project qsharp
+quantum_xanadu	python3 -m pennylane
+r	Rscript
+ray	ray
+reasonml	rebuild
+redis	redis-server
+ruby	ruby
+rust	cargo
+scala	scalac
+scheme	guile
+smalltalk	gst
+sql	sqlite3
+sqlite	sqlite3
+swift	swiftc
+tcl	tclsh
+tensorflow	python3 -c 'import tensorflow as tf;print(tf.__version__)'
+tensors	python3 -c 'import torch, tensorflow; print("tensors ok")'
+terraform	terraform
+torch	python3 -m torch.utils.collect_env
+typescript	tsc
+verilog	iverilog
+vhdl	ghdl
+wasm	wasm-pack
+wolfram	wolframscript
+yaml	yq
+yarn	yarn
+zig	zig
+zsh	zsh
