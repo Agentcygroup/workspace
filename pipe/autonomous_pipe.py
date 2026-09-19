@@ -91,9 +91,10 @@ def build() -> StageResult:
     rc, out, err = _run(
         [sys.executable, "-c",
          "import sys; sys.path.insert(0, 'packages/buildability/src'); "
-         "import buildability; "
-         "print('models:', len(buildability.MODEL_REGISTRY)); "
-         "print('gates:', len(buildability.REGISTRY))"],
+         "from buildability import MODEL_REGISTRY; "
+         "from buildability.gates import REGISTRY; "
+         "print('models:', len(MODEL_REGISTRY)); "
+         "print('gates:', len(REGISTRY))"],
     )
     return StageResult(
         name="build",

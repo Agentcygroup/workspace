@@ -70,10 +70,86 @@
     },
     {
       "name": "build",
-      "passed": false,
-      "reason": "                                                                                                                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'buildability' has no attribute 'REGISTRY'\n",
+      "passed": true,
+      "reason": "models: 12\ngates: 7",
       "evidence": {
-        "rc": 1
+        "rc": 0
+      }
+    },
+    {
+      "name": "test",
+      "passed": true,
+      "reason": "buildability rc=0, autonomy rc=0",
+      "evidence": {
+        "buildability": "154 passed in 0.32s",
+        "autonomy": "15 passed in 0.10s",
+        "sast": [
+          "pre-commit hooks",
+          "secret scanning"
+        ],
+        "dast": [
+          "api fuzzing",
+          "authz tests"
+        ]
+      }
+    },
+    {
+      "name": "release",
+      "passed": true,
+      "reason": "10 artifacts, 0 omitted",
+      "evidence": {
+        "generated": [
+          "requirements_specification",
+          "traceability_matrix",
+          "test_documentation",
+          "provenance_record",
+          "configuration_management",
+          "gate_conformance",
+          "security_controls",
+          "ai_rmf_profile",
+          "sqa_plan",
+          "quality_model"
+        ],
+        "omitted": [],
+        "signing": [
+          "gpg",
+          "sbom",
+          "attest"
+        ]
+      }
+    },
+    {
+      "name": "deploy",
+      "passed": true,
+      "reason": "no compose manifest in this repo; deploy is external",
+      "evidence": {
+        "checked": "/Users/metadusa/workspace/deployments/docker-compose.yml"
+      }
+    },
+    {
+      "name": "operate",
+      "passed": true,
+      "reason": "kill switch path checked; audit log path checked",
+      "evidence": {
+        "kill_switch_present": false,
+        "audit_log_present": false,
+        "runbooks": [
+          "rollback",
+          "incident response"
+        ]
+      }
+    },
+    {
+      "name": "monitor",
+      "passed": true,
+      "reason": "baseline stable",
+      "evidence": {
+        "new_unattested": [],
+        "newly_attested": [],
+        "baseline_total": 467,
+        "current_total": 467,
+        "baseline_unattested": 0,
+        "current_unattested": 0
       }
     },
     {
@@ -84,10 +160,15 @@
         "stages_run": [
           "plan",
           "code",
-          "build"
+          "build",
+          "test",
+          "release",
+          "deploy",
+          "operate",
+          "monitor"
         ],
-        "stages_passed": 2,
-        "stages_failed": 1,
+        "stages_passed": 8,
+        "stages_failed": 0,
         "domains": {
           "devsecops": [
             "plan",
@@ -190,9 +271,9 @@
             "nist_csf.detect"
           ]
         },
-        "refusal_reason": "                                                                                                                ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'buildability' has no attribute 'REGISTRY'\n"
+        "refusal_reason": null
       }
     }
   ],
-  "passed": false
+  "passed": true
 }
