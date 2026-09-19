@@ -251,6 +251,21 @@ def mastery() -> StageResult:
     )
 
 
+def cognitive() -> StageResult:
+    """Cognitive: run the example pipeline, check the four invariants."""
+    rc, out, err = _run([sys.executable, "cogdsl/example_turtle.py"], timeout=30)
+    if rc != 0:
+        return StageResult("cognitive", False, err[-200:] or "example failed")
+    lines = [l for l in out.splitlines() if "INVARIANT" in l or l.startswith("compiled")]
+    holds = all("hold" in l for l in lines if "INVARIANT" in l)
+    return StageResult(
+        name="cognitive",
+        passed=holds,
+        reason="; ".join(lines[-4:]),
+        evidence={"raw_tail": out.strip().splitlines()[-8:]},
+    )
+
+
 def feedback() -> StageResult:
     """Feedback: aggregate outcomes into a single recommendation."""
     # This stage runs after the others and is filled in by main().
@@ -259,7 +274,7 @@ def feedback() -> StageResult:
 
 # --- the pipe --------------------------------------------------------------
 
-ORDER = [plan, code, build, test, release, deploy, operate, mirror, mastery, monitor]
+ORDER = [plan, code, build, test, release, deploy, operate, mirror, mastery, cognitive, monitor]
 
 
 # Domain mapping: DevSecOps / IT security / kill chain / zero trust.

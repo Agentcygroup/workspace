@@ -7,3 +7,6 @@
 {"id": "nb_1789783441495", "name": "analysis", "cells": []}
 {"id": "nb_1789783441495", "add_cell": "x = 1 + 1"}
 {"id": "nb_1789783441495", "add_cell": "print(x)"}
+{"id": "nb_1789783506647", "name": "analysis", "cells": []}
+{"id": "nb_1789783506647", "add_cell": "x = 1 + 1"}
+{"id": "nb_1789783506647", "add_cell": "print(x)"}

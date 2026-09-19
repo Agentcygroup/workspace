@@ -4,3 +4,5 @@
 {"id": "x_1789783400503", "status": "approved", "at": 1789783400.503381}
 {"id": "x_1789783441303", "employee": "alice", "amount": 42.0, "category": "travel", "status": "submitted", "at": 1789783441.303736}
 {"id": "x_1789783441303", "status": "approved", "at": 1789783441.3038}
+{"id": "x_1789783506457", "employee": "alice", "amount": 42.0, "category": "travel", "status": "submitted", "at": 1789783506.4571788}
+{"id": "x_1789783506457", "status": "approved", "at": 1789783506.45724}

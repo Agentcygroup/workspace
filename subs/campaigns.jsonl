@@ -4,3 +4,5 @@
 {"op": "campaign", "id": "c_1789783400671", "subject": "hello", "body": "body", "at": 1789783400.6711109}
 {"op": "subscribe", "email": "alice@example.com", "at": 1789783441.473509}
 {"op": "campaign", "id": "c_1789783441473", "subject": "hello", "body": "body", "at": 1789783441.4735732}
+{"op": "subscribe", "email": "alice@example.com", "at": 1789783506.62637}
+{"op": "campaign", "id": "c_1789783506626", "subject": "hello", "body": "body", "at": 1789783506.6264288}

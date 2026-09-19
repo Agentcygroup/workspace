@@ -4,3 +4,5 @@
 {"channel": "#general", "who": "bob", "text": "hi", "at": 1789783400.294264}
 {"channel": "#general", "who": "alice", "text": "hello", "at": 1789783441.100965}
 {"channel": "#general", "who": "bob", "text": "hi", "at": 1789783441.101059}
+{"channel": "#general", "who": "alice", "text": "hello", "at": 1789783506.255074}
+{"channel": "#general", "who": "bob", "text": "hi", "at": 1789783506.255147}

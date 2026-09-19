@@ -7,3 +7,6 @@
 {"at": 1789783441.0115578, "name": "page_view", "props": {"path": "/"}}
 {"at": 1789783441.011637, "name": "page_view", "props": {"path": "/pricing"}}
 {"at": 1789783441.011669, "name": "signup", "props": {}}
+{"at": 1789783506.17507, "name": "page_view", "props": {"path": "/"}}
+{"at": 1789783506.175151, "name": "page_view", "props": {"path": "/pricing"}}
+{"at": 1789783506.175185, "name": "signup", "props": {}}

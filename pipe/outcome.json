@@ -148,7 +148,7 @@
           {
             "file": "analytics.py",
             "ok": true,
-            "tail": "analytics ok: 6 page_views"
+            "tail": "analytics ok: 8 page_views"
           },
           {
             "file": "ats.py",
@@ -168,7 +168,7 @@
           {
             "file": "commerce.py",
             "ok": true,
-            "tail": "commerce ok: o_1789783441130"
+            "tail": "commerce ok: o_1789783506283"
           },
           {
             "file": "crm.py",
@@ -178,12 +178,12 @@
           {
             "file": "crm_lead.py",
             "ok": true,
-            "tail": "crm_lead ok: 3 leads"
+            "tail": "crm_lead ok: 4 leads"
           },
           {
             "file": "design.py",
             "ok": true,
-            "tail": "design ok: a7f57cde-9ff6-4e91-bcec-2946fbbb0d08"
+            "tail": "design ok: 4cfe31a9-1a17-42e3-b7ae-18eb2dd10ba4"
           },
           {
             "file": "dialer.py",
@@ -198,7 +198,7 @@
           {
             "file": "erp.py",
             "ok": true,
-            "tail": "erp ok: order_1789783441258"
+            "tail": "erp ok: order_1789783506410"
           },
           {
             "file": "esign.py",
@@ -208,7 +208,7 @@
           {
             "file": "expenses.py",
             "ok": true,
-            "tail": "expenses ok: x_1789783441303"
+            "tail": "expenses ok: x_1789783506457"
           },
           {
             "file": "files.py",
@@ -228,7 +228,7 @@
           {
             "file": "issues.py",
             "ok": true,
-            "tail": "issues ok: i_1789783441394"
+            "tail": "issues ok: i_1789783506547"
           },
           {
             "file": "lakehouse.py",
@@ -243,7 +243,7 @@
           {
             "file": "mailer.py",
             "ok": true,
-            "tail": "mailer ok: c_1789783441473"
+            "tail": "mailer ok: c_1789783506626"
           },
           {
             "file": "notebook.py",
@@ -258,7 +258,7 @@
           {
             "file": "payments.py",
             "ok": true,
-            "tail": "payments ok: ch_1789783441541"
+            "tail": "payments ok: ch_1789783506689"
           },
           {
             "file": "scheduler.py",
@@ -273,12 +273,12 @@
           {
             "file": "sequences.py",
             "ok": true,
-            "tail": "sequences ok: seq_1789783441607"
+            "tail": "sequences ok: seq_1789783506754"
           },
           {
             "file": "support_chat.py",
             "ok": true,
-            "tail": "support_chat ok: c_1789783441629"
+            "tail": "support_chat ok: c_1789783506775"
           },
           {
             "file": "tasks.py",
@@ -298,7 +298,7 @@
           {
             "file": "wiki.py",
             "ok": true,
-            "tail": "wiki ok: p_1789783441718"
+            "tail": "wiki ok: p_1789783506865"
           }
         ]
       }
@@ -309,6 +309,23 @@
       "reason": "masteries: 32  hold: 0  withheld: 0",
       "evidence": {
         "summary": "masteries: 32  hold: 0  withheld: 0"
+      }
+    },
+    {
+      "name": "cognitive",
+      "passed": true,
+      "reason": "  INVARIANT 1: hold \u2014 same symbol set \u2192 same operator order;   INVARIANT 2: hold \u2014 4 nodes;   INVARIANT 3: hold \u2014 all tracks in range;   INVARIANT 4: hold \u2014 4 context events for 4 nodes",
+      "evidence": {
+        "raw_tail": [
+          "  prioritize_target      PENDING",
+          "  engage_anti_armor      PENDING",
+          "executed: 4  failed: 0",
+          "continuity: 1.000",
+          "  INVARIANT 1: hold \u2014 same symbol set \u2192 same operator order",
+          "  INVARIANT 2: hold \u2014 4 nodes",
+          "  INVARIANT 3: hold \u2014 all tracks in range",
+          "  INVARIANT 4: hold \u2014 4 context events for 4 nodes"
+        ]
       }
     },
     {
@@ -339,9 +356,10 @@
           "operate",
           "mirror",
           "mastery",
+          "cognitive",
           "monitor"
         ],
-        "stages_passed": 10,
+        "stages_passed": 11,
         "stages_failed": 0,
         "domains": {
           "devsecops": [

@@ -4,3 +4,5 @@
 {"table": "sales", "row": {"id": 2, "amount": 200, "region": "us"}}
 {"table": "sales", "row": {"id": 1, "amount": 100, "region": "eu"}}
 {"table": "sales", "row": {"id": 2, "amount": 200, "region": "us"}}
+{"table": "sales", "row": {"id": 1, "amount": 100, "region": "eu"}}
+{"table": "sales", "row": {"id": 2, "amount": 200, "region": "us"}}
