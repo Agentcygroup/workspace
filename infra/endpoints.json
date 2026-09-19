@@ -1,0 +1,120 @@
+{
+  "http": [
+    {
+      "kind": "http",
+      "method": "GET",
+      "path": "/api/health",
+      "port": 8765
+    },
+    {
+      "kind": "http",
+      "method": "GET",
+      "path": "/api/classify",
+      "port": 8765
+    },
+    {
+      "kind": "http",
+      "method": "POST",
+      "path": "/api/pipe",
+      "port": 8765
+    },
+    {
+      "kind": "http",
+      "method": "GET",
+      "path": "/api/standards",
+      "port": 8765
+    }
+  ],
+  "cli": [
+    {
+      "kind": "cli",
+      "command": "classify"
+    },
+    {
+      "kind": "cli",
+      "command": "verify"
+    },
+    {
+      "kind": "cli",
+      "command": "pipe"
+    },
+    {
+      "kind": "cli",
+      "command": "standards"
+    },
+    {
+      "kind": "cli",
+      "command": "dashboard"
+    },
+    {
+      "kind": "cli",
+      "command": "steps"
+    },
+    {
+      "kind": "cli",
+      "command": "coldstart"
+    }
+  ],
+  "selftest": [
+    {
+      "kind": "selftest",
+      "file": "infra/alerts.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/dns_local.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/endpoints.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/iam.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/kv.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/metrics.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/plan.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/s3.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/sqs.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/topology.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "infra/vault.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "cms/store.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "vec/store.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "pin/pinata_local.py"
+    },
+    {
+      "kind": "selftest",
+      "file": "search/index.py"
+    }
+  ]
+}
