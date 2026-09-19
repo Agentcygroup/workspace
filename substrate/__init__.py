@@ -197,7 +197,7 @@ def relation(a: Term, b: Term) -> Term:
 @_register("function")
 def function(name: str, fn: Callable) -> Term:
     t = atom("fn", fn)
-    return Term(id=t.id, kind="fn", body=fn, type=f"fn:{name}",
+    return Term(id=t.id, kind="fn", body=fn, type=name,
                 derivation=(("function", name),))
 
 
@@ -212,7 +212,7 @@ def state(**fields: Term) -> Term:
 def transformation(f: Term) -> Term:
     if f.kind != "fn":
         raise Refusal("substrate.transformation.not-fn", f"got {f.kind!r}")
-    return Term(id=f.id, kind="fn", body=f.body, type=f"transformation({f.type})",
+    return Term(id=f.id, kind="fn", body=f.body, type=f"transformation:{f.type}",
                 derivation=f.derivation + (("transformation",),))
 
 
@@ -237,7 +237,7 @@ def proof(claim: Term, derivation: tuple) -> Term:
                       "a proof needs a non-empty derivation")
     return Term(id=_next_id("proof"), kind="derived",
                 body={"claim": claim.body, "derivation": derivation},
-                type=f"proof({claim.type})",
+                type=f"proof:{claim.type}",
                 derivation=(("proof", claim.id),) + derivation)
 
 
@@ -245,7 +245,7 @@ def proof(claim: Term, derivation: tuple) -> Term:
 def counterexample(claim: Term, witness: Term) -> Term:
     return Term(id=_next_id("cex"), kind="derived",
                 body={"claim": claim.body, "witness": witness.body},
-                type=f"counterexample({claim.type})",
+                type=f"counterexample:{claim.type}",
                 derivation=(("counterexample", claim.id, witness.id),))
 
 
@@ -255,7 +255,7 @@ def validator(claim: Term, predicate: Term) -> Term:
         raise Refusal("substrate.validator.not-fn", f"got {predicate.kind!r}")
     return Term(id=_next_id("val"), kind="fn",
                 body=lambda w: predicate.body(w),
-                type=f"validator({claim.type})",
+                type=f"validator:{claim.type}",
                 derivation=predicate.derivation + (("validator", claim.id),))
 
 
@@ -266,7 +266,7 @@ def execution(fn: Term, arg: Term) -> Term:
     result = fn.body(arg.body)
     return Term(id=_next_id("exec"), kind="derived",
                 body={"fn": fn.id, "arg": arg.id, "result": result},
-                type=f"execution({fn.type})",
+                type=f"execution:{fn.type}",
                 derivation=(("execution", fn.id, arg.id),))
 
 
@@ -280,7 +280,7 @@ def policy(name: str, predicate: Term, action: Term) -> Term:
                 body={"name": name,
                       "predicate": predicate.body,
                       "action": action.body},
-                type=f"policy({name})",
+                type=f"policy:{name}",
                 derivation=(("policy", name, predicate.id, action.id),))
 
 
@@ -289,21 +289,21 @@ def certificate(subject: Term, proof_term: Term, issuer: str) -> Term:
     return Term(id=_next_id("cert"), kind="derived",
                 body={"subject": subject.id, "proof": proof_term.id,
                       "issuer": issuer},
-                type=f"certificate({subject.type})",
+                type=f"certificate:{subject.type}",
                 derivation=(("certificate", subject.id, proof_term.id, issuer),))
 
 
 @_register("description")
 def description(of: Term, text: str) -> Term:
     return Term(id=_next_id("desc"), kind="name", body=text,
-                type=f"description({of.type})",
+                type=f"description:{of.type}",
                 derivation=(("description", of.id),))
 
 
 @_register("axiom")
 def axiom(name: str) -> Term:
     return Term(id=_next_id("ax"), kind="derived",
-                body={"name": name}, type=f"axiom({name})",
+                body={"name": name}, type=f"axiom:{name}",
                 derivation=(("axiom", name),))
 
 
@@ -311,7 +311,7 @@ def axiom(name: str) -> Term:
 def principle(name: str, about: Term) -> Term:
     return Term(id=_next_id("pr"), kind="derived",
                 body={"name": name, "about": about.id},
-                type=f"principle({name})",
+                type=f"principle:{name}",
                 derivation=(("principle", name, about.id),))
 
 
@@ -320,7 +320,7 @@ def invariant(name: str, predicate: Term) -> Term:
     if predicate.kind != "fn":
         raise Refusal("substrate.invariant.not-fn", f"got {predicate.kind!r}")
     return Term(id=_next_id("inv"), kind="fn", body=predicate.body,
-                type=f"invariant({name})",
+                type=f"invariant:{name}",
                 derivation=predicate.derivation + (("invariant", name),))
 
 
@@ -335,7 +335,7 @@ def grammar(name: str, productions: tuple) -> Term:
         raise Refusal("substrate.grammar.bad-productions", "must be a tuple")
     return Term(id=_next_id("gram"), kind="derived",
                 body={"name": name, "productions": productions},
-                type=f"grammar({name})",
+                type=f"grammar:{name}",
                 derivation=(("grammar", name),))
 
 
@@ -343,7 +343,7 @@ def grammar(name: str, productions: tuple) -> Term:
 def format(name: str, fields: tuple) -> Term:
     return Term(id=_next_id("fmt"), kind="derived",
                 body={"name": name, "fields": fields},
-                type=f"format({name})",
+                type=f"format:{name}",
                 derivation=(("format", name),))
 
 
@@ -351,7 +351,7 @@ def format(name: str, fields: tuple) -> Term:
 def structure(name: str, shape: Term) -> Term:
     return Term(id=_next_id("str"), kind="derived",
                 body={"name": name, "shape": shape.id},
-                type=f"structure({name})",
+                type=f"structure:{name}",
                 derivation=(("structure", name, shape.id),))
 
 
